@@ -1,0 +1,51 @@
+@-ms-viewport { 
+    width: 100vw; 
+    zoom: 100%; 
+}  
+
+@viewport { 
+    width: 100vw; 
+    zoom: 100%; 
+}
+
+@-ms-viewport { 
+    user-zoom: fixed; 
+}
+
+@viewport { 
+    user-zoom: fixed; 
+}
+
+#main-banner {
+    height: 2em;
+    background: #222222;
+    color: #FFFFFF;
+}
+
+#banner-text {
+    vertical-align: middle;
+    padding-top: .5em;
+    padding-left: .5em;
+}
+
+#main-content {
+    margin: .5em 0;
+    padding: 0em 2em 1em 2em;
+    border: 2px solid #222222;
+}
+
+#loader {
+    display: none;
+}
+
+#hidden-content {
+    display: none;
+}
+
+#login-controls {
+    margin-top: .5em;
+}
+
+.login-group {
+    margin-top: .5em;
+}
