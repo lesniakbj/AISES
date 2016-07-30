@@ -13,8 +13,8 @@ public class Database {
     private static final String CONNECTION_TYPE = "jdbc:postgresql";
     private static final String HOST = "localhost";
     private static final int PORT = 6670;
-    private static final String DB_NAME = "AISES";
-    private static final String DB_PASS = "Fgoal1313_1";
+    private static final String DB_NAME = "*********";
+    private static final String DB_PASS = "**********";
 
     private static Database instance = null;
     private Connection connection;
