@@ -1,6 +1,8 @@
 package service;
 
 import domain.Post;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import repository.PostRepository;
 
 import java.sql.SQLException;
@@ -11,6 +13,9 @@ import java.util.List;
  * Created by Brendan on 7/25/2016.
  */
 public class PostService {
+    private static final Logger logger = LoggerFactory.getLogger(PostService.class);
+
+
     private static PostService instance;
     private static PostRepository postRepository;
 
@@ -19,7 +24,7 @@ public class PostService {
     }
 
     protected PostService() {
-
+        logger.debug("Creating a new service for Posts");
     }
 
     public Post addNewPost(Post newPost) {
@@ -33,17 +38,19 @@ public class PostService {
             newPost.setLength(newPost.getText().length());
             newPost.setDateCreated(LocalDateTime.now());
 
+            logger.debug("Attempting to add new post: {}", newPost);
             if(postRepository.createNewPost(newPost)) {
                 return newPost;
             }
         } catch (SQLException e) {
-            e.printStackTrace();
+            logger.error("Unable to add a new post!", e);
         }
         return null;
     }
 
     public Post getPost(int postId) {
         if(postId < 0) {
+            logger.error("Can not get a post with ID less than 0!");
             return null;
         }
 
@@ -64,6 +71,7 @@ public class PostService {
     }
     public List<Post> getPostRange(int low, int high) {
         if(low < 0 || high < 0) {
+            logger.error("Can not get a post with ID less than 0!");
             return null;
         }
 

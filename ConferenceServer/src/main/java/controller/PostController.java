@@ -23,28 +23,13 @@ public class PostController implements Controller {
     public PostController() {
         Spark.before(Routes.POST_FILTER, (req, resp) -> checkPostAuthorization(req, resp));
 
-        Spark.post(Routes.POST_NEW, (req, resp) -> ajaxResponse(req, resp, Routes.POST_NEW), JSONUtils.JSON());
+        Spark.post(Routes.POST_NEW, (req, resp) -> createNewPost(req, resp), JSONUtils.JSON());
 
-        Spark.get(Routes.POST_ALL, (req, resp) -> ajaxResponse(req, resp, Routes.POST_ALL), JSONUtils.JSON());
-        Spark.get(Routes.POST_RANGE, (req, resp) -> ajaxResponse(req, resp, Routes.POST_RANGE), JSONUtils.JSON());
-        Spark.get(Routes.POST_FIND, (req, resp) -> ajaxResponse(req, resp, Routes.POST_FIND), JSONUtils.JSON());
-    }
+        Spark.get(Routes.POST_ALL, (req, resp) -> getAllPosts(req, resp), JSONUtils.JSON());
+        Spark.get(Routes.POST_RANGE, (req, resp) -> getPostRange(req, resp), JSONUtils.JSON());
+        Spark.get(Routes.POST_FIND, (req, resp) -> getPost(req, resp), JSONUtils.JSON());
 
-    @org.jetbrains.annotations.Nullable
-    private Object ajaxResponse(Request req, Response resp, String route) {
-        resp.header("Content-Type", "application/json");
-        switch(route) {
-            case Routes.POST_ALL:
-                return getAllPosts(req, resp);
-            case Routes.POST_RANGE:
-                return getPostRange(req, resp);
-            case Routes.POST_FIND:
-                return getPost(req, resp);
-            case Routes.POST_NEW:
-                return createNewPost(req, resp);
-        }
-
-        return null;
+        Spark.after(Routes.POST_FILTER, (req, resp) -> addAjaxHeader(req, resp));
     }
 
     private void checkPostAuthorization(Request req, Response resp) {
@@ -71,5 +56,9 @@ public class PostController implements Controller {
         String low = req.queryParams("low");
         String high = req.queryParams("high");
         return postService.getPostRange(Integer.parseInt(low), Integer.parseInt(high));
+    }
+
+    private void addAjaxHeader(Request req, Response resp) {
+        resp.header("Content-Type", "application/json");
     }
 }
