@@ -31,8 +31,7 @@ public class ConferenceServer {
     }
 
     public void configureRepositories() {
-        PostRepository postRepository = PostRepository.getInstance();
-        postRepository.setDatabase(database);
+        PostRepository postRepository = PostRepository.getInstance(database);
     }
 
     public void configureControllers() {

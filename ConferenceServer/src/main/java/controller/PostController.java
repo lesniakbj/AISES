@@ -22,6 +22,8 @@ public class PostController implements Controller {
     public PostController() {
         Spark.before("/post/*", (req, resp) -> checkPostAuthorization(req, resp));
 
+            Spark.get("/post/new", (req, resp) -> createNewPost(req, resp), JSONUtils.JSON());
+
         Spark.get("/post/all", (req, resp) -> getAllPosts(req, resp), JSONUtils.JSON());
         Spark.get("/post/:id", (req, resp) -> getPost(req, resp), JSONUtils.JSON());
 
@@ -31,6 +33,17 @@ public class PostController implements Controller {
     private void checkPostAuthorization(Request req, Response resp) {
         System.out.println("Checking user credentials before retrieving or sending posts");
         // Check session / cookies for information
+    }
+
+    private Post createNewPost(Request req, Response resp) {
+        // From the request (body I believe) we will want
+        // to get the JSON object that represents a new post.
+        // Mainly, the text (and any attachments and metadata).
+        String json = req.body();
+
+        json = "{ 'id': '-1', 'text': 'Here is some sample json text!', 'length': '-1' }";
+        Post post = (Post)JSONUtils.fromJSON(json, Post.class);
+        return postService.addNewPost(post);
     }
 
     private Post getPost(Request req, Response resp) {
