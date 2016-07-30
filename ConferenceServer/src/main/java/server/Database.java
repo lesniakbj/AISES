@@ -29,15 +29,9 @@ public class Database {
             e.printStackTrace();
         }
     }
-
     public Connection getConnection() {
         return connection;
     }
-
-    public void setConnection(Connection connection) {
-        this.connection = connection;
-    }
-
     public static Database getInstance() {
         if(instance == null) {
             instance = new Database();
