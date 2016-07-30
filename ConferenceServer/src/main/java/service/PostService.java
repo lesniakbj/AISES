@@ -4,6 +4,7 @@ import domain.Post;
 import repository.PostRepository;
 
 import java.sql.SQLException;
+import java.time.LocalDateTime;
 import java.util.List;
 
 /**
@@ -30,6 +31,7 @@ public class PostService {
             newPost.setId(nextId);
             newPost.setText(newPost.getText());
             newPost.setLength(newPost.getText().length());
+            newPost.setDateCreated(LocalDateTime.now());
 
             if(postRepository.createNewPost(newPost)) {
                 return newPost;

@@ -2,7 +2,7 @@ package domain;
 
 import domain.interfaces.Attachment;
 
-import java.util.Date;
+import java.time.LocalDateTime;
 import java.util.List;
 
 /**
@@ -12,7 +12,7 @@ public class Post {
     private int id;
     private String text;
     private int length;
-    private Date dateCreated;
+    private LocalDateTime dateCreated;
     private List<Attachment> attachments;
 
     private static final int MAX_ATTACHMENTS = 3;
@@ -26,7 +26,7 @@ public class Post {
     public int getLength() {
         return length;
     }
-    public Date getDateCreated() {
+    public LocalDateTime getDateCreated() {
         return dateCreated;
     }
     public List<Attachment> getAttachments() {
@@ -42,7 +42,7 @@ public class Post {
     public void setLength(int length) {
         this.length = length;
     }
-    public void setDateCreated(Date dateCreated) {
+    public void setDateCreated(LocalDateTime dateCreated) {
         this.dateCreated = dateCreated;
     }
     public void setAttachments(List<Attachment> attachments) {

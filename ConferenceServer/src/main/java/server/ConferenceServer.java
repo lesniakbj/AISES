@@ -12,14 +12,17 @@ public class ConferenceServer {
     private static ConferenceServer instance;
     private static Database database;
 
+    private static final int LISTEN_PORT = 5570;
+    private static final int MAX_THREADS = 8;
+
     static {
         database = Database.getInstance();
     }
 
-    protected ConferenceServer() {
-        Spark.port(5570);
-        Spark.threadPool(8);
-        Spark.init();
+    protected ConferenceServer()
+    {
+        Spark.port(LISTEN_PORT);
+        Spark.threadPool(MAX_THREADS);
     }
 
     public static ConferenceServer getInstance() {
@@ -36,5 +39,9 @@ public class ConferenceServer {
 
     public void configureControllers() {
         PostController postController = new PostController();
+    }
+
+    public void run() {
+        Spark.init();
     }
 }

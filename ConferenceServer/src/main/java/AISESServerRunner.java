@@ -11,5 +11,6 @@ public class AISESServerRunner {
         ConferenceServer server = ConferenceServer.getInstance();
         server.configureRepositories();
         server.configureControllers();
+        server.run();
     }
 }

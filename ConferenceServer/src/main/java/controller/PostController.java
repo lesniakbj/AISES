@@ -1,6 +1,7 @@
 package controller;
 
 import domain.Post;
+import server.Routes;
 import service.PostService;
 import spark.Request;
 import spark.Response;
@@ -20,14 +21,27 @@ public class PostController implements Controller {
     }
 
     public PostController() {
-        Spark.before("/post/*", (req, resp) -> checkPostAuthorization(req, resp));
+        Spark.before(Routes.POST_FILTER, (req, resp) -> checkPostAuthorization(req, resp));
 
-            Spark.get("/post/new", (req, resp) -> createNewPost(req, resp), JSONUtils.JSON());
+        Spark.post(Routes.POST_NEW, (req, resp) -> ajaxResponse(req, resp, Routes.POST_NEW), JSONUtils.JSON());
 
-        Spark.get("/post/all", (req, resp) -> getAllPosts(req, resp), JSONUtils.JSON());
-        Spark.get("/post/:id", (req, resp) -> getPost(req, resp), JSONUtils.JSON());
+        Spark.get(Routes.POST_ALL, (req, resp) -> ajaxResponse(req, resp, Routes.POST_ALL), JSONUtils.JSON());
+        Spark.get(Routes.POST_FIND, (req, resp) -> ajaxResponse(req, resp, Routes.POST_FIND), JSONUtils.JSON());
+    }
 
-        //Spark.post("/post/new", (req, resp) -> addNewPost(req, resp));
+    @org.jetbrains.annotations.Nullable
+    private Object ajaxResponse(Request req, Response resp, String route) {
+        resp.header("Content-Type", "application/json");
+        switch(route) {
+            case Routes.POST_ALL:
+                return getAllPosts(req, resp);
+            case Routes.POST_FIND:
+                return getPost(req, resp);
+            case Routes.POST_NEW:
+                return createNewPost(req, resp);
+        }
+
+        return null;
     }
 
     private void checkPostAuthorization(Request req, Response resp) {
@@ -39,10 +53,7 @@ public class PostController implements Controller {
         // From the request (body I believe) we will want
         // to get the JSON object that represents a new post.
         // Mainly, the text (and any attachments and metadata).
-        String json = req.body();
-
-        json = "{ 'id': '-1', 'text': 'Here is some sample json text!', 'length': '-1' }";
-        Post post = (Post)JSONUtils.fromJSON(json, Post.class);
+        Post post = (Post)JSONUtils.fromJSON(req.body(), Post.class);
         return postService.addNewPost(post);
     }
 
@@ -50,7 +61,6 @@ public class PostController implements Controller {
         int postNumber = Integer.parseInt(req.params(":id"));
         return postService.getPost(postNumber);
     }
-
     private List<Post> getAllPosts(Request req, Response resp) {
         return postService.getAllPosts();
     }
