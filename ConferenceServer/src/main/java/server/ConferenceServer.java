@@ -3,6 +3,7 @@ package server;
 import controller.PostController;
 import repository.PostRepository;
 import spark.Spark;
+import spark.route.RouteOverview;
 
 
 /**
@@ -19,10 +20,11 @@ public class ConferenceServer {
         database = Database.getInstance();
     }
 
-    protected ConferenceServer()
-    {
+    protected ConferenceServer() {
         Spark.port(LISTEN_PORT);
         Spark.threadPool(MAX_THREADS);
+        // Debug info
+        // RouteOverview.enableRouteOverview("/routes/help");
     }
 
     public static ConferenceServer getInstance() {
