@@ -1,4 +1,4 @@
-package domain;
+package com.aises.domain;
 
 /**
  * Created by Brendan on 7/25/2016.

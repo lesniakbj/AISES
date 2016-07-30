@@ -1,9 +1,8 @@
-package server;
+package com.aises.server;
 
-import controller.PostController;
-import repository.PostRepository;
+import com.aises.controller.PostController;
+import com.aises.repository.PostRepository;
 import spark.Spark;
-import spark.route.RouteOverview;
 
 
 /**

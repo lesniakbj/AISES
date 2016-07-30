@@ -1,4 +1,4 @@
-package exception;
+package com.aises.exception;
 
 /**
  * Created by Brendan on 7/25/2016.

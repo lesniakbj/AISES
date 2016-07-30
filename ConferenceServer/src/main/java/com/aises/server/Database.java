@@ -1,6 +1,5 @@
-package server;
+package com.aises.server;
 
-import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.io.InputStream;
@@ -15,13 +14,13 @@ import java.util.Properties;
 public class Database {
     private static Properties properties = new Properties();
 
-    // TODO: MOVE THIS TO THE POM OR RESOURCE FILES
     private static final String DB_DRIVER_NAME = "org.postgresql.Driver";
     private static final String CONNECTION_TYPE = "jdbc:postgresql";
-    private static String HOST = "localhost";
-    private static int PORT = 6670;
-    private static String DB_NAME = "AISES";
-    private static String DB_PASS = "**********";
+
+    private static String HOST;
+    private static int PORT;
+    private static String DB_NAME;
+    private static String DB_PASS;
 
     private static Database instance = null;
     private Connection connection;

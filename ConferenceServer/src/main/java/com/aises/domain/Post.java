@@ -1,6 +1,6 @@
-package domain;
+package com.aises.domain;
 
-import domain.interfaces.Attachment;
+import com.aises.domain.interfaces.Attachment;
 
 import java.time.LocalDateTime;
 import java.util.List;

@@ -1,6 +1,4 @@
-package domain;
-
-import domain.interfaces.Attachment;
+package com.aises.domain;
 
 /**
  * Created by Brendan on 7/25/2016.

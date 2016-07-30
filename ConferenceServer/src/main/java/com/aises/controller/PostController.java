@@ -1,12 +1,12 @@
-package controller;
+package com.aises.controller;
 
-import domain.Post;
-import server.Routes;
-import service.PostService;
+import com.aises.domain.Post;
+import com.aises.server.Routes;
+import com.aises.service.PostService;
 import spark.Request;
 import spark.Response;
 import spark.Spark;
-import utils.JSONUtils;
+import com.aises.utils.JSONUtils;
 
 import java.util.List;
 

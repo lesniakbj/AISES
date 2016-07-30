@@ -1,9 +1,9 @@
-package service;
+package com.aises.service;
 
-import domain.Post;
+import com.aises.domain.Post;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import repository.PostRepository;
+import com.aises.repository.PostRepository;
 
 import java.sql.SQLException;
 import java.time.LocalDateTime;
@@ -15,7 +15,6 @@ import java.util.List;
 public class PostService {
     private static final Logger logger = LoggerFactory.getLogger(PostService.class);
 
-
     private static PostService instance;
     private static PostRepository postRepository;
 
@@ -24,7 +23,7 @@ public class PostService {
     }
 
     protected PostService() {
-        logger.debug("Creating a new service for Posts");
+        logger.info("Creating a new com.aises.service for Posts");
     }
 
     public Post addNewPost(Post newPost) {
@@ -38,7 +37,7 @@ public class PostService {
             newPost.setLength(newPost.getText().length());
             newPost.setDateCreated(LocalDateTime.now());
 
-            logger.debug("Attempting to add new post: {}", newPost);
+            logger.info("Attempting to add new post: {}", newPost);
             if(postRepository.createNewPost(newPost)) {
                 return newPost;
             }

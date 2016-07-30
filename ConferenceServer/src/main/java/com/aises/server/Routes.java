@@ -1,4 +1,4 @@
-package server;
+package com.aises.server;
 
 /**
  * Created by Brendan on 7/24/2016.

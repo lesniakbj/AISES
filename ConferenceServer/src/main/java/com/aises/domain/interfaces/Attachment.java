@@ -1,4 +1,4 @@
-package domain.interfaces;
+package com.aises.domain.interfaces;
 
 /**
  * Created by Brendan on 7/25/2016.

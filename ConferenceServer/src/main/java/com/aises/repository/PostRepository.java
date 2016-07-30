@@ -1,7 +1,7 @@
-package repository;
+package com.aises.repository;
 
-import domain.Post;
-import server.Database;
+import com.aises.domain.Post;
+import com.aises.server.Database;
 
 import java.sql.*;
 import java.util.ArrayList;
