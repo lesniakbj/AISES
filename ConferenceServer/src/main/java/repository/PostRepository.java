@@ -22,6 +22,7 @@ public class PostRepository {
 
     private static final String FIND_POST_BY_ID = "SELECT * FROM Post WHERE post_id = ?";
     private static final String FIND_ALL_POSTS = "SELECT * FROM Post";
+    private static final String FIND_POST_RANGE = "SELECT * FROM Post WHERE post_id >= ? AND post_id <= ?";
 
     protected PostRepository(Database database) {
         if(database != null) {
@@ -75,6 +76,19 @@ public class PostRepository {
     public List<Post> findAllPosts() throws SQLException {
         Connection conn = database.getConnection();
         ResultSet rs = conn.prepareStatement(FIND_ALL_POSTS).executeQuery();
+
+        List<Post> posts = new ArrayList<>();
+        while(rs.next()) {
+            posts.add(parseToPost(rs));
+        }
+        return posts;
+    }
+    public List<Post> findPostRange(int low, int high) throws SQLException {
+        Connection conn = database.getConnection();
+        PreparedStatement ps = conn.prepareStatement(FIND_POST_RANGE);
+        ps.setInt(1, low);
+        ps.setInt(2, high);
+        ResultSet rs = ps.executeQuery();
 
         List<Post> posts = new ArrayList<>();
         while(rs.next()) {

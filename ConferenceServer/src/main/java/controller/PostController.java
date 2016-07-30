@@ -26,6 +26,7 @@ public class PostController implements Controller {
         Spark.post(Routes.POST_NEW, (req, resp) -> ajaxResponse(req, resp, Routes.POST_NEW), JSONUtils.JSON());
 
         Spark.get(Routes.POST_ALL, (req, resp) -> ajaxResponse(req, resp, Routes.POST_ALL), JSONUtils.JSON());
+        Spark.get(Routes.POST_RANGE, (req, resp) -> ajaxResponse(req, resp, Routes.POST_RANGE), JSONUtils.JSON());
         Spark.get(Routes.POST_FIND, (req, resp) -> ajaxResponse(req, resp, Routes.POST_FIND), JSONUtils.JSON());
     }
 
@@ -35,6 +36,8 @@ public class PostController implements Controller {
         switch(route) {
             case Routes.POST_ALL:
                 return getAllPosts(req, resp);
+            case Routes.POST_RANGE:
+                return getPostRange(req, resp);
             case Routes.POST_FIND:
                 return getPost(req, resp);
             case Routes.POST_NEW:
@@ -63,5 +66,10 @@ public class PostController implements Controller {
     }
     private List<Post> getAllPosts(Request req, Response resp) {
         return postService.getAllPosts();
+    }
+    private List<Post> getPostRange(Request req, Response resp) {
+        String low = req.queryParams("low");
+        String high = req.queryParams("high");
+        return postService.getPostRange(Integer.parseInt(low), Integer.parseInt(high));
     }
 }

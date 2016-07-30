@@ -24,19 +24,75 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="Routes.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/server/Routes.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="11" column="58" selection-start-line="11" selection-start-column="58" selection-end-line="11" selection-end-column="58" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="PostController.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/controller/PostController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+            <state relative-caret-position="522">
+              <caret line="69" column="64" selection-start-line="69" selection-start-column="64" selection-end-line="69" selection-end-column="64" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="initializer##0;class#PostController#0" expanded="false" />
-                <element signature="method#PostController#0;class#PostController#0" expanded="false" />
-                <element signature="method#ajaxResponse#0;class#PostController#0" expanded="false" />
                 <element signature="method#checkPostAuthorization#0;class#PostController#0" expanded="false" />
                 <element signature="method#createNewPost#0;class#PostController#0" expanded="false" />
                 <element signature="method#getPost#0;class#PostController#0" expanded="false" />
+                <element signature="method#getPostRange#0;class#PostController#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PostService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/service/PostService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="504">
+              <caret line="64" column="54" selection-start-line="64" selection-start-column="54" selection-end-line="64" selection-end-column="54" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="method#PostService#0;class#PostService#0" expanded="false" />
+                <element signature="method#getPost#0;class#PostService#0" expanded="false" />
+                <element signature="method#getAllPosts#0;class#PostService#0" expanded="false" />
+                <element signature="method#getPostRange#0;class#PostService#0" expanded="false" />
+                <element signature="method#getInstance#0;class#PostService#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PostRepository.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/repository/PostRepository.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="439">
+              <caret line="85" column="75" selection-start-line="85" selection-start-column="75" selection-end-line="85" selection-end-column="75" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="method#PostRepository#0;class#PostRepository#0" expanded="false" />
+                <element signature="method#getNextId#0;class#PostRepository#0" expanded="false" />
+                <element signature="method#createNewPost#0;class#PostRepository#0" expanded="false" />
+                <element signature="method#findPostById#0;class#PostRepository#0" expanded="false" />
+                <element signature="method#findAllPosts#0;class#PostRepository#0" expanded="false" />
+                <element signature="method#findPostRange#0;class#PostRepository#0" expanded="false" />
+                <element signature="method#getInstance#0;class#PostRepository#0" expanded="false" />
+                <element signature="method#getInstance#1;class#PostRepository#0" expanded="false" />
+                <element signature="method#parseToPost#0;class#PostRepository#0" expanded="false" />
+                <marker date="1469917716881" expanded="true" signature="338:353" ph="DROP TABLE P... " />
+                <marker date="1469917716881" expanded="true" signature="409:561" ph="CREATE TABLE... Post" />
+                <marker date="1469917716881" expanded="true" signature="611:650" ph="SELECT MAX(p... Post" />
+                <marker date="1469917716881" expanded="true" signature="705:766" ph="INSERT INTO Post... " />
+                <marker date="1469917716881" expanded="true" signature="821:839" ph="SELECT * FRO... Posts" />
+                <marker date="1469917716881" expanded="true" signature="821:857" ph="SELECT * FRO... Post" />
+                <marker date="1469917716881" expanded="true" signature="910:928" ph="SELECT * FRO... Post" />
+                <marker date="1469917716881" expanded="true" signature="982:1029" ph="SELECT * FRO... Post" />
+                <marker date="1469917716881" expanded="true" signature="982:1036" ph="SELECT * FRO... Post" />
               </folding>
             </state>
           </provider>
@@ -83,11 +139,11 @@
         <option value="$PROJECT_DIR$/src/main/java/controller/BaseController.java" />
         <option value="$PROJECT_DIR$/src/main/java/server/Database.java" />
         <option value="$PROJECT_DIR$/src/main/java/utils/JSONUtils.java" />
-        <option value="$PROJECT_DIR$/src/main/java/server/Routes.java" />
         <option value="$PROJECT_DIR$/src/main/java/AISESServerRunner.java" />
         <option value="$PROJECT_DIR$/src/main/java/server/ConferenceServer.java" />
-        <option value="$PROJECT_DIR$/src/main/java/service/PostService.java" />
         <option value="$PROJECT_DIR$/src/main/java/domain/Post.java" />
+        <option value="$PROJECT_DIR$/src/main/java/server/Routes.java" />
+        <option value="$PROJECT_DIR$/src/main/java/service/PostService.java" />
         <option value="$PROJECT_DIR$/src/main/java/repository/PostRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/controller/PostController.java" />
       </list>
@@ -161,164 +217,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="ConferenceServer" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ConferenceServer" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ConferenceServer" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ConferenceServer" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ConferenceServer" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ConferenceServer" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ConferenceServer" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ConferenceServer" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ConferenceServer" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="service" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ConferenceServer" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ConferenceServer" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="server" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ConferenceServer" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ConferenceServer" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="domain" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ConferenceServer" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ConferenceServer" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="controller" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -799,16 +697,16 @@
       <updated>1469389171119</updated>
       <workItem from="1469389172251" duration="7504000" />
       <workItem from="1469487057133" duration="15202000" />
-      <workItem from="1469898261995" duration="5468000" />
+      <workItem from="1469898261995" duration="6888000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28174000" />
+    <option name="totallyTimeSpent" value="29594000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="953" y="0" width="974" height="1047" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
@@ -818,11 +716,11 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2112676" sideWeight="0.5021322" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23194748" sideWeight="0.4978678" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24617068" sideWeight="0.4978678" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3632385" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3632385" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -863,7 +761,7 @@
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="17" />
+      <option name="time" value="19" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -922,11 +820,10 @@
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="initializer##0;class#PostController#0" expanded="false" />
-            <element signature="method#PostController#0;class#PostController#0" expanded="false" />
-            <element signature="method#ajaxResponse#0;class#PostController#0" expanded="false" />
             <element signature="method#checkPostAuthorization#0;class#PostController#0" expanded="false" />
             <element signature="method#createNewPost#0;class#PostController#0" expanded="false" />
             <element signature="method#getPost#0;class#PostController#0" expanded="false" />
+            <element signature="method#getPostRange#0;class#PostController#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -965,16 +862,22 @@
             <element signature="imports" expanded="true" />
             <element signature="method#PostRepository#0;class#PostRepository#0" expanded="false" />
             <element signature="method#getNextId#0;class#PostRepository#0" expanded="false" />
+            <element signature="method#createNewPost#0;class#PostRepository#0" expanded="false" />
+            <element signature="method#findPostById#0;class#PostRepository#0" expanded="false" />
+            <element signature="method#findAllPosts#0;class#PostRepository#0" expanded="false" />
+            <element signature="method#findPostRange#0;class#PostRepository#0" expanded="false" />
             <element signature="method#getInstance#0;class#PostRepository#0" expanded="false" />
             <element signature="method#getInstance#1;class#PostRepository#0" expanded="false" />
             <element signature="method#parseToPost#0;class#PostRepository#0" expanded="false" />
-            <marker date="1469904824070" expanded="true" signature="338:353" ph="DROP TABLE P... " />
-            <marker date="1469904824070" expanded="true" signature="409:561" ph="CREATE TABLE... Post" />
-            <marker date="1469904824070" expanded="true" signature="611:650" ph="SELECT MAX(p... Post" />
-            <marker date="1469904824070" expanded="true" signature="705:766" ph="INSERT INTO Post... " />
-            <marker date="1469904824070" expanded="true" signature="821:839" ph="SELECT * FRO... Posts" />
-            <marker date="1469904824070" expanded="true" signature="821:857" ph="SELECT * FRO... Post" />
-            <marker date="1469904824070" expanded="true" signature="910:928" ph="SELECT * FRO... Post" />
+            <marker date="1469917716881" expanded="true" signature="338:353" ph="DROP TABLE P... " />
+            <marker date="1469917716881" expanded="true" signature="409:561" ph="CREATE TABLE... Post" />
+            <marker date="1469917716881" expanded="true" signature="611:650" ph="SELECT MAX(p... Post" />
+            <marker date="1469917716881" expanded="true" signature="705:766" ph="INSERT INTO Post... " />
+            <marker date="1469917716881" expanded="true" signature="821:839" ph="SELECT * FRO... Posts" />
+            <marker date="1469917716881" expanded="true" signature="821:857" ph="SELECT * FRO... Post" />
+            <marker date="1469917716881" expanded="true" signature="910:928" ph="SELECT * FRO... Post" />
+            <marker date="1469917716881" expanded="true" signature="982:1029" ph="SELECT * FRO... Post" />
+            <marker date="1469917716881" expanded="true" signature="982:1036" ph="SELECT * FRO... Post" />
           </folding>
         </state>
       </provider>
@@ -1149,36 +1052,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/server/Routes.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="31" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/repository/PostRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="52" column="26" selection-start-line="52" selection-start-column="26" selection-end-line="52" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#PostRepository#0;class#PostRepository#0" expanded="false" />
-            <element signature="method#getNextId#0;class#PostRepository#0" expanded="false" />
-            <element signature="method#getInstance#0;class#PostRepository#0" expanded="false" />
-            <element signature="method#getInstance#1;class#PostRepository#0" expanded="false" />
-            <element signature="method#parseToPost#0;class#PostRepository#0" expanded="false" />
-            <marker date="1469904824070" expanded="true" signature="338:353" ph="DROP TABLE P... " />
-            <marker date="1469904824070" expanded="true" signature="409:561" ph="CREATE TABLE... Post" />
-            <marker date="1469904824070" expanded="true" signature="611:650" ph="SELECT MAX(p... Post" />
-            <marker date="1469904824070" expanded="true" signature="705:766" ph="INSERT INTO Post... " />
-            <marker date="1469904824070" expanded="true" signature="821:839" ph="SELECT * FRO... Posts" />
-            <marker date="1469904824070" expanded="true" signature="821:857" ph="SELECT * FRO... Post" />
-            <marker date="1469904824070" expanded="true" signature="910:928" ph="SELECT * FRO... Post" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/utils/JSONUtils.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
@@ -1186,20 +1059,6 @@
           <folding>
             <element signature="e#404#405#0" expanded="true" />
             <element signature="e#444#445#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/service/PostService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="35" column="39" selection-start-line="35" selection-start-column="39" selection-end-line="35" selection-end-column="39" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#PostService#0;class#PostService#0" expanded="false" />
-            <element signature="method#getPost#0;class#PostService#0" expanded="false" />
-            <element signature="method#getAllPosts#0;class#PostService#0" expanded="false" />
-            <element signature="method#getInstance#0;class#PostService#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1215,18 +1074,68 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/server/Routes.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="58" selection-start-line="11" selection-start-column="58" selection-end-line="11" selection-end-column="58" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/repository/PostRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="439">
+          <caret line="85" column="75" selection-start-line="85" selection-start-column="75" selection-end-line="85" selection-end-column="75" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#PostRepository#0;class#PostRepository#0" expanded="false" />
+            <element signature="method#getNextId#0;class#PostRepository#0" expanded="false" />
+            <element signature="method#createNewPost#0;class#PostRepository#0" expanded="false" />
+            <element signature="method#findPostById#0;class#PostRepository#0" expanded="false" />
+            <element signature="method#findAllPosts#0;class#PostRepository#0" expanded="false" />
+            <element signature="method#findPostRange#0;class#PostRepository#0" expanded="false" />
+            <element signature="method#getInstance#0;class#PostRepository#0" expanded="false" />
+            <element signature="method#getInstance#1;class#PostRepository#0" expanded="false" />
+            <element signature="method#parseToPost#0;class#PostRepository#0" expanded="false" />
+            <marker date="1469917716881" expanded="true" signature="338:353" ph="DROP TABLE P... " />
+            <marker date="1469917716881" expanded="true" signature="409:561" ph="CREATE TABLE... Post" />
+            <marker date="1469917716881" expanded="true" signature="611:650" ph="SELECT MAX(p... Post" />
+            <marker date="1469917716881" expanded="true" signature="705:766" ph="INSERT INTO Post... " />
+            <marker date="1469917716881" expanded="true" signature="821:839" ph="SELECT * FRO... Posts" />
+            <marker date="1469917716881" expanded="true" signature="821:857" ph="SELECT * FRO... Post" />
+            <marker date="1469917716881" expanded="true" signature="910:928" ph="SELECT * FRO... Post" />
+            <marker date="1469917716881" expanded="true" signature="982:1029" ph="SELECT * FRO... Post" />
+            <marker date="1469917716881" expanded="true" signature="982:1036" ph="SELECT * FRO... Post" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/service/PostService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="64" column="54" selection-start-line="64" selection-start-column="54" selection-end-line="64" selection-end-column="54" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#PostService#0;class#PostService#0" expanded="false" />
+            <element signature="method#getPost#0;class#PostService#0" expanded="false" />
+            <element signature="method#getAllPosts#0;class#PostService#0" expanded="false" />
+            <element signature="method#getPostRange#0;class#PostService#0" expanded="false" />
+            <element signature="method#getInstance#0;class#PostService#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/controller/PostController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+        <state relative-caret-position="522">
+          <caret line="69" column="64" selection-start-line="69" selection-start-column="64" selection-end-line="69" selection-end-column="64" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="initializer##0;class#PostController#0" expanded="false" />
-            <element signature="method#PostController#0;class#PostController#0" expanded="false" />
-            <element signature="method#ajaxResponse#0;class#PostController#0" expanded="false" />
             <element signature="method#checkPostAuthorization#0;class#PostController#0" expanded="false" />
             <element signature="method#createNewPost#0;class#PostController#0" expanded="false" />
             <element signature="method#getPost#0;class#PostController#0" expanded="false" />
+            <element signature="method#getPostRange#0;class#PostController#0" expanded="false" />
           </folding>
         </state>
       </provider>

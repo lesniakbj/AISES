@@ -62,6 +62,18 @@ public class PostService {
             return null;
         }
     }
+    public List<Post> getPostRange(int low, int high) {
+        if(low < 0 || high < 0) {
+            return null;
+        }
+
+        try {
+            return postRepository.findPostRange(low, high);
+        } catch (SQLException e) {
+            e.printStackTrace();
+            return null;
+        }
+    }
 
     public static PostService getInstance() {
         if(instance == null) {
