@@ -1,5 +1,8 @@
 var AISES = AISES || {};
 
+/**
+ * Created by Brendan on 7/23/2016.
+ */
 AISES.LoginController = {
     loadLogin: function() {
         AISES.Template.loadTemplate(AISES.Routes.LOGIN, AISES.LoginController.initLogin);
