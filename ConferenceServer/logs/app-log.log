@@ -268,3 +268,67 @@
 2016-07-31 15:21:53 DEBUG [PostController:62] Getting all posts
 2016-07-31 15:23:28 DEBUG [PostController:42] Checking user credentials before retrieving or sending posts
 2016-07-31 15:23:28 DEBUG [PostController:62] Getting all posts
+2016-07-31 15:43:35 DEBUG [PostController:42] Checking user credentials before retrieving or sending posts
+2016-07-31 15:43:35 DEBUG [PostController:67] Getting a range of posts
+2016-07-31 15:57:56 DEBUG [PostRepository:32] Creating a repository for Posts
+2016-07-31 15:57:56 DEBUG [PostService:26] Creating a service for Posts
+2016-07-31 15:57:56 DEBUG [PostController:28] Creating a controller for Posts
+2016-07-31 15:57:56 DEBUG [UploadService:23] Creating a service for Uploads
+2016-07-31 15:57:56 DEBUG [UploadController:39] Creating a controller for Uploads
+2016-07-31 15:57:56 DEBUG [AISESServerRunner:20] Starting Server
+2016-07-31 15:57:57 DEBUG [PostController:42] Checking user credentials before retrieving or sending posts
+2016-07-31 15:57:57 DEBUG [PostController:47] Creating new post
+2016-07-31 15:57:57 DEBUG [PostService:41] Attempting to add new post: com.aises.domain.Post@2596478c
+2016-07-31 15:57:57 DEBUG [PostRepository:59] Adding a new post: com.aises.domain.Post@2596478c
+2016-07-31 15:57:57 DEBUG [PostController:42] Checking user credentials before retrieving or sending posts
+2016-07-31 15:57:57 DEBUG [PostController:47] Creating new post
+2016-07-31 15:57:57 DEBUG [PostService:41] Attempting to add new post: com.aises.domain.Post@4b187127
+2016-07-31 15:57:57 DEBUG [PostRepository:59] Adding a new post: com.aises.domain.Post@4b187127
+2016-07-31 15:57:57 DEBUG [PostController:42] Checking user credentials before retrieving or sending posts
+2016-07-31 15:57:57 DEBUG [PostController:47] Creating new post
+2016-07-31 15:57:57 DEBUG [PostService:41] Attempting to add new post: com.aises.domain.Post@6237abc2
+2016-07-31 15:57:57 DEBUG [PostRepository:59] Adding a new post: com.aises.domain.Post@6237abc2
+2016-07-31 15:57:58 DEBUG [PostController:42] Checking user credentials before retrieving or sending posts
+2016-07-31 15:57:58 DEBUG [PostController:47] Creating new post
+2016-07-31 15:57:58 DEBUG [PostService:41] Attempting to add new post: com.aises.domain.Post@a686215
+2016-07-31 15:57:58 DEBUG [PostRepository:59] Adding a new post: com.aises.domain.Post@a686215
+2016-07-31 15:57:58 DEBUG [PostController:42] Checking user credentials before retrieving or sending posts
+2016-07-31 15:57:58 DEBUG [PostController:47] Creating new post
+2016-07-31 15:57:58 DEBUG [PostService:41] Attempting to add new post: com.aises.domain.Post@67ddbf9f
+2016-07-31 15:57:58 DEBUG [PostRepository:59] Adding a new post: com.aises.domain.Post@67ddbf9f
+2016-07-31 15:57:58 DEBUG [PostController:42] Checking user credentials before retrieving or sending posts
+2016-07-31 15:57:58 DEBUG [PostController:47] Creating new post
+2016-07-31 15:57:58 DEBUG [PostService:41] Attempting to add new post: com.aises.domain.Post@7da852b3
+2016-07-31 15:57:58 DEBUG [PostRepository:59] Adding a new post: com.aises.domain.Post@7da852b3
+2016-07-31 15:58:05 DEBUG [PostController:42] Checking user credentials before retrieving or sending posts
+2016-07-31 15:58:05 DEBUG [PostController:47] Creating new post
+2016-07-31 15:58:05 DEBUG [PostService:41] Attempting to add new post: com.aises.domain.Post@315f11ca
+2016-07-31 15:58:05 DEBUG [PostRepository:59] Adding a new post: com.aises.domain.Post@315f11ca
+2016-07-31 15:58:08 DEBUG [PostController:42] Checking user credentials before retrieving or sending posts
+2016-07-31 15:58:08 DEBUG [PostController:47] Creating new post
+2016-07-31 15:58:08 DEBUG [PostService:41] Attempting to add new post: com.aises.domain.Post@45df9634
+2016-07-31 15:58:08 DEBUG [PostRepository:59] Adding a new post: com.aises.domain.Post@45df9634
+2016-07-31 15:58:08 DEBUG [PostController:42] Checking user credentials before retrieving or sending posts
+2016-07-31 15:58:08 DEBUG [PostController:47] Creating new post
+2016-07-31 15:58:08 DEBUG [PostService:41] Attempting to add new post: com.aises.domain.Post@295d57f3
+2016-07-31 15:58:08 DEBUG [PostRepository:59] Adding a new post: com.aises.domain.Post@295d57f3
+2016-07-31 15:58:11 DEBUG [PostController:42] Checking user credentials before retrieving or sending posts
+2016-07-31 15:58:11 DEBUG [PostController:47] Creating new post
+2016-07-31 15:58:11 DEBUG [PostService:41] Attempting to add new post: com.aises.domain.Post@736fb376
+2016-07-31 15:58:11 DEBUG [PostRepository:59] Adding a new post: com.aises.domain.Post@736fb376
+2016-07-31 15:58:14 DEBUG [PostController:42] Checking user credentials before retrieving or sending posts
+2016-07-31 15:58:14 DEBUG [PostController:47] Creating new post
+2016-07-31 15:58:14 DEBUG [PostService:41] Attempting to add new post: com.aises.domain.Post@da93c73
+2016-07-31 15:58:14 DEBUG [PostRepository:59] Adding a new post: com.aises.domain.Post@da93c73
+2016-07-31 15:58:21 DEBUG [PostController:42] Checking user credentials before retrieving or sending posts
+2016-07-31 15:58:21 DEBUG [PostController:47] Creating new post
+2016-07-31 15:58:21 DEBUG [PostService:41] Attempting to add new post: com.aises.domain.Post@33b6a820
+2016-07-31 15:58:21 DEBUG [PostRepository:59] Adding a new post: com.aises.domain.Post@33b6a820
+2016-07-31 15:58:22 DEBUG [PostController:42] Checking user credentials before retrieving or sending posts
+2016-07-31 15:58:22 DEBUG [PostController:47] Creating new post
+2016-07-31 15:58:22 DEBUG [PostService:41] Attempting to add new post: com.aises.domain.Post@4af8d28
+2016-07-31 15:58:22 DEBUG [PostRepository:59] Adding a new post: com.aises.domain.Post@4af8d28
+2016-07-31 15:58:25 DEBUG [PostController:42] Checking user credentials before retrieving or sending posts
+2016-07-31 15:58:25 DEBUG [PostController:56] Interpreting post query
+2016-07-31 15:58:44 DEBUG [PostController:42] Checking user credentials before retrieving or sending posts
+2016-07-31 15:58:44 DEBUG [PostController:64] Getting all posts

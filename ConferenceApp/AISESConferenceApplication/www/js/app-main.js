@@ -1,5 +1,8 @@
 var AISES = AISES || {};
 
+/**
+ * Created by Brendan on 7/23/2016.
+ */
 AISES.App = {
     init: function() {
         // First we need to configure determine what 

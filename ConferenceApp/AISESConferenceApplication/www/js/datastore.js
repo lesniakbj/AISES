@@ -1,5 +1,8 @@
 var AISES = AISES || {};
 
+/**
+ * Created by Brendan on 7/23/2016.
+ */s
 AISES.DataStore = {
     type: null,
     isAvailable: null,

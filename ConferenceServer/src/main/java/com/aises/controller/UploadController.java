@@ -38,7 +38,7 @@ public class UploadController {
     public UploadController() {
         logger.debug("Creating a controller for Uploads");
 
-        Spark.post(Routes.UPLOAD, (req, resp) -> uploadMultiPartFile(req, resp), JSONUtils.JSON());
+        Spark.post(Routes.UPLOAD, this::uploadMultiPartFile, JSONUtils.JSON());
         Spark.after(Routes.UPLOAD, (req, resp) -> resp.header("Content-Type", "application/json"));
     }
 

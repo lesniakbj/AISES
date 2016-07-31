@@ -10,6 +10,7 @@ import spark.Response;
 import spark.Spark;
 import com.aises.utils.JSONUtils;
 
+import java.util.Collections;
 import java.util.List;
 
 /**
@@ -27,15 +28,14 @@ public class PostController implements Controller {
     public PostController() {
         logger.debug("Creating a controller for Posts");
 
-        Spark.before(Routes.POST_FILTER, (req, resp) -> checkPostAuthorization(req, resp));
+        Spark.before(Routes.POST_FILTER, this::checkPostAuthorization);
 
-        Spark.post(Routes.POST_NEW, (req, resp) -> createNewPost(req, resp), JSONUtils.JSON());
+        Spark.post(Routes.POST_NEW, this::createNewPost, JSONUtils.JSON());
 
-        Spark.get(Routes.POST_ALL, (req, resp) -> getAllPosts(req, resp), JSONUtils.JSON());
-        Spark.get(Routes.POST_RANGE, (req, resp) -> getPostRange(req, resp), JSONUtils.JSON());
-        Spark.get(Routes.POST_FIND, (req, resp) -> getPost(req, resp), JSONUtils.JSON());
+        Spark.get(Routes.POST_ALL, this::getAllPosts, JSONUtils.JSON());
+        Spark.get(Routes.POST_FIND, this::getPostFromQuery, JSONUtils.JSON());
 
-        Spark.after(Routes.POST_FILTER, (req, resp) -> addAjaxHeader(req, resp));
+        Spark.after(Routes.POST_FILTER, this::addAjaxHeader);
     }
 
     private void checkPostAuthorization(Request req, Response resp) {
@@ -52,11 +52,23 @@ public class PostController implements Controller {
         return postService.addNewPost(post);
     }
 
-    private Post getPost(Request req, Response resp) {
-        logger.debug("Getting single post");
+    private List<Post> getPostFromQuery(Request req, Response resp) {
+        logger.debug("Interpreting post query: {}", req.queryString());
+        if(req.queryParams().contains("id")) {
+            return getSinglePost(req, resp);
+        }
 
-        int postNumber = Integer.parseInt(req.params(":id"));
-        return postService.getPost(postNumber);
+        if(req.queryParams().contains("low") && req.queryParams().contains("high")) {
+            return getPostRange(req, resp);
+        }
+
+        return null;
+    }
+
+    private List<Post> getSinglePost(Request req, Response resp) {
+        logger.debug("Getting a single post");
+        int postNumber = Integer.parseInt(req.queryParams("id"));
+        return Collections.singletonList(postService.getPost(postNumber));
     }
     private List<Post> getAllPosts(Request req, Response resp) {
         logger.debug("Getting all posts");
