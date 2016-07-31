@@ -34,12 +34,26 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Properties.java" pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk1.8.0_92/src.zip!/java/util/Properties.java">
+      <file leaf-file-name="PostRepository.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/aises/repository/PostRepository.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="231">
-              <caret line="433" column="0" selection-start-line="433" selection-start-column="0" selection-end-line="433" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="441">
+              <caret line="123" column="31" selection-start-line="123" selection-start-column="31" selection-end-line="123" selection-end-column="31" />
+              <folding>
+                <element signature="method#getNextId#0;class#PostRepository#0" expanded="false" />
+                <element signature="method#createNewPost#0;class#PostRepository#0" expanded="false" />
+                <element signature="method#findPostById#0;class#PostRepository#0" expanded="false" />
+                <element signature="method#findPostRange#0;class#PostRepository#0" expanded="false" />
+                <element signature="method#getInstance#0;class#PostRepository#0" expanded="false" />
+                <element signature="method#getInstance#1;class#PostRepository#0" expanded="false" />
+                <marker date="1469992607354" expanded="true" signature="514:529" ph="DROP TABLE P... " />
+                <marker date="1469992607354" expanded="true" signature="585:737" ph="CREATE TABLE... IF" />
+                <marker date="1469992607354" expanded="true" signature="787:826" ph="SELECT MAX(p... Post" />
+                <marker date="1469992607354" expanded="true" signature="881:942" ph="INSERT INTO Post... " />
+                <marker date="1469992607354" expanded="true" signature="997:1033" ph="SELECT * FRO... Post" />
+                <marker date="1469992607354" expanded="true" signature="1086:1104" ph="SELECT * FRO... Post" />
+                <marker date="1469992607354" expanded="true" signature="1158:1212" ph="SELECT * FRO... Post" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -47,13 +61,12 @@
       <file leaf-file-name="PostController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/aises/controller/PostController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="523">
-              <caret line="65" column="64" selection-start-line="65" selection-start-column="64" selection-end-line="65" selection-end-column="64" />
+            <state relative-caret-position="472">
+              <caret line="58" column="31" selection-start-line="58" selection-start-column="31" selection-end-line="58" selection-end-column="31" />
               <folding>
                 <element signature="initializer##0;class#PostController#0" expanded="false" />
                 <element signature="method#checkPostAuthorization#0;class#PostController#0" expanded="false" />
                 <element signature="method#createNewPost#0;class#PostController#0" expanded="false" />
-                <element signature="method#getPost#0;class#PostController#0" expanded="false" />
                 <element signature="method#getAllPosts#0;class#PostController#0" expanded="false" />
                 <element signature="method#getPostRange#0;class#PostController#0" expanded="false" />
               </folding>
@@ -73,6 +86,21 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="PostService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/aises/service/PostService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="408">
+              <caret line="65" column="41" selection-start-line="65" selection-start-column="41" selection-end-line="65" selection-end-column="41" />
+              <folding>
+                <element signature="method#addNewPost#0;class#PostService#0" expanded="false" />
+                <element signature="method#getPost#0;class#PostService#0" expanded="false" />
+                <element signature="method#getPostRange#0;class#PostService#0" expanded="false" />
+                <element signature="method#getInstance#0;class#PostService#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="UploadController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/aises/controller/UploadController.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -86,11 +114,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Post.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Post.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/aises/domain/Post.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="12" column="23" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
+            <state relative-caret-position="102">
+              <caret line="9" column="3" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
               <folding>
                 <element signature="method#addAttachment#0;class#Post#0" expanded="false" />
               </folding>
@@ -161,9 +189,7 @@
         <option value="$PROJECT_DIR$/src/main/java/com/aises/server/Routes.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/aises/server/ConferenceServer.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/aises/domain/File.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/aises/service/PostService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/aises/service/UploadService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/aises/repository/PostRepository.java" />
         <option value="$PROJECT_DIR$/src/main/resources/log4j.properties" />
         <option value="$PROJECT_DIR$/src/main/java/com/aises/AISESServerRunner.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/aises/server/Database.java" />
@@ -171,6 +197,8 @@
         <option value="$PROJECT_DIR$/src/main/java/com/aises/controller/PostController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/aises/controller/UploadController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/aises/domain/Post.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/aises/service/PostService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/aises/repository/PostRepository.java" />
       </list>
     </option>
   </component>
@@ -335,7 +363,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="domain" />
+              <option name="myItemId" value="controller" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -847,12 +875,12 @@
       <workItem from="1469898261995" duration="10573000" />
       <workItem from="1469925159332" duration="4807000" />
       <workItem from="1469982199445" duration="4308000" />
-      <workItem from="1469992362090" duration="1791000" />
+      <workItem from="1469992362090" duration="2433000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="44185000" />
+    <option name="totallyTimeSpent" value="44827000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1096" extended-state="6" />
@@ -1218,62 +1246,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/aises/service/PostService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="25" column="8" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="53" />
-          <folding>
-            <element signature="e#598#599#0" expanded="false" />
-            <element signature="e#658#659#0" expanded="false" />
-            <element signature="method#addNewPost#0;class#PostService#0" expanded="false" />
-            <element signature="method#getPost#0;class#PostService#0" expanded="false" />
-            <element signature="method#getAllPosts#0;class#PostService#0" expanded="false" />
-            <element signature="method#getInstance#0;class#PostService#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/aises/repository/PostRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="30" column="49" selection-start-line="30" selection-start-column="49" selection-end-line="31" selection-end-column="56" />
-          <folding>
-            <element signature="method#getNextId#0;class#PostRepository#0" expanded="false" />
-            <element signature="method#createNewPost#0;class#PostRepository#0" expanded="false" />
-            <element signature="method#findPostById#0;class#PostRepository#0" expanded="false" />
-            <element signature="method#findAllPosts#0;class#PostRepository#0" expanded="false" />
-            <element signature="method#findPostRange#0;class#PostRepository#0" expanded="false" />
-            <element signature="method#getInstance#0;class#PostRepository#0" expanded="false" />
-            <element signature="method#getInstance#1;class#PostRepository#0" expanded="false" />
-            <element signature="method#parseToPost#0;class#PostRepository#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/aises/AISESServerRunner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="11" column="44" selection-start-line="11" selection-start-column="44" selection-end-line="11" selection-end-column="44" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_92/src.zip!/java/util/Properties.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="433" column="0" selection-start-line="433" selection-start-column="0" selection-end-line="433" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/db.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="25" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/aises/server/Database.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="132">
@@ -1284,18 +1256,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/aises/controller/PostController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/aises/domain/Post.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="523">
-          <caret line="65" column="64" selection-start-line="65" selection-start-column="64" selection-end-line="65" selection-end-column="64" />
+        <state relative-caret-position="102">
+          <caret line="9" column="3" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
           <folding>
-            <element signature="initializer##0;class#PostController#0" expanded="false" />
-            <element signature="method#checkPostAuthorization#0;class#PostController#0" expanded="false" />
-            <element signature="method#createNewPost#0;class#PostController#0" expanded="false" />
-            <element signature="method#getPost#0;class#PostController#0" expanded="false" />
-            <element signature="method#getAllPosts#0;class#PostController#0" expanded="false" />
-            <element signature="method#getPostRange#0;class#PostController#0" expanded="false" />
+            <element signature="method#addAttachment#0;class#Post#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/db.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="25" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="25" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1310,12 +1285,67 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/aises/domain/Post.java">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_92/src.zip!/java/util/Properties.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="433" column="0" selection-start-line="433" selection-start-column="0" selection-end-line="433" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/aises/AISESServerRunner.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
-          <caret line="12" column="23" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
+          <caret line="11" column="44" selection-start-line="11" selection-start-column="44" selection-end-line="11" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/aises/controller/PostController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="472">
+          <caret line="58" column="31" selection-start-line="58" selection-start-column="31" selection-end-line="58" selection-end-column="31" />
           <folding>
-            <element signature="method#addAttachment#0;class#Post#0" expanded="false" />
+            <element signature="initializer##0;class#PostController#0" expanded="false" />
+            <element signature="method#checkPostAuthorization#0;class#PostController#0" expanded="false" />
+            <element signature="method#createNewPost#0;class#PostController#0" expanded="false" />
+            <element signature="method#getAllPosts#0;class#PostController#0" expanded="false" />
+            <element signature="method#getPostRange#0;class#PostController#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/aises/service/PostService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="65" column="41" selection-start-line="65" selection-start-column="41" selection-end-line="65" selection-end-column="41" />
+          <folding>
+            <element signature="method#addNewPost#0;class#PostService#0" expanded="false" />
+            <element signature="method#getPost#0;class#PostService#0" expanded="false" />
+            <element signature="method#getPostRange#0;class#PostService#0" expanded="false" />
+            <element signature="method#getInstance#0;class#PostService#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/aises/repository/PostRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="441">
+          <caret line="123" column="31" selection-start-line="123" selection-start-column="31" selection-end-line="123" selection-end-column="31" />
+          <folding>
+            <element signature="method#getNextId#0;class#PostRepository#0" expanded="false" />
+            <element signature="method#createNewPost#0;class#PostRepository#0" expanded="false" />
+            <element signature="method#findPostById#0;class#PostRepository#0" expanded="false" />
+            <element signature="method#findPostRange#0;class#PostRepository#0" expanded="false" />
+            <element signature="method#getInstance#0;class#PostRepository#0" expanded="false" />
+            <element signature="method#getInstance#1;class#PostRepository#0" expanded="false" />
+            <marker date="1469992607354" expanded="true" signature="514:529" ph="DROP TABLE P... " />
+            <marker date="1469992607354" expanded="true" signature="585:737" ph="CREATE TABLE... IF" />
+            <marker date="1469992607354" expanded="true" signature="787:826" ph="SELECT MAX(p... Post" />
+            <marker date="1469992607354" expanded="true" signature="881:942" ph="INSERT INTO Post... " />
+            <marker date="1469992607354" expanded="true" signature="997:1033" ph="SELECT * FRO... Post" />
+            <marker date="1469992607354" expanded="true" signature="1086:1104" ph="SELECT * FRO... Post" />
+            <marker date="1469992607354" expanded="true" signature="1158:1212" ph="SELECT * FRO... Post" />
           </folding>
         </state>
       </provider>

@@ -38,12 +38,13 @@ AISES.HomeController = {
         for(var postNum in AISES.HomeController.loadedPosts) {
             var post = AISES.HomeController.loadedPosts[postNum];
             postData = {
+                id: post.id,
                 text: post.text,
                 length: post.length,
                 date: AISES.HomeController.getPostDate(post)
             }
             var out = Mustache.render(template, postData);
-            $('#post-container').append(out);
+            $('#loaded-posts').prepend(out);
         }
     },
     
