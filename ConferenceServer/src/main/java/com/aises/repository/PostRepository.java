@@ -12,7 +12,7 @@ import java.util.List;
 /**
  * Created by Brendan on 7/25/2016.
  */
-public class PostRepository {
+public class PostRepository implements Repository {
     private static final Logger logger = LoggerFactory.getLogger(PostRepository.class);
 
     private static PostRepository instance;
@@ -30,12 +30,9 @@ public class PostRepository {
 
     protected PostRepository(Database database) {
         logger.debug("Creating a repository for Posts");
+        this.database = database;
 
-        if(database != null) {
-            this.database = database;
-        }
-
-        Connection con = database.getConnection();
+        Connection con = this.database .getConnection();
         try {
             PreparedStatement ps = con.prepareStatement(DROP_POST_TABLE);
             PreparedStatement ps2 = con.prepareStatement(CREATE_POST_TABLE);
@@ -51,8 +48,7 @@ public class PostRepository {
         PreparedStatement ps = conn.prepareStatement(GET_MAX_ID);
         ResultSet rs = ps.executeQuery();
         rs.next();
-        int maxId = rs.getInt("max_id");
-        return maxId;
+        return rs.getInt("max_id");
     }
 
     public boolean createNewPost(Post post) throws SQLException {
@@ -73,13 +69,8 @@ public class PostRepository {
         PreparedStatement ps = conn.prepareStatement(FIND_POST_BY_ID);
         ps.setInt(1, postId);
         ResultSet rs = ps.executeQuery();
-
-        while(rs.next()) {
-            Post post = parseToPost(rs);
-            return post;
-        }
-
-        return null;
+        rs.next();
+        return parseToPost(rs);
     }
     public List<Post> findAllPosts() throws SQLException {
         Connection conn = database.getConnection();

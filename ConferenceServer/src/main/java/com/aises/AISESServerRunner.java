@@ -6,6 +6,11 @@ import org.slf4j.LoggerFactory;
 
 /**
  * Created by Brendan on 7/24/2016.
+ *
+ * This file has been created to work with the
+ * AISES Conference Server. It will create the
+ * server and run it accordingly. It can most likely
+ * be threaded to run in its own thread.
  */
 public class AISESServerRunner {
     private static final Logger logger = LoggerFactory.getLogger(AISESServerRunner.class);

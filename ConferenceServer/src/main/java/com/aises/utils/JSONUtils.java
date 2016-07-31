@@ -5,6 +5,10 @@ import spark.ResponseTransformer;
 
 /**
  * Created by Brendan on 7/24/2016.
+ *
+ * This file has been created to work with the
+ * AISES Conference Server. Used for converting
+ * responses and requests to and from objects.
  */
 public class JSONUtils {
     public static String toJSON(Object obj) {

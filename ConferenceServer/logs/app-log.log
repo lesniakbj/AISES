@@ -332,3 +332,9 @@
 2016-07-31 15:58:25 DEBUG [PostController:56] Interpreting post query
 2016-07-31 15:58:44 DEBUG [PostController:42] Checking user credentials before retrieving or sending posts
 2016-07-31 15:58:44 DEBUG [PostController:64] Getting all posts
+2016-07-31 16:16:42 DEBUG [PostRepository:32] Creating a repository for Posts
+2016-07-31 16:16:42 DEBUG [PostService:26] Creating a service for Posts
+2016-07-31 16:16:42 DEBUG [PostController:29] Creating a controller for Posts
+2016-07-31 16:16:42 DEBUG [UploadService:23] Creating a service for Uploads
+2016-07-31 16:16:42 DEBUG [UploadController:39] Creating a controller for Uploads
+2016-07-31 16:16:42 DEBUG [AISESServerRunner:20] Starting Server

@@ -12,7 +12,7 @@ import java.util.List;
 /**
  * Created by Brendan on 7/25/2016.
  */
-public class PostService {
+public class PostService implements Service {
     private static final Logger logger = LoggerFactory.getLogger(PostService.class);
 
     private static PostService instance;

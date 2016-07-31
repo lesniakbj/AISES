@@ -15,7 +15,7 @@ import java.util.Arrays;
 /**
  * Created by Brendan on 7/30/2016.
  */
-public class UploadService {
+public class UploadService implements Service {
     private static final Logger logger = LoggerFactory.getLogger(UploadService.class);
     private static UploadService instance;
 

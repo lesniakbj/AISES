@@ -21,7 +21,7 @@ import java.io.IOException;
  * Controller for uploading files (images/videos) to the
  * server.
  */
-public class UploadController {
+public class UploadController implements Controller {
     private static UploadService uploadService;
     private static final Logger logger = LoggerFactory.getLogger(UploadController.class);
 
