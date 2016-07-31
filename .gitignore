@@ -1,2 +1,5 @@
 db.properties
 *.class
+*.iws
+workspace.xml
+tasks.xml
