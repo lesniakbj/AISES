@@ -23,7 +23,7 @@ public class PostService {
     }
 
     protected PostService() {
-        logger.info("Creating a new com.aises.service for Posts");
+        logger.debug("Creating a service for Posts");
     }
 
     public Post addNewPost(Post newPost) {
@@ -33,11 +33,12 @@ public class PostService {
             // Recreate the post here to ensure it is set the
             // the correct values before saving.
             newPost.setId(nextId);
+            newPost.setUserId(newPost.getUserId());
             newPost.setText(newPost.getText());
             newPost.setLength(newPost.getText().length());
             newPost.setDateCreated(LocalDateTime.now());
 
-            logger.info("Attempting to add new post: {}", newPost);
+            logger.debug("Attempting to add new post: {}", newPost);
             if(postRepository.createNewPost(newPost)) {
                 return newPost;
             }

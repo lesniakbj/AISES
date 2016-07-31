@@ -10,6 +10,7 @@ import java.util.List;
  */
 public class Post {
     private int id;
+    private int userId;
     private String text;
     private int length;
     private LocalDateTime dateCreated;
@@ -19,6 +20,9 @@ public class Post {
 
     public int getId() {
         return id;
+    }
+    public int getUserId() {
+        return userId;
     }
     public String getText() {
         return text;
@@ -35,6 +39,9 @@ public class Post {
 
     public void setId(int id) {
         this.id = id;
+    }
+    public void setUserId(int userId) {
+        this.userId = userId;
     }
     public void setText(String text) {
         this.text = text;

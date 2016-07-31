@@ -1,0 +1,77 @@
+2016-07-31 12:20:40 DEBUG AISESServerRunner:13 - Hello
+2016-07-31 12:20:40 DEBUG PostService:26 - Creating a new com.aises.service for Posts
+2016-07-31 12:20:40 DEBUG AISESServerRunner:21 - Starting Server
+2016-07-31 12:22:17 DEBUG PostService:26 - Creating a new com.aises.service for Posts
+2016-07-31 12:22:17 DEBUG AISESServerRunner:20 - Starting Server
+2016-07-31 12:24:02 DEBUG PostRepository:32 - Creating a repository for Posts
+2016-07-31 12:24:02 DEBUG PostService:26 - Creating a service for Posts
+2016-07-31 12:24:02 DEBUG PostController:28 - Creating a controller for Posts
+2016-07-31 12:24:02 DEBUG UploadService:23 - Creating a service for Uploads
+2016-07-31 12:24:02 DEBUG UploadController:39 - Creating a controller for Uploads
+2016-07-31 12:24:02 DEBUG AISESServerRunner:20 - Starting Server
+2016-07-31 12:24:46 [DEBUG] PostRepository:32 - Creating a repository for Posts
+2016-07-31 12:24:46 [DEBUG] PostService:26 - Creating a service for Posts
+2016-07-31 12:24:46 [DEBUG] PostController:28 - Creating a controller for Posts
+2016-07-31 12:24:46 [DEBUG] UploadService:23 - Creating a service for Uploads
+2016-07-31 12:24:46 [DEBUG] UploadController:39 - Creating a controller for Uploads
+2016-07-31 12:24:46 [DEBUG] AISESServerRunner:20 - Starting Server
+2016-07-31 12:25:07 [DEBUG] PostRepository:32 - Creating a repository for Posts
+2016-07-31 12:25:07 [DEBUG] PostService:26 - Creating a service for Posts
+2016-07-31 12:25:07 [DEBUG] PostController:28 - Creating a controller for Posts
+2016-07-31 12:25:07 [DEBUG] UploadService:23 - Creating a service for Uploads
+2016-07-31 12:25:07 [DEBUG] UploadController:39 - Creating a controller for Uploads
+2016-07-31 12:25:07 [DEBUG] AISESServerRunner:20 - Starting Server
+2016-07-31 12:26:42 [DEBUG] PostRepository:32 - Creating a repository for Posts
+2016-07-31 12:26:42 [DEBUG] PostService:26 - Creating a service for Posts
+2016-07-31 12:26:42 [DEBUG] PostController:28 - Creating a controller for Posts
+2016-07-31 12:26:43 [DEBUG] UploadService:23 - Creating a service for Uploads
+2016-07-31 12:26:43 [DEBUG] UploadController:39 - Creating a controller for Uploads
+2016-07-31 12:26:43 [DEBUG] AISESServerRunner:20 - Starting Server
+2016-07-31 12:27:01 [DEBUG] PostRepository:32 - Creating a repository for Posts
+2016-07-31 12:27:01 [DEBUG] PostService:26 - Creating a service for Posts
+2016-07-31 12:27:01 [DEBUG] PostController:28 - Creating a controller for Posts
+2016-07-31 12:27:01 [DEBUG] UploadService:23 - Creating a service for Uploads
+2016-07-31 12:27:01 [DEBUG] UploadController:39 - Creating a controller for Uploads
+2016-07-31 12:27:01 [DEBUG] AISESServerRunner:20 - Starting Server
+2016-07-31 12:27:10 [DEBUG] PostRepository:32 - Creating a repository for Posts
+2016-07-31 12:27:10 [DEBUG] PostService:26 - Creating a service for Posts
+2016-07-31 12:27:10 [DEBUG] PostController:28 - Creating a controller for Posts
+2016-07-31 12:27:10 [DEBUG] UploadService:23 - Creating a service for Uploads
+2016-07-31 12:27:10 [DEBUG] UploadController:39 - Creating a controller for Uploads
+2016-07-31 12:27:10 [DEBUG] AISESServerRunner:20 - Starting Server
+2016-07-31 12:27:21 [DEBUG] PostRepository:32 - Creating a repository for Posts
+2016-07-31 12:27:21 [DEBUG] PostService:26 - Creating a service for Posts
+2016-07-31 12:27:21 [DEBUG] PostController:28 - Creating a controller for Posts
+2016-07-31 12:27:21 [DEBUG] UploadService:23 - Creating a service for Uploads
+2016-07-31 12:27:21 [DEBUG] UploadController:39 - Creating a controller for Uploads
+2016-07-31 12:27:21 [DEBUG] AISESServerRunner:20 - Starting Server
+2016-07-31 12:27:26 [DEBUG] PostRepository:32 - Creating a repository for Posts
+2016-07-31 12:27:26 [DEBUG] PostService:26 - Creating a service for Posts
+2016-07-31 12:27:26 [DEBUG] PostController:28 - Creating a controller for Posts
+2016-07-31 12:27:26 [DEBUG] UploadService:23 - Creating a service for Uploads
+2016-07-31 12:27:26 [DEBUG] UploadController:39 - Creating a controller for Uploads
+2016-07-31 12:27:26 [DEBUG] AISESServerRunner:20 - Starting Server
+2016-07-31 12:28:06 [DEBUG] PostRepository:32 - Creating a repository for Posts
+2016-07-31 12:28:06 [DEBUG] PostService:26 - Creating a service for Posts
+2016-07-31 12:28:06 [DEBUG] PostController:28 - Creating a controller for Posts
+2016-07-31 12:28:06 [DEBUG] UploadService:23 - Creating a service for Uploads
+2016-07-31 12:28:06 [DEBUG] UploadController:39 - Creating a controller for Uploads
+2016-07-31 12:28:06 [DEBUG] AISESServerRunner:20 - Starting Server
+2016-07-31 12:29:36 [DEBUG] PostRepository:32 - Creating a repository for Posts
+2016-07-31 12:29:36 [DEBUG] PostService:26 - Creating a service for Posts
+2016-07-31 12:29:36 [DEBUG] PostController:28 - Creating a controller for Posts
+2016-07-31 12:29:36 [DEBUG] UploadService:23 - Creating a service for Uploads
+2016-07-31 12:29:36 [DEBUG] UploadController:39 - Creating a controller for Uploads
+2016-07-31 12:29:36 [DEBUG] AISESServerRunner:20 - Starting Server
+2016-07-31 12:30:04 [DEBUG] PostRepository:32 - Creating a repository for Posts
+2016-07-31 12:30:04 [DEBUG] PostService:26 - Creating a service for Posts
+2016-07-31 12:30:04 [DEBUG] PostController:28 - Creating a controller for Posts
+2016-07-31 12:30:04 [DEBUG] UploadService:23 - Creating a service for Uploads
+2016-07-31 12:30:04 [DEBUG] UploadController:39 - Creating a controller for Uploads
+2016-07-31 12:30:04 [DEBUG] AISESServerRunner:20 - Starting Server
+2016-07-31 12:30:33 DEBUG [PostRepository:32] Creating a repository for Posts
+2016-07-31 12:30:33 DEBUG [PostService:26] Creating a service for Posts
+2016-07-31 12:30:33 DEBUG [PostController:28] Creating a controller for Posts
+2016-07-31 12:30:34 DEBUG [UploadService:23] Creating a service for Uploads
+2016-07-31 12:30:34 DEBUG [UploadController:39] Creating a controller for Uploads
+2016-07-31 12:30:34 DEBUG [AISESServerRunner:20] Starting Server

@@ -3,6 +3,8 @@ package com.aises.controller;
 import com.aises.domain.Post;
 import com.aises.server.Routes;
 import com.aises.service.PostService;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import spark.Request;
 import spark.Response;
 import spark.Spark;
@@ -14,6 +16,8 @@ import java.util.List;
  * Created by Brendan on 7/25/2016.
  */
 public class PostController implements Controller {
+    private static final Logger logger = LoggerFactory.getLogger(PostController.class);
+
     private static PostService postService;
 
     static {
@@ -21,6 +25,8 @@ public class PostController implements Controller {
     }
 
     public PostController() {
+        logger.debug("Creating a controller for Posts");
+
         Spark.before(Routes.POST_FILTER, (req, resp) -> checkPostAuthorization(req, resp));
 
         Spark.post(Routes.POST_NEW, (req, resp) -> createNewPost(req, resp), JSONUtils.JSON());
@@ -33,7 +39,7 @@ public class PostController implements Controller {
     }
 
     private void checkPostAuthorization(Request req, Response resp) {
-        System.out.println("Checking user credentials before retrieving or sending posts");
+        logger.debug("Checking user credentials before retrieving or sending posts");
         // Check session / cookies for information
     }
 

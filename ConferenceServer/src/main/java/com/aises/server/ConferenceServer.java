@@ -1,6 +1,7 @@
 package com.aises.server;
 
 import com.aises.controller.PostController;
+import com.aises.controller.UploadController;
 import com.aises.repository.PostRepository;
 import spark.Spark;
 
@@ -22,6 +23,7 @@ public class ConferenceServer {
     protected ConferenceServer() {
         Spark.port(LISTEN_PORT);
         Spark.threadPool(MAX_THREADS);
+        Spark.staticFiles.externalLocation("uploads");
         // Debug info
         // RouteOverview.enableRouteOverview("/routes/help");
     }
@@ -40,6 +42,7 @@ public class ConferenceServer {
 
     public void configureControllers() {
         PostController postController = new PostController();
+        UploadController uploadController = new UploadController();
     }
 
     public void run() {

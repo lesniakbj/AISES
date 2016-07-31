@@ -9,7 +9,6 @@ import org.slf4j.LoggerFactory;
  */
 public class AISESServerRunner {
     private static final Logger logger = LoggerFactory.getLogger(AISESServerRunner.class);
-
     public static void main(String[] args) {
         // There can only ever be one server and one database, so we
         // model them as singletons within the system. Keeps state in
@@ -18,7 +17,7 @@ public class AISESServerRunner {
         server.configureRepositories();
         server.configureControllers();
 
-        logger.info("Starting Server");
+        logger.debug("Starting Server");
         server.run();
     }
 }

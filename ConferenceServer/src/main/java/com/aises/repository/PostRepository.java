@@ -2,6 +2,8 @@ package com.aises.repository;
 
 import com.aises.domain.Post;
 import com.aises.server.Database;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 import java.sql.*;
 import java.util.ArrayList;
@@ -11,6 +13,8 @@ import java.util.List;
  * Created by Brendan on 7/25/2016.
  */
 public class PostRepository {
+    private static final Logger logger = LoggerFactory.getLogger(PostRepository.class);
+
     private static PostRepository instance;
     private Database database;
 
@@ -25,6 +29,8 @@ public class PostRepository {
     private static final String FIND_POST_RANGE = "SELECT * FROM Post WHERE post_id >= ? AND post_id <= ?";
 
     protected PostRepository(Database database) {
+        logger.debug("Creating a repository for Posts");
+
         if(database != null) {
             this.database = database;
         }
@@ -50,12 +56,14 @@ public class PostRepository {
     }
 
     public boolean createNewPost(Post post) throws SQLException {
-        System.out.println("Adding a new post!");
+        logger.debug("Adding a new post: {}", post);
         Connection conn = database.getConnection();
         PreparedStatement ps = conn.prepareStatement(INSERT_NEW_POST);
         ps.setString(1, post.getText());
         ps.setInt(2, post.getLength());
         ps.setTimestamp(3, Timestamp.valueOf(post.getDateCreated()));
+        //TODO Associate to a user... And create correct schema
+
         ps.executeUpdate();
         return true;
     }
