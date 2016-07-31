@@ -43,6 +43,8 @@ public class UploadController {
     }
 
     private File uploadMultiPartFile(Request req, Response resp) throws IOException, ServletException {
+        logger.debug("Uploading new file");
+
         MultipartConfigElement mce = new MultipartConfigElement(UPLOAD_DIRECTORY, MAX_FILE_SIZE, MAX_FILE_SIZE, WRITE_THRESHOLD);
         req.raw().setAttribute("org.eclipse.jetty.multipartConfig", mce);
 

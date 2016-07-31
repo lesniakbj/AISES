@@ -17,4 +17,8 @@ AISES.Routes = {
                 break;
         }
     },
+    
+    Templates: {
+        POST: 'templates/post.tmpl'
+    }
 }

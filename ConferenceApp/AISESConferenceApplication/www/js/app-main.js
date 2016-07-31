@@ -7,6 +7,7 @@ AISES.App = {
         // were installed to.
         AISES.Config.configureDeviceType();
         AISES.Config.configureResourceRoot();
+        AISES.Config.configureDataServer();
         
         // Then we can initialize the main datastore,
         // currently only supporting WebSQL or LocalStorage.

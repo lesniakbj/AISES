@@ -23,8 +23,9 @@ AISES.LoginController = {
             return;
         }
         
+        /*
         $.get({
-            url: 'http://localhost:5570/api/login',
+            url: 'AISES.Config.getDataServer() + /api/login',
             dataType: 'json',
             data: { 'User': us, 'Pass': pas },
             beforeSend: function() { $('#loader').show(); },
@@ -32,6 +33,9 @@ AISES.LoginController = {
             complete: function(){ $('#loader').hide(); },
             error: function(errorObj) { alert('Unable to login! ' + errorObj.status + ' - ' + errorObj.statusText); }
         });
+        */
+        
+        AISES.LoginController.loginSuccess(true);
     },
     
     loginSuccess: function(data) {

@@ -44,6 +44,7 @@ public class PostController implements Controller {
     }
 
     private Post createNewPost(Request req, Response resp) {
+        logger.debug("Creating new post");
         // From the request (body I believe) we will want
         // to get the JSON object that represents a new post.
         // Mainly, the text (and any attachments and metadata).
@@ -52,13 +53,19 @@ public class PostController implements Controller {
     }
 
     private Post getPost(Request req, Response resp) {
+        logger.debug("Getting single post");
+
         int postNumber = Integer.parseInt(req.params(":id"));
         return postService.getPost(postNumber);
     }
     private List<Post> getAllPosts(Request req, Response resp) {
+        logger.debug("Getting all posts");
+
         return postService.getAllPosts();
     }
     private List<Post> getPostRange(Request req, Response resp) {
+        logger.debug("Getting a range of posts");
+
         String low = req.queryParams("low");
         String high = req.queryParams("high");
         return postService.getPostRange(Integer.parseInt(low), Integer.parseInt(high));
