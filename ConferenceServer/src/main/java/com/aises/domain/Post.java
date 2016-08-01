@@ -1,12 +1,13 @@
 package com.aises.domain;
 
-import com.aises.domain.interfaces.Attachment;
+import org.apache.commons.lang3.builder.ReflectionToStringBuilder;
 
 import java.time.LocalDateTime;
-import java.util.List;
 
 /**
  * Created by Brendan on 7/25/2016.
+ *
+ * A post that can be put on a wall. In progress.
  */
 public class Post {
     private int id;
@@ -14,10 +15,8 @@ public class Post {
     private String text;
     private int length;
     private LocalDateTime dateCreated;
-    private List<Attachment> attachments;
 
-    private static final int MAX_ATTACHMENTS = 3;
-
+    @SuppressWarnings("unused")
     public int getId() {
         return id;
     }
@@ -32,9 +31,6 @@ public class Post {
     }
     public LocalDateTime getDateCreated() {
         return dateCreated;
-    }
-    public List<Attachment> getAttachments() {
-        return attachments;
     }
 
     public void setId(int id) {
@@ -52,13 +48,8 @@ public class Post {
     public void setDateCreated(LocalDateTime dateCreated) {
         this.dateCreated = dateCreated;
     }
-    public void setAttachments(List<Attachment> attachments) {
-        this.attachments = attachments;
-    }
 
-    public void addAttachment(Attachment newAttachment) {
-        if(attachments.size() < MAX_ATTACHMENTS) {
-            attachments.add(newAttachment);
-        }
+    public String toString() {
+        return ReflectionToStringBuilder.toString(this);
     }
 }

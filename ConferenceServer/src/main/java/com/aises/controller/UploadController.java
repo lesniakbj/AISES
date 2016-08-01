@@ -1,5 +1,6 @@
 package com.aises.controller;
 
+import com.aises.controller.interfaces.Controller;
 import com.aises.domain.File;
 import com.aises.server.Routes;
 import com.aises.service.UploadService;
@@ -7,7 +8,6 @@ import com.aises.utils.JSONUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import spark.Request;
-import spark.Response;
 import spark.Spark;
 
 import javax.servlet.MultipartConfigElement;
@@ -22,8 +22,9 @@ import java.io.IOException;
  * server.
  */
 public class UploadController implements Controller {
-    private static UploadService uploadService;
     private static final Logger logger = LoggerFactory.getLogger(UploadController.class);
+
+    private static final UploadService uploadService;
 
     public static final String UPLOAD_DIRECTORY = "uploads";
     private static final String UPLOAD_FORM_NAME = "upload-file";
@@ -38,11 +39,11 @@ public class UploadController implements Controller {
     public UploadController() {
         logger.debug("Creating a controller for Uploads");
 
-        Spark.post(Routes.UPLOAD, this::uploadMultiPartFile, JSONUtils.JSON());
+        Spark.post(Routes.UPLOAD, (req1, resp1) -> uploadMultiPartFile(req1), JSONUtils.JSON());
         Spark.after(Routes.UPLOAD, (req, resp) -> resp.header("Content-Type", "application/json"));
     }
 
-    private File uploadMultiPartFile(Request req, Response resp) throws IOException, ServletException {
+    private File uploadMultiPartFile(Request req) throws IOException, ServletException {
         logger.debug("Uploading new file");
 
         MultipartConfigElement mce = new MultipartConfigElement(UPLOAD_DIRECTORY, MAX_FILE_SIZE, MAX_FILE_SIZE, WRITE_THRESHOLD);

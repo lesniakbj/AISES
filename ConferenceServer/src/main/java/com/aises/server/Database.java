@@ -18,7 +18,7 @@ import java.util.Properties;
  */
 public class Database {
     private static final Logger logger = LoggerFactory.getLogger(Database.class);
-    private static Properties properties = new Properties();
+    private static final Properties properties = new Properties();
 
     private static final String DB_DRIVER_NAME = "org.postgresql.Driver";
     private static final String CONNECTION_TYPE = "jdbc:postgresql";

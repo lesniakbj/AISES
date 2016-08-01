@@ -12,8 +12,9 @@ import org.slf4j.LoggerFactory;
  * server and run it accordingly. It can most likely
  * be threaded to run in its own thread.
  */
-public class AISESServerRunner {
+class AISESServerRunner {
     private static final Logger logger = LoggerFactory.getLogger(AISESServerRunner.class);
+
     public static void main(String[] args) {
         // There can only ever be one server and one database, so we
         // model them as singletons within the system. Keeps state in

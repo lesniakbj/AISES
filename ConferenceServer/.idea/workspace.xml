@@ -14,7 +14,6 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
@@ -27,8 +26,8 @@
       <file leaf-file-name="UploadService.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/aises/service/UploadService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="14" column="3" selection-start-line="14" selection-start-column="3" selection-end-line="14" selection-end-column="3" />
+            <state relative-caret-position="208">
+              <caret line="57" column="64" selection-start-line="57" selection-start-column="64" selection-end-line="57" selection-end-column="64" />
               <folding>
                 <element signature="method#getInstance#0;class#UploadService#0" expanded="false" />
                 <element signature="method#uploadFile#0;class#UploadService#0" expanded="false" />
@@ -38,40 +37,93 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ConferenceServer.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/aises/server/ConferenceServer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="183">
-              <caret line="23" column="29" selection-start-line="23" selection-start-column="29" selection-end-line="23" selection-end-column="29" />
-              <folding>
-                <element signature="initializer##0;class#ConferenceServer#0" expanded="false" />
-                <element signature="method#getInstance#0;class#ConferenceServer#0" expanded="false" />
-                <element signature="e#1269#1270#0" expanded="true" />
-                <element signature="e#1339#1340#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Database.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/aises/server/Database.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
-              <caret line="13" column="35" selection-start-line="13" selection-start-column="35" selection-end-line="13" selection-end-column="35" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="method#Database#0;class#Database#0" expanded="false" />
-                <element signature="method#getInstance#0;class#Database#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/htdocs/index.html">
+      <file leaf-file-name="WebSocketController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/aises/controller/WebSocketController.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="136">
-              <caret line="8" column="7" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
+              <caret line="10" column="55" selection-start-line="10" selection-start-column="55" selection-end-line="10" selection-end-column="55" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ConferenceServer.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/aises/server/ConferenceServer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="208">
+              <caret line="33" column="29" selection-start-line="33" selection-start-column="29" selection-end-line="33" selection-end-column="29" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="initializer##0;class#ConferenceServer#0" expanded="false" />
+                <element signature="method#getInstance#0;class#ConferenceServer#0" expanded="false" />
+                <element signature="method#configureControllers#0;class#ConferenceServer#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="27" column="21" selection-start-line="27" selection-start-column="21" selection-end-line="27" selection-end-column="21" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PostRepository.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/aises/repository/PostRepository.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+              <folding>
+                <element signature="method#findAllPosts#0;class#PostRepository#0" expanded="false" />
+                <element signature="method#findPostRange#0;class#PostRepository#0" expanded="false" />
+                <element signature="method#parseToPost#0;class#PostRepository#0" expanded="false" />
+                <marker date="1470009961101" expanded="true" signature="680:695" ph="DROP TABLE P... " />
+                <marker date="1470009961101" expanded="true" signature="751:903" ph="CREATE TABLE... IF" />
+                <marker date="1470009961101" expanded="true" signature="953:992" ph="SELECT MAX(p... Post" />
+                <marker date="1470009961101" expanded="true" signature="1047:1108" ph="INSERT INTO Post... " />
+                <marker date="1470009961101" expanded="true" signature="1163:1199" ph="SELECT * FRO... Post" />
+                <marker date="1470009961101" expanded="true" signature="1252:1270" ph="SELECT * FRO... Post" />
+                <marker date="1470009961101" expanded="true" signature="1324:1378" ph="SELECT * FRO... Post" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PostService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/aises/service/PostService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="16" column="23" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
+              <folding>
+                <element signature="initializer##0;class#PostService#0" expanded="false" />
+                <element signature="method#addNewPost#0;class#PostService#0" expanded="false" />
+                <element signature="method#getPost#0;class#PostService#0" expanded="false" />
+                <element signature="method#getPostRange#0;class#PostService#0" expanded="false" />
+                <element signature="method#getInstance#0;class#PostService#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Routes.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/aises/server/Routes.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" column="50" selection-start-line="5" selection-start-column="50" selection-end-line="5" selection-end-column="50" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Service.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/aises/service/interfaces/Service.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" column="33" selection-start-line="5" selection-start-column="33" selection-end-line="5" selection-end-column="33" />
               <folding />
             </state>
           </provider>
@@ -82,8 +134,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -95,11 +147,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$MAVEN_REPOSITORY$/com/sparkjava/spark-core/2.3/spark-core-2.3.jar!/spark/Route.class" />
-        <option value="$PROJECT_DIR$/src/main/java/JSONUtils.java" />
-        <option value="$PROJECT_DIR$/src/main/java/AISESConferenceServer.java" />
-        <option value="$PROJECT_DIR$/src/main/java/User.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Main.java" />
         <option value="$PROJECT_DIR$/src/main/java/domain/User.java" />
         <option value="$PROJECT_DIR$/src/main/java/server/AISESConferenceServer.java" />
         <option value="$PROJECT_DIR$/src/main/java/server/Route.java" />
@@ -123,28 +170,34 @@
         <option value="$PROJECT_DIR$/src/main/java/controller/PostController.java" />
         <option value="$PROJECT_DIR$/src/main/java/server/Database.java" />
         <option value="$PROJECT_DIR$/src/main/resources/simplelogger.properties" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/service/PostService.java" />
         <option value="$PROJECT_DIR$/src/main/java/AISESServerRunner.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/aises/Routes.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/aises/domain/File.java" />
         <option value="$PROJECT_DIR$/src/main/resources/log4j.properties" />
         <option value="$PROJECT_DIR$/src/main/resources/db.properties" />
-        <option value="$PROJECT_DIR$/src/main/java/com/aises/domain/Post.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/aises/server/Routes.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/aises/controller/PostController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/aises/domain/BaseAttachment.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/aises/controller/UploadController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/aises/repository/PostRepository.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/aises/server/ConferenceServer.java" />
-        <option value="$PROJECT_DIR$/htdocs/index.html" />
-        <option value="$PROJECT_DIR$/src/main/java/com/aises/AISESServerRunner.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/aises/utils/JSONUtils.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/aises/repository/Repository.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/aises/controller/Controller.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/aises/service/UploadService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/aises/service/PostService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/aises/domain/ImageAttachment.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/aises/controller/interfaces/Controller.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/aises/repository/interfaces/Repository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/aises/AISESServerRunner.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/aises/controller/WebsocketController.java" />
+        <option value="$PROJECT_DIR$/htdocs/index.html" />
         <option value="$PROJECT_DIR$/src/main/java/com/aises/server/Database.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/aises/controller/UploadController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/aises/server/ConferenceServer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/aises/controller/PostController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/aises/repository/PostRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/aises/service/PostService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/aises/server/Routes.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/aises/service/interfaces/Service.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/aises/controller/WebSocketController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/aises/service/UploadService.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/aises/domain/File.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/aises/domain/Post.java" />
       </list>
     </option>
   </component>
@@ -197,18 +250,14 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
             <PATH_ELEMENT>
               <option name="myItemId" value="ConferenceServer" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="External Libraries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -309,13 +358,73 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="service" />
+              <option name="myItemId" value="server" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ConferenceServer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ConferenceServer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="aises" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="domain" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ConferenceServer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ConferenceServer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="aises" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controller" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -331,11 +440,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.aises.controller" />
       <recent name="com.aises.service" />
       <recent name="repository" />
       <recent name="service" />
       <recent name="controller" />
-      <recent name="" />
     </key>
   </component>
   <component name="RunManager" selected="Application.AISESServerRunner (1)">
@@ -408,11 +517,19 @@
       <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
       <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
       <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="DEBUGGER_TYPE" value="Java" />
       <option name="USE_LAST_SELECTED_DEVICE" value="false" />
       <option name="PREFERRED_AVD" value="" />
+      <Java />
+      <Profilers>
+        <option name="GAPID_DISABLE_PCS" value="false" />
+      </Profilers>
       <option name="DEEP_LINK" value="" />
       <option name="ACTIVITY_CLASS" value="" />
-      <method />
+      <method>
+        <option name="Make" enabled="true" />
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
     </configuration>
     <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
       <module name="" />
@@ -428,9 +545,17 @@
       <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
       <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
       <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="DEBUGGER_TYPE" value="Java" />
       <option name="USE_LAST_SELECTED_DEVICE" value="false" />
       <option name="PREFERRED_AVD" value="" />
-      <method />
+      <Java />
+      <Profilers>
+        <option name="GAPID_DISABLE_PCS" value="false" />
+      </Profilers>
+      <method>
+        <option name="Make" enabled="true" />
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
     </configuration>
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
@@ -512,6 +637,9 @@
       <envs />
       <properties />
       <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="Cold Fusion runner description" factoryName="Cold Fusion" custom_browser="" web_path="">
       <method />
     </configuration>
     <configuration default="true" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java">
@@ -821,12 +949,13 @@
       <workItem from="1469898261995" duration="10573000" />
       <workItem from="1469925159332" duration="4807000" />
       <workItem from="1469982199445" duration="4308000" />
-      <workItem from="1469992362090" duration="6303000" />
+      <workItem from="1469992362090" duration="6910000" />
+      <workItem from="1470008123615" duration="2436000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="48697000" />
+    <option name="totallyTimeSpent" value="51740000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1096" extended-state="6" />
@@ -839,24 +968,25 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2112676" sideWeight="0.5021322" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3997923" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25129804" sideWeight="0.4978678" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25129804" sideWeight="0.4978678" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16791044" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection Results" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32917964" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32827735" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3281412" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3997923" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -877,15 +1007,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/main/java/com/aises/domain/BaseAttachment.java</url>
-          <line>11</line>
-          <properties class="domain.BaseAttachment" method="getType" />
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-      <option name="time" value="27" />
+      <option name="time" value="28" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -894,24 +1016,14 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/aises/controller/PostController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="646">
-          <caret line="45" column="35" selection-start-line="45" selection-start-column="35" selection-end-line="45" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="initializer##0;class#PostController#0" expanded="false" />
-            <element signature="method#getPostFromQuery#0;class#PostController#0" expanded="false" />
-            <element signature="method#getPostRange#0;class#PostController#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/aises/utils/JSONUtils.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#457#458#0" expanded="false" />
+            <element signature="e#512#513#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -920,11 +1032,10 @@
         <state relative-caret-position="323">
           <caret line="23" column="41" selection-start-line="23" selection-start-column="41" selection-end-line="23" selection-end-column="41" />
           <folding>
-            <element signature="e#617#618#0" expanded="false" />
-            <element signature="e#677#678#0" expanded="false" />
+            <element signature="initializer##0;class#PostService#0" expanded="false" />
             <element signature="method#addNewPost#0;class#PostService#0" expanded="false" />
             <element signature="method#getPost#0;class#PostService#0" expanded="false" />
-            <element signature="method#getAllPosts#0;class#PostService#0" expanded="false" />
+            <element signature="method#getPostRange#0;class#PostService#0" expanded="false" />
             <element signature="method#getInstance#0;class#PostService#0" expanded="false" />
           </folding>
         </state>
@@ -935,14 +1046,16 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="method#getNextId#0;class#PostRepository#0" expanded="false" />
-            <element signature="method#createNewPost#0;class#PostRepository#0" expanded="false" />
-            <element signature="method#findPostById#0;class#PostRepository#0" expanded="false" />
             <element signature="method#findAllPosts#0;class#PostRepository#0" expanded="false" />
             <element signature="method#findPostRange#0;class#PostRepository#0" expanded="false" />
-            <element signature="method#getInstance#0;class#PostRepository#0" expanded="false" />
-            <element signature="method#getInstance#1;class#PostRepository#0" expanded="false" />
             <element signature="method#parseToPost#0;class#PostRepository#0" expanded="false" />
+            <marker date="1470009961101" expanded="true" signature="680:695" ph="DROP TABLE P... " />
+            <marker date="1470009961101" expanded="true" signature="751:903" ph="CREATE TABLE... IF" />
+            <marker date="1470009961101" expanded="true" signature="953:992" ph="SELECT MAX(p... Post" />
+            <marker date="1470009961101" expanded="true" signature="1047:1108" ph="INSERT INTO Post... " />
+            <marker date="1470009961101" expanded="true" signature="1163:1199" ph="SELECT * FRO... Post" />
+            <marker date="1470009961101" expanded="true" signature="1252:1270" ph="SELECT * FRO... Post" />
+            <marker date="1470009961101" expanded="true" signature="1324:1378" ph="SELECT * FRO... Post" />
           </folding>
         </state>
       </provider>
@@ -970,8 +1083,10 @@
         <state relative-caret-position="238">
           <caret line="21" column="31" selection-start-line="21" selection-start-column="31" selection-end-line="21" selection-end-column="31" />
           <folding>
+            <element signature="imports" expanded="true" />
             <element signature="initializer##0;class#ConferenceServer#0" expanded="false" />
             <element signature="method#getInstance#0;class#ConferenceServer#0" expanded="false" />
+            <element signature="method#configureControllers#0;class#ConferenceServer#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -997,31 +1112,10 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/controller/LoginController.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/service/LoginService.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/repository/UserRepository.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/aises/domain/ImageAttachment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/aises/domain/VideoAttachment.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/aises/domain/interfaces/Attachment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="5" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/aises/exception/TooManyAttachmentsException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
         </state>
       </provider>
     </entry>
@@ -1054,14 +1148,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="27" column="21" selection-start-line="27" selection-start-column="21" selection-end-line="27" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/javax/servlet/javax.servlet-api/3.1.0/javax.servlet-api-3.1.0.jar!/javax/servlet/http/Part.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -1083,55 +1169,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/aises/domain/File.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_92/src.zip!/java/util/Properties.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="231">
           <caret line="433" column="0" selection-start-line="433" selection-start-column="0" selection-end-line="433" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/aises/domain/Post.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="9" column="3" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
-          <folding>
-            <element signature="method#addAttachment#0;class#Post#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/aises/server/Routes.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="37" selection-start-line="12" selection-start-column="37" selection-end-line="12" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/aises/controller/PostController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="560">
-          <caret line="77" column="58" selection-start-line="77" selection-start-column="58" selection-end-line="77" selection-end-column="58" />
-          <folding>
-            <element signature="initializer##0;class#PostController#0" expanded="false" />
-            <element signature="method#checkPostAuthorization#0;class#PostController#0" expanded="false" />
-            <element signature="method#createNewPost#0;class#PostController#0" expanded="false" />
-            <element signature="method#getPostFromQuery#0;class#PostController#0" expanded="false" />
-            <element signature="method#getSinglePost#0;class#PostController#0" expanded="false" />
-            <element signature="method#getAllPosts#0;class#PostController#0" expanded="false" />
-            <element signature="method#getPostRange#0;class#PostController#0" expanded="false" />
-            <element signature="e#2920#2921#0" expanded="true" />
-            <element signature="e#2983#2984#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1143,72 +1184,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/aises/repository/PostRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="14" column="50" selection-start-line="14" selection-start-column="50" selection-end-line="14" selection-end-column="50" />
-          <folding>
-            <element signature="method#createNewPost#0;class#PostRepository#0" expanded="false" />
-            <element signature="method#findAllPosts#0;class#PostRepository#0" expanded="false" />
-            <element signature="method#findPostRange#0;class#PostRepository#0" expanded="false" />
-            <element signature="method#getInstance#0;class#PostRepository#0" expanded="false" />
-            <element signature="method#getInstance#1;class#PostRepository#0" expanded="false" />
-            <element signature="method#parseToPost#0;class#PostRepository#0" expanded="false" />
-            <marker date="1470000123856" expanded="true" signature="536:551" ph="DROP TABLE P... " />
-            <marker date="1470000123856" expanded="true" signature="607:759" ph="CREATE TABLE... IF" />
-            <marker date="1470000123856" expanded="true" signature="809:848" ph="SELECT MAX(p... Post" />
-            <marker date="1470000123856" expanded="true" signature="903:964" ph="INSERT INTO Post... " />
-            <marker date="1470000123856" expanded="true" signature="1019:1055" ph="SELECT * FRO... Post" />
-            <marker date="1470000123856" expanded="true" signature="1108:1126" ph="SELECT * FRO... Post" />
-            <marker date="1470000123856" expanded="true" signature="1180:1234" ph="SELECT * FRO... Post" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/aises/domain/BaseAttachment.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/aises/server/ConferenceServer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="183">
-          <caret line="23" column="29" selection-start-line="23" selection-start-column="29" selection-end-line="23" selection-end-column="29" />
-          <folding>
-            <element signature="initializer##0;class#ConferenceServer#0" expanded="false" />
-            <element signature="method#getInstance#0;class#ConferenceServer#0" expanded="false" />
-            <element signature="e#1269#1270#0" expanded="true" />
-            <element signature="e#1339#1340#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/htdocs/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="7" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/aises/utils/JSONUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="11" column="3" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="3" />
-          <folding>
-            <element signature="e#456#457#0" expanded="true" />
-            <element signature="e#511#512#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/aises/AISESServerRunner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="10" selection-end-column="27" />
           <folding />
         </state>
       </provider>
@@ -1221,57 +1200,129 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/aises/controller/UploadController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/aises/domain/ImageAttachment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="53" selection-start-line="5" selection-start-column="53" selection-end-line="5" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/aises/controller/interfaces/Controller.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
-          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="21" selection-end-column="10" />
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/aises/repository/interfaces/Repository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/aises/exception/TooManyAttachmentsException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/aises/utils/JSONUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="11" column="3" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/aises/AISESServerRunner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/aises/domain/interfaces/Attachment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/htdocs/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="57" selection-start-line="6" selection-start-column="57" selection-end-line="6" selection-end-column="57" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/aises/server/Database.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="20" column="25" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="25" />
           <folding>
-            <element signature="method#uploadMultiPartFile#0;class#UploadController#0" expanded="false" />
+            <element signature="imports" expanded="true" />
+            <element signature="method#Database#0;class#Database#0" expanded="false" />
+            <element signature="method#getInstance#0;class#Database#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/aises/controller/Controller.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/aises/controller/UploadController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="18" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
+        <state relative-caret-position="252">
+          <caret line="45" column="48" selection-start-line="45" selection-start-column="48" selection-end-line="45" selection-end-column="48" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/aises/repository/Repository.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/aises/controller/PostController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="6" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/aises/service/Service.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="24" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/aises/service/UploadService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="14" column="3" selection-start-line="14" selection-start-column="3" selection-end-line="14" selection-end-column="3" />
+        <state relative-caret-position="136">
+          <caret line="20" column="44" selection-start-line="20" selection-start-column="44" selection-end-line="20" selection-end-column="44" />
           <folding>
-            <element signature="method#getInstance#0;class#UploadService#0" expanded="false" />
-            <element signature="method#uploadFile#0;class#UploadService#0" expanded="false" />
-            <element signature="method#writeUploadToDisk#0;class#UploadService#0" expanded="false" />
+            <element signature="initializer##0;class#PostController#0" expanded="false" />
+            <element signature="method#createNewPost#0;class#PostController#0" expanded="false" />
+            <element signature="method#getSinglePost#0;class#PostController#0" expanded="false" />
+            <element signature="method#getAllPosts#0;class#PostController#0" expanded="false" />
+            <element signature="method#getPostRange#0;class#PostController#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/aises/repository/PostRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding>
+            <element signature="method#findAllPosts#0;class#PostRepository#0" expanded="false" />
+            <element signature="method#findPostRange#0;class#PostRepository#0" expanded="false" />
+            <element signature="method#parseToPost#0;class#PostRepository#0" expanded="false" />
+            <marker date="1470009961101" expanded="true" signature="680:695" ph="DROP TABLE P... " />
+            <marker date="1470009961101" expanded="true" signature="751:903" ph="CREATE TABLE... IF" />
+            <marker date="1470009961101" expanded="true" signature="953:992" ph="SELECT MAX(p... Post" />
+            <marker date="1470009961101" expanded="true" signature="1047:1108" ph="INSERT INTO Post... " />
+            <marker date="1470009961101" expanded="true" signature="1163:1199" ph="SELECT * FRO... Post" />
+            <marker date="1470009961101" expanded="true" signature="1252:1270" ph="SELECT * FRO... Post" />
+            <marker date="1470009961101" expanded="true" signature="1324:1378" ph="SELECT * FRO... Post" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/aises/service/PostService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="11" column="3" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="3" />
+        <state relative-caret-position="136">
+          <caret line="16" column="23" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
           <folding>
+            <element signature="initializer##0;class#PostService#0" expanded="false" />
             <element signature="method#addNewPost#0;class#PostService#0" expanded="false" />
             <element signature="method#getPost#0;class#PostService#0" expanded="false" />
             <element signature="method#getPostRange#0;class#PostService#0" expanded="false" />
@@ -1280,14 +1331,83 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/aises/server/Database.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/aises/server/Routes.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="13" column="35" selection-start-line="13" selection-start-column="35" selection-end-line="13" selection-end-column="35" />
+        <state relative-caret-position="85">
+          <caret line="5" column="50" selection-start-line="5" selection-start-column="50" selection-end-line="5" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/aises/service/interfaces/Service.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="33" selection-start-line="5" selection-start-column="33" selection-end-line="5" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/aises/controller/WebSocketController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="10" column="55" selection-start-line="10" selection-start-column="55" selection-end-line="10" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/aises/service/UploadService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="57" column="64" selection-start-line="57" selection-start-column="64" selection-end-line="57" selection-end-column="64" />
+          <folding>
+            <element signature="method#getInstance#0;class#UploadService#0" expanded="false" />
+            <element signature="method#uploadFile#0;class#UploadService#0" expanded="false" />
+            <element signature="method#writeUploadToDisk#0;class#UploadService#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="27" column="21" selection-start-line="27" selection-start-column="21" selection-end-line="27" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/aises/domain/File.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="45" column="0" selection-start-line="45" selection-start-column="0" selection-end-line="47" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#Database#0;class#Database#0" expanded="false" />
-            <element signature="method#getInstance#0;class#Database#0" expanded="false" />
+            <element signature="e#1098#1099#0" expanded="true" />
+            <element signature="e#1161#1162#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/aises/domain/Post.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="531">
+          <caret line="53" column="5" selection-start-line="53" selection-start-column="5" selection-end-line="53" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1131#1132#0" expanded="true" />
+            <element signature="e#1194#1195#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/aises/server/ConferenceServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="33" column="29" selection-start-line="33" selection-start-column="29" selection-end-line="33" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="initializer##0;class#ConferenceServer#0" expanded="false" />
+            <element signature="method#getInstance#0;class#ConferenceServer#0" expanded="false" />
+            <element signature="method#configureControllers#0;class#ConferenceServer#0" expanded="false" />
           </folding>
         </state>
       </provider>

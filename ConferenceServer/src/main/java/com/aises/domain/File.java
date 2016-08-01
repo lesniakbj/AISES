@@ -1,9 +1,13 @@
 package com.aises.domain;
 
+import org.apache.commons.lang3.builder.ReflectionToStringBuilder;
+
 import java.time.LocalDateTime;
 
 /**
  * Created by Brendan on 7/30/2016.
+ *
+ * A File that can be Uploaded. Mostly images.
  */
 public class File {
     private String path;
@@ -11,6 +15,7 @@ public class File {
     private String extension;
     private LocalDateTime dateUploaded;
 
+    @SuppressWarnings("unused")
     public String getFilePath() {
         return path;
     }
@@ -20,6 +25,7 @@ public class File {
     public String getExtension() {
         return extension;
     }
+    @SuppressWarnings("unused")
     public LocalDateTime getDateUploaded() {
         return dateUploaded;
     }
@@ -35,5 +41,9 @@ public class File {
     }
     public void setDateUploaded(LocalDateTime dateUploaded) {
         this.dateUploaded = dateUploaded;
+    }
+
+    public String toString() {
+        return ReflectionToStringBuilder.toString(this);
     }
 }

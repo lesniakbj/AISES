@@ -1,6 +1,7 @@
 package com.aises.service;
 
 import com.aises.domain.Post;
+import com.aises.service.interfaces.Service;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import com.aises.repository.PostRepository;
@@ -11,18 +12,21 @@ import java.util.List;
 
 /**
  * Created by Brendan on 7/25/2016.
+ *
+ * A service layer that interfaces the Controller
+ * to the Repositories.
  */
 public class PostService implements Service {
     private static final Logger logger = LoggerFactory.getLogger(PostService.class);
 
     private static PostService instance;
-    private static PostRepository postRepository;
+    private static final PostRepository postRepository;
 
     static {
         postRepository = PostRepository.getInstance();
     }
 
-    protected PostService() {
+    private PostService() {
         logger.debug("Creating a service for Posts");
     }
 

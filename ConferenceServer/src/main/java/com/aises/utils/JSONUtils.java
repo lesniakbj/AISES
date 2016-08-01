@@ -11,7 +11,7 @@ import spark.ResponseTransformer;
  * responses and requests to and from objects.
  */
 public class JSONUtils {
-    public static String toJSON(Object obj) {
+    private static String toJSON(Object obj) {
         return new Gson().toJson(obj);
     }
 

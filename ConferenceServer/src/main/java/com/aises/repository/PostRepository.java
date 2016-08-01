@@ -1,6 +1,7 @@
 package com.aises.repository;
 
 import com.aises.domain.Post;
+import com.aises.repository.interfaces.Repository;
 import com.aises.server.Database;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -11,12 +12,15 @@ import java.util.List;
 
 /**
  * Created by Brendan on 7/25/2016.
+ *
+ * A repository that can be used to interact with
+ * the database for Post objects.
  */
 public class PostRepository implements Repository {
     private static final Logger logger = LoggerFactory.getLogger(PostRepository.class);
 
     private static PostRepository instance;
-    private Database database;
+    private final Database database;
 
     private static final String DROP_POST_TABLE = "DROP TABLE Post";
     private static final String CREATE_POST_TABLE = "CREATE TABLE IF NOT EXISTS Post(post_id SERIAL NOT NULL PRIMARY KEY, text varchar(1024) NULL, length int NULL, date_created TIMESTAMP WITHOUT TIME ZONE);";
@@ -28,7 +32,7 @@ public class PostRepository implements Repository {
     private static final String FIND_ALL_POSTS = "SELECT * FROM Post";
     private static final String FIND_POST_RANGE = "SELECT * FROM Post WHERE post_id >= ? AND post_id <= ?";
 
-    protected PostRepository(Database database) {
+    private PostRepository(Database database) {
         logger.debug("Creating a repository for Posts");
         this.database = database;
 
@@ -60,8 +64,9 @@ public class PostRepository implements Repository {
         ps.setTimestamp(3, Timestamp.valueOf(post.getDateCreated()));
         //TODO Associate to a user... And create correct schema
 
-        ps.executeUpdate();
-        return true;
+        int error = ps.executeUpdate();
+        logger.debug("New post return code: {}", error);
+        return error > 0;
     }
 
     public Post findPostById(int postId) throws SQLException {
@@ -103,7 +108,7 @@ public class PostRepository implements Repository {
 
         return instance;
     }
-    public static PostRepository getInstance(Database database) {
+    public static PostRepository getInstance(@SuppressWarnings("SameParameterValue") Database database) {
         if(instance == null) {
             instance = new PostRepository(database);
         }

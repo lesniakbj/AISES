@@ -1,5 +1,6 @@
 package com.aises.controller;
 
+import com.aises.controller.interfaces.Controller;
 import com.aises.domain.Post;
 import com.aises.server.Routes;
 import com.aises.service.PostService;
@@ -15,11 +16,14 @@ import java.util.List;
 
 /**
  * Created by Brendan on 7/25/2016.
+ *
+ * A controller to handle the routes that create,
+ * update, and delete posts from the system.
  */
 public class PostController implements Controller {
     private static final Logger logger = LoggerFactory.getLogger(PostController.class);
 
-    private static PostService postService;
+    private static final PostService postService;
 
     static {
         postService = PostService.getInstance();
@@ -28,22 +32,22 @@ public class PostController implements Controller {
     public PostController() {
         logger.debug("Creating a controller for Posts");
 
-        Spark.before(Routes.POST_FILTER, this::checkPostAuthorization);
+        Spark.before(Routes.POST_FILTER, (req, resp) -> checkPostAuthorization());
 
-        Spark.post(Routes.POST_NEW, this::createNewPost, JSONUtils.JSON());
+        Spark.post(Routes.POST_NEW, (req, resp) -> createNewPost(req), JSONUtils.JSON());
 
-        Spark.get(Routes.POST_ALL, this::getAllPosts, JSONUtils.JSON());
-        Spark.get(Routes.POST_FIND, this::getPostFromQuery, JSONUtils.JSON());
+        Spark.get(Routes.POST_ALL, (req, resp) -> getAllPosts(), JSONUtils.JSON());
+        Spark.get(Routes.POST_FIND, (req, resp) -> getPostFromQuery(req), JSONUtils.JSON());
 
-        Spark.after(Routes.POST_FILTER, this::addAjaxHeader);
+        Spark.after(Routes.POST_FILTER, (req, resp) -> addAjaxHeader(resp));
     }
 
-    private void checkPostAuthorization(Request req, Response resp) {
+    private void checkPostAuthorization() {
         logger.debug("Checking user credentials before retrieving or sending posts");
         // Check session / cookies for information
     }
 
-    private Post createNewPost(Request req, Response resp) {
+    private Post createNewPost(Request req) {
         logger.debug("Creating new post");
         // From the request (body I believe) we will want
         // to get the JSON object that represents a new post.
@@ -52,30 +56,30 @@ public class PostController implements Controller {
         return postService.addNewPost(post);
     }
 
-    private List<Post> getPostFromQuery(Request req, Response resp) {
+    private List<Post> getPostFromQuery(Request req) {
         logger.debug("Interpreting post query: {}", req.queryString());
         if(req.queryParams().contains("id")) {
-            return getSinglePost(req, resp);
+            return getSinglePost(req);
         }
 
         if(req.queryParams().contains("low") && req.queryParams().contains("high")) {
-            return getPostRange(req, resp);
+            return getPostRange(req);
         }
 
         return null;
     }
 
-    private List<Post> getSinglePost(Request req, Response resp) {
+    private List<Post> getSinglePost(Request req) {
         logger.debug("Getting a single post");
         int postNumber = Integer.parseInt(req.queryParams("id"));
         return Collections.singletonList(postService.getPost(postNumber));
     }
-    private List<Post> getAllPosts(Request req, Response resp) {
+    private List<Post> getAllPosts() {
         logger.debug("Getting all posts");
 
         return postService.getAllPosts();
     }
-    private List<Post> getPostRange(Request req, Response resp) {
+    private List<Post> getPostRange(Request req) {
         logger.debug("Getting a range of posts");
 
         String low = req.queryParams("low");
@@ -83,7 +87,7 @@ public class PostController implements Controller {
         return postService.getPostRange(Integer.parseInt(low), Integer.parseInt(high));
     }
 
-    private void addAjaxHeader(Request req, Response resp) {
+    private void addAjaxHeader(Response resp) {
         resp.header("Content-Type", "application/json");
     }
 }

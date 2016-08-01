@@ -1,4 +1,4 @@
-package com.aises.repository;
+package com.aises.repository.interfaces;
 
 /**
  * Created by Brendan on 7/31/2016.

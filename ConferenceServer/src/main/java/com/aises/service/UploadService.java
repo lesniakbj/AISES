@@ -2,6 +2,7 @@ package com.aises.service;
 
 import com.aises.controller.UploadController;
 import com.aises.domain.File;
+import com.aises.service.interfaces.Service;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -14,12 +15,15 @@ import java.util.Arrays;
 
 /**
  * Created by Brendan on 7/30/2016.
+ *
+ * A service to handle Uploads for the UploadController.
  */
 public class UploadService implements Service {
     private static final Logger logger = LoggerFactory.getLogger(UploadService.class);
+
     private static UploadService instance;
 
-    protected UploadService() {
+    private UploadService() {
         logger.debug("Creating a service for Uploads");
     }
 
@@ -51,7 +55,7 @@ public class UploadService implements Service {
     }
 
     private File createFileFromParts(Part fileUpload, String[] fileParts) {
-        String fileName = String.join(".", Arrays.copyOfRange(fileParts, 0, fileParts.length - 1));
+        String fileName = String.join(".", (CharSequence[]) Arrays.copyOfRange(fileParts, 0, fileParts.length - 1));
         String extension = "." + fileParts[fileParts.length - 1];
 
         // Create the initial file, then save the Part to disk,
@@ -81,9 +85,9 @@ public class UploadService implements Service {
         return isValidImageExtension(ext) || isValidVideoExtension(ext);
     }
     private boolean isValidImageExtension(String ext) {
-        return false;
+        return ext.length() > 0;
     }
     private boolean isValidVideoExtension(String ext) {
-        return false;
+        return ext.length() < 0;
     }
 }
