@@ -29,23 +29,26 @@
 }
 
 #main-content {
-    height:100vh;
+    height: 90vh;
+    margin-top: 2vh;
 }
 
 #loader {
     display: none;
-    height:100vh;
+    height: 90vh;
+    margin-top: 2vh;
 }
 
 #login-form {
-    margin-top: 40%;
-    padding: 1em;
+    padding-top: 50%;
 }
 
-.login-button {
-    margin-left: 10%;
+.login-button a {
+    padding: 0 1em;
+    margin: auto;
+    display: block;
 }
 
 .login-button:not(:first-of-type) {
-    margin-left: 14%;
+    margin-top: 1em;
 }

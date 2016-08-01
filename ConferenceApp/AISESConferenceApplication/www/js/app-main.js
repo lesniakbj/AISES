@@ -17,8 +17,14 @@ AISES.App = {
         AISES.DataStore.initDataStore();
         
         // Then we need to route to the login screen
+        AISES.History.pushRoute(AISES.Routes.LOGIN);
         AISES.Routes.routeTo(AISES.Routes.LOGIN);
+    },
+    
+    handleBackButton: function() {
+        AISES.Routes.routeTo(AISES.History.popRoute());
     }
 };
 
 document.addEventListener("app.Ready", AISES.App.init, false);
+document.addEventListener("backbutton", AISES.App.handleBackButton, false);

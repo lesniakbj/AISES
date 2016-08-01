@@ -446,3 +446,80 @@
 2016-07-31 21:50:59 DEBUG [AISESServerRunner:26] Starting Server
 2016-07-31 21:51:00 DEBUG [PostController:46] Checking user credentials before retrieving or sending posts
 2016-07-31 21:51:00 DEBUG [PostController:78] Getting all posts
+2016-07-31 22:17:40 DEBUG [PostRepository:36] Creating a repository for Posts
+2016-07-31 22:17:40 DEBUG [WebSocketController:17] Creating a controller for Posts
+2016-07-31 22:17:40 DEBUG [PostService:30] Creating a service for Posts
+2016-07-31 22:17:40 DEBUG [PostController:33] Creating a controller for Posts
+2016-07-31 22:17:40 DEBUG [UploadService:27] Creating a service for Uploads
+2016-07-31 22:17:40 DEBUG [UploadController:40] Creating a controller for Uploads
+2016-07-31 22:17:40 DEBUG [AISESServerRunner:26] Starting Server
+2016-07-31 22:17:47 DEBUG [PostController:46] Checking user credentials before retrieving or sending posts
+2016-07-31 22:17:47 DEBUG [PostController:78] Getting all posts
+2016-07-31 22:18:01 DEBUG [PostController:46] Checking user credentials before retrieving or sending posts
+2016-07-31 22:18:01 DEBUG [PostController:78] Getting all posts
+2016-07-31 22:31:33 DEBUG [PostController:46] Checking user credentials before retrieving or sending posts
+2016-07-31 22:31:33 DEBUG [PostController:78] Getting all posts
+2016-07-31 22:31:40 DEBUG [PostController:46] Checking user credentials before retrieving or sending posts
+2016-07-31 22:31:40 DEBUG [PostController:51] Creating new post
+2016-07-31 22:31:40 DEBUG [PostService:45] Attempting to add new post: com.aises.domain.Post@41fb54df[id=0,userId=0,text=Tha fsdf asd as d f s a dfsfe!,length=30,dateCreated=2016-07-31T22:31:40.166]
+2016-07-31 22:31:40 DEBUG [PostRepository:59] Adding a new post: com.aises.domain.Post@41fb54df[id=0,userId=0,text=Tha fsdf asd as d f s a dfsfe!,length=30,dateCreated=2016-07-31T22:31:40.166]
+2016-07-31 22:31:40 DEBUG [PostRepository:68] New post return code: 1
+2016-07-31 22:31:40 DEBUG [PostController:46] Checking user credentials before retrieving or sending posts
+2016-07-31 22:31:40 DEBUG [PostController:51] Creating new post
+2016-07-31 22:31:40 DEBUG [PostService:45] Attempting to add new post: com.aises.domain.Post@7f5c754c[id=1,userId=0,text=Tha fsdf asd as d f s a dfsfe!,length=30,dateCreated=2016-07-31T22:31:40.301]
+2016-07-31 22:31:40 DEBUG [PostRepository:59] Adding a new post: com.aises.domain.Post@7f5c754c[id=1,userId=0,text=Tha fsdf asd as d f s a dfsfe!,length=30,dateCreated=2016-07-31T22:31:40.301]
+2016-07-31 22:31:40 DEBUG [PostRepository:68] New post return code: 1
+2016-07-31 22:31:40 DEBUG [PostController:46] Checking user credentials before retrieving or sending posts
+2016-07-31 22:31:40 DEBUG [PostController:51] Creating new post
+2016-07-31 22:31:40 DEBUG [PostService:45] Attempting to add new post: com.aises.domain.Post@670b312c[id=2,userId=0,text=Tha fsdf asd as d f s a dfsfe!,length=30,dateCreated=2016-07-31T22:31:40.449]
+2016-07-31 22:31:40 DEBUG [PostRepository:59] Adding a new post: com.aises.domain.Post@670b312c[id=2,userId=0,text=Tha fsdf asd as d f s a dfsfe!,length=30,dateCreated=2016-07-31T22:31:40.449]
+2016-07-31 22:31:40 DEBUG [PostRepository:68] New post return code: 1
+2016-07-31 22:31:40 DEBUG [PostController:46] Checking user credentials before retrieving or sending posts
+2016-07-31 22:31:40 DEBUG [PostController:51] Creating new post
+2016-07-31 22:31:40 DEBUG [PostService:45] Attempting to add new post: com.aises.domain.Post@7360b92a[id=3,userId=0,text=Tha fsdf asd as d f s a dfsfe!,length=30,dateCreated=2016-07-31T22:31:40.586]
+2016-07-31 22:31:40 DEBUG [PostRepository:59] Adding a new post: com.aises.domain.Post@7360b92a[id=3,userId=0,text=Tha fsdf asd as d f s a dfsfe!,length=30,dateCreated=2016-07-31T22:31:40.586]
+2016-07-31 22:31:40 DEBUG [PostRepository:68] New post return code: 1
+2016-07-31 22:31:40 DEBUG [PostController:46] Checking user credentials before retrieving or sending posts
+2016-07-31 22:31:40 DEBUG [PostController:51] Creating new post
+2016-07-31 22:31:40 DEBUG [PostService:45] Attempting to add new post: com.aises.domain.Post@3a5ef4c3[id=4,userId=0,text=Tha fsdf asd as d f s a dfsfe!,length=30,dateCreated=2016-07-31T22:31:40.739]
+2016-07-31 22:31:40 DEBUG [PostRepository:59] Adding a new post: com.aises.domain.Post@3a5ef4c3[id=4,userId=0,text=Tha fsdf asd as d f s a dfsfe!,length=30,dateCreated=2016-07-31T22:31:40.739]
+2016-07-31 22:31:40 DEBUG [PostRepository:68] New post return code: 1
+2016-07-31 22:31:40 DEBUG [PostController:46] Checking user credentials before retrieving or sending posts
+2016-07-31 22:31:40 DEBUG [PostController:51] Creating new post
+2016-07-31 22:31:40 DEBUG [PostService:45] Attempting to add new post: com.aises.domain.Post@2209a3a9[id=5,userId=0,text=Tha fsdf asd as d f s a dfsfe!,length=30,dateCreated=2016-07-31T22:31:40.874]
+2016-07-31 22:31:40 DEBUG [PostRepository:59] Adding a new post: com.aises.domain.Post@2209a3a9[id=5,userId=0,text=Tha fsdf asd as d f s a dfsfe!,length=30,dateCreated=2016-07-31T22:31:40.874]
+2016-07-31 22:31:40 DEBUG [PostRepository:68] New post return code: 1
+2016-07-31 22:31:44 DEBUG [PostController:46] Checking user credentials before retrieving or sending posts
+2016-07-31 22:31:44 DEBUG [PostController:51] Creating new post
+2016-07-31 22:31:44 DEBUG [PostService:45] Attempting to add new post: com.aises.domain.Post@b3978e3[id=6,userId=0,text=Tha fsdasdfsadf asdfsadf sfe!,length=29,dateCreated=2016-07-31T22:31:44.306]
+2016-07-31 22:31:44 DEBUG [PostRepository:59] Adding a new post: com.aises.domain.Post@b3978e3[id=6,userId=0,text=Tha fsdasdfsadf asdfsadf sfe!,length=29,dateCreated=2016-07-31T22:31:44.306]
+2016-07-31 22:31:44 DEBUG [PostRepository:68] New post return code: 1
+2016-07-31 22:31:44 DEBUG [PostController:46] Checking user credentials before retrieving or sending posts
+2016-07-31 22:31:44 DEBUG [PostController:51] Creating new post
+2016-07-31 22:31:44 DEBUG [PostService:45] Attempting to add new post: com.aises.domain.Post@6fde584a[id=7,userId=0,text=Tha fsdasdfsadf asdfsadf sfe!,length=29,dateCreated=2016-07-31T22:31:44.436]
+2016-07-31 22:31:44 DEBUG [PostRepository:59] Adding a new post: com.aises.domain.Post@6fde584a[id=7,userId=0,text=Tha fsdasdfsadf asdfsadf sfe!,length=29,dateCreated=2016-07-31T22:31:44.436]
+2016-07-31 22:31:44 DEBUG [PostRepository:68] New post return code: 1
+2016-07-31 22:31:44 DEBUG [PostController:46] Checking user credentials before retrieving or sending posts
+2016-07-31 22:31:44 DEBUG [PostController:51] Creating new post
+2016-07-31 22:31:44 DEBUG [PostService:45] Attempting to add new post: com.aises.domain.Post@13e1671e[id=8,userId=0,text=Tha fsdasdfsadf asdfsadf sfe!,length=29,dateCreated=2016-07-31T22:31:44.571]
+2016-07-31 22:31:44 DEBUG [PostRepository:59] Adding a new post: com.aises.domain.Post@13e1671e[id=8,userId=0,text=Tha fsdasdfsadf asdfsadf sfe!,length=29,dateCreated=2016-07-31T22:31:44.571]
+2016-07-31 22:31:44 DEBUG [PostRepository:68] New post return code: 1
+2016-07-31 22:31:44 DEBUG [PostController:46] Checking user credentials before retrieving or sending posts
+2016-07-31 22:31:44 DEBUG [PostController:51] Creating new post
+2016-07-31 22:31:44 DEBUG [PostService:45] Attempting to add new post: com.aises.domain.Post@6250ab96[id=9,userId=0,text=Tha fsdasdfsadf asdfsadf sfe!,length=29,dateCreated=2016-07-31T22:31:44.710]
+2016-07-31 22:31:44 DEBUG [PostRepository:59] Adding a new post: com.aises.domain.Post@6250ab96[id=9,userId=0,text=Tha fsdasdfsadf asdfsadf sfe!,length=29,dateCreated=2016-07-31T22:31:44.710]
+2016-07-31 22:31:44 DEBUG [PostRepository:68] New post return code: 1
+2016-07-31 22:31:44 DEBUG [PostController:46] Checking user credentials before retrieving or sending posts
+2016-07-31 22:31:44 DEBUG [PostController:51] Creating new post
+2016-07-31 22:31:44 DEBUG [PostService:45] Attempting to add new post: com.aises.domain.Post@b2eef77[id=10,userId=0,text=Tha fsdasdfsadf asdfsadf sfe!,length=29,dateCreated=2016-07-31T22:31:44.848]
+2016-07-31 22:31:44 DEBUG [PostRepository:59] Adding a new post: com.aises.domain.Post@b2eef77[id=10,userId=0,text=Tha fsdasdfsadf asdfsadf sfe!,length=29,dateCreated=2016-07-31T22:31:44.848]
+2016-07-31 22:31:44 DEBUG [PostRepository:68] New post return code: 1
+2016-07-31 22:31:45 DEBUG [PostController:46] Checking user credentials before retrieving or sending posts
+2016-07-31 22:31:45 DEBUG [PostController:51] Creating new post
+2016-07-31 22:31:45 DEBUG [PostService:45] Attempting to add new post: com.aises.domain.Post@2dddb61f[id=11,userId=0,text=Tha fsdasdfsadf asdfsadf sfe!,length=29,dateCreated=2016-07-31T22:31:45.001]
+2016-07-31 22:31:45 DEBUG [PostRepository:59] Adding a new post: com.aises.domain.Post@2dddb61f[id=11,userId=0,text=Tha fsdasdfsadf asdfsadf sfe!,length=29,dateCreated=2016-07-31T22:31:45.001]
+2016-07-31 22:31:45 DEBUG [PostRepository:68] New post return code: 1
+2016-07-31 22:33:57 DEBUG [PostController:46] Checking user credentials before retrieving or sending posts
+2016-07-31 22:33:57 DEBUG [PostController:78] Getting all posts
+2016-07-31 22:40:48 DEBUG [PostController:46] Checking user credentials before retrieving or sending posts
+2016-07-31 22:40:48 DEBUG [PostController:78] Getting all posts
