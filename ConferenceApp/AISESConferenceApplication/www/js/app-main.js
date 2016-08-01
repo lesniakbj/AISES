@@ -17,7 +17,6 @@ AISES.App = {
         AISES.DataStore.initDataStore();
         
         // Then we need to route to the login screen
-        AISES.History.pushRoute(AISES.Routes.LOGIN);
         AISES.Routes.routeTo(AISES.Routes.LOGIN);
     },
     

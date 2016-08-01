@@ -28,6 +28,7 @@ AISES.LoginController = {
     
     loginSuccess: function(userData) {
         // Save any user data before we leave
+        AISES.History.pushRoute(AISES.Routes.LOGIN);
         AISES.Routes.routeTo(AISES.Routes.HOME);
     },
     
