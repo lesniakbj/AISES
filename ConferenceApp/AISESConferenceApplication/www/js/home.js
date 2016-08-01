@@ -26,6 +26,11 @@ AISES.HomeController = {
             'text': $('#new-post-text').val()
         };
         
+        if(post.text.length < 4) {
+            alert("Please create a longer message");
+            return;
+        }
+        
         $('#new-post-text').val('');
         $.post({
             url: AISES.Config.getDataServer() + '/post/new',

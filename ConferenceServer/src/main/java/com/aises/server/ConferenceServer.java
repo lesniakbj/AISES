@@ -7,6 +7,7 @@ import com.aises.controller.PostController;
 import com.aises.controller.UploadController;
 import com.aises.repository.PostRepository;
 import com.aises.repository.interfaces.Repository;
+import com.aises.utils.JSONUtils;
 import org.apache.commons.lang3.builder.ToStringBuilder;
 import org.apache.commons.lang3.builder.ToStringStyle;
 import org.slf4j.Logger;
@@ -49,6 +50,7 @@ public class ConferenceServer {
         Spark.threadPool(MAX_THREADS, MIN_THREADS, THREAD_TIMEOUT);
         Spark.staticFiles.externalLocation(UploadController.UPLOAD_DIRECTORY);
         Spark.webSocket(Routes.NOTIFICATIONS, WebSocketController.class);
+        Spark.after(Routes.NOTIFICATIONS_FILTER, (req, resp) -> JSONUtils.addAjaxHeader(resp));
     }
 
     public static ConferenceServer getInstance() {

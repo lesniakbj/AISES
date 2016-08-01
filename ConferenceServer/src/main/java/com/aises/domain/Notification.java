@@ -9,18 +9,15 @@ import com.aises.domain.enums.NotificationType;
 public class Notification {
     private NotificationType type;
     private NotificationEvent event;
-
-    public NotificationType getType() {
-        return type;
-    }
-    public NotificationEvent getEvent() {
-        return event;
-    }
+    private String adminMessage;
 
     public void setType(NotificationType type) {
         this.type = type;
     }
     public void setEvent(NotificationEvent event) {
         this.event = event;
+    }
+    public void setAdminMessage(String adminMessage) {
+        this.adminMessage = adminMessage;
     }
 }

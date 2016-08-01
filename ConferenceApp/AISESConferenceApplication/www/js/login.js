@@ -26,14 +26,17 @@ AISES.LoginController = {
         alert("Unsupported at this time!");
     },
     
-    loginSuccess: function(userData) {
+    loginSuccess: function(loginResponse) {
+        AISES.Notifications.sendMessage(loginResponse.authResponse.accessToken, "Hello Message!")
+        
         // Save any user data before we leave
         AISES.History.pushRoute(AISES.Routes.LOGIN);
         AISES.Routes.routeTo(AISES.Routes.HOME);
     },
     
     loginFailure: function(error) {
-        alert("Unable to login, please try again!");
+        alert("Unable to login, please try again!" + JSON.stringify(error));
+        console.log(error);
         return;
     }
 };

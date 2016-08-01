@@ -1,6 +1,7 @@
 package com.aises.utils;
 
 import com.google.gson.Gson;
+import spark.Response;
 import spark.ResponseTransformer;
 
 /**
@@ -21,5 +22,9 @@ public class JSONUtils {
 
     public static ResponseTransformer JSON() {
         return JSONUtils::toJSON;
+    }
+
+    public static void addAjaxHeader(Response resp) {
+        resp.header("Content-Type", "application/json");
     }
 }

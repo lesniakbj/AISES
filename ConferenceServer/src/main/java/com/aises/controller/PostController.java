@@ -36,13 +36,10 @@ public class PostController implements Controller {
         logger.debug("Creating a controller for Posts");
 
         Spark.before(Routes.POST_FILTER, (req, resp) -> checkPostAuthorization());
-
         Spark.post(Routes.POST_NEW, (req, resp) -> createNewPost(req), JSONUtils.JSON());
-
         Spark.get(Routes.POST_ALL, (req, resp) -> getAllPosts(), JSONUtils.JSON());
         Spark.get(Routes.POST_FIND, (req, resp) -> getPostFromQuery(req), JSONUtils.JSON());
-
-        Spark.after(Routes.POST_FILTER, (req, resp) -> addAjaxHeader(resp));
+        Spark.after(Routes.POST_FILTER, (req, resp) -> JSONUtils.addAjaxHeader(resp));
     }
 
     private void checkPostAuthorization() {
@@ -81,7 +78,6 @@ public class PostController implements Controller {
 
         return null;
     }
-
     private List<Post> getSinglePost(Request req) {
         logger.debug("Getting a single post");
         int postNumber = Integer.parseInt(req.queryParams("id"));
@@ -98,9 +94,5 @@ public class PostController implements Controller {
         String low = req.queryParams("low");
         String high = req.queryParams("high");
         return postService.getPostRange(Integer.parseInt(low), Integer.parseInt(high));
-    }
-
-    private void addAjaxHeader(Response resp) {
-        resp.header("Content-Type", "application/json");
     }
 }

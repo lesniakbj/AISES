@@ -6,9 +6,11 @@ import com.aises.domain.enums.NotificationEvent;
 import com.aises.domain.enums.NotificationType;
 import com.aises.server.Routes;
 import com.aises.utils.JSONUtils;
+import org.eclipse.jetty.server.session.JDBCSessionManager;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import spark.Request;
+import spark.Response;
 import spark.Spark;
 
 import java.io.IOException;
@@ -21,35 +23,39 @@ public class NotificationController implements Controller {
 
     public NotificationController() {
         logger.debug("Creating a controller for Notifications");
-        Spark.post(Routes.NOTIFICATIONS_NEW, (req, resp) -> sendOnPost(req), JSONUtils.JSON());
+        Spark.before(Routes.NOTIFICATIONS_ADMIN, (req, resp) -> checkAdminAuthorization());
+        Spark.post(Routes.NOTIFICATIONS_ADMIN, (req, resp) -> sendAdminNotification(req), JSONUtils.JSON());
+        Spark.after(Routes.POST_FILTER, (req, resp) -> JSONUtils.addAjaxHeader(resp));
+    }
+
+    private void checkAdminAuthorization() {
+        logger.debug("Checking admin authorization before sending notification");
     }
 
     // This API is used to send messages from the admin
-    private String sendOnPost(Request req) {
+    private String sendAdminNotification(Request req) {
         logger.debug("Sending new notification! {}", req.body());
         try {
             Notification ntf = new Notification();
-            ntf.setType(NotificationType.valueOf(req.body()));
-            ntf.setEvent(NotificationEvent.valueOf("NEW"));
-
-            WebSocketController.sendMessage(JSONUtils.toJSON(ntf));
-            return "OK";
+            ntf.setType(NotificationType.ADMIN);
+            ntf.setEvent(NotificationEvent.NEW);
+            ntf.setAdminMessage(req.body());
+            return WebSocketController.sendMessageToAll(JSONUtils.toJSON(ntf));
         } catch (IOException e) {
             logger.error("Unable to send notification message!", e);
-            return "FAIL";
+            return "ERROR";
         }
     }
 
     // This API is used internally to have other controllers send
-    // Notificaitons
+    // Notifications
     public static String sendNotification(Notification ntf) {
         logger.debug("Sending new notification! {}", ntf);
         try {
-            WebSocketController.sendMessage(JSONUtils.toJSON(ntf));
-            return "OK";
+            return WebSocketController.sendMessageToAll(JSONUtils.toJSON(ntf));
         } catch (IOException e) {
             logger.error("Unable to send notification message!", e);
-            return "FAIL";
+            return "ERROR";
         }
     }
 }

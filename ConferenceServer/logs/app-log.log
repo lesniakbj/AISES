@@ -2652,3 +2652,806 @@ java.nio.file.NoSuchFileException: C:\Projects\AISES\uploads\[content-dispositio
 2016-08-01 10:39:36 DEBUG [NotificationController:46] Sending new notification! com.aises.domain.Notification@10d84691
 2016-08-01 10:39:37 DEBUG [PostController:49] Checking user credentials before retrieving or sending posts
 2016-08-01 10:39:37 DEBUG [PostController:91] Getting all posts
+2016-08-01 10:41:11 DEBUG [PostRepository:36] Creating a repository for Posts
+2016-08-01 10:41:11 DEBUG [WebSocketController:33] Creating a controller for WebSocket Notifications
+2016-08-01 10:41:11 DEBUG [PostService:30] Creating a service for Posts
+2016-08-01 10:41:11 DEBUG [PostController:36] Creating a controller for Posts
+2016-08-01 10:41:11 DEBUG [UploadService:27] Creating a service for Uploads
+2016-08-01 10:41:11 DEBUG [UploadController:42] Creating a controller for Uploads
+2016-08-01 10:41:11 DEBUG [NotificationController:23] Creating a controller for Notifications
+2016-08-01 10:41:11 DEBUG [AISESServerRunner:26] Starting Server
+2016-08-01 10:41:11 DEBUG [WebSocketController:33] Creating a controller for WebSocket Notifications
+2016-08-01 10:41:15 DEBUG [PostController:49] Checking user credentials before retrieving or sending posts
+2016-08-01 10:41:15 DEBUG [PostController:54] Creating new post
+2016-08-01 10:41:15 DEBUG [PostController:59] Post created from request: com.aises.domain.Post@4bb90c27[
+  id=0
+  userId=0
+  text=
+  length=0
+  dateCreated=<null>
+]
+2016-08-01 10:41:15 DEBUG [PostService:45] Attempting to add new post: com.aises.domain.Post@4bb90c27[
+  id=0
+  userId=0
+  text=
+  length=0
+  dateCreated=2016-08-01T10:41:15.108
+]
+2016-08-01 10:41:15 DEBUG [PostRepository:59] Adding a new post: com.aises.domain.Post@4bb90c27[
+  id=0
+  userId=0
+  text=
+  length=0
+  dateCreated=2016-08-01T10:41:15.108
+]
+2016-08-01 10:41:15 DEBUG [PostRepository:68] New post return code: 1
+2016-08-01 10:41:15 DEBUG [NotificationController:46] Sending new notification! com.aises.domain.Notification@2a7ec870
+2016-08-01 10:41:15 DEBUG [PostController:49] Checking user credentials before retrieving or sending posts
+2016-08-01 10:41:15 DEBUG [PostController:90] Getting all posts
+2016-08-01 10:41:16 DEBUG [PostController:49] Checking user credentials before retrieving or sending posts
+2016-08-01 10:41:16 DEBUG [PostController:54] Creating new post
+2016-08-01 10:41:16 DEBUG [PostController:59] Post created from request: com.aises.domain.Post@38c95bd[
+  id=0
+  userId=0
+  text=
+  length=0
+  dateCreated=<null>
+]
+2016-08-01 10:41:16 DEBUG [PostService:45] Attempting to add new post: com.aises.domain.Post@38c95bd[
+  id=1
+  userId=0
+  text=
+  length=0
+  dateCreated=2016-08-01T10:41:16.435
+]
+2016-08-01 10:41:16 DEBUG [PostRepository:59] Adding a new post: com.aises.domain.Post@38c95bd[
+  id=1
+  userId=0
+  text=
+  length=0
+  dateCreated=2016-08-01T10:41:16.435
+]
+2016-08-01 10:41:16 DEBUG [PostRepository:68] New post return code: 1
+2016-08-01 10:41:16 DEBUG [NotificationController:46] Sending new notification! com.aises.domain.Notification@4750e0bd
+2016-08-01 10:41:16 DEBUG [PostController:49] Checking user credentials before retrieving or sending posts
+2016-08-01 10:41:16 DEBUG [PostController:90] Getting all posts
+2016-08-01 10:41:16 DEBUG [PostController:49] Checking user credentials before retrieving or sending posts
+2016-08-01 10:41:16 DEBUG [PostController:54] Creating new post
+2016-08-01 10:41:16 DEBUG [PostController:59] Post created from request: com.aises.domain.Post@37196176[
+  id=0
+  userId=0
+  text=
+  length=0
+  dateCreated=<null>
+]
+2016-08-01 10:41:16 DEBUG [PostService:45] Attempting to add new post: com.aises.domain.Post@37196176[
+  id=2
+  userId=0
+  text=
+  length=0
+  dateCreated=2016-08-01T10:41:16.849
+]
+2016-08-01 10:41:16 DEBUG [PostRepository:59] Adding a new post: com.aises.domain.Post@37196176[
+  id=2
+  userId=0
+  text=
+  length=0
+  dateCreated=2016-08-01T10:41:16.849
+]
+2016-08-01 10:41:16 DEBUG [PostRepository:68] New post return code: 1
+2016-08-01 10:41:16 DEBUG [NotificationController:46] Sending new notification! com.aises.domain.Notification@4a2c3477
+2016-08-01 10:41:16 DEBUG [PostController:49] Checking user credentials before retrieving or sending posts
+2016-08-01 10:41:16 DEBUG [PostController:90] Getting all posts
+2016-08-01 10:41:17 DEBUG [PostController:49] Checking user credentials before retrieving or sending posts
+2016-08-01 10:41:17 DEBUG [PostController:54] Creating new post
+2016-08-01 10:41:17 DEBUG [PostController:59] Post created from request: com.aises.domain.Post@302da248[
+  id=0
+  userId=0
+  text=
+  length=0
+  dateCreated=<null>
+]
+2016-08-01 10:41:17 DEBUG [PostService:45] Attempting to add new post: com.aises.domain.Post@302da248[
+  id=3
+  userId=0
+  text=
+  length=0
+  dateCreated=2016-08-01T10:41:17.013
+]
+2016-08-01 10:41:17 DEBUG [PostRepository:59] Adding a new post: com.aises.domain.Post@302da248[
+  id=3
+  userId=0
+  text=
+  length=0
+  dateCreated=2016-08-01T10:41:17.013
+]
+2016-08-01 10:41:17 DEBUG [PostRepository:68] New post return code: 1
+2016-08-01 10:41:17 DEBUG [NotificationController:46] Sending new notification! com.aises.domain.Notification@cd416f0
+2016-08-01 10:41:17 DEBUG [PostController:49] Checking user credentials before retrieving or sending posts
+2016-08-01 10:41:17 DEBUG [PostController:90] Getting all posts
+2016-08-01 10:41:17 DEBUG [PostController:49] Checking user credentials before retrieving or sending posts
+2016-08-01 10:41:17 DEBUG [PostController:54] Creating new post
+2016-08-01 10:41:17 DEBUG [PostController:59] Post created from request: com.aises.domain.Post@700fbd49[
+  id=0
+  userId=0
+  text=
+  length=0
+  dateCreated=<null>
+]
+2016-08-01 10:41:17 DEBUG [PostService:45] Attempting to add new post: com.aises.domain.Post@700fbd49[
+  id=4
+  userId=0
+  text=
+  length=0
+  dateCreated=2016-08-01T10:41:17.161
+]
+2016-08-01 10:41:17 DEBUG [PostRepository:59] Adding a new post: com.aises.domain.Post@700fbd49[
+  id=4
+  userId=0
+  text=
+  length=0
+  dateCreated=2016-08-01T10:41:17.161
+]
+2016-08-01 10:41:17 DEBUG [PostRepository:68] New post return code: 1
+2016-08-01 10:41:17 DEBUG [NotificationController:46] Sending new notification! com.aises.domain.Notification@5a7670f7
+2016-08-01 10:41:17 DEBUG [PostController:49] Checking user credentials before retrieving or sending posts
+2016-08-01 10:41:17 DEBUG [PostController:90] Getting all posts
+2016-08-01 10:41:19 DEBUG [PostController:49] Checking user credentials before retrieving or sending posts
+2016-08-01 10:41:19 DEBUG [PostController:54] Creating new post
+2016-08-01 10:41:19 DEBUG [PostController:59] Post created from request: com.aises.domain.Post@66fabaa8[
+  id=0
+  userId=0
+  text=sadfasdf
+  length=0
+  dateCreated=<null>
+]
+2016-08-01 10:41:19 DEBUG [PostService:45] Attempting to add new post: com.aises.domain.Post@66fabaa8[
+  id=5
+  userId=0
+  text=sadfasdf
+  length=8
+  dateCreated=2016-08-01T10:41:19.052
+]
+2016-08-01 10:41:19 DEBUG [PostRepository:59] Adding a new post: com.aises.domain.Post@66fabaa8[
+  id=5
+  userId=0
+  text=sadfasdf
+  length=8
+  dateCreated=2016-08-01T10:41:19.052
+]
+2016-08-01 10:41:19 DEBUG [PostRepository:68] New post return code: 1
+2016-08-01 10:41:19 DEBUG [NotificationController:46] Sending new notification! com.aises.domain.Notification@662a05d
+2016-08-01 10:41:19 DEBUG [PostController:49] Checking user credentials before retrieving or sending posts
+2016-08-01 10:41:19 DEBUG [PostController:90] Getting all posts
+2016-08-01 10:41:21 DEBUG [WebSocketController:39] Session created from: org.eclipse.jetty.websocket.common.WebSocketSession@6ace7925[
+  containerScope=org.eclipse.jetty.websocket.server.WebSocketServerFactory@39c22755
+  requestURI=ws://172.16.102.166:5570/notifications
+  connection=WebSocketServerConnection@1F4C10CA{endp=SelectChannelEndPoint@39da8f13{/172.16.102.166:50212<->5570,Open,in,out,-,-,4/300000,WebSocketServerConnection}{io=0/0,kio=0,kro=1},ios=IOState@254b4d2[CONNECTED,!in,out],f=Flusher[queueSize=0,aggregateSize=0,failure=null],g=Generator[SERVER,validating,+rsv1],p=Parser@6ac3a690[ExtensionStack,s=START,c=0,len=0,f=null]}
+  websocket=JettyAnnotatedEventDriver[com.aises.controller.WebSocketController@243d0e3d]
+  sessionListeners={org.eclipse.jetty.websocket.server.WebSocketServerFactory@39c22755}
+  executor=qtp685647514{STARTED,4<=5<=16,i=1,q=0}
+  classLoader=sun.misc.Launcher$AppClassLoader@55f96302
+  extensionFactory=<null>
+  protocolVersion=13
+  parameterMap={}
+  remote=WebSocketRemoteEndpoint@3a3b824f[batching=true]
+  incomingHandler=JettyAnnotatedEventDriver[com.aises.controller.WebSocketController@243d0e3d]
+  outgoingHandler=ExtensionStack[queueSize=0,extensions=[permessage-deflate],incoming=org.eclipse.jetty.websocket.common.extensions.compress.PerMessageDeflateExtension,outgoing=org.eclipse.jetty.websocket.common.extensions.compress.PerMessageDeflateExtension]
+  policy=WebSocketPolicy@3abd6874[behavior=SERVER,maxTextMessageSize=65536,maxTextMessageBufferSize=32768,maxBinaryMessageSize=65536,maxBinaryMessageBufferSize=32768,asyncWriteTimeout=60000,idleTimeout=300000,inputBufferSize=4096]
+  upgradeRequest=org.eclipse.jetty.websocket.servlet.ServletUpgradeRequest@2dc3acc7
+  upgradeResponse=org.eclipse.jetty.websocket.servlet.ServletUpgradeResponse@4b0c6aca
+  _beans=[{WebSocketServerConnection@1F4C10CA{endp=SelectChannelEndPoint@39da8f13{/172.16.102.166:50212<->5570,Open,in,out,-,-,5/300000,WebSocketServerConnection}{io=0/0,kio=0,kro=1},ios=IOState@254b4d2[CONNECTED,!in,out],f=Flusher[queueSize=0,aggregateSize=0,failure=null],g=Generator[SERVER,validating,+rsv1],p=Parser@6ac3a690[ExtensionStack,s=START,c=0,len=0,f=null]},POJO}, {JettyAnnotatedEventDriver[com.aises.controller.WebSocketController@243d0e3d],MANAGED}, {ExtensionStack[queueSize=0,extensions=[permessage-deflate],incoming=org.eclipse.jetty.websocket.common.extensions.compress.PerMessageDeflateExtension,outgoing=org.eclipse.jetty.websocket.common.extensions.compress.PerMessageDeflateExtension],MANAGED}]
+  _listeners=[]
+  _doStarted=true
+  _listeners=[]
+  _lock=java.lang.Object@32e387b2
+  __FAILED=-1
+  __STOPPED=0
+  __STARTING=1
+  __STARTED=2
+  __STOPPING=3
+  _state=2
+  _stopTimeout=30000
+]
+2016-08-01 10:41:24 DEBUG [PostController:49] Checking user credentials before retrieving or sending posts
+2016-08-01 10:41:24 DEBUG [PostController:90] Getting all posts
+2016-08-01 10:41:25 DEBUG [PostController:49] Checking user credentials before retrieving or sending posts
+2016-08-01 10:41:25 DEBUG [PostController:54] Creating new post
+2016-08-01 10:41:25 DEBUG [PostController:59] Post created from request: com.aises.domain.Post@b43c9ca[
+  id=0
+  userId=0
+  text=asdf
+  length=0
+  dateCreated=<null>
+]
+2016-08-01 10:41:25 DEBUG [PostService:45] Attempting to add new post: com.aises.domain.Post@b43c9ca[
+  id=6
+  userId=0
+  text=asdf
+  length=4
+  dateCreated=2016-08-01T10:41:25.684
+]
+2016-08-01 10:41:25 DEBUG [PostRepository:59] Adding a new post: com.aises.domain.Post@b43c9ca[
+  id=6
+  userId=0
+  text=asdf
+  length=4
+  dateCreated=2016-08-01T10:41:25.684
+]
+2016-08-01 10:41:25 DEBUG [PostRepository:68] New post return code: 1
+2016-08-01 10:41:25 DEBUG [NotificationController:46] Sending new notification! com.aises.domain.Notification@58426d2
+2016-08-01 10:41:30 DEBUG [PostController:49] Checking user credentials before retrieving or sending posts
+2016-08-01 10:41:30 DEBUG [PostController:54] Creating new post
+2016-08-01 10:41:30 DEBUG [PostController:59] Post created from request: com.aises.domain.Post@44b92ce9[
+  id=0
+  userId=0
+  text=
+  length=0
+  dateCreated=<null>
+]
+2016-08-01 10:41:30 DEBUG [PostService:45] Attempting to add new post: com.aises.domain.Post@44b92ce9[
+  id=7
+  userId=0
+  text=
+  length=0
+  dateCreated=2016-08-01T10:41:30.697
+]
+2016-08-01 10:41:30 DEBUG [PostRepository:59] Adding a new post: com.aises.domain.Post@44b92ce9[
+  id=7
+  userId=0
+  text=
+  length=0
+  dateCreated=2016-08-01T10:41:30.697
+]
+2016-08-01 10:41:30 DEBUG [PostRepository:68] New post return code: 1
+2016-08-01 10:41:30 DEBUG [NotificationController:46] Sending new notification! com.aises.domain.Notification@5121b02d
+2016-08-01 10:41:30 DEBUG [PostController:49] Checking user credentials before retrieving or sending posts
+2016-08-01 10:41:30 DEBUG [PostController:90] Getting all posts
+2016-08-01 10:41:31 DEBUG [PostController:49] Checking user credentials before retrieving or sending posts
+2016-08-01 10:41:31 DEBUG [PostController:54] Creating new post
+2016-08-01 10:41:31 DEBUG [PostController:59] Post created from request: com.aises.domain.Post@6020ee5a[
+  id=0
+  userId=0
+  text=
+  length=0
+  dateCreated=<null>
+]
+2016-08-01 10:41:31 DEBUG [PostService:45] Attempting to add new post: com.aises.domain.Post@6020ee5a[
+  id=8
+  userId=0
+  text=
+  length=0
+  dateCreated=2016-08-01T10:41:31.676
+]
+2016-08-01 10:41:31 DEBUG [PostRepository:59] Adding a new post: com.aises.domain.Post@6020ee5a[
+  id=8
+  userId=0
+  text=
+  length=0
+  dateCreated=2016-08-01T10:41:31.676
+]
+2016-08-01 10:41:31 DEBUG [PostRepository:68] New post return code: 1
+2016-08-01 10:41:31 DEBUG [NotificationController:46] Sending new notification! com.aises.domain.Notification@5bb3beac
+2016-08-01 10:41:31 DEBUG [PostController:49] Checking user credentials before retrieving or sending posts
+2016-08-01 10:41:31 DEBUG [PostController:90] Getting all posts
+2016-08-01 10:41:32 DEBUG [PostController:49] Checking user credentials before retrieving or sending posts
+2016-08-01 10:41:32 DEBUG [PostController:54] Creating new post
+2016-08-01 10:41:32 DEBUG [PostController:59] Post created from request: com.aises.domain.Post@5e4324e6[
+  id=0
+  userId=0
+  text=
+  length=0
+  dateCreated=<null>
+]
+2016-08-01 10:41:32 DEBUG [PostService:45] Attempting to add new post: com.aises.domain.Post@5e4324e6[
+  id=9
+  userId=0
+  text=
+  length=0
+  dateCreated=2016-08-01T10:41:32.520
+]
+2016-08-01 10:41:32 DEBUG [PostRepository:59] Adding a new post: com.aises.domain.Post@5e4324e6[
+  id=9
+  userId=0
+  text=
+  length=0
+  dateCreated=2016-08-01T10:41:32.520
+]
+2016-08-01 10:41:32 DEBUG [PostRepository:68] New post return code: 1
+2016-08-01 10:41:32 DEBUG [NotificationController:46] Sending new notification! com.aises.domain.Notification@5084d15e
+2016-08-01 10:41:32 DEBUG [PostController:49] Checking user credentials before retrieving or sending posts
+2016-08-01 10:41:32 DEBUG [PostController:90] Getting all posts
+2016-08-01 10:41:36 DEBUG [PostController:49] Checking user credentials before retrieving or sending posts
+2016-08-01 10:41:36 DEBUG [PostController:90] Getting all posts
+2016-08-01 10:41:56 DEBUG [WebSocketController:46] Session destroyed: org.eclipse.jetty.websocket.common.WebSocketSession@6ace7925[
+  containerScope=org.eclipse.jetty.websocket.server.WebSocketServerFactory@39c22755
+  requestURI=ws://172.16.102.166:5570/notifications
+  connection=WebSocketServerConnection@1F4C10CA{endp=SelectChannelEndPoint@39da8f13{/172.16.102.166:50212<->5570,CLOSED,ISHUT,OSHUT,-,-,1/300000,WebSocketServerConnection}{io=1/0,kio=-1,kro=-1},ios=IOState@254b4d2[CLOSED,!in,!out,finalClose=CloseInfo[code=1001,reason=null],clean=false,closeSource=ABNORMAL],f=Flusher[queueSize=0,aggregateSize=0,failure=null],g=Generator[SERVER,validating,+rsv1],p=Parser@6ac3a690[ExtensionStack,s=START,c=0,len=2,f=CLOSE[len=2,fin=true,rsv=...,masked=true]]}
+  websocket=JettyAnnotatedEventDriver[com.aises.controller.WebSocketController@243d0e3d]
+  sessionListeners={org.eclipse.jetty.websocket.server.WebSocketServerFactory@39c22755}
+  executor=qtp685647514{STARTED,4<=5<=16,i=0,q=1}
+  classLoader=sun.misc.Launcher$AppClassLoader@55f96302
+  extensionFactory=<null>
+  protocolVersion=13
+  parameterMap={}
+  remote=WebSocketRemoteEndpoint@3a3b824f[batching=true]
+  incomingHandler=JettyAnnotatedEventDriver[com.aises.controller.WebSocketController@243d0e3d]
+  outgoingHandler=ExtensionStack[queueSize=0,extensions=[permessage-deflate],incoming=org.eclipse.jetty.websocket.common.extensions.compress.PerMessageDeflateExtension,outgoing=org.eclipse.jetty.websocket.common.extensions.compress.PerMessageDeflateExtension]
+  policy=WebSocketPolicy@3abd6874[behavior=SERVER,maxTextMessageSize=65536,maxTextMessageBufferSize=32768,maxBinaryMessageSize=65536,maxBinaryMessageBufferSize=32768,asyncWriteTimeout=60000,idleTimeout=300000,inputBufferSize=4096]
+  upgradeRequest=org.eclipse.jetty.websocket.servlet.ServletUpgradeRequest@2dc3acc7
+  upgradeResponse=org.eclipse.jetty.websocket.servlet.ServletUpgradeResponse@4b0c6aca
+  _beans=[{WebSocketServerConnection@1F4C10CA{endp=SelectChannelEndPoint@39da8f13{/172.16.102.166:50212<->5570,CLOSED,ISHUT,OSHUT,-,-,2/300000,WebSocketServerConnection}{io=0/0,kio=-1,kro=-1},ios=IOState@254b4d2[CLOSED,!in,!out,finalClose=CloseInfo[code=1001,reason=null],clean=false,closeSource=ABNORMAL],f=Flusher[queueSize=0,aggregateSize=0,failure=null],g=Generator[SERVER,validating,+rsv1],p=Parser@6ac3a690[ExtensionStack,s=START,c=0,len=2,f=CLOSE[len=2,fin=true,rsv=...,masked=true]]},POJO}, {JettyAnnotatedEventDriver[com.aises.controller.WebSocketController@243d0e3d],MANAGED}, {ExtensionStack[queueSize=0,extensions=[permessage-deflate],incoming=org.eclipse.jetty.websocket.common.extensions.compress.PerMessageDeflateExtension,outgoing=org.eclipse.jetty.websocket.common.extensions.compress.PerMessageDeflateExtension],MANAGED}]
+  _listeners=[]
+  _doStarted=true
+  _listeners=[]
+  _lock=java.lang.Object@32e387b2
+  __FAILED=-1
+  __STOPPED=0
+  __STARTING=1
+  __STARTED=2
+  __STOPPING=3
+  _state=2
+  _stopTimeout=30000
+]
+2016-08-01 11:14:38 DEBUG [PostRepository:36] Creating a repository for Posts
+2016-08-01 11:14:38 DEBUG [WebSocketController:35] Creating a controller for WebSocket Notifications
+2016-08-01 11:14:38 DEBUG [PostService:30] Creating a service for Posts
+2016-08-01 11:14:38 DEBUG [PostController:36] Creating a controller for Posts
+2016-08-01 11:14:38 DEBUG [UploadService:27] Creating a service for Uploads
+2016-08-01 11:14:38 DEBUG [UploadController:42] Creating a controller for Uploads
+2016-08-01 11:14:38 DEBUG [NotificationController:24] Creating a controller for Notifications
+2016-08-01 11:14:38 DEBUG [AISESServerRunner:26] Starting Server
+2016-08-01 11:14:38 DEBUG [WebSocketController:35] Creating a controller for WebSocket Notifications
+2016-08-01 11:15:01 DEBUG [WebSocketController:41] Added new session: {WebSocketSession[websocket=JettyAnnotatedEventDriver[com.aises.controller.WebSocketController@6741f2f9],behavior=SERVER,connection=WebSocketServerConnection@1AB308CB{endp=SelectChannelEndPoint@11a3c514{/172.16.102.224:51323<->5570,Open,in,out,-,-,0/300000,WebSocketServerConnection}{io=0/0,kio=0,kro=1},ios=IOState@37c1c1a5[CONNECTED,!in,out],f=Flusher[queueSize=0,aggregateSize=0,failure=null],g=Generator[SERVER,validating,+rsv1],p=Parser@4a86e18e[ExtensionStack,s=START,c=0,len=0,f=null]},remote=WebSocketRemoteEndpoint@89d484e[batching=true],incoming=JettyAnnotatedEventDriver[com.aises.controller.WebSocketController@6741f2f9],outgoing=ExtensionStack[queueSize=0,extensions=[permessage-deflate],incoming=org.eclipse.jetty.websocket.common.extensions.compress.PerMessageDeflateExtension,outgoing=org.eclipse.jetty.websocket.common.extensions.compress.PerMessageDeflateExtension]]=SESSION-/172.16.102.224:51323}
+2016-08-01 11:15:06 DEBUG [PostController:46] Checking user credentials before retrieving or sending posts
+2016-08-01 11:15:06 DEBUG [PostController:87] Getting all posts
+2016-08-01 11:15:12 DEBUG [PostController:46] Checking user credentials before retrieving or sending posts
+2016-08-01 11:15:12 DEBUG [PostController:51] Creating new post
+2016-08-01 11:15:12 DEBUG [PostController:56] Post created from request: com.aises.domain.Post@739b0462[
+  id=0
+  userId=0
+  text=Here us a new post
+  length=0
+  dateCreated=<null>
+]
+2016-08-01 11:15:12 DEBUG [PostService:45] Attempting to add new post: com.aises.domain.Post@739b0462[
+  id=0
+  userId=0
+  text=Here us a new post
+  length=18
+  dateCreated=2016-08-01T11:15:12.347
+]
+2016-08-01 11:15:12 DEBUG [PostRepository:59] Adding a new post: com.aises.domain.Post@739b0462[
+  id=0
+  userId=0
+  text=Here us a new post
+  length=18
+  dateCreated=2016-08-01T11:15:12.347
+]
+2016-08-01 11:15:12 DEBUG [PostRepository:68] New post return code: 1
+2016-08-01 11:15:12 DEBUG [NotificationController:54] Sending new notification! com.aises.domain.Notification@1b468c56
+2016-08-01 11:15:14 DEBUG [PostController:46] Checking user credentials before retrieving or sending posts
+2016-08-01 11:15:14 DEBUG [PostController:87] Getting all posts
+2016-08-01 11:20:12 DEBUG [WebSocketController:47] Removing session: SESSION-/172.16.102.224:51323
+2016-08-01 11:22:19 DEBUG [PostRepository:36] Creating a repository for Posts
+2016-08-01 11:22:19 DEBUG [WebSocketController:38] Creating a controller for WebSocket Notifications
+2016-08-01 11:22:19 DEBUG [PostService:30] Creating a service for Posts
+2016-08-01 11:22:19 DEBUG [PostController:36] Creating a controller for Posts
+2016-08-01 11:22:19 DEBUG [UploadService:27] Creating a service for Uploads
+2016-08-01 11:22:19 DEBUG [UploadController:42] Creating a controller for Uploads
+2016-08-01 11:22:19 DEBUG [NotificationController:25] Creating a controller for Notifications
+2016-08-01 11:22:19 DEBUG [AISESServerRunner:26] Starting Server
+2016-08-01 11:22:19 DEBUG [WebSocketController:38] Creating a controller for WebSocket Notifications
+2016-08-01 11:26:14 DEBUG [PostRepository:36] Creating a repository for Posts
+2016-08-01 11:26:14 DEBUG [WebSocketController:38] Creating a controller for WebSocket Notifications
+2016-08-01 11:26:14 DEBUG [PostService:30] Creating a service for Posts
+2016-08-01 11:26:14 DEBUG [PostController:36] Creating a controller for Posts
+2016-08-01 11:26:14 DEBUG [UploadService:27] Creating a service for Uploads
+2016-08-01 11:26:14 DEBUG [UploadController:42] Creating a controller for Uploads
+2016-08-01 11:26:14 DEBUG [NotificationController:25] Creating a controller for Notifications
+2016-08-01 11:26:14 DEBUG [AISESServerRunner:26] Starting Server
+2016-08-01 11:26:15 DEBUG [WebSocketController:38] Creating a controller for WebSocket Notifications
+2016-08-01 11:26:33 DEBUG [NotificationController:32] Checking admin authorization before sending notification
+2016-08-01 11:26:33 DEBUG [NotificationController:37] Sending new notification! POST
+2016-08-01 11:26:47 DEBUG [WebSocketController:44] Added new session: {WebSocketSession[websocket=JettyAnnotatedEventDriver[com.aises.controller.WebSocketController@1867d436],behavior=SERVER,connection=WebSocketServerConnection@58BDC7AB{endp=SelectChannelEndPoint@49db9236{/172.16.102.224:51332<->5570,Open,in,out,-,-,3/300000,WebSocketServerConnection}{io=0/0,kio=0,kro=1},ios=IOState@4e7324d2[CONNECTED,!in,out],f=Flusher[queueSize=0,aggregateSize=0,failure=null],g=Generator[SERVER,validating,+rsv1],p=Parser@458cfb9[ExtensionStack,s=START,c=0,len=0,f=null]},remote=WebSocketRemoteEndpoint@5629a602[batching=true],incoming=JettyAnnotatedEventDriver[com.aises.controller.WebSocketController@1867d436],outgoing=ExtensionStack[queueSize=0,extensions=[permessage-deflate],incoming=org.eclipse.jetty.websocket.common.extensions.compress.PerMessageDeflateExtension,outgoing=org.eclipse.jetty.websocket.common.extensions.compress.PerMessageDeflateExtension]]=SESSION-/172.16.102.224:51332}
+2016-08-01 11:26:50 DEBUG [NotificationController:32] Checking admin authorization before sending notification
+2016-08-01 11:26:50 DEBUG [NotificationController:37] Sending new notification! POST
+2016-08-01 11:27:35 DEBUG [NotificationController:32] Checking admin authorization before sending notification
+2016-08-01 11:27:35 DEBUG [NotificationController:37] Sending new notification! Check out the new section of our application we just updated, here!
+2016-08-01 11:32:35 DEBUG [WebSocketController:50] Removing session: SESSION-/172.16.102.224:51332
+2016-08-01 11:48:39 DEBUG [NotificationController:32] Checking admin authorization before sending notification
+2016-08-01 11:48:39 DEBUG [NotificationController:37] Sending new notification! Check out the new section of our application we just updated, here!
+2016-08-01 11:49:10 DEBUG [PostRepository:36] Creating a repository for Posts
+2016-08-01 11:49:10 DEBUG [WebSocketController:38] Creating a controller for WebSocket Notifications
+2016-08-01 11:49:10 DEBUG [PostService:30] Creating a service for Posts
+2016-08-01 11:49:10 DEBUG [PostController:36] Creating a controller for Posts
+2016-08-01 11:49:10 DEBUG [UploadService:27] Creating a service for Uploads
+2016-08-01 11:49:10 DEBUG [UploadController:42] Creating a controller for Uploads
+2016-08-01 11:49:10 DEBUG [NotificationController:25] Creating a controller for Notifications
+2016-08-01 11:49:10 DEBUG [AISESServerRunner:26] Starting Server
+2016-08-01 11:49:10 DEBUG [WebSocketController:38] Creating a controller for WebSocket Notifications
+2016-08-01 11:49:17 DEBUG [NotificationController:32] Checking admin authorization before sending notification
+2016-08-01 11:49:17 DEBUG [NotificationController:37] Sending new notification! Check out the new section of our application we just updated, here!
+2016-08-01 11:51:25 DEBUG [WebSocketController:44] Added new session: SESSION-/172.16.102.166:56290
+2016-08-01 11:51:38 DEBUG [PostController:46] Checking user credentials before retrieving or sending posts
+2016-08-01 11:51:38 DEBUG [PostController:87] Getting all posts
+2016-08-01 11:52:27 DEBUG [PostRepository:36] Creating a repository for Posts
+2016-08-01 11:52:27 DEBUG [WebSocketController:38] Creating a controller for WebSocket Notifications
+2016-08-01 11:52:27 DEBUG [PostService:30] Creating a service for Posts
+2016-08-01 11:52:27 DEBUG [PostController:36] Creating a controller for Posts
+2016-08-01 11:52:27 DEBUG [UploadService:27] Creating a service for Uploads
+2016-08-01 11:52:27 DEBUG [UploadController:42] Creating a controller for Uploads
+2016-08-01 11:52:27 DEBUG [NotificationController:25] Creating a controller for Notifications
+2016-08-01 11:52:27 DEBUG [AISESServerRunner:26] Starting Server
+2016-08-01 11:52:27 DEBUG [WebSocketController:38] Creating a controller for WebSocket Notifications
+2016-08-01 11:52:34 DEBUG [WebSocketController:44] Added new session: SESSION-/172.16.102.166:56408
+2016-08-01 11:52:44 DEBUG [WebSocketController:56] Message from SESSION-/172.16.102.166:56408: {"userId":"154165a564n56465b65w654w62461-=","message":"Hello Message!"}
+2016-08-01 11:52:44 DEBUG [PostController:46] Checking user credentials before retrieving or sending posts
+2016-08-01 11:52:44 DEBUG [PostController:87] Getting all posts
+2016-08-01 11:53:23 DEBUG [PostController:46] Checking user credentials before retrieving or sending posts
+2016-08-01 11:53:23 DEBUG [PostController:51] Creating new post
+2016-08-01 11:53:23 DEBUG [PostController:56] Post created from request: com.aises.domain.Post@741a29ba[
+  id=0
+  userId=0
+  text=Hey look a new post!
+  length=0
+  dateCreated=<null>
+]
+2016-08-01 11:53:23 DEBUG [PostService:45] Attempting to add new post: com.aises.domain.Post@741a29ba[
+  id=0
+  userId=0
+  text=Hey look a new post!
+  length=20
+  dateCreated=2016-08-01T11:53:23.435
+]
+2016-08-01 11:53:23 DEBUG [PostRepository:59] Adding a new post: com.aises.domain.Post@741a29ba[
+  id=0
+  userId=0
+  text=Hey look a new post!
+  length=20
+  dateCreated=2016-08-01T11:53:23.435
+]
+2016-08-01 11:53:23 DEBUG [PostRepository:68] New post return code: 1
+2016-08-01 11:53:23 DEBUG [NotificationController:55] Sending new notification! com.aises.domain.Notification@6fbe44a9
+2016-08-01 11:53:23 DEBUG [PostController:46] Checking user credentials before retrieving or sending posts
+2016-08-01 11:53:23 DEBUG [PostController:87] Getting all posts
+2016-08-01 11:54:44 DEBUG [WebSocketController:50] Removing session: SESSION-/172.16.102.166:56408
+2016-08-01 11:54:44 DEBUG [WebSocketController:44] Added new session: SESSION-/172.16.102.166:56615
+2016-08-01 11:54:50 DEBUG [WebSocketController:56] Message from SESSION-/172.16.102.166:56615: {"userId":"154165a564n56465b65w654w62461-=","message":"Hello Message!"}
+2016-08-01 11:54:50 DEBUG [PostController:46] Checking user credentials before retrieving or sending posts
+2016-08-01 11:54:50 DEBUG [PostController:87] Getting all posts
+2016-08-01 11:54:52 DEBUG [PostController:46] Checking user credentials before retrieving or sending posts
+2016-08-01 11:54:52 DEBUG [PostController:51] Creating new post
+2016-08-01 11:54:52 DEBUG [PostController:56] Post created from request: com.aises.domain.Post@4d88e5ae[
+  id=0
+  userId=0
+  text=ffasd
+  length=0
+  dateCreated=<null>
+]
+2016-08-01 11:54:52 DEBUG [PostService:45] Attempting to add new post: com.aises.domain.Post@4d88e5ae[
+  id=1
+  userId=0
+  text=ffasd
+  length=5
+  dateCreated=2016-08-01T11:54:52.133
+]
+2016-08-01 11:54:52 DEBUG [PostRepository:59] Adding a new post: com.aises.domain.Post@4d88e5ae[
+  id=1
+  userId=0
+  text=ffasd
+  length=5
+  dateCreated=2016-08-01T11:54:52.133
+]
+2016-08-01 11:54:52 DEBUG [PostRepository:68] New post return code: 1
+2016-08-01 11:54:52 DEBUG [NotificationController:55] Sending new notification! com.aises.domain.Notification@716cfc30
+2016-08-01 11:54:53 DEBUG [PostController:46] Checking user credentials before retrieving or sending posts
+2016-08-01 11:54:53 DEBUG [PostController:87] Getting all posts
+2016-08-01 11:55:06 DEBUG [WebSocketController:50] Removing session: SESSION-/172.16.102.166:56615
+2016-08-01 11:55:06 DEBUG [WebSocketController:44] Added new session: SESSION-/172.16.102.166:56646
+2016-08-01 11:55:12 DEBUG [WebSocketController:50] Removing session: SESSION-/172.16.102.166:56646
+2016-08-01 11:55:13 DEBUG [WebSocketController:44] Added new session: SESSION-/172.16.102.166:56660
+2016-08-01 11:55:23 DEBUG [WebSocketController:56] Message from SESSION-/172.16.102.166:56660: {"userId":"154165a564n56465b65w654w62461-=","message":"Hello Message!"}
+2016-08-01 11:55:23 DEBUG [PostController:46] Checking user credentials before retrieving or sending posts
+2016-08-01 11:55:23 DEBUG [PostController:87] Getting all posts
+2016-08-01 11:55:25 DEBUG [PostController:46] Checking user credentials before retrieving or sending posts
+2016-08-01 11:55:25 DEBUG [PostController:51] Creating new post
+2016-08-01 11:55:25 DEBUG [PostController:56] Post created from request: com.aises.domain.Post@26d30b69[
+  id=0
+  userId=0
+  text=asdf
+  length=0
+  dateCreated=<null>
+]
+2016-08-01 11:55:25 DEBUG [PostService:45] Attempting to add new post: com.aises.domain.Post@26d30b69[
+  id=2
+  userId=0
+  text=asdf
+  length=4
+  dateCreated=2016-08-01T11:55:25.010
+]
+2016-08-01 11:55:25 DEBUG [PostRepository:59] Adding a new post: com.aises.domain.Post@26d30b69[
+  id=2
+  userId=0
+  text=asdf
+  length=4
+  dateCreated=2016-08-01T11:55:25.010
+]
+2016-08-01 11:55:25 DEBUG [PostRepository:68] New post return code: 1
+2016-08-01 11:55:25 DEBUG [NotificationController:55] Sending new notification! com.aises.domain.Notification@2814e1c3
+2016-08-01 11:55:25 DEBUG [PostController:46] Checking user credentials before retrieving or sending posts
+2016-08-01 11:55:25 DEBUG [PostController:87] Getting all posts
+2016-08-01 11:55:52 DEBUG [WebSocketController:50] Removing session: SESSION-/172.16.102.166:56660
+2016-08-01 11:55:53 DEBUG [WebSocketController:44] Added new session: SESSION-/172.16.102.166:56743
+2016-08-01 11:58:10 DEBUG [WebSocketController:50] Removing session: SESSION-/172.16.102.166:56743
+2016-08-01 11:58:11 DEBUG [WebSocketController:44] Added new session: SESSION-/172.16.102.166:56955
+2016-08-01 11:58:36 DEBUG [WebSocketController:50] Removing session: SESSION-/172.16.102.166:56955
+2016-08-01 11:58:36 DEBUG [WebSocketController:44] Added new session: SESSION-/172.16.102.166:56998
+2016-08-01 11:58:52 DEBUG [NotificationController:32] Checking admin authorization before sending notification
+2016-08-01 11:58:52 DEBUG [NotificationController:37] Sending new notification! Check out the new section of our application we just updated, here!
+2016-08-01 11:59:09 DEBUG [WebSocketController:50] Removing session: SESSION-/172.16.102.166:56998
+2016-08-01 11:59:22 DEBUG [WebSocketController:44] Added new session: SESSION-/172.16.102.166:57070
+2016-08-01 12:01:10 DEBUG [PostRepository:36] Creating a repository for Posts
+2016-08-01 12:01:10 DEBUG [WebSocketController:38] Creating a controller for WebSocket Notifications
+2016-08-01 12:01:10 DEBUG [PostService:30] Creating a service for Posts
+2016-08-01 12:01:10 DEBUG [PostController:36] Creating a controller for Posts
+2016-08-01 12:01:10 DEBUG [UploadService:27] Creating a service for Uploads
+2016-08-01 12:01:10 DEBUG [UploadController:42] Creating a controller for Uploads
+2016-08-01 12:01:10 DEBUG [NotificationController:25] Creating a controller for Notifications
+2016-08-01 12:01:10 DEBUG [AISESServerRunner:26] Starting Server
+2016-08-01 12:01:10 DEBUG [WebSocketController:38] Creating a controller for WebSocket Notifications
+2016-08-01 12:01:19 DEBUG [NotificationController:32] Checking admin authorization before sending notification
+2016-08-01 12:01:19 DEBUG [NotificationController:37] Sending new notification! Check out the new section of our application we just updated, here!
+2016-08-01 12:01:23 DEBUG [NotificationController:32] Checking admin authorization before sending notification
+2016-08-01 12:01:23 DEBUG [NotificationController:37] Sending new notification! Check out the new section of our application we just updated, here!
+2016-08-01 12:02:36 DEBUG [PostRepository:36] Creating a repository for Posts
+2016-08-01 12:02:36 DEBUG [WebSocketController:38] Creating a controller for WebSocket Notifications
+2016-08-01 12:02:36 DEBUG [PostService:30] Creating a service for Posts
+2016-08-01 12:02:36 DEBUG [PostController:36] Creating a controller for Posts
+2016-08-01 12:02:36 DEBUG [UploadService:27] Creating a service for Uploads
+2016-08-01 12:02:36 DEBUG [UploadController:42] Creating a controller for Uploads
+2016-08-01 12:02:36 DEBUG [NotificationController:25] Creating a controller for Notifications
+2016-08-01 12:02:36 DEBUG [AISESServerRunner:26] Starting Server
+2016-08-01 12:02:36 DEBUG [WebSocketController:38] Creating a controller for WebSocket Notifications
+2016-08-01 12:02:37 DEBUG [NotificationController:32] Checking admin authorization before sending notification
+2016-08-01 12:02:37 DEBUG [NotificationController:37] Sending new notification! Check out the new section of our application we just updated, here!
+2016-08-01 12:03:36 DEBUG [PostRepository:36] Creating a repository for Posts
+2016-08-01 12:03:36 DEBUG [WebSocketController:38] Creating a controller for WebSocket Notifications
+2016-08-01 12:03:36 DEBUG [PostService:30] Creating a service for Posts
+2016-08-01 12:03:36 DEBUG [PostController:36] Creating a controller for Posts
+2016-08-01 12:03:36 DEBUG [UploadService:27] Creating a service for Uploads
+2016-08-01 12:03:36 DEBUG [UploadController:42] Creating a controller for Uploads
+2016-08-01 12:03:36 DEBUG [NotificationController:25] Creating a controller for Notifications
+2016-08-01 12:03:36 DEBUG [AISESServerRunner:26] Starting Server
+2016-08-01 12:03:36 DEBUG [WebSocketController:38] Creating a controller for WebSocket Notifications
+2016-08-01 12:03:37 DEBUG [NotificationController:32] Checking admin authorization before sending notification
+2016-08-01 12:03:37 DEBUG [NotificationController:37] Sending new notification! Check out the new section of our application we just updated, here!
+2016-08-01 12:04:37 DEBUG [WebSocketController:44] Added new session: SESSION-/172.16.102.166:57643
+2016-08-01 12:04:50 DEBUG [WebSocketController:55] Message from SESSION-/172.16.102.166:57643: {"userId":"154165a564n56465b65w654w62461-=","message":"Hello Message!"}
+2016-08-01 12:04:50 DEBUG [PostController:46] Checking user credentials before retrieving or sending posts
+2016-08-01 12:04:50 DEBUG [PostController:87] Getting all posts
+2016-08-01 12:04:58 DEBUG [NotificationController:32] Checking admin authorization before sending notification
+2016-08-01 12:04:58 DEBUG [NotificationController:37] Sending new notification! Check out the new section of our application we just updated, here!
+2016-08-01 12:05:33 DEBUG [WebSocketController:49] Removing session: SESSION-/172.16.102.166:57643
+2016-08-01 12:05:33 DEBUG [WebSocketController:44] Added new session: SESSION-/172.16.102.166:57737
+2016-08-01 12:05:37 DEBUG [NotificationController:32] Checking admin authorization before sending notification
+2016-08-01 12:05:37 DEBUG [NotificationController:37] Sending new notification! Check out the new section of our application we just updated, here!
+2016-08-01 12:07:21 DEBUG [WebSocketController:49] Removing session: SESSION-/172.16.102.166:57737
+2016-08-01 12:07:21 DEBUG [WebSocketController:44] Added new session: SESSION-/172.16.102.166:57904
+2016-08-01 12:07:32 DEBUG [WebSocketController:55] Message from SESSION-/172.16.102.166:57904: {"userId":"154165a564n56465b65w654w62461-=","message":"Hello Message!"}
+2016-08-01 12:07:32 DEBUG [PostController:46] Checking user credentials before retrieving or sending posts
+2016-08-01 12:07:32 DEBUG [PostController:87] Getting all posts
+2016-08-01 12:07:37 DEBUG [PostController:46] Checking user credentials before retrieving or sending posts
+2016-08-01 12:07:37 DEBUG [PostController:51] Creating new post
+2016-08-01 12:07:37 DEBUG [PostController:56] Post created from request: com.aises.domain.Post@34fbc31f[
+  id=0
+  userId=0
+  text=fasdf  sdfa 
+  length=0
+  dateCreated=<null>
+]
+2016-08-01 12:07:37 DEBUG [PostService:45] Attempting to add new post: com.aises.domain.Post@34fbc31f[
+  id=0
+  userId=0
+  text=fasdf  sdfa 
+  length=12
+  dateCreated=2016-08-01T12:07:37.419
+]
+2016-08-01 12:07:37 DEBUG [PostRepository:59] Adding a new post: com.aises.domain.Post@34fbc31f[
+  id=0
+  userId=0
+  text=fasdf  sdfa 
+  length=12
+  dateCreated=2016-08-01T12:07:37.419
+]
+2016-08-01 12:07:37 DEBUG [PostRepository:68] New post return code: 1
+2016-08-01 12:07:37 DEBUG [NotificationController:53] Sending new notification! com.aises.domain.Notification@4eec98ea
+2016-08-01 12:07:37 DEBUG [PostController:46] Checking user credentials before retrieving or sending posts
+2016-08-01 12:07:37 DEBUG [PostController:87] Getting all posts
+2016-08-01 12:08:15 DEBUG [WebSocketController:49] Removing session: SESSION-/172.16.102.166:57904
+2016-08-01 12:08:15 DEBUG [WebSocketController:44] Added new session: SESSION-/172.16.102.166:57989
+2016-08-01 12:08:39 DEBUG [WebSocketController:49] Removing session: SESSION-/172.16.102.166:57989
+2016-08-01 12:08:47 DEBUG [WebSocketController:44] Added new session: SESSION-/172.16.102.166:58041
+2016-08-01 12:09:31 DEBUG [PostRepository:36] Creating a repository for Posts
+2016-08-01 12:09:31 DEBUG [WebSocketController:38] Creating a controller for WebSocket Notifications
+2016-08-01 12:09:31 DEBUG [PostService:30] Creating a service for Posts
+2016-08-01 12:09:31 DEBUG [PostController:36] Creating a controller for Posts
+2016-08-01 12:09:31 DEBUG [UploadService:27] Creating a service for Uploads
+2016-08-01 12:09:31 DEBUG [UploadController:42] Creating a controller for Uploads
+2016-08-01 12:09:31 DEBUG [NotificationController:25] Creating a controller for Notifications
+2016-08-01 12:09:31 DEBUG [AISESServerRunner:26] Starting Server
+2016-08-01 12:09:31 DEBUG [WebSocketController:38] Creating a controller for WebSocket Notifications
+2016-08-01 12:09:34 DEBUG [WebSocketController:44] Added new session: SESSION-/172.16.102.166:58114
+2016-08-01 12:11:01 DEBUG [WebSocketController:49] Removing session: SESSION-/172.16.102.166:58114
+2016-08-01 12:11:50 DEBUG [WebSocketController:44] Added new session: SESSION-/172.16.102.166:58524
+2016-08-01 12:12:35 DEBUG [WebSocketController:49] Removing session: SESSION-/172.16.102.166:58524
+2016-08-01 12:12:35 DEBUG [WebSocketController:44] Added new session: SESSION-/172.16.102.166:58626
+2016-08-01 12:12:56 DEBUG [WebSocketController:49] Removing session: SESSION-/172.16.102.166:58626
+2016-08-01 12:12:56 DEBUG [WebSocketController:44] Added new session: SESSION-/172.16.102.166:58659
+2016-08-01 12:13:02 DEBUG [WebSocketController:55] Message from SESSION-/172.16.102.166:58659: {"userId":"154165a564n56465b65w654w62461-=","message":"Hello Message!"}
+2016-08-01 12:13:02 DEBUG [PostController:46] Checking user credentials before retrieving or sending posts
+2016-08-01 12:13:02 DEBUG [PostController:87] Getting all posts
+2016-08-01 12:13:17 DEBUG [NotificationController:32] Checking admin authorization before sending notification
+2016-08-01 12:13:17 DEBUG [NotificationController:37] Sending new notification! Check out the new section of our application we just updated, here!
+2016-08-01 12:13:45 DEBUG [WebSocketController:49] Removing session: SESSION-/172.16.102.166:58659
+2016-08-01 12:13:45 DEBUG [WebSocketController:44] Added new session: SESSION-/172.16.102.166:58739
+2016-08-01 12:13:58 DEBUG [WebSocketController:55] Message from SESSION-/172.16.102.166:58739: {"userId":"154165a564n56465b65w654w62461-=","message":"Hello Message!"}
+2016-08-01 12:13:58 DEBUG [PostController:46] Checking user credentials before retrieving or sending posts
+2016-08-01 12:13:58 DEBUG [PostController:87] Getting all posts
+2016-08-01 12:14:02 DEBUG [NotificationController:32] Checking admin authorization before sending notification
+2016-08-01 12:14:02 DEBUG [NotificationController:37] Sending new notification! Check out the new section of our application we just updated, here!
+2016-08-01 12:14:10 DEBUG [PostController:46] Checking user credentials before retrieving or sending posts
+2016-08-01 12:14:10 DEBUG [PostController:51] Creating new post
+2016-08-01 12:14:10 DEBUG [PostController:56] Post created from request: com.aises.domain.Post@48eab206[
+  id=0
+  userId=0
+  text=Here is a new post!
+  length=0
+  dateCreated=<null>
+]
+2016-08-01 12:14:10 DEBUG [PostService:45] Attempting to add new post: com.aises.domain.Post@48eab206[
+  id=0
+  userId=0
+  text=Here is a new post!
+  length=19
+  dateCreated=2016-08-01T12:14:10.772
+]
+2016-08-01 12:14:10 DEBUG [PostRepository:59] Adding a new post: com.aises.domain.Post@48eab206[
+  id=0
+  userId=0
+  text=Here is a new post!
+  length=19
+  dateCreated=2016-08-01T12:14:10.772
+]
+2016-08-01 12:14:10 DEBUG [PostRepository:68] New post return code: 1
+2016-08-01 12:14:10 DEBUG [NotificationController:53] Sending new notification! com.aises.domain.Notification@2f4f915a
+2016-08-01 12:14:10 DEBUG [PostController:46] Checking user credentials before retrieving or sending posts
+2016-08-01 12:14:10 DEBUG [PostController:87] Getting all posts
+2016-08-01 12:14:45 DEBUG [WebSocketController:49] Removing session: SESSION-/172.16.102.166:58739
+2016-08-01 12:14:46 DEBUG [WebSocketController:44] Added new session: SESSION-/172.16.102.166:58833
+2016-08-01 12:14:50 DEBUG [WebSocketController:55] Message from SESSION-/172.16.102.166:58833: {"userId":"154165a564n56465b65w654w62461-=","message":"Hello Message!"}
+2016-08-01 12:14:50 DEBUG [PostController:46] Checking user credentials before retrieving or sending posts
+2016-08-01 12:14:50 DEBUG [PostController:87] Getting all posts
+2016-08-01 12:14:53 DEBUG [PostController:46] Checking user credentials before retrieving or sending posts
+2016-08-01 12:14:53 DEBUG [PostController:51] Creating new post
+2016-08-01 12:14:53 DEBUG [PostController:56] Post created from request: com.aises.domain.Post@5dba859a[
+  id=0
+  userId=0
+  text=sdffsd asdf
+  length=0
+  dateCreated=<null>
+]
+2016-08-01 12:14:53 DEBUG [PostService:45] Attempting to add new post: com.aises.domain.Post@5dba859a[
+  id=1
+  userId=0
+  text=sdffsd asdf
+  length=11
+  dateCreated=2016-08-01T12:14:53.841
+]
+2016-08-01 12:14:53 DEBUG [PostRepository:59] Adding a new post: com.aises.domain.Post@5dba859a[
+  id=1
+  userId=0
+  text=sdffsd asdf
+  length=11
+  dateCreated=2016-08-01T12:14:53.841
+]
+2016-08-01 12:14:53 DEBUG [PostRepository:68] New post return code: 1
+2016-08-01 12:14:53 DEBUG [NotificationController:53] Sending new notification! com.aises.domain.Notification@599c1bc4
+2016-08-01 12:14:53 DEBUG [PostController:46] Checking user credentials before retrieving or sending posts
+2016-08-01 12:14:53 DEBUG [PostController:87] Getting all posts
+2016-08-01 12:15:03 DEBUG [PostController:46] Checking user credentials before retrieving or sending posts
+2016-08-01 12:15:03 DEBUG [PostController:51] Creating new post
+2016-08-01 12:15:03 DEBUG [PostController:56] Post created from request: com.aises.domain.Post@53ba4cf6[
+  id=0
+  userId=0
+  text=f a2 12 sdf fa s
+  length=0
+  dateCreated=<null>
+]
+2016-08-01 12:15:03 DEBUG [PostService:45] Attempting to add new post: com.aises.domain.Post@53ba4cf6[
+  id=2
+  userId=0
+  text=f a2 12 sdf fa s
+  length=16
+  dateCreated=2016-08-01T12:15:03.038
+]
+2016-08-01 12:15:03 DEBUG [PostRepository:59] Adding a new post: com.aises.domain.Post@53ba4cf6[
+  id=2
+  userId=0
+  text=f a2 12 sdf fa s
+  length=16
+  dateCreated=2016-08-01T12:15:03.038
+]
+2016-08-01 12:15:03 DEBUG [PostRepository:68] New post return code: 1
+2016-08-01 12:15:03 DEBUG [NotificationController:53] Sending new notification! com.aises.domain.Notification@5d7da8f1
+2016-08-01 12:15:03 DEBUG [PostController:46] Checking user credentials before retrieving or sending posts
+2016-08-01 12:15:03 DEBUG [PostController:87] Getting all posts
+2016-08-01 12:15:35 DEBUG [WebSocketController:49] Removing session: SESSION-/172.16.102.166:58833
+2016-08-01 12:15:36 DEBUG [WebSocketController:44] Added new session: SESSION-/172.16.102.166:58914
+2016-08-01 12:15:39 DEBUG [WebSocketController:55] Message from SESSION-/172.16.102.166:58914: {"userId":"154165a564n56465b65w654w62461-=","message":"Hello Message!"}
+2016-08-01 12:15:39 DEBUG [PostController:46] Checking user credentials before retrieving or sending posts
+2016-08-01 12:15:39 DEBUG [PostController:87] Getting all posts
+2016-08-01 12:15:44 DEBUG [PostController:46] Checking user credentials before retrieving or sending posts
+2016-08-01 12:15:44 DEBUG [PostController:51] Creating new post
+2016-08-01 12:15:44 DEBUG [PostController:56] Post created from request: com.aises.domain.Post@5eed79aa[
+  id=0
+  userId=0
+  text=ads 
+  length=0
+  dateCreated=<null>
+]
+2016-08-01 12:15:44 DEBUG [PostService:45] Attempting to add new post: com.aises.domain.Post@5eed79aa[
+  id=3
+  userId=0
+  text=ads 
+  length=4
+  dateCreated=2016-08-01T12:15:44.210
+]
+2016-08-01 12:15:44 DEBUG [PostRepository:59] Adding a new post: com.aises.domain.Post@5eed79aa[
+  id=3
+  userId=0
+  text=ads 
+  length=4
+  dateCreated=2016-08-01T12:15:44.210
+]
+2016-08-01 12:15:44 DEBUG [PostRepository:68] New post return code: 1
+2016-08-01 12:15:44 DEBUG [NotificationController:53] Sending new notification! com.aises.domain.Notification@4224fdfd
+2016-08-01 12:15:44 DEBUG [PostController:46] Checking user credentials before retrieving or sending posts
+2016-08-01 12:15:44 DEBUG [PostController:87] Getting all posts
+2016-08-01 12:16:34 DEBUG [WebSocketController:49] Removing session: SESSION-/172.16.102.166:58914
+2016-08-01 12:16:35 DEBUG [WebSocketController:44] Added new session: SESSION-/172.16.102.166:59007
+2016-08-01 12:16:37 DEBUG [WebSocketController:55] Message from SESSION-/172.16.102.166:59007: {"userId":"154165a564n56465b65w654w62461-=","message":"Hello Message!"}
+2016-08-01 12:16:37 DEBUG [PostController:46] Checking user credentials before retrieving or sending posts
+2016-08-01 12:16:37 DEBUG [PostController:87] Getting all posts
+2016-08-01 12:17:18 DEBUG [WebSocketController:49] Removing session: SESSION-/172.16.102.166:59007
+2016-08-01 12:17:18 DEBUG [WebSocketController:44] Added new session: SESSION-/172.16.102.166:59077
+2016-08-01 12:17:20 DEBUG [WebSocketController:55] Message from SESSION-/172.16.102.166:59077: {"userId":"154165a564n56465b65w654w62461-=","message":"Hello Message!"}
+2016-08-01 12:17:20 DEBUG [PostController:46] Checking user credentials before retrieving or sending posts
+2016-08-01 12:17:20 DEBUG [PostController:87] Getting all posts
+2016-08-01 12:17:24 DEBUG [PostController:46] Checking user credentials before retrieving or sending posts
+2016-08-01 12:17:24 DEBUG [PostController:51] Creating new post
+2016-08-01 12:17:24 DEBUG [PostController:56] Post created from request: com.aises.domain.Post@762aa2db[
+  id=0
+  userId=0
+  text=asdfdsf asdf
+  length=0
+  dateCreated=<null>
+]
+2016-08-01 12:17:24 DEBUG [PostService:45] Attempting to add new post: com.aises.domain.Post@762aa2db[
+  id=4
+  userId=0
+  text=asdfdsf asdf
+  length=12
+  dateCreated=2016-08-01T12:17:24.464
+]
+2016-08-01 12:17:24 DEBUG [PostRepository:59] Adding a new post: com.aises.domain.Post@762aa2db[
+  id=4
+  userId=0
+  text=asdfdsf asdf
+  length=12
+  dateCreated=2016-08-01T12:17:24.464
+]
+2016-08-01 12:17:24 DEBUG [PostRepository:68] New post return code: 1
+2016-08-01 12:17:24 DEBUG [NotificationController:53] Sending new notification! com.aises.domain.Notification@4dcc60a5
+2016-08-01 12:17:24 DEBUG [PostController:46] Checking user credentials before retrieving or sending posts
+2016-08-01 12:17:24 DEBUG [PostController:87] Getting all posts

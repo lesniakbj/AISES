@@ -5,7 +5,8 @@ package com.aises.domain.enums;
  */
 public enum NotificationType {
     POST("POST"),
-    CALENDAR("CALENDAR");
+    CALENDAR("CALENDAR"),
+    ADMIN("ADMIN");
 
     private final String name;
 
