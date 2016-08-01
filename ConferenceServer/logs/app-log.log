@@ -527,3 +527,22 @@
 2016-07-31 22:43:28 DEBUG [PostController:78] Getting all posts
 2016-07-31 22:43:33 DEBUG [PostController:46] Checking user credentials before retrieving or sending posts
 2016-07-31 22:43:33 DEBUG [PostController:78] Getting all posts
+2016-07-31 22:47:46 DEBUG [PostController:46] Checking user credentials before retrieving or sending posts
+2016-07-31 22:47:46 DEBUG [PostController:78] Getting all posts
+2016-07-31 22:47:49 DEBUG [PostController:46] Checking user credentials before retrieving or sending posts
+2016-07-31 22:47:49 DEBUG [PostController:78] Getting all posts
+2016-07-31 22:47:51 DEBUG [PostController:46] Checking user credentials before retrieving or sending posts
+2016-07-31 22:47:51 DEBUG [PostController:78] Getting all posts
+2016-07-31 22:47:53 DEBUG [PostController:46] Checking user credentials before retrieving or sending posts
+2016-07-31 22:47:53 DEBUG [PostController:78] Getting all posts
+2016-07-31 22:47:57 DEBUG [PostController:46] Checking user credentials before retrieving or sending posts
+2016-07-31 22:47:57 DEBUG [PostController:78] Getting all posts
+2016-07-31 23:14:34 DEBUG [PostRepository:36] Creating a repository for Posts
+2016-07-31 23:14:34 DEBUG [WebSocketController:17] Creating a controller for Posts
+2016-07-31 23:14:34 DEBUG [PostService:30] Creating a service for Posts
+2016-07-31 23:14:34 DEBUG [PostController:33] Creating a controller for Posts
+2016-07-31 23:14:34 DEBUG [UploadService:27] Creating a service for Uploads
+2016-07-31 23:14:34 DEBUG [UploadController:40] Creating a controller for Uploads
+2016-07-31 23:14:34 DEBUG [AISESServerRunner:26] Starting Server
+2016-07-31 23:14:39 DEBUG [PostController:46] Checking user credentials before retrieving or sending posts
+2016-07-31 23:14:39 DEBUG [PostController:78] Getting all posts

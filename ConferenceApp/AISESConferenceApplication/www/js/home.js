@@ -23,9 +23,9 @@ AISES.HomeController = {
         $.get({
             url: AISES.Config.getDataServer() + '/post/all',
             dataType: 'json',
-            beforeSend: function() { $('#loader').show(); },
+            beforeSend: function() { $('#dim-wrapper').show(); },
             success: function(data) { AISES.HomeController.loadAllPosts(data); },
-            complete: function(){ $('#loader').hide(); },
+            complete: function(){ $('#dim-wrapper').hide(); },
             error: function(errorObj) { alert('Unable to retrieve posts! ' + errorObj.status + ' - ' + errorObj.statusText); }
         });
     },

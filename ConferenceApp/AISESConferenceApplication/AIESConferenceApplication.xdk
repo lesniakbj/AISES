@@ -5,7 +5,7 @@
       "projectTypeName": "com.intel.xdk.projecttype.jsapp",
       "src": "jsapp/template-blank-cordova-project-lite/sample.zip",
       "projectGuid": "39036638-6611-4f44-95f1-06491aaf205f",
-      "lastModifiedDate": 1470015337828,
+      "lastModifiedDate": 1470023245502,
       "creationDate": 1469329502589
     },
     "XDK-app-designer": "false",
@@ -159,7 +159,7 @@
         "certificateId_": "7TcHl2QCm0WZ41eUDLCm-w2",
         "cordovaCLIVersion_": "5.4.1",
         "crosswalkVersion_": "18",
-        "appVersion_": "0.0.2",
+        "appVersion_": "0.0.3",
         "appDescription_": "A simple application supporting the AISES Conference - 2016",
         "appAuthor_": "Brendan Lesniak, Adam Williams",
         "appVersionCode_": "1"
@@ -202,7 +202,7 @@
         "cordovaCLIVersion_": "5.4.1",
         "appAuthor_": "Brendan Lesniak, Adam Williams",
         "crosswalkVersion_": "18",
-        "appVersion_": "0.0.1",
+        "appVersion_": "0.0.3",
         "appDescription_": "A simple application supporting the AISES Conference - 2016"
       },
       "Windows8": {
@@ -240,7 +240,7 @@
         "cordovaCLIVersion_": "5.4.1",
         "crosswalkVersion_": "18",
         "appAuthor_": "Brendan Lesniak, Adam Williams",
-        "appVersion_": "0.0.0.1",
+        "appVersion_": "0.0.3.1",
         "appDescription_": "A simple application supporting the AISES Conference - 2016"
       },
       "WebApp": {
