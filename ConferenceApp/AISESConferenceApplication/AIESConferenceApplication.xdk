@@ -5,7 +5,7 @@
       "projectTypeName": "com.intel.xdk.projecttype.jsapp",
       "src": "jsapp/template-blank-cordova-project-lite/sample.zip",
       "projectGuid": "39036638-6611-4f44-95f1-06491aaf205f",
-      "lastModifiedDate": 1469992979120,
+      "lastModifiedDate": 1470011806271,
       "creationDate": 1469329502589
     },
     "XDK-app-designer": "false",
@@ -96,6 +96,27 @@
           ]
         },
         "description": "Cordova File Plugin",
+        "data": {},
+        "dependedBy": []
+      },
+      {
+        "id": "cordova-plugin-facebook4",
+        "name": "Facebook Connect",
+        "version": "1.7.1",
+        "originType": "cordova.io",
+        "origin": "cordova-plugin-facebook4",
+        "gitref": "",
+        "paramvals": {
+          "APP_ID": "1111493068916267",
+          "APP_NAME": "AISES-Conference-Application"
+        },
+        "sourceLocation": "plugins/cordova-plugin-facebook4",
+        "selectedState": "Included",
+        "checksum": "5a1597eb",
+        "dependsOn": [],
+        "topLevel": true,
+        "permissions": {},
+        "description": "\n      This is the official plugin for Facebook in Apache Cordova/PhoneGap!\n\n      The Facebook plugin for Apache Cordova allows you to use the same JavaScript code in your\n      Cordova application as you use in your web application.\n      Docs: https://github.com/Wizcorp/phonegap-facebook-plugin.\n    ",
         "data": {},
         "dependedBy": []
       }

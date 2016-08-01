@@ -26,34 +26,18 @@ AISES.LoginController = {
             return;
         }
         
-        /*
-        $.get({
-            url: 'AISES.Config.getDataServer() + /api/login',
-            dataType: 'json',
-            data: { 'User': us, 'Pass': pas },
-            beforeSend: function() { $('#loader').show(); },
-            success: function(data) { AISES.LoginController.loginSuccess(data); },
-            complete: function(){ $('#loader').hide(); },
-            error: function(errorObj) { alert('Unable to login! ' + errorObj.status + ' - ' + errorObj.statusText); }
-        });
-        */
-        
-        AISES.LoginController.loginSuccess(true);
+        // Is this correct?
+        facebookConnectPlugin.login(["public_profile", "email"], AISES.LoginController.loginSuccess, 
+                                                                AISES.LoginController.loginFailure);
     },
     
-    loginSuccess: function(data) {
-        // Save the auth token that we get so that
-        // we can make later API requests. Also, we should
-        // probably start a session with the server on login.
-        console.log('Data: ' + JSON.stringify(data, null, 4));
-        
-        if(data == false) {
-            alert('Unable to login! Error when attempting to validate credentials!');
-        } else {
-            // Once done...
-            AISES.Utils.createCookie('LoginSession', data.sessionID);
-            AISES.Routes.routeTo(AISES.Routes.HOME);
-        }
+    loginSuccess: function(userData) {
+        console.log(JSON.stringify(userData));
+        AISES.Routes.routeTo(AISES.Routes.HOME);
+    },
+    
+    loginFailure: function(error) {
+        console.log("Error logging in! " + error);
     },
     
     handleCreateLogin: function() {
