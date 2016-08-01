@@ -423,3 +423,26 @@
 2016-07-31 20:48:02 DEBUG [PostController:78] Getting all posts
 2016-07-31 21:17:04 DEBUG [PostController:46] Checking user credentials before retrieving or sending posts
 2016-07-31 21:17:04 DEBUG [PostController:78] Getting all posts
+2016-07-31 21:23:43 DEBUG [PostController:46] Checking user credentials before retrieving or sending posts
+2016-07-31 21:23:43 DEBUG [PostController:78] Getting all posts
+2016-07-31 21:24:04 DEBUG [PostController:46] Checking user credentials before retrieving or sending posts
+2016-07-31 21:24:04 DEBUG [PostController:60] Interpreting post query: id=1
+2016-07-31 21:24:04 DEBUG [PostController:73] Getting a single post
+2016-07-31 21:50:29 DEBUG [PostRepository:36] Creating a repository for Posts
+2016-07-31 21:50:29 DEBUG [WebSocketController:17] Creating a controller for Posts
+2016-07-31 21:50:29 DEBUG [PostService:30] Creating a service for Posts
+2016-07-31 21:50:29 DEBUG [PostController:33] Creating a controller for Posts
+2016-07-31 21:50:29 DEBUG [UploadService:27] Creating a service for Uploads
+2016-07-31 21:50:29 DEBUG [UploadController:40] Creating a controller for Uploads
+2016-07-31 21:50:29 DEBUG [AISESServerRunner:26] Starting Server
+2016-07-31 21:50:30 DEBUG [PostController:46] Checking user credentials before retrieving or sending posts
+2016-07-31 21:50:30 DEBUG [PostController:78] Getting all posts
+2016-07-31 21:50:59 DEBUG [PostRepository:36] Creating a repository for Posts
+2016-07-31 21:50:59 DEBUG [WebSocketController:17] Creating a controller for Posts
+2016-07-31 21:50:59 DEBUG [PostService:30] Creating a service for Posts
+2016-07-31 21:50:59 DEBUG [PostController:33] Creating a controller for Posts
+2016-07-31 21:50:59 DEBUG [UploadService:27] Creating a service for Uploads
+2016-07-31 21:50:59 DEBUG [UploadController:40] Creating a controller for Uploads
+2016-07-31 21:50:59 DEBUG [AISESServerRunner:26] Starting Server
+2016-07-31 21:51:00 DEBUG [PostController:46] Checking user credentials before retrieving or sending posts
+2016-07-31 21:51:00 DEBUG [PostController:78] Getting all posts

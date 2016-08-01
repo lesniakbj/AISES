@@ -12,13 +12,18 @@ AISES.LoginController = {
         $('#main-content').html(template);
         
         // Attach any events here...
-        $('#login-submit').on('click', AISES.LoginController.handleLogin);
+        $('#login-submit-facebook').on('click', AISES.LoginController.handleLoginFacebook);
+        $('#login-submit-google').on('click', AISES.LoginController.handleLoginGoogle);
     },
     
-    handleLogin: function() {
+    handleLoginFacebook: function() {
         facebookConnectPlugin.login(["public_profile", "email"],
                                     AISES.LoginController.loginSuccess, 
                                     AISES.LoginController.loginFailure);
+    },
+    
+    handleLoginGoogle: function() {
+        alert("Unsupported at this time!");
     },
     
     loginSuccess: function(userData) {
