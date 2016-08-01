@@ -1,10 +1,6 @@
 package com.aises.controller;
 
 import com.aises.controller.interfaces.Controller;
-import com.aises.server.Routes;
-import org.apache.commons.lang3.builder.ReflectionToStringBuilder;
-import org.apache.commons.lang3.builder.ToStringStyle;
-import org.eclipse.jetty.server.session.JDBCSessionManager;
 import org.eclipse.jetty.websocket.api.Session;
 import org.eclipse.jetty.websocket.api.annotations.OnWebSocketClose;
 import org.eclipse.jetty.websocket.api.annotations.OnWebSocketConnect;
@@ -12,14 +8,11 @@ import org.eclipse.jetty.websocket.api.annotations.OnWebSocketMessage;
 import org.eclipse.jetty.websocket.api.annotations.WebSocket;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import spark.Spark;
 
 import java.io.IOException;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
-import java.util.Queue;
-import java.util.concurrent.ConcurrentLinkedQueue;
 import java.util.stream.Collectors;
 
 /**
@@ -38,31 +31,30 @@ public class WebSocketController implements Controller {
         logger.debug("Creating a controller for WebSocket Notifications");
     }
 
+    @SuppressWarnings("unused")
     @OnWebSocketConnect
-    public void connected(Session sess) throws Exception {
+    public void connected(Session sess) {
         sessions.put(sess, generateSessionName(sess));
         logger.debug("Added new session: {}", sessions.get(sess));
     }
 
+    @SuppressWarnings("unused")
     @OnWebSocketClose
     public void closed(Session sess, int statusCode, String reason) {
         logger.debug("Removing session: {}", sessions.get(sess));
         sessions.remove(sess);
     }
 
+    @SuppressWarnings("unused")
     @OnWebSocketMessage
     public void message(Session sess, String message) {
         logger.debug("Message from {}: {}", sessions.get(sess), message);
     }
 
-    private static String generateSessionName(Session sess) {
-        return "SESSION-" + sess.getRemoteAddress().toString();
-    }
-
+    @SuppressWarnings("unused")
     public static void sendMessage(Session sess, String str) throws IOException, UnsupportedOperationException {
         throw new UnsupportedOperationException("Not implemented yet!");
     }
-
     public static String sendMessageToAll(String str) throws IOException {
         List<Session> sessList = sessions.keySet()
                 .stream()
@@ -74,5 +66,9 @@ public class WebSocketController implements Controller {
         }
 
         return str;
+    }
+
+    private static String generateSessionName(Session sess) {
+        return "SESSION-" + sess.getRemoteAddress().toString().replace("/", "");
     }
 }

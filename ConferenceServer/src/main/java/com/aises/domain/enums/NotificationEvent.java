@@ -2,15 +2,17 @@ package com.aises.domain.enums;
 
 /**
  * Created by Brendan on 8/1/2016.
+ *
+ * Types of notification events that can be sent
  */
 public enum NotificationEvent {
     NEW("NEW"),
-    UPDATE("UPDATE"),
-    DELETE("DELETE");
+    @SuppressWarnings("unused")UPDATE("UPDATE"),
+    @SuppressWarnings("unused")DELETE("DELETE");
 
     private final String name;
 
-    private NotificationEvent(String name) {
+    NotificationEvent(String name) {
         this.name = name;
     }
 

@@ -8,8 +8,6 @@ import com.aises.controller.UploadController;
 import com.aises.repository.PostRepository;
 import com.aises.repository.interfaces.Repository;
 import com.aises.utils.JSONUtils;
-import org.apache.commons.lang3.builder.ToStringBuilder;
-import org.apache.commons.lang3.builder.ToStringStyle;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import spark.Spark;
@@ -25,6 +23,7 @@ import java.util.List;
  * controllers, repositories and routes.
  */
 public class ConferenceServer {
+    @SuppressWarnings("unused")
     private static final Logger logger = LoggerFactory.getLogger(ConferenceServer.class);
 
     private static ConferenceServer instance;

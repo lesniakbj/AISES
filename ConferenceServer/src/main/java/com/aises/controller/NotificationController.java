@@ -6,17 +6,17 @@ import com.aises.domain.enums.NotificationEvent;
 import com.aises.domain.enums.NotificationType;
 import com.aises.server.Routes;
 import com.aises.utils.JSONUtils;
-import org.eclipse.jetty.server.session.JDBCSessionManager;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import spark.Request;
-import spark.Response;
 import spark.Spark;
 
 import java.io.IOException;
 
 /**
  * Created by Brendan on 8/1/2016.
+ *
+ * Used to handle notifications and routing of the messages.
  */
 public class NotificationController implements Controller {
     private static final Logger logger = LoggerFactory.getLogger(NotificationController.class);
@@ -49,13 +49,12 @@ public class NotificationController implements Controller {
 
     // This API is used internally to have other controllers send
     // Notifications
-    public static String sendNotification(Notification ntf) {
+    public static void sendNotification(Notification ntf) {
         logger.debug("Sending new notification! {}", ntf);
         try {
-            return WebSocketController.sendMessageToAll(JSONUtils.toJSON(ntf));
+            WebSocketController.sendMessageToAll(JSONUtils.toJSON(ntf));
         } catch (IOException e) {
             logger.error("Unable to send notification message!", e);
-            return "ERROR";
         }
     }
 }
