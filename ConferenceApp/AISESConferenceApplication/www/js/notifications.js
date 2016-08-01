@@ -13,7 +13,7 @@ AISES.Notifications = {
         
         socket.onmessage = function(event) {
             var msg = event.data;
-            console.log(msg);  
+            alert(msg);
         };
     }
 }

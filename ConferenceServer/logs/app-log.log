@@ -2209,3 +2209,446 @@ java.nio.file.NoSuchFileException: C:\Projects\AISES\uploads\[content-dispositio
 ]
 2016-08-01 09:23:54 DEBUG [UploadService:38] File attempting to upload: pgadmin.log
 2016-08-01 09:23:54 DEBUG [UploadService:49] File created: pgadmin/.log
+2016-08-01 10:18:40 DEBUG [PostRepository:36] Creating a repository for Posts
+2016-08-01 10:18:40 DEBUG [WebSocketController:33] Creating a controller for WebSocket Notifications
+2016-08-01 10:18:40 DEBUG [PostService:30] Creating a service for Posts
+2016-08-01 10:18:40 DEBUG [PostController:33] Creating a controller for Posts
+2016-08-01 10:18:40 DEBUG [UploadService:27] Creating a service for Uploads
+2016-08-01 10:18:40 DEBUG [UploadController:42] Creating a controller for Uploads
+2016-08-01 10:18:40 DEBUG [NotificationController:20] Creating a controller for Notifications
+2016-08-01 10:18:40 DEBUG [AISESServerRunner:26] Starting Server
+2016-08-01 10:18:40 DEBUG [WebSocketController:33] Creating a controller for WebSocket Notifications
+2016-08-01 10:18:50 DEBUG [PostController:46] Checking user credentials before retrieving or sending posts
+2016-08-01 10:18:50 DEBUG [PostController:79] Getting all posts
+2016-08-01 10:18:55 DEBUG [WebSocketController:39] Session created from: org.eclipse.jetty.websocket.common.WebSocketSession@66d6d07c[
+  containerScope=org.eclipse.jetty.websocket.server.WebSocketServerFactory@2e4e795e
+  requestURI=ws://172.16.102.166:5570/notifications
+  connection=WebSocketServerConnection@7144B325{endp=SelectChannelEndPoint@7ffbd502{/172.16.102.166:64317<->5570,Open,in,out,-,-,8/300000,WebSocketServerConnection}{io=0/0,kio=0,kro=1},ios=IOState@f38956f[CONNECTED,!in,out],f=Flusher[queueSize=0,aggregateSize=0,failure=null],g=Generator[SERVER,validating,+rsv1],p=Parser@3c6223ac[ExtensionStack,s=START,c=0,len=0,f=null]}
+  websocket=JettyAnnotatedEventDriver[com.aises.controller.WebSocketController@5f33f639]
+  sessionListeners={org.eclipse.jetty.websocket.server.WebSocketServerFactory@2e4e795e}
+  executor=qtp1297364850{STARTED,4<=5<=16,i=1,q=0}
+  classLoader=sun.misc.Launcher$AppClassLoader@55f96302
+  extensionFactory=<null>
+  protocolVersion=13
+  parameterMap={}
+  remote=WebSocketRemoteEndpoint@2f058ddf[batching=true]
+  incomingHandler=JettyAnnotatedEventDriver[com.aises.controller.WebSocketController@5f33f639]
+  outgoingHandler=ExtensionStack[queueSize=0,extensions=[permessage-deflate],incoming=org.eclipse.jetty.websocket.common.extensions.compress.PerMessageDeflateExtension,outgoing=org.eclipse.jetty.websocket.common.extensions.compress.PerMessageDeflateExtension]
+  policy=WebSocketPolicy@31a97fbf[behavior=SERVER,maxTextMessageSize=65536,maxTextMessageBufferSize=32768,maxBinaryMessageSize=65536,maxBinaryMessageBufferSize=32768,asyncWriteTimeout=60000,idleTimeout=300000,inputBufferSize=4096]
+  upgradeRequest=org.eclipse.jetty.websocket.servlet.ServletUpgradeRequest@e4a4411
+  upgradeResponse=org.eclipse.jetty.websocket.servlet.ServletUpgradeResponse@d224b72
+  _beans=[{WebSocketServerConnection@7144B325{endp=SelectChannelEndPoint@7ffbd502{/172.16.102.166:64317<->5570,Open,in,out,-,-,11/300000,WebSocketServerConnection}{io=0/0,kio=0,kro=1},ios=IOState@f38956f[CONNECTED,!in,out],f=Flusher[queueSize=0,aggregateSize=0,failure=null],g=Generator[SERVER,validating,+rsv1],p=Parser@3c6223ac[ExtensionStack,s=START,c=0,len=0,f=null]},POJO}, {JettyAnnotatedEventDriver[com.aises.controller.WebSocketController@5f33f639],MANAGED}, {ExtensionStack[queueSize=0,extensions=[permessage-deflate],incoming=org.eclipse.jetty.websocket.common.extensions.compress.PerMessageDeflateExtension,outgoing=org.eclipse.jetty.websocket.common.extensions.compress.PerMessageDeflateExtension],MANAGED}]
+  _listeners=[]
+  _doStarted=true
+  _listeners=[]
+  _lock=java.lang.Object@176de4ac
+  __FAILED=-1
+  __STOPPED=0
+  __STARTING=1
+  __STARTED=2
+  __STOPPING=3
+  _state=2
+  _stopTimeout=30000
+]
+2016-08-01 10:18:59 DEBUG [PostController:46] Checking user credentials before retrieving or sending posts
+2016-08-01 10:18:59 DEBUG [PostController:79] Getting all posts
+2016-08-01 10:21:33 DEBUG [PostRepository:36] Creating a repository for Posts
+2016-08-01 10:21:33 DEBUG [WebSocketController:33] Creating a controller for WebSocket Notifications
+2016-08-01 10:21:33 DEBUG [PostService:30] Creating a service for Posts
+2016-08-01 10:21:33 DEBUG [PostController:33] Creating a controller for Posts
+2016-08-01 10:21:33 DEBUG [UploadService:27] Creating a service for Uploads
+2016-08-01 10:21:33 DEBUG [UploadController:42] Creating a controller for Uploads
+2016-08-01 10:21:33 DEBUG [NotificationController:20] Creating a controller for Notifications
+2016-08-01 10:21:33 DEBUG [AISESServerRunner:26] Starting Server
+2016-08-01 10:21:33 DEBUG [WebSocketController:33] Creating a controller for WebSocket Notifications
+2016-08-01 10:21:36 DEBUG [WebSocketController:39] Session created from: org.eclipse.jetty.websocket.common.WebSocketSession@5dd17fb[
+  containerScope=org.eclipse.jetty.websocket.server.WebSocketServerFactory@2b416b08
+  requestURI=ws://172.16.102.166:5570/notifications
+  connection=WebSocketServerConnection@48C6C3D{endp=SelectChannelEndPoint@28555c21{/172.16.102.166:64598<->5570,Open,in,out,-,-,7/300000,WebSocketServerConnection}{io=0/0,kio=0,kro=1},ios=IOState@8fe3d4[CONNECTED,!in,out],f=Flusher[queueSize=0,aggregateSize=0,failure=null],g=Generator[SERVER,validating,+rsv1],p=Parser@594d2066[ExtensionStack,s=START,c=0,len=0,f=null]}
+  websocket=JettyAnnotatedEventDriver[com.aises.controller.WebSocketController@79f0f5d]
+  sessionListeners={org.eclipse.jetty.websocket.server.WebSocketServerFactory@2b416b08}
+  executor=qtp1364534338{STARTED,4<=5<=16,i=1,q=0}
+  classLoader=sun.misc.Launcher$AppClassLoader@2f0e140b
+  extensionFactory=<null>
+  protocolVersion=13
+  parameterMap={}
+  remote=WebSocketRemoteEndpoint@6fd73d39[batching=true]
+  incomingHandler=JettyAnnotatedEventDriver[com.aises.controller.WebSocketController@79f0f5d]
+  outgoingHandler=ExtensionStack[queueSize=0,extensions=[permessage-deflate],incoming=org.eclipse.jetty.websocket.common.extensions.compress.PerMessageDeflateExtension,outgoing=org.eclipse.jetty.websocket.common.extensions.compress.PerMessageDeflateExtension]
+  policy=WebSocketPolicy@10c0de08[behavior=SERVER,maxTextMessageSize=65536,maxTextMessageBufferSize=32768,maxBinaryMessageSize=65536,maxBinaryMessageBufferSize=32768,asyncWriteTimeout=60000,idleTimeout=300000,inputBufferSize=4096]
+  upgradeRequest=org.eclipse.jetty.websocket.servlet.ServletUpgradeRequest@4b89882
+  upgradeResponse=org.eclipse.jetty.websocket.servlet.ServletUpgradeResponse@52d043d9
+  _beans=[{WebSocketServerConnection@48C6C3D{endp=SelectChannelEndPoint@28555c21{/172.16.102.166:64598<->5570,Open,in,out,-,-,9/300000,WebSocketServerConnection}{io=0/0,kio=0,kro=1},ios=IOState@8fe3d4[CONNECTED,!in,out],f=Flusher[queueSize=0,aggregateSize=0,failure=null],g=Generator[SERVER,validating,+rsv1],p=Parser@594d2066[ExtensionStack,s=START,c=0,len=0,f=null]},POJO}, {JettyAnnotatedEventDriver[com.aises.controller.WebSocketController@79f0f5d],MANAGED}, {ExtensionStack[queueSize=0,extensions=[permessage-deflate],incoming=org.eclipse.jetty.websocket.common.extensions.compress.PerMessageDeflateExtension,outgoing=org.eclipse.jetty.websocket.common.extensions.compress.PerMessageDeflateExtension],MANAGED}]
+  _listeners=[]
+  _doStarted=true
+  _listeners=[]
+  _lock=java.lang.Object@4e270cc4
+  __FAILED=-1
+  __STOPPED=0
+  __STARTING=1
+  __STARTED=2
+  __STOPPING=3
+  _state=2
+  _stopTimeout=30000
+]
+2016-08-01 10:21:39 DEBUG [PostController:46] Checking user credentials before retrieving or sending posts
+2016-08-01 10:21:39 DEBUG [PostController:79] Getting all posts
+2016-08-01 10:21:43 DEBUG [NotificationController:25] Sending new notification! Test notification!
+2016-08-01 10:21:48 DEBUG [NotificationController:25] Sending new notification! Test notification!
+2016-08-01 10:26:48 DEBUG [WebSocketController:46] Session destroyed: org.eclipse.jetty.websocket.common.WebSocketSession@5dd17fb[
+  containerScope=org.eclipse.jetty.websocket.server.WebSocketServerFactory@2b416b08
+  requestURI=ws://172.16.102.166:5570/notifications
+  connection=WebSocketServerConnection@48C6C3D{endp=SelectChannelEndPoint@28555c21{/172.16.102.166:64598<->5570,CLOSED,ISHUT,OSHUT,-,-,0/300000,WebSocketServerConnection}{io=0/0,kio=-1,kro=-1},ios=IOState@8fe3d4[CLOSED,!in,!out,finalClose=CloseInfo[code=1001,reason=Idle Timeout],clean=false,closeSource=ABNORMAL],f=Flusher[queueSize=0,aggregateSize=0,failure=null],g=Generator[SERVER,validating,+rsv1],p=Parser@594d2066[ExtensionStack,s=START,c=0,len=0,f=null]}
+  websocket=JettyAnnotatedEventDriver[com.aises.controller.WebSocketController@79f0f5d]
+  sessionListeners={org.eclipse.jetty.websocket.server.WebSocketServerFactory@2b416b08}
+  executor=qtp1364534338{STARTED,4<=6<=16,i=3,q=0}
+  classLoader=sun.misc.Launcher$AppClassLoader@2f0e140b
+  extensionFactory=<null>
+  protocolVersion=13
+  parameterMap={}
+  remote=WebSocketRemoteEndpoint@6fd73d39[batching=true]
+  incomingHandler=JettyAnnotatedEventDriver[com.aises.controller.WebSocketController@79f0f5d]
+  outgoingHandler=ExtensionStack[queueSize=0,extensions=[permessage-deflate],incoming=org.eclipse.jetty.websocket.common.extensions.compress.PerMessageDeflateExtension,outgoing=org.eclipse.jetty.websocket.common.extensions.compress.PerMessageDeflateExtension]
+  policy=WebSocketPolicy@10c0de08[behavior=SERVER,maxTextMessageSize=65536,maxTextMessageBufferSize=32768,maxBinaryMessageSize=65536,maxBinaryMessageBufferSize=32768,asyncWriteTimeout=60000,idleTimeout=300000,inputBufferSize=4096]
+  upgradeRequest=org.eclipse.jetty.websocket.servlet.ServletUpgradeRequest@4b89882
+  upgradeResponse=org.eclipse.jetty.websocket.servlet.ServletUpgradeResponse@52d043d9
+  _beans=[{WebSocketServerConnection@48C6C3D{endp=SelectChannelEndPoint@28555c21{/172.16.102.166:64598<->5570,CLOSED,ISHUT,OSHUT,-,-,0/300000,WebSocketServerConnection}{io=0/0,kio=-1,kro=-1},ios=IOState@8fe3d4[CLOSED,!in,!out,finalClose=CloseInfo[code=1001,reason=Idle Timeout],clean=false,closeSource=ABNORMAL],f=Flusher[queueSize=0,aggregateSize=0,failure=null],g=Generator[SERVER,validating,+rsv1],p=Parser@594d2066[ExtensionStack,s=START,c=0,len=0,f=null]},POJO}, {JettyAnnotatedEventDriver[com.aises.controller.WebSocketController@79f0f5d],MANAGED}, {ExtensionStack[queueSize=0,extensions=[permessage-deflate],incoming=org.eclipse.jetty.websocket.common.extensions.compress.PerMessageDeflateExtension,outgoing=org.eclipse.jetty.websocket.common.extensions.compress.PerMessageDeflateExtension],MANAGED}]
+  _listeners=[]
+  _doStarted=true
+  _listeners=[]
+  _lock=java.lang.Object@4e270cc4
+  __FAILED=-1
+  __STOPPED=0
+  __STARTING=1
+  __STARTED=2
+  __STOPPING=3
+  _state=2
+  _stopTimeout=30000
+]
+2016-08-01 10:29:50 DEBUG [PostRepository:36] Creating a repository for Posts
+2016-08-01 10:29:50 DEBUG [WebSocketController:33] Creating a controller for WebSocket Notifications
+2016-08-01 10:29:50 DEBUG [PostService:30] Creating a service for Posts
+2016-08-01 10:29:50 DEBUG [PostController:33] Creating a controller for Posts
+2016-08-01 10:29:50 DEBUG [UploadService:27] Creating a service for Uploads
+2016-08-01 10:29:50 DEBUG [UploadController:42] Creating a controller for Uploads
+2016-08-01 10:29:50 DEBUG [NotificationController:22] Creating a controller for Notifications
+2016-08-01 10:29:50 DEBUG [AISESServerRunner:26] Starting Server
+2016-08-01 10:29:50 DEBUG [WebSocketController:33] Creating a controller for WebSocket Notifications
+2016-08-01 10:29:56 DEBUG [WebSocketController:39] Session created from: org.eclipse.jetty.websocket.common.WebSocketSession@27a31b9d[
+  containerScope=org.eclipse.jetty.websocket.server.WebSocketServerFactory@1fdd69d3
+  requestURI=ws://172.16.102.166:5570/notifications
+  connection=WebSocketServerConnection@500D0517{endp=SelectChannelEndPoint@8aa1f2c{/172.16.102.166:65483<->5570,Open,in,out,-,-,16/300000,WebSocketServerConnection}{io=0/0,kio=0,kro=1},ios=IOState@2b880f69[CONNECTED,!in,out],f=Flusher[queueSize=0,aggregateSize=0,failure=null],g=Generator[SERVER,validating,+rsv1],p=Parser@2bc27fc5[ExtensionStack,s=START,c=0,len=0,f=null]}
+  websocket=JettyAnnotatedEventDriver[com.aises.controller.WebSocketController@6ce370a7]
+  sessionListeners={org.eclipse.jetty.websocket.server.WebSocketServerFactory@1fdd69d3}
+  executor=qtp1449906332{STARTED,4<=5<=16,i=1,q=0}
+  classLoader=sun.misc.Launcher$AppClassLoader@2f0e140b
+  extensionFactory=<null>
+  protocolVersion=13
+  parameterMap={}
+  remote=WebSocketRemoteEndpoint@18a6078b[batching=true]
+  incomingHandler=JettyAnnotatedEventDriver[com.aises.controller.WebSocketController@6ce370a7]
+  outgoingHandler=ExtensionStack[queueSize=0,extensions=[permessage-deflate],incoming=org.eclipse.jetty.websocket.common.extensions.compress.PerMessageDeflateExtension,outgoing=org.eclipse.jetty.websocket.common.extensions.compress.PerMessageDeflateExtension]
+  policy=WebSocketPolicy@6c6e7af1[behavior=SERVER,maxTextMessageSize=65536,maxTextMessageBufferSize=32768,maxBinaryMessageSize=65536,maxBinaryMessageBufferSize=32768,asyncWriteTimeout=60000,idleTimeout=300000,inputBufferSize=4096]
+  upgradeRequest=org.eclipse.jetty.websocket.servlet.ServletUpgradeRequest@5f3f05f1
+  upgradeResponse=org.eclipse.jetty.websocket.servlet.ServletUpgradeResponse@778ddbc2
+  _beans=[{WebSocketServerConnection@500D0517{endp=SelectChannelEndPoint@8aa1f2c{/172.16.102.166:65483<->5570,Open,in,out,-,-,16/300000,WebSocketServerConnection}{io=0/0,kio=0,kro=1},ios=IOState@2b880f69[CONNECTED,!in,out],f=Flusher[queueSize=0,aggregateSize=0,failure=null],g=Generator[SERVER,validating,+rsv1],p=Parser@2bc27fc5[ExtensionStack,s=START,c=0,len=0,f=null]},POJO}, {JettyAnnotatedEventDriver[com.aises.controller.WebSocketController@6ce370a7],MANAGED}, {ExtensionStack[queueSize=0,extensions=[permessage-deflate],incoming=org.eclipse.jetty.websocket.common.extensions.compress.PerMessageDeflateExtension,outgoing=org.eclipse.jetty.websocket.common.extensions.compress.PerMessageDeflateExtension],MANAGED}]
+  _listeners=[]
+  _doStarted=true
+  _listeners=[]
+  _lock=java.lang.Object@1a360d76
+  __FAILED=-1
+  __STOPPED=0
+  __STARTING=1
+  __STARTED=2
+  __STOPPING=3
+  _state=2
+  _stopTimeout=30000
+]
+2016-08-01 10:30:00 DEBUG [NotificationController:27] Sending new notification! POST
+2016-08-01 10:32:26 DEBUG [PostRepository:36] Creating a repository for Posts
+2016-08-01 10:32:26 DEBUG [WebSocketController:33] Creating a controller for WebSocket Notifications
+2016-08-01 10:32:26 DEBUG [PostService:30] Creating a service for Posts
+2016-08-01 10:32:26 DEBUG [PostController:33] Creating a controller for Posts
+2016-08-01 10:32:26 DEBUG [UploadService:27] Creating a service for Uploads
+2016-08-01 10:32:26 DEBUG [UploadController:42] Creating a controller for Uploads
+2016-08-01 10:32:26 DEBUG [NotificationController:23] Creating a controller for Notifications
+2016-08-01 10:32:26 DEBUG [AISESServerRunner:26] Starting Server
+2016-08-01 10:32:26 DEBUG [WebSocketController:33] Creating a controller for WebSocket Notifications
+2016-08-01 10:32:28 DEBUG [WebSocketController:39] Session created from: org.eclipse.jetty.websocket.common.WebSocketSession@2f5bc5c3[
+  containerScope=org.eclipse.jetty.websocket.server.WebSocketServerFactory@7d1122a8
+  requestURI=ws://172.16.102.166:5570/notifications
+  connection=WebSocketServerConnection@4DC7B31{endp=SelectChannelEndPoint@3acc4b72{/172.16.102.166:49340<->5570,Open,in,out,-,-,9/300000,WebSocketServerConnection}{io=0/0,kio=0,kro=1},ios=IOState@27436ac3[CONNECTED,!in,out],f=Flusher[queueSize=0,aggregateSize=0,failure=null],g=Generator[SERVER,validating,+rsv1],p=Parser@702f79ca[ExtensionStack,s=START,c=0,len=0,f=null]}
+  websocket=JettyAnnotatedEventDriver[com.aises.controller.WebSocketController@3e0c15c7]
+  sessionListeners={org.eclipse.jetty.websocket.server.WebSocketServerFactory@7d1122a8}
+  executor=qtp1449906332{STARTED,4<=5<=16,i=1,q=0}
+  classLoader=sun.misc.Launcher$AppClassLoader@2f0e140b
+  extensionFactory=<null>
+  protocolVersion=13
+  parameterMap={}
+  remote=WebSocketRemoteEndpoint@a9b4ad0[batching=true]
+  incomingHandler=JettyAnnotatedEventDriver[com.aises.controller.WebSocketController@3e0c15c7]
+  outgoingHandler=ExtensionStack[queueSize=0,extensions=[permessage-deflate],incoming=org.eclipse.jetty.websocket.common.extensions.compress.PerMessageDeflateExtension,outgoing=org.eclipse.jetty.websocket.common.extensions.compress.PerMessageDeflateExtension]
+  policy=WebSocketPolicy@c521484[behavior=SERVER,maxTextMessageSize=65536,maxTextMessageBufferSize=32768,maxBinaryMessageSize=65536,maxBinaryMessageBufferSize=32768,asyncWriteTimeout=60000,idleTimeout=300000,inputBufferSize=4096]
+  upgradeRequest=org.eclipse.jetty.websocket.servlet.ServletUpgradeRequest@1be9e69
+  upgradeResponse=org.eclipse.jetty.websocket.servlet.ServletUpgradeResponse@51238944
+  _beans=[{WebSocketServerConnection@4DC7B31{endp=SelectChannelEndPoint@3acc4b72{/172.16.102.166:49340<->5570,Open,in,out,-,-,11/300000,WebSocketServerConnection}{io=0/0,kio=0,kro=1},ios=IOState@27436ac3[CONNECTED,!in,out],f=Flusher[queueSize=0,aggregateSize=0,failure=null],g=Generator[SERVER,validating,+rsv1],p=Parser@702f79ca[ExtensionStack,s=START,c=0,len=0,f=null]},POJO}, {JettyAnnotatedEventDriver[com.aises.controller.WebSocketController@3e0c15c7],MANAGED}, {ExtensionStack[queueSize=0,extensions=[permessage-deflate],incoming=org.eclipse.jetty.websocket.common.extensions.compress.PerMessageDeflateExtension,outgoing=org.eclipse.jetty.websocket.common.extensions.compress.PerMessageDeflateExtension],MANAGED}]
+  _listeners=[]
+  _doStarted=true
+  _listeners=[]
+  _lock=java.lang.Object@19961c1e
+  __FAILED=-1
+  __STOPPED=0
+  __STARTING=1
+  __STARTED=2
+  __STOPPING=3
+  _state=2
+  _stopTimeout=30000
+]
+2016-08-01 10:32:31 DEBUG [PostController:46] Checking user credentials before retrieving or sending posts
+2016-08-01 10:32:31 DEBUG [PostController:79] Getting all posts
+2016-08-01 10:32:33 DEBUG [NotificationController:28] Sending new notification! POST
+2016-08-01 10:33:41 DEBUG [WebSocketController:39] Session created from: org.eclipse.jetty.websocket.common.WebSocketSession@30484788[
+  containerScope=org.eclipse.jetty.websocket.server.WebSocketServerFactory@7d1122a8
+  requestURI=ws://172.16.102.166:5570/notifications
+  connection=WebSocketServerConnection@754AC745{endp=SelectChannelEndPoint@71754db3{/172.16.102.224:51296<->5570,Open,in,out,-,-,0/300000,WebSocketServerConnection}{io=0/0,kio=0,kro=1},ios=IOState@5af196b0[CONNECTED,!in,out],f=Flusher[queueSize=0,aggregateSize=0,failure=null],g=Generator[SERVER,validating,+rsv1],p=Parser@1325088[ExtensionStack,s=START,c=0,len=0,f=null]}
+  websocket=JettyAnnotatedEventDriver[com.aises.controller.WebSocketController@3e0c15c7]
+  sessionListeners={org.eclipse.jetty.websocket.server.WebSocketServerFactory@7d1122a8}
+  executor=qtp1449906332{STARTED,4<=6<=16,i=2,q=0}
+  classLoader=sun.misc.Launcher$AppClassLoader@2f0e140b
+  extensionFactory=<null>
+  protocolVersion=13
+  parameterMap={}
+  remote=WebSocketRemoteEndpoint@5067b8c7[batching=true]
+  incomingHandler=JettyAnnotatedEventDriver[com.aises.controller.WebSocketController@3e0c15c7]
+  outgoingHandler=ExtensionStack[queueSize=0,extensions=[permessage-deflate],incoming=org.eclipse.jetty.websocket.common.extensions.compress.PerMessageDeflateExtension,outgoing=org.eclipse.jetty.websocket.common.extensions.compress.PerMessageDeflateExtension]
+  policy=WebSocketPolicy@1550562b[behavior=SERVER,maxTextMessageSize=65536,maxTextMessageBufferSize=32768,maxBinaryMessageSize=65536,maxBinaryMessageBufferSize=32768,asyncWriteTimeout=60000,idleTimeout=300000,inputBufferSize=4096]
+  upgradeRequest=org.eclipse.jetty.websocket.servlet.ServletUpgradeRequest@3965327a
+  upgradeResponse=org.eclipse.jetty.websocket.servlet.ServletUpgradeResponse@54290411
+  _beans=[{WebSocketServerConnection@754AC745{endp=SelectChannelEndPoint@71754db3{/172.16.102.224:51296<->5570,Open,in,out,-,-,0/300000,WebSocketServerConnection}{io=0/0,kio=0,kro=1},ios=IOState@5af196b0[CONNECTED,!in,out],f=Flusher[queueSize=0,aggregateSize=0,failure=null],g=Generator[SERVER,validating,+rsv1],p=Parser@1325088[ExtensionStack,s=START,c=0,len=0,f=null]},POJO}, {JettyAnnotatedEventDriver[com.aises.controller.WebSocketController@3e0c15c7],MANAGED}, {ExtensionStack[queueSize=0,extensions=[permessage-deflate],incoming=org.eclipse.jetty.websocket.common.extensions.compress.PerMessageDeflateExtension,outgoing=org.eclipse.jetty.websocket.common.extensions.compress.PerMessageDeflateExtension],MANAGED}]
+  _listeners=[]
+  _doStarted=true
+  _listeners=[]
+  _lock=java.lang.Object@66f393f3
+  __FAILED=-1
+  __STOPPED=0
+  __STARTING=1
+  __STARTED=2
+  __STOPPING=3
+  _state=2
+  _stopTimeout=30000
+]
+2016-08-01 10:33:45 DEBUG [PostController:46] Checking user credentials before retrieving or sending posts
+2016-08-01 10:33:45 DEBUG [PostController:79] Getting all posts
+2016-08-01 10:33:54 DEBUG [PostController:46] Checking user credentials before retrieving or sending posts
+2016-08-01 10:33:54 DEBUG [PostController:51] Creating new post
+2016-08-01 10:33:54 DEBUG [PostController:56] Post created from request: com.aises.domain.Post@9dfe93d[
+  id=0
+  userId=0
+  text=Here is a new post!
+  length=0
+  dateCreated=<null>
+]
+2016-08-01 10:33:54 DEBUG [PostService:45] Attempting to add new post: com.aises.domain.Post@9dfe93d[
+  id=0
+  userId=0
+  text=Here is a new post!
+  length=19
+  dateCreated=2016-08-01T10:33:54.804
+]
+2016-08-01 10:33:54 DEBUG [PostRepository:59] Adding a new post: com.aises.domain.Post@9dfe93d[
+  id=0
+  userId=0
+  text=Here is a new post!
+  length=19
+  dateCreated=2016-08-01T10:33:54.804
+]
+2016-08-01 10:33:54 DEBUG [PostRepository:68] New post return code: 1
+2016-08-01 10:33:54 DEBUG [PostController:46] Checking user credentials before retrieving or sending posts
+2016-08-01 10:33:54 DEBUG [PostController:79] Getting all posts
+2016-08-01 10:37:33 DEBUG [WebSocketController:46] Session destroyed: org.eclipse.jetty.websocket.common.WebSocketSession@2f5bc5c3[
+  containerScope=org.eclipse.jetty.websocket.server.WebSocketServerFactory@7d1122a8
+  requestURI=ws://172.16.102.166:5570/notifications
+  connection=WebSocketServerConnection@4DC7B31{endp=SelectChannelEndPoint@3acc4b72{/172.16.102.166:49340<->5570,CLOSED,ISHUT,OSHUT,-,-,4/300000,WebSocketServerConnection}{io=0/0,kio=-1,kro=-1},ios=IOState@27436ac3[CLOSED,!in,!out,finalClose=CloseInfo[code=1001,reason=Idle Timeout],clean=false,closeSource=ABNORMAL],f=Flusher[queueSize=0,aggregateSize=0,failure=null],g=Generator[SERVER,validating,+rsv1],p=Parser@702f79ca[ExtensionStack,s=START,c=0,len=0,f=null]}
+  websocket=JettyAnnotatedEventDriver[com.aises.controller.WebSocketController@3e0c15c7]
+  sessionListeners={org.eclipse.jetty.websocket.server.WebSocketServerFactory@7d1122a8}
+  executor=qtp1449906332{STARTED,4<=5<=16,i=2,q=0}
+  classLoader=sun.misc.Launcher$AppClassLoader@2f0e140b
+  extensionFactory=<null>
+  protocolVersion=13
+  parameterMap={}
+  remote=WebSocketRemoteEndpoint@a9b4ad0[batching=true]
+  incomingHandler=JettyAnnotatedEventDriver[com.aises.controller.WebSocketController@3e0c15c7]
+  outgoingHandler=ExtensionStack[queueSize=0,extensions=[permessage-deflate],incoming=org.eclipse.jetty.websocket.common.extensions.compress.PerMessageDeflateExtension,outgoing=org.eclipse.jetty.websocket.common.extensions.compress.PerMessageDeflateExtension]
+  policy=WebSocketPolicy@c521484[behavior=SERVER,maxTextMessageSize=65536,maxTextMessageBufferSize=32768,maxBinaryMessageSize=65536,maxBinaryMessageBufferSize=32768,asyncWriteTimeout=60000,idleTimeout=300000,inputBufferSize=4096]
+  upgradeRequest=org.eclipse.jetty.websocket.servlet.ServletUpgradeRequest@1be9e69
+  upgradeResponse=org.eclipse.jetty.websocket.servlet.ServletUpgradeResponse@51238944
+  _beans=[{WebSocketServerConnection@4DC7B31{endp=SelectChannelEndPoint@3acc4b72{/172.16.102.166:49340<->5570,CLOSED,ISHUT,OSHUT,-,-,7/300000,WebSocketServerConnection}{io=0/0,kio=-1,kro=-1},ios=IOState@27436ac3[CLOSED,!in,!out,finalClose=CloseInfo[code=1001,reason=Idle Timeout],clean=false,closeSource=ABNORMAL],f=Flusher[queueSize=0,aggregateSize=0,failure=null],g=Generator[SERVER,validating,+rsv1],p=Parser@702f79ca[ExtensionStack,s=START,c=0,len=0,f=null]},POJO}, {JettyAnnotatedEventDriver[com.aises.controller.WebSocketController@3e0c15c7],MANAGED}, {ExtensionStack[queueSize=0,extensions=[permessage-deflate],incoming=org.eclipse.jetty.websocket.common.extensions.compress.PerMessageDeflateExtension,outgoing=org.eclipse.jetty.websocket.common.extensions.compress.PerMessageDeflateExtension],MANAGED}]
+  _listeners=[]
+  _doStarted=true
+  _listeners=[]
+  _lock=java.lang.Object@19961c1e
+  __FAILED=-1
+  __STOPPED=0
+  __STARTING=1
+  __STARTED=2
+  __STOPPING=3
+  _state=2
+  _stopTimeout=30000
+]
+2016-08-01 10:38:41 DEBUG [WebSocketController:46] Session destroyed: org.eclipse.jetty.websocket.common.WebSocketSession@30484788[
+  containerScope=org.eclipse.jetty.websocket.server.WebSocketServerFactory@7d1122a8
+  requestURI=ws://172.16.102.166:5570/notifications
+  connection=WebSocketServerConnection@754AC745{endp=SelectChannelEndPoint@71754db3{/172.16.102.224:51296<->5570,CLOSED,ISHUT,OSHUT,-,-,0/300000,WebSocketServerConnection}{io=1/1,kio=-1,kro=-1},ios=IOState@5af196b0[CLOSED,!in,!out,finalClose=CloseInfo[code=1001,reason=Idle Timeout],clean=false,closeSource=ABNORMAL],f=Flusher[queueSize=0,aggregateSize=0,failure=null],g=Generator[SERVER,validating,+rsv1],p=Parser@1325088[ExtensionStack,s=START,c=0,len=0,f=null]}
+  websocket=JettyAnnotatedEventDriver[com.aises.controller.WebSocketController@3e0c15c7]
+  sessionListeners={org.eclipse.jetty.websocket.server.WebSocketServerFactory@7d1122a8}
+  executor=qtp1449906332{STARTED,4<=5<=16,i=2,q=0}
+  classLoader=sun.misc.Launcher$AppClassLoader@2f0e140b
+  extensionFactory=<null>
+  protocolVersion=13
+  parameterMap={}
+  remote=WebSocketRemoteEndpoint@5067b8c7[batching=true]
+  incomingHandler=JettyAnnotatedEventDriver[com.aises.controller.WebSocketController@3e0c15c7]
+  outgoingHandler=ExtensionStack[queueSize=0,extensions=[permessage-deflate],incoming=org.eclipse.jetty.websocket.common.extensions.compress.PerMessageDeflateExtension,outgoing=org.eclipse.jetty.websocket.common.extensions.compress.PerMessageDeflateExtension]
+  policy=WebSocketPolicy@1550562b[behavior=SERVER,maxTextMessageSize=65536,maxTextMessageBufferSize=32768,maxBinaryMessageSize=65536,maxBinaryMessageBufferSize=32768,asyncWriteTimeout=60000,idleTimeout=300000,inputBufferSize=4096]
+  upgradeRequest=org.eclipse.jetty.websocket.servlet.ServletUpgradeRequest@3965327a
+  upgradeResponse=org.eclipse.jetty.websocket.servlet.ServletUpgradeResponse@54290411
+  _beans=[{WebSocketServerConnection@754AC745{endp=SelectChannelEndPoint@71754db3{/172.16.102.224:51296<->5570,CLOSED,ISHUT,OSHUT,-,-,0/300000,WebSocketServerConnection}{io=1/1,kio=-1,kro=-1},ios=IOState@5af196b0[CLOSED,!in,!out,finalClose=CloseInfo[code=1001,reason=Idle Timeout],clean=false,closeSource=ABNORMAL],f=Flusher[queueSize=0,aggregateSize=0,failure=null],g=Generator[SERVER,validating,+rsv1],p=Parser@1325088[ExtensionStack,s=START,c=0,len=0,f=null]},POJO}, {JettyAnnotatedEventDriver[com.aises.controller.WebSocketController@3e0c15c7],MANAGED}, {ExtensionStack[queueSize=0,extensions=[permessage-deflate],incoming=org.eclipse.jetty.websocket.common.extensions.compress.PerMessageDeflateExtension,outgoing=org.eclipse.jetty.websocket.common.extensions.compress.PerMessageDeflateExtension],MANAGED}]
+  _listeners=[]
+  _doStarted=true
+  _listeners=[]
+  _lock=java.lang.Object@66f393f3
+  __FAILED=-1
+  __STOPPED=0
+  __STARTING=1
+  __STARTED=2
+  __STOPPING=3
+  _state=2
+  _stopTimeout=30000
+]
+2016-08-01 10:38:55 DEBUG [PostRepository:36] Creating a repository for Posts
+2016-08-01 10:38:55 DEBUG [WebSocketController:33] Creating a controller for WebSocket Notifications
+2016-08-01 10:38:55 DEBUG [PostService:30] Creating a service for Posts
+2016-08-01 10:38:55 DEBUG [PostController:36] Creating a controller for Posts
+2016-08-01 10:38:55 DEBUG [UploadService:27] Creating a service for Uploads
+2016-08-01 10:38:55 DEBUG [UploadController:42] Creating a controller for Uploads
+2016-08-01 10:38:55 DEBUG [NotificationController:23] Creating a controller for Notifications
+2016-08-01 10:38:55 DEBUG [AISESServerRunner:26] Starting Server
+2016-08-01 10:38:55 DEBUG [WebSocketController:33] Creating a controller for WebSocket Notifications
+2016-08-01 10:38:59 DEBUG [WebSocketController:39] Session created from: org.eclipse.jetty.websocket.common.WebSocketSession@16064dc[
+  containerScope=org.eclipse.jetty.websocket.server.WebSocketServerFactory@1107b655
+  requestURI=ws://172.16.102.166:5570/notifications
+  connection=WebSocketServerConnection@62540AAB{endp=SelectChannelEndPoint@7d53f042{/172.16.102.166:49984<->5570,Open,in,out,-,-,0/300000,WebSocketServerConnection}{io=0/0,kio=0,kro=1},ios=IOState@6617bf8b[CONNECTED,!in,out],f=Flusher[queueSize=0,aggregateSize=0,failure=null],g=Generator[SERVER,validating,+rsv1],p=Parser@feb8aeb[ExtensionStack,s=START,c=0,len=0,f=null]}
+  websocket=JettyAnnotatedEventDriver[com.aises.controller.WebSocketController@36d2225e]
+  sessionListeners={org.eclipse.jetty.websocket.server.WebSocketServerFactory@1107b655}
+  executor=qtp1976701530{STARTED,4<=5<=16,i=1,q=0}
+  classLoader=sun.misc.Launcher$AppClassLoader@2f0e140b
+  extensionFactory=<null>
+  protocolVersion=13
+  parameterMap={}
+  remote=WebSocketRemoteEndpoint@2a3fc21f[batching=true]
+  incomingHandler=JettyAnnotatedEventDriver[com.aises.controller.WebSocketController@36d2225e]
+  outgoingHandler=ExtensionStack[queueSize=0,extensions=[permessage-deflate],incoming=org.eclipse.jetty.websocket.common.extensions.compress.PerMessageDeflateExtension,outgoing=org.eclipse.jetty.websocket.common.extensions.compress.PerMessageDeflateExtension]
+  policy=WebSocketPolicy@1dd18e37[behavior=SERVER,maxTextMessageSize=65536,maxTextMessageBufferSize=32768,maxBinaryMessageSize=65536,maxBinaryMessageBufferSize=32768,asyncWriteTimeout=60000,idleTimeout=300000,inputBufferSize=4096]
+  upgradeRequest=org.eclipse.jetty.websocket.servlet.ServletUpgradeRequest@61e506d2
+  upgradeResponse=org.eclipse.jetty.websocket.servlet.ServletUpgradeResponse@351e0fcb
+  _beans=[{WebSocketServerConnection@62540AAB{endp=SelectChannelEndPoint@7d53f042{/172.16.102.166:49984<->5570,Open,in,out,-,-,0/300000,WebSocketServerConnection}{io=0/0,kio=0,kro=1},ios=IOState@6617bf8b[CONNECTED,!in,out],f=Flusher[queueSize=0,aggregateSize=0,failure=null],g=Generator[SERVER,validating,+rsv1],p=Parser@feb8aeb[ExtensionStack,s=START,c=0,len=0,f=null]},POJO}, {JettyAnnotatedEventDriver[com.aises.controller.WebSocketController@36d2225e],MANAGED}, {ExtensionStack[queueSize=0,extensions=[permessage-deflate],incoming=org.eclipse.jetty.websocket.common.extensions.compress.PerMessageDeflateExtension,outgoing=org.eclipse.jetty.websocket.common.extensions.compress.PerMessageDeflateExtension],MANAGED}]
+  _listeners=[]
+  _doStarted=true
+  _listeners=[]
+  _lock=java.lang.Object@3bd03c9e
+  __FAILED=-1
+  __STOPPED=0
+  __STARTING=1
+  __STARTED=2
+  __STOPPING=3
+  _state=2
+  _stopTimeout=30000
+]
+2016-08-01 10:39:13 DEBUG [WebSocketController:39] Session created from: org.eclipse.jetty.websocket.common.WebSocketSession@1ff904c3[
+  containerScope=org.eclipse.jetty.websocket.server.WebSocketServerFactory@1107b655
+  requestURI=ws://172.16.102.166:5570/notifications
+  connection=WebSocketServerConnection@966A677{endp=SelectChannelEndPoint@5cf531c6{/172.16.102.224:51310<->5570,Open,in,out,-,-,0/300000,WebSocketServerConnection}{io=0/0,kio=0,kro=1},ios=IOState@5a51644[CONNECTED,!in,out],f=Flusher[queueSize=0,aggregateSize=0,failure=null],g=Generator[SERVER,validating,+rsv1],p=Parser@531653b7[ExtensionStack,s=START,c=0,len=0,f=null]}
+  websocket=JettyAnnotatedEventDriver[com.aises.controller.WebSocketController@36d2225e]
+  sessionListeners={org.eclipse.jetty.websocket.server.WebSocketServerFactory@1107b655}
+  executor=qtp1976701530{STARTED,4<=5<=16,i=1,q=0}
+  classLoader=sun.misc.Launcher$AppClassLoader@2f0e140b
+  extensionFactory=<null>
+  protocolVersion=13
+  parameterMap={}
+  remote=WebSocketRemoteEndpoint@38f7dc8c[batching=true]
+  incomingHandler=JettyAnnotatedEventDriver[com.aises.controller.WebSocketController@36d2225e]
+  outgoingHandler=ExtensionStack[queueSize=0,extensions=[permessage-deflate],incoming=org.eclipse.jetty.websocket.common.extensions.compress.PerMessageDeflateExtension,outgoing=org.eclipse.jetty.websocket.common.extensions.compress.PerMessageDeflateExtension]
+  policy=WebSocketPolicy@74a78815[behavior=SERVER,maxTextMessageSize=65536,maxTextMessageBufferSize=32768,maxBinaryMessageSize=65536,maxBinaryMessageBufferSize=32768,asyncWriteTimeout=60000,idleTimeout=300000,inputBufferSize=4096]
+  upgradeRequest=org.eclipse.jetty.websocket.servlet.ServletUpgradeRequest@63da0edf
+  upgradeResponse=org.eclipse.jetty.websocket.servlet.ServletUpgradeResponse@65cfad94
+  _beans=[{WebSocketServerConnection@966A677{endp=SelectChannelEndPoint@5cf531c6{/172.16.102.224:51310<->5570,Open,in,out,-,-,16/300000,WebSocketServerConnection}{io=0/0,kio=0,kro=1},ios=IOState@5a51644[CONNECTED,!in,out],f=Flusher[queueSize=0,aggregateSize=0,failure=null],g=Generator[SERVER,validating,+rsv1],p=Parser@531653b7[ExtensionStack,s=START,c=0,len=0,f=null]},POJO}, {JettyAnnotatedEventDriver[com.aises.controller.WebSocketController@36d2225e],MANAGED}, {ExtensionStack[queueSize=0,extensions=[permessage-deflate],incoming=org.eclipse.jetty.websocket.common.extensions.compress.PerMessageDeflateExtension,outgoing=org.eclipse.jetty.websocket.common.extensions.compress.PerMessageDeflateExtension],MANAGED}]
+  _listeners=[]
+  _doStarted=true
+  _listeners=[]
+  _lock=java.lang.Object@7ca47734
+  __FAILED=-1
+  __STOPPED=0
+  __STARTING=1
+  __STARTED=2
+  __STOPPING=3
+  _state=2
+  _stopTimeout=30000
+]
+2016-08-01 10:39:20 DEBUG [PostController:49] Checking user credentials before retrieving or sending posts
+2016-08-01 10:39:20 DEBUG [PostController:91] Getting all posts
+2016-08-01 10:39:22 DEBUG [PostController:49] Checking user credentials before retrieving or sending posts
+2016-08-01 10:39:22 DEBUG [PostController:91] Getting all posts
+2016-08-01 10:39:26 DEBUG [PostController:49] Checking user credentials before retrieving or sending posts
+2016-08-01 10:39:26 DEBUG [PostController:54] Creating new post
+2016-08-01 10:39:26 DEBUG [PostController:59] Post created from request: com.aises.domain.Post@3d6aac64[
+  id=0
+  userId=0
+  text=kjl;k uopiu o
+  length=0
+  dateCreated=<null>
+]
+2016-08-01 10:39:26 DEBUG [PostService:45] Attempting to add new post: com.aises.domain.Post@3d6aac64[
+  id=0
+  userId=0
+  text=kjl;k uopiu o
+  length=13
+  dateCreated=2016-08-01T10:39:26.490
+]
+2016-08-01 10:39:26 DEBUG [PostRepository:59] Adding a new post: com.aises.domain.Post@3d6aac64[
+  id=0
+  userId=0
+  text=kjl;k uopiu o
+  length=13
+  dateCreated=2016-08-01T10:39:26.490
+]
+2016-08-01 10:39:26 DEBUG [PostRepository:68] New post return code: 1
+2016-08-01 10:39:26 DEBUG [NotificationController:46] Sending new notification! com.aises.domain.Notification@3b6f9f87
+2016-08-01 10:39:30 DEBUG [PostController:49] Checking user credentials before retrieving or sending posts
+2016-08-01 10:39:30 DEBUG [PostController:91] Getting all posts
+2016-08-01 10:39:36 DEBUG [PostController:49] Checking user credentials before retrieving or sending posts
+2016-08-01 10:39:36 DEBUG [PostController:54] Creating new post
+2016-08-01 10:39:36 DEBUG [PostController:59] Post created from request: com.aises.domain.Post@1e1fbb22[
+  id=0
+  userId=0
+  text=Bhddjeo. Eje eje 
+  length=0
+  dateCreated=<null>
+]
+2016-08-01 10:39:36 DEBUG [PostService:45] Attempting to add new post: com.aises.domain.Post@1e1fbb22[
+  id=1
+  userId=0
+  text=Bhddjeo. Eje eje 
+  length=17
+  dateCreated=2016-08-01T10:39:36.945
+]
+2016-08-01 10:39:36 DEBUG [PostRepository:59] Adding a new post: com.aises.domain.Post@1e1fbb22[
+  id=1
+  userId=0
+  text=Bhddjeo. Eje eje 
+  length=17
+  dateCreated=2016-08-01T10:39:36.945
+]
+2016-08-01 10:39:36 DEBUG [PostRepository:68] New post return code: 1
+2016-08-01 10:39:36 DEBUG [NotificationController:46] Sending new notification! com.aises.domain.Notification@10d84691
+2016-08-01 10:39:37 DEBUG [PostController:49] Checking user credentials before retrieving or sending posts
+2016-08-01 10:39:37 DEBUG [PostController:91] Getting all posts

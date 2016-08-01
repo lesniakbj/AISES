@@ -12,6 +12,12 @@ AISES.History = {
     
     popRoute: function(route) {
         $('#dim-wrapper').hide();
+        
+        if(AISES.History.routeHistory.length == 0) {
+            console.log("Supposed to exit");
+            navigator.app.exitApp();
+        }
+        
         return AISES.History.routeHistory.pop(route);
     }
 }

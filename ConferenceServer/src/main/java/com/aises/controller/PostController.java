@@ -1,7 +1,10 @@
 package com.aises.controller;
 
 import com.aises.controller.interfaces.Controller;
+import com.aises.domain.Notification;
 import com.aises.domain.Post;
+import com.aises.domain.enums.NotificationEvent;
+import com.aises.domain.enums.NotificationType;
 import com.aises.server.Routes;
 import com.aises.service.PostService;
 import org.slf4j.Logger;
@@ -54,7 +57,16 @@ public class PostController implements Controller {
         // Mainly, the text (and any attachments and metadata).
         Post post = (Post)JSONUtils.fromJSON(req.body(), Post.class);
         logger.debug("Post created from request: {}", post);
-        return postService.addNewPost(post);
+
+        Post newPost = postService.addNewPost(post);
+        if(newPost != null) {
+            Notification ntf = new Notification();
+            ntf.setType(NotificationType.POST);
+            ntf.setEvent(NotificationEvent.NEW);
+            NotificationController.sendNotification(ntf);
+        }
+
+        return newPost;
     }
 
     private List<Post> getPostFromQuery(Request req) {
