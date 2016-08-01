@@ -5,7 +5,7 @@
       "projectTypeName": "com.intel.xdk.projecttype.jsapp",
       "src": "jsapp/template-blank-cordova-project-lite/sample.zip",
       "projectGuid": "39036638-6611-4f44-95f1-06491aaf205f",
-      "lastModifiedDate": 1470011806271,
+      "lastModifiedDate": 1470015337828,
       "creationDate": 1469329502589
     },
     "XDK-app-designer": "false",
@@ -127,7 +127,7 @@
         "runtime_": "Cordova 3.x",
         "name_": "Android",
         "preferences_": {
-          "android-minSdkVersion": "14",
+          "android-minSdkVersion": "15",
           "android-targetSdkVersion": "21",
           "android-installLocation": "auto",
           "android-signed": true,
@@ -159,7 +159,7 @@
         "certificateId_": "7TcHl2QCm0WZ41eUDLCm-w2",
         "cordovaCLIVersion_": "5.4.1",
         "crosswalkVersion_": "18",
-        "appVersion_": "0.0.1",
+        "appVersion_": "0.0.2",
         "appDescription_": "A simple application supporting the AISES Conference - 2016",
         "appAuthor_": "Brendan Lesniak, Adam Williams",
         "appVersionCode_": "1"
