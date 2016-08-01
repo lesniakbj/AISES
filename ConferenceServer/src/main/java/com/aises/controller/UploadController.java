@@ -5,6 +5,8 @@ import com.aises.domain.File;
 import com.aises.server.Routes;
 import com.aises.service.UploadService;
 import com.aises.utils.JSONUtils;
+import org.apache.commons.lang3.builder.ToStringBuilder;
+import org.apache.commons.lang3.builder.ToStringStyle;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import spark.Request;
@@ -26,7 +28,7 @@ public class UploadController implements Controller {
 
     private static final UploadService uploadService;
 
-    public static final String UPLOAD_DIRECTORY = "uploads";
+    public static final String UPLOAD_DIRECTORY = "C:\\Projects\\AISES\\uploads";
     private static final String UPLOAD_FORM_NAME = "upload-file";
     private static final long MAX_FILE_SIZE = 1024 * 1024 * 50;
     private static final int WRITE_THRESHOLD = 1024;
@@ -54,6 +56,7 @@ public class UploadController implements Controller {
             return null;
         }
 
+        logger.debug("MCE: {}", ToStringBuilder.reflectionToString(fileUpload, ToStringStyle.MULTI_LINE_STYLE));
         return uploadService.uploadFile(fileUpload);
     }
 }

@@ -11,6 +11,7 @@ AISES.History = {
     },
     
     popRoute: function(route) {
+        $('#dim-wrapper').hide();
         return AISES.History.routeHistory.pop(route);
     }
 }

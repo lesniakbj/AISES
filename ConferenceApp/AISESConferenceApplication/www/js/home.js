@@ -26,13 +26,13 @@ AISES.HomeController = {
             'text': $('#new-post-text').val()
         };
         
-        console.log(JSON.stringify(post));
+        $('#new-post-text').val('');
         $.post({
             url: AISES.Config.getDataServer() + '/post/new',
             data: JSON.stringify(post),
             dataType: 'json',
             beforeSend: function() { $('#dim-wrapper').show(); },
-            success: function(data) { AISES.HomeController.loadSubmittedPost(data); },
+            success: function(data) { AISES.HomeController.loadPosts(); },
             complete: function(){ $('#dim-wrapper').hide(); },
             error: function(errorObj) { alert('Unable to add a new post! ' + errorObj.status + ' - ' + errorObj.statusText); }            
         });
@@ -54,28 +54,12 @@ AISES.HomeController = {
     loadAllPosts: function(data) {
         console.log("Adding content");
         AISES.HomeController.loadedPosts = data;
-        AISES.Template.loadTemplate(AISES.Routes.Templates.POST, AISES.HomeController.loadPostContainers);
+        AISES.Template.loadTemplate(AISES.Routes.Templates.POST, AISES.HomeController.loadAllPostsDOM);
     },
     
-    loadSubmittedPost: function(data) {
-        AISES.HomeController.loadedPosts = data;
-        AISES.Template.loadTemplate(AISES.Routes.Templates.POST, AISES.HomeController.loadSinglePost);
-    },
-    
-    loadSinglePost: function(template) {
-        var post = AISES.HomeController.loadedPosts;
-        var postData = {
-            id: post.id,
-            text: post.text,
-            length: post.length,
-            date: AISES.HomeController.getPostDate(post)
-        }
-        var out = Mustache.render(template, postData);
-        $('#loaded-posts').prepend(out);  
-    },
-    
-    loadPostContainers: function(template) {
-        console.log("Adding post content");       
+    loadAllPostsDOM: function(template) {
+        console.log("Adding post content");    
+        $('#loaded-posts').empty();
         for(var postNum in AISES.HomeController.loadedPosts) {
             var post = AISES.HomeController.loadedPosts[postNum];
             var postData = {

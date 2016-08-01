@@ -69,7 +69,7 @@ public class UploadService implements Service {
         return file;
     }
     private String writeUploadToDisk(Part fileUpload, String fileName) {
-        Path out = Paths.get(UploadController.UPLOAD_DIRECTORY + "/" + fileName);
+        Path out = Paths.get(UploadController.UPLOAD_DIRECTORY + "\\" + fileName);
 
         try(final InputStream in = fileUpload.getInputStream()) {
             Files.copy(in, out, StandardCopyOption.REPLACE_EXISTING);

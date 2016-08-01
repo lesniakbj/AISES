@@ -2,6 +2,8 @@ package com.aises.controller;
 
 import com.aises.controller.interfaces.Controller;
 import com.aises.server.Routes;
+import org.apache.commons.lang3.builder.ReflectionToStringBuilder;
+import org.apache.commons.lang3.builder.ToStringStyle;
 import org.eclipse.jetty.websocket.api.Session;
 import org.eclipse.jetty.websocket.api.annotations.OnWebSocketClose;
 import org.eclipse.jetty.websocket.api.annotations.OnWebSocketConnect;
@@ -34,14 +36,14 @@ public class WebSocketController implements Controller {
     @OnWebSocketConnect
     public void connected(Session sess) throws Exception {
         sessions.add(sess);
-        logger.debug("Session created from: {}", sess);
+        logger.debug("Session created from: {}", ReflectionToStringBuilder.toString(sess, ToStringStyle.MULTI_LINE_STYLE));
         sess.getRemote().sendString("Connected to Notifications!");
     }
 
     @OnWebSocketClose
     public void closed(Session sess, int statusCode, String reason) {
         sessions.remove(sess);
-        logger.debug("Session destroyed: {}", sess);
+        logger.debug("Session destroyed: {}", ReflectionToStringBuilder.toString(sess, ToStringStyle.MULTI_LINE_STYLE));
     }
 
     @OnWebSocketMessage

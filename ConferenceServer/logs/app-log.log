@@ -1178,3 +1178,1034 @@
 2016-08-01 01:38:09 DEBUG [AISESServerRunner:26] Starting Server
 2016-08-01 01:38:09 DEBUG [WebSocketController:31] Creating a controller for WebSocket Notifications
 2016-08-01 01:38:13 DEBUG [WebSocketController:37] Session created from: WebSocketSession[websocket=JettyAnnotatedEventDriver[com.aises.controller.WebSocketController@6d5f63fb],behavior=SERVER,connection=WebSocketServerConnection@3A2CF5A8{endp=SelectChannelEndPoint@7a35dade{/172.16.102.166:56495<->5570,Open,in,out,-,-,0/300000,WebSocketServerConnection}{io=0/0,kio=0,kro=1},ios=IOState@2de4ce1c[CONNECTED,!in,out],f=Flusher[queueSize=0,aggregateSize=0,failure=null],g=Generator[SERVER,validating,+rsv1],p=Parser@7bc563bb[ExtensionStack,s=START,c=0,len=0,f=null]},remote=WebSocketRemoteEndpoint@1c32ca49[batching=true],incoming=JettyAnnotatedEventDriver[com.aises.controller.WebSocketController@6d5f63fb],outgoing=ExtensionStack[queueSize=0,extensions=[permessage-deflate],incoming=org.eclipse.jetty.websocket.common.extensions.compress.PerMessageDeflateExtension,outgoing=org.eclipse.jetty.websocket.common.extensions.compress.PerMessageDeflateExtension]]
+2016-08-01 08:46:06 DEBUG [PostRepository:36] Creating a repository for Posts
+2016-08-01 08:46:06 DEBUG [WebSocketController:31] Creating a controller for WebSocket Notifications
+2016-08-01 08:46:06 DEBUG [PostService:30] Creating a service for Posts
+2016-08-01 08:46:06 DEBUG [PostController:33] Creating a controller for Posts
+2016-08-01 08:46:06 DEBUG [UploadService:27] Creating a service for Uploads
+2016-08-01 08:46:06 DEBUG [UploadController:40] Creating a controller for Uploads
+2016-08-01 08:46:06 DEBUG [NotificationController:20] Creating a controller for Notifications
+2016-08-01 08:46:06 DEBUG [AISESServerRunner:26] Starting Server
+2016-08-01 08:46:06 DEBUG [WebSocketController:31] Creating a controller for WebSocket Notifications
+2016-08-01 08:46:21 DEBUG [WebSocketController:37] Session created from: WebSocketSession[websocket=JettyAnnotatedEventDriver[com.aises.controller.WebSocketController@2758da17],behavior=SERVER,connection=WebSocketServerConnection@5A4E07A8{endp=SelectChannelEndPoint@76bed6ce{/172.16.102.166:59063<->5570,Open,in,out,-,-,0/300000,WebSocketServerConnection}{io=0/0,kio=0,kro=1},ios=IOState@5695c0d7[CONNECTED,!in,out],f=Flusher[queueSize=0,aggregateSize=0,failure=null],g=Generator[SERVER,validating,+rsv1],p=Parser@746d93c0[ExtensionStack,s=START,c=0,len=0,f=null]},remote=WebSocketRemoteEndpoint@40b3d77f[batching=true],incoming=JettyAnnotatedEventDriver[com.aises.controller.WebSocketController@2758da17],outgoing=ExtensionStack[queueSize=0,extensions=[permessage-deflate],incoming=org.eclipse.jetty.websocket.common.extensions.compress.PerMessageDeflateExtension,outgoing=org.eclipse.jetty.websocket.common.extensions.compress.PerMessageDeflateExtension]]
+2016-08-01 08:48:40 DEBUG [PostRepository:36] Creating a repository for Posts
+2016-08-01 08:48:40 DEBUG [WebSocketController:33] Creating a controller for WebSocket Notifications
+2016-08-01 08:48:40 DEBUG [PostService:30] Creating a service for Posts
+2016-08-01 08:48:40 DEBUG [PostController:33] Creating a controller for Posts
+2016-08-01 08:48:40 DEBUG [UploadService:27] Creating a service for Uploads
+2016-08-01 08:48:40 DEBUG [UploadController:40] Creating a controller for Uploads
+2016-08-01 08:48:40 DEBUG [NotificationController:20] Creating a controller for Notifications
+2016-08-01 08:48:40 DEBUG [AISESServerRunner:26] Starting Server
+2016-08-01 08:48:40 DEBUG [WebSocketController:33] Creating a controller for WebSocket Notifications
+2016-08-01 08:48:47 DEBUG [WebSocketController:39] Session created from: org.eclipse.jetty.websocket.common.WebSocketSession@3ebc9452[
+  containerScope=org.eclipse.jetty.websocket.server.WebSocketServerFactory@a1acac7
+  requestURI=ws://172.16.102.166:5570/notifications
+  connection=WebSocketServerConnection@2CA03763{endp=SelectChannelEndPoint@3c67c96{/172.16.102.166:59367<->5570,Open,in,out,-,-,6/300000,WebSocketServerConnection}{io=0/0,kio=0,kro=1},ios=IOState@4b2dab5c[CONNECTED,!in,out],f=Flusher[queueSize=0,aggregateSize=0,failure=null],g=Generator[SERVER,validating,+rsv1],p=Parser@3485aa86[ExtensionStack,s=START,c=0,len=0,f=null]}
+  websocket=JettyAnnotatedEventDriver[com.aises.controller.WebSocketController@44a91bca]
+  sessionListeners={org.eclipse.jetty.websocket.server.WebSocketServerFactory@a1acac7}
+  executor=qtp299502278{STARTED,4<=5<=16,i=1,q=0}
+  classLoader=sun.misc.Launcher$AppClassLoader@55f96302
+  extensionFactory=<null>
+  protocolVersion=13
+  parameterMap={}
+  remote=WebSocketRemoteEndpoint@2e216fbe[batching=true]
+  incomingHandler=JettyAnnotatedEventDriver[com.aises.controller.WebSocketController@44a91bca]
+  outgoingHandler=ExtensionStack[queueSize=0,extensions=[permessage-deflate],incoming=org.eclipse.jetty.websocket.common.extensions.compress.PerMessageDeflateExtension,outgoing=org.eclipse.jetty.websocket.common.extensions.compress.PerMessageDeflateExtension]
+  policy=WebSocketPolicy@6e686064[behavior=SERVER,maxTextMessageSize=65536,maxTextMessageBufferSize=32768,maxBinaryMessageSize=65536,maxBinaryMessageBufferSize=32768,asyncWriteTimeout=60000,idleTimeout=300000,inputBufferSize=4096]
+  upgradeRequest=org.eclipse.jetty.websocket.servlet.ServletUpgradeRequest@10ed4c2c
+  upgradeResponse=org.eclipse.jetty.websocket.servlet.ServletUpgradeResponse@35948d10
+  _beans=[{WebSocketServerConnection@2CA03763{endp=SelectChannelEndPoint@3c67c96{/172.16.102.166:59367<->5570,Open,in,out,-,-,8/300000,WebSocketServerConnection}{io=0/0,kio=0,kro=1},ios=IOState@4b2dab5c[CONNECTED,!in,out],f=Flusher[queueSize=0,aggregateSize=0,failure=null],g=Generator[SERVER,validating,+rsv1],p=Parser@3485aa86[ExtensionStack,s=START,c=0,len=0,f=null]},POJO}, {JettyAnnotatedEventDriver[com.aises.controller.WebSocketController@44a91bca],MANAGED}, {ExtensionStack[queueSize=0,extensions=[permessage-deflate],incoming=org.eclipse.jetty.websocket.common.extensions.compress.PerMessageDeflateExtension,outgoing=org.eclipse.jetty.websocket.common.extensions.compress.PerMessageDeflateExtension],MANAGED}]
+  _listeners=[]
+  _doStarted=true
+  _listeners=[]
+  _lock=java.lang.Object@17e9a28d
+  __FAILED=-1
+  __STOPPED=0
+  __STARTING=1
+  __STARTED=2
+  __STOPPING=3
+  _state=2
+  _stopTimeout=30000
+]
+2016-08-01 08:49:38 DEBUG [PostController:46] Checking user credentials before retrieving or sending posts
+2016-08-01 08:49:38 DEBUG [PostController:79] Getting all posts
+2016-08-01 08:49:41 DEBUG [PostController:46] Checking user credentials before retrieving or sending posts
+2016-08-01 08:49:41 DEBUG [PostController:51] Creating new post
+2016-08-01 08:49:41 DEBUG [PostController:56] Post created from request: com.aises.domain.Post@5128cea0[
+  id=0
+  userId=0
+  text=gfsdgsfdgf sdfg sdf g
+  length=0
+  dateCreated=<null>
+]
+2016-08-01 08:49:41 DEBUG [PostService:45] Attempting to add new post: com.aises.domain.Post@5128cea0[
+  id=0
+  userId=0
+  text=gfsdgsfdgf sdfg sdf g
+  length=21
+  dateCreated=2016-08-01T08:49:41.443
+]
+2016-08-01 08:49:41 DEBUG [PostRepository:59] Adding a new post: com.aises.domain.Post@5128cea0[
+  id=0
+  userId=0
+  text=gfsdgsfdgf sdfg sdf g
+  length=21
+  dateCreated=2016-08-01T08:49:41.443
+]
+2016-08-01 08:49:41 DEBUG [PostRepository:68] New post return code: 1
+2016-08-01 08:49:56 DEBUG [PostController:46] Checking user credentials before retrieving or sending posts
+2016-08-01 08:49:56 DEBUG [PostController:51] Creating new post
+2016-08-01 08:49:56 DEBUG [PostController:56] Post created from request: com.aises.domain.Post@70573587[
+  id=0
+  userId=0
+  text= adf asd d 
+  length=0
+  dateCreated=<null>
+]
+2016-08-01 08:49:56 DEBUG [PostService:45] Attempting to add new post: com.aises.domain.Post@70573587[
+  id=1
+  userId=0
+  text= adf asd d 
+  length=11
+  dateCreated=2016-08-01T08:49:56.360
+]
+2016-08-01 08:49:56 DEBUG [PostRepository:59] Adding a new post: com.aises.domain.Post@70573587[
+  id=1
+  userId=0
+  text= adf asd d 
+  length=11
+  dateCreated=2016-08-01T08:49:56.360
+]
+2016-08-01 08:49:56 DEBUG [PostRepository:68] New post return code: 1
+2016-08-01 08:50:34 DEBUG [WebSocketController:46] Session destroyed: WebSocketSession[websocket=JettyAnnotatedEventDriver[com.aises.controller.WebSocketController@44a91bca],behavior=SERVER,connection=WebSocketServerConnection@2CA03763{endp=SelectChannelEndPoint@3c67c96{/172.16.102.166:59367<->5570,CLOSED,ISHUT,OSHUT,-,-,1/300000,WebSocketServerConnection}{io=0/0,kio=-1,kro=-1},ios=IOState@4b2dab5c[CLOSED,!in,!out,finalClose=CloseInfo[code=1001,reason=null],clean=false,closeSource=ABNORMAL],f=Flusher[queueSize=0,aggregateSize=0,failure=null],g=Generator[SERVER,validating,+rsv1],p=Parser@3485aa86[ExtensionStack,s=START,c=0,len=2,f=CLOSE[len=2,fin=true,rsv=...,masked=true]]},remote=WebSocketRemoteEndpoint@2e216fbe[batching=true],incoming=JettyAnnotatedEventDriver[com.aises.controller.WebSocketController@44a91bca],outgoing=ExtensionStack[queueSize=0,extensions=[permessage-deflate],incoming=org.eclipse.jetty.websocket.common.extensions.compress.PerMessageDeflateExtension,outgoing=org.eclipse.jetty.websocket.common.extensions.compress.PerMessageDeflateExtension]]
+2016-08-01 08:50:35 DEBUG [WebSocketController:39] Session created from: org.eclipse.jetty.websocket.common.WebSocketSession@ba814a8[
+  containerScope=org.eclipse.jetty.websocket.server.WebSocketServerFactory@a1acac7
+  requestURI=ws://172.16.102.166:5570/notifications
+  connection=WebSocketServerConnection@F979182{endp=SelectChannelEndPoint@3748e1b2{/172.16.102.166:59547<->5570,Open,in,out,-,-,0/300000,WebSocketServerConnection}{io=0/0,kio=0,kro=1},ios=IOState@4eaa9bb9[CONNECTED,!in,out],f=Flusher[queueSize=0,aggregateSize=0,failure=null],g=Generator[SERVER,validating,+rsv1],p=Parser@4c06830b[ExtensionStack,s=START,c=0,len=0,f=null]}
+  websocket=JettyAnnotatedEventDriver[com.aises.controller.WebSocketController@44a91bca]
+  sessionListeners={org.eclipse.jetty.websocket.server.WebSocketServerFactory@a1acac7}
+  executor=qtp299502278{STARTED,4<=6<=16,i=2,q=0}
+  classLoader=sun.misc.Launcher$AppClassLoader@55f96302
+  extensionFactory=<null>
+  protocolVersion=13
+  parameterMap={}
+  remote=WebSocketRemoteEndpoint@34e85681[batching=true]
+  incomingHandler=JettyAnnotatedEventDriver[com.aises.controller.WebSocketController@44a91bca]
+  outgoingHandler=ExtensionStack[queueSize=0,extensions=[permessage-deflate],incoming=org.eclipse.jetty.websocket.common.extensions.compress.PerMessageDeflateExtension,outgoing=org.eclipse.jetty.websocket.common.extensions.compress.PerMessageDeflateExtension]
+  policy=WebSocketPolicy@56e3b4f6[behavior=SERVER,maxTextMessageSize=65536,maxTextMessageBufferSize=32768,maxBinaryMessageSize=65536,maxBinaryMessageBufferSize=32768,asyncWriteTimeout=60000,idleTimeout=300000,inputBufferSize=4096]
+  upgradeRequest=org.eclipse.jetty.websocket.servlet.ServletUpgradeRequest@5946d4f2
+  upgradeResponse=org.eclipse.jetty.websocket.servlet.ServletUpgradeResponse@2fecdd05
+  _beans=[{WebSocketServerConnection@F979182{endp=SelectChannelEndPoint@3748e1b2{/172.16.102.166:59547<->5570,Open,in,out,-,-,0/300000,WebSocketServerConnection}{io=0/0,kio=0,kro=1},ios=IOState@4eaa9bb9[CONNECTED,!in,out],f=Flusher[queueSize=0,aggregateSize=0,failure=null],g=Generator[SERVER,validating,+rsv1],p=Parser@4c06830b[ExtensionStack,s=START,c=0,len=0,f=null]},POJO}, {JettyAnnotatedEventDriver[com.aises.controller.WebSocketController@44a91bca],MANAGED}, {ExtensionStack[queueSize=0,extensions=[permessage-deflate],incoming=org.eclipse.jetty.websocket.common.extensions.compress.PerMessageDeflateExtension,outgoing=org.eclipse.jetty.websocket.common.extensions.compress.PerMessageDeflateExtension],MANAGED}]
+  _listeners=[]
+  _doStarted=true
+  _listeners=[]
+  _lock=java.lang.Object@4707a2c6
+  __FAILED=-1
+  __STOPPED=0
+  __STARTING=1
+  __STARTED=2
+  __STOPPING=3
+  _state=2
+  _stopTimeout=30000
+]
+2016-08-01 08:50:41 DEBUG [PostController:46] Checking user credentials before retrieving or sending posts
+2016-08-01 08:50:41 DEBUG [PostController:79] Getting all posts
+2016-08-01 08:50:45 DEBUG [PostController:46] Checking user credentials before retrieving or sending posts
+2016-08-01 08:50:45 DEBUG [PostController:51] Creating new post
+2016-08-01 08:50:45 DEBUG [PostController:56] Post created from request: com.aises.domain.Post@304df992[
+  id=0
+  userId=0
+  text= as fsdf 
+  length=0
+  dateCreated=<null>
+]
+2016-08-01 08:50:45 DEBUG [PostService:45] Attempting to add new post: com.aises.domain.Post@304df992[
+  id=2
+  userId=0
+  text= as fsdf 
+  length=9
+  dateCreated=2016-08-01T08:50:45.106
+]
+2016-08-01 08:50:45 DEBUG [PostRepository:59] Adding a new post: com.aises.domain.Post@304df992[
+  id=2
+  userId=0
+  text= as fsdf 
+  length=9
+  dateCreated=2016-08-01T08:50:45.106
+]
+2016-08-01 08:50:45 DEBUG [PostRepository:68] New post return code: 1
+2016-08-01 08:50:45 DEBUG [PostController:46] Checking user credentials before retrieving or sending posts
+2016-08-01 08:50:45 DEBUG [PostController:79] Getting all posts
+2016-08-01 08:50:48 DEBUG [PostController:46] Checking user credentials before retrieving or sending posts
+2016-08-01 08:50:48 DEBUG [PostController:51] Creating new post
+2016-08-01 08:50:48 DEBUG [PostController:56] Post created from request: com.aises.domain.Post@65b26474[
+  id=0
+  userId=0
+  text= asfasdf asfa 
+  length=0
+  dateCreated=<null>
+]
+2016-08-01 08:50:48 DEBUG [PostService:45] Attempting to add new post: com.aises.domain.Post@65b26474[
+  id=3
+  userId=0
+  text= asfasdf asfa 
+  length=14
+  dateCreated=2016-08-01T08:50:48.558
+]
+2016-08-01 08:50:48 DEBUG [PostRepository:59] Adding a new post: com.aises.domain.Post@65b26474[
+  id=3
+  userId=0
+  text= asfasdf asfa 
+  length=14
+  dateCreated=2016-08-01T08:50:48.558
+]
+2016-08-01 08:50:48 DEBUG [PostRepository:68] New post return code: 1
+2016-08-01 08:50:48 DEBUG [PostController:46] Checking user credentials before retrieving or sending posts
+2016-08-01 08:50:48 DEBUG [PostController:79] Getting all posts
+2016-08-01 08:51:50 DEBUG [WebSocketController:46] Session destroyed: WebSocketSession[websocket=JettyAnnotatedEventDriver[com.aises.controller.WebSocketController@44a91bca],behavior=SERVER,connection=WebSocketServerConnection@F979182{endp=SelectChannelEndPoint@3748e1b2{/172.16.102.166:59547<->5570,CLOSED,ISHUT,OSHUT,-,-,0/300000,WebSocketServerConnection}{io=0/0,kio=-1,kro=-1},ios=IOState@4eaa9bb9[CLOSED,!in,!out,finalClose=CloseInfo[code=1001,reason=null],clean=false,closeSource=ABNORMAL],f=Flusher[queueSize=0,aggregateSize=0,failure=null],g=Generator[SERVER,validating,+rsv1],p=Parser@4c06830b[ExtensionStack,s=START,c=0,len=2,f=CLOSE[len=2,fin=true,rsv=...,masked=true]]},remote=WebSocketRemoteEndpoint@34e85681[batching=true],incoming=JettyAnnotatedEventDriver[com.aises.controller.WebSocketController@44a91bca],outgoing=ExtensionStack[queueSize=0,extensions=[permessage-deflate],incoming=org.eclipse.jetty.websocket.common.extensions.compress.PerMessageDeflateExtension,outgoing=org.eclipse.jetty.websocket.common.extensions.compress.PerMessageDeflateExtension]]
+2016-08-01 08:51:50 DEBUG [WebSocketController:39] Session created from: org.eclipse.jetty.websocket.common.WebSocketSession@4bba6e16[
+  containerScope=org.eclipse.jetty.websocket.server.WebSocketServerFactory@a1acac7
+  requestURI=ws://172.16.102.166:5570/notifications
+  connection=WebSocketServerConnection@4F85F33E{endp=SelectChannelEndPoint@2d836947{/172.16.102.166:59667<->5570,Open,in,out,-,-,0/300000,WebSocketServerConnection}{io=0/0,kio=0,kro=1},ios=IOState@eb8f905[CONNECTED,!in,out],f=Flusher[queueSize=0,aggregateSize=0,failure=null],g=Generator[SERVER,validating,+rsv1],p=Parser@5f80b481[ExtensionStack,s=START,c=0,len=0,f=null]}
+  websocket=JettyAnnotatedEventDriver[com.aises.controller.WebSocketController@44a91bca]
+  sessionListeners={org.eclipse.jetty.websocket.server.WebSocketServerFactory@a1acac7}
+  executor=qtp299502278{STARTED,4<=6<=16,i=2,q=0}
+  classLoader=sun.misc.Launcher$AppClassLoader@55f96302
+  extensionFactory=<null>
+  protocolVersion=13
+  parameterMap={}
+  remote=WebSocketRemoteEndpoint@27aea36b[batching=true]
+  incomingHandler=JettyAnnotatedEventDriver[com.aises.controller.WebSocketController@44a91bca]
+  outgoingHandler=ExtensionStack[queueSize=0,extensions=[permessage-deflate],incoming=org.eclipse.jetty.websocket.common.extensions.compress.PerMessageDeflateExtension,outgoing=org.eclipse.jetty.websocket.common.extensions.compress.PerMessageDeflateExtension]
+  policy=WebSocketPolicy@346993a5[behavior=SERVER,maxTextMessageSize=65536,maxTextMessageBufferSize=32768,maxBinaryMessageSize=65536,maxBinaryMessageBufferSize=32768,asyncWriteTimeout=60000,idleTimeout=300000,inputBufferSize=4096]
+  upgradeRequest=org.eclipse.jetty.websocket.servlet.ServletUpgradeRequest@6e4dabb4
+  upgradeResponse=org.eclipse.jetty.websocket.servlet.ServletUpgradeResponse@3caae8ed
+  _beans=[{WebSocketServerConnection@4F85F33E{endp=SelectChannelEndPoint@2d836947{/172.16.102.166:59667<->5570,Open,in,out,-,-,0/300000,WebSocketServerConnection}{io=0/0,kio=0,kro=1},ios=IOState@eb8f905[CONNECTED,!in,out],f=Flusher[queueSize=0,aggregateSize=0,failure=null],g=Generator[SERVER,validating,+rsv1],p=Parser@5f80b481[ExtensionStack,s=START,c=0,len=0,f=null]},POJO}, {JettyAnnotatedEventDriver[com.aises.controller.WebSocketController@44a91bca],MANAGED}, {ExtensionStack[queueSize=0,extensions=[permessage-deflate],incoming=org.eclipse.jetty.websocket.common.extensions.compress.PerMessageDeflateExtension,outgoing=org.eclipse.jetty.websocket.common.extensions.compress.PerMessageDeflateExtension],MANAGED}]
+  _listeners=[]
+  _doStarted=true
+  _listeners=[]
+  _lock=java.lang.Object@7a403891
+  __FAILED=-1
+  __STOPPED=0
+  __STARTING=1
+  __STARTED=2
+  __STOPPING=3
+  _state=2
+  _stopTimeout=30000
+]
+2016-08-01 08:51:54 DEBUG [PostController:46] Checking user credentials before retrieving or sending posts
+2016-08-01 08:51:54 DEBUG [PostController:79] Getting all posts
+2016-08-01 08:51:56 DEBUG [PostController:46] Checking user credentials before retrieving or sending posts
+2016-08-01 08:51:56 DEBUG [PostController:51] Creating new post
+2016-08-01 08:51:56 DEBUG [PostController:56] Post created from request: com.aises.domain.Post@68d3df2d[
+  id=0
+  userId=0
+  text=sadf asdf asdf
+  length=0
+  dateCreated=<null>
+]
+2016-08-01 08:51:56 DEBUG [PostService:45] Attempting to add new post: com.aises.domain.Post@68d3df2d[
+  id=4
+  userId=0
+  text=sadf asdf asdf
+  length=14
+  dateCreated=2016-08-01T08:51:56.228
+]
+2016-08-01 08:51:56 DEBUG [PostRepository:59] Adding a new post: com.aises.domain.Post@68d3df2d[
+  id=4
+  userId=0
+  text=sadf asdf asdf
+  length=14
+  dateCreated=2016-08-01T08:51:56.228
+]
+2016-08-01 08:51:56 DEBUG [PostRepository:68] New post return code: 1
+2016-08-01 08:51:56 DEBUG [PostController:46] Checking user credentials before retrieving or sending posts
+2016-08-01 08:51:56 DEBUG [PostController:79] Getting all posts
+2016-08-01 08:51:59 DEBUG [PostController:46] Checking user credentials before retrieving or sending posts
+2016-08-01 08:51:59 DEBUG [PostController:51] Creating new post
+2016-08-01 08:51:59 DEBUG [PostController:56] Post created from request: com.aises.domain.Post@6881e293[
+  id=0
+  userId=0
+  text= asdfa3 adf 
+  length=0
+  dateCreated=<null>
+]
+2016-08-01 08:51:59 DEBUG [PostService:45] Attempting to add new post: com.aises.domain.Post@6881e293[
+  id=5
+  userId=0
+  text= asdfa3 adf 
+  length=12
+  dateCreated=2016-08-01T08:51:59.150
+]
+2016-08-01 08:51:59 DEBUG [PostRepository:59] Adding a new post: com.aises.domain.Post@6881e293[
+  id=5
+  userId=0
+  text= asdfa3 adf 
+  length=12
+  dateCreated=2016-08-01T08:51:59.150
+]
+2016-08-01 08:51:59 DEBUG [PostRepository:68] New post return code: 1
+2016-08-01 08:51:59 DEBUG [PostController:46] Checking user credentials before retrieving or sending posts
+2016-08-01 08:51:59 DEBUG [PostController:79] Getting all posts
+2016-08-01 08:52:01 DEBUG [PostController:46] Checking user credentials before retrieving or sending posts
+2016-08-01 08:52:01 DEBUG [PostController:51] Creating new post
+2016-08-01 08:52:01 DEBUG [PostController:56] Post created from request: com.aises.domain.Post@724a793f[
+  id=0
+  userId=0
+  text= sd aa2
+  length=0
+  dateCreated=<null>
+]
+2016-08-01 08:52:01 DEBUG [PostService:45] Attempting to add new post: com.aises.domain.Post@724a793f[
+  id=6
+  userId=0
+  text= sd aa2
+  length=7
+  dateCreated=2016-08-01T08:52:01.541
+]
+2016-08-01 08:52:01 DEBUG [PostRepository:59] Adding a new post: com.aises.domain.Post@724a793f[
+  id=6
+  userId=0
+  text= sd aa2
+  length=7
+  dateCreated=2016-08-01T08:52:01.541
+]
+2016-08-01 08:52:01 DEBUG [PostRepository:68] New post return code: 1
+2016-08-01 08:52:01 DEBUG [PostController:46] Checking user credentials before retrieving or sending posts
+2016-08-01 08:52:01 DEBUG [PostController:79] Getting all posts
+2016-08-01 08:52:21 DEBUG [WebSocketController:46] Session destroyed: WebSocketSession[websocket=JettyAnnotatedEventDriver[com.aises.controller.WebSocketController@44a91bca],behavior=SERVER,connection=WebSocketServerConnection@4F85F33E{endp=SelectChannelEndPoint@2d836947{/172.16.102.166:59667<->5570,CLOSED,ISHUT,OSHUT,-,-,0/300000,WebSocketServerConnection}{io=1/0,kio=-1,kro=-1},ios=IOState@eb8f905[CLOSED,!in,!out,finalClose=CloseInfo[code=1001,reason=null],clean=false,closeSource=ABNORMAL],f=Flusher[queueSize=0,aggregateSize=0,failure=null],g=Generator[SERVER,validating,+rsv1],p=Parser@5f80b481[ExtensionStack,s=START,c=0,len=2,f=CLOSE[len=2,fin=true,rsv=...,masked=true]]},remote=WebSocketRemoteEndpoint@27aea36b[batching=true],incoming=JettyAnnotatedEventDriver[com.aises.controller.WebSocketController@44a91bca],outgoing=ExtensionStack[queueSize=0,extensions=[permessage-deflate],incoming=org.eclipse.jetty.websocket.common.extensions.compress.PerMessageDeflateExtension,outgoing=org.eclipse.jetty.websocket.common.extensions.compress.PerMessageDeflateExtension]]
+2016-08-01 08:53:37 DEBUG [UploadController:47] Uploading new file
+2016-08-01 08:53:37 DEBUG [UploadService:38] File attempting to upload: pgadmin.log
+2016-08-01 08:53:37 ERROR [UploadService:78] Unable to write file to disk!
+java.nio.file.NoSuchFileException: uploads\pgadmin.log
+	at sun.nio.fs.WindowsException.translateToIOException(Unknown Source)
+	at sun.nio.fs.WindowsException.rethrowAsIOException(Unknown Source)
+	at sun.nio.fs.WindowsException.rethrowAsIOException(Unknown Source)
+	at sun.nio.fs.WindowsFileSystemProvider.newByteChannel(Unknown Source)
+	at java.nio.file.spi.FileSystemProvider.newOutputStream(Unknown Source)
+	at java.nio.file.Files.newOutputStream(Unknown Source)
+	at java.nio.file.Files.copy(Unknown Source)
+	at com.aises.service.UploadService.writeUploadToDisk(UploadService.java:75)
+	at com.aises.service.UploadService.createFileFromParts(UploadService.java:67)
+	at com.aises.service.UploadService.uploadFile(UploadService.java:48)
+	at com.aises.controller.UploadController.uploadMultiPartFile(UploadController.java:57)
+	at com.aises.controller.UploadController.lambda$new$0(UploadController.java:42)
+	at spark.ResponseTransformerRouteImpl$1.handle(ResponseTransformerRouteImpl.java:47)
+	at spark.http.matching.Routes.execute(Routes.java:61)
+	at spark.http.matching.MatcherFilter.doFilter(MatcherFilter.java:126)
+	at spark.embeddedserver.jetty.JettyHandler.doHandle(JettyHandler.java:50)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:189)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.HandlerList.handle(HandlerList.java:52)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:119)
+	at org.eclipse.jetty.server.Server.handle(Server.java:517)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:308)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:242)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:261)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:95)
+	at org.eclipse.jetty.io.SelectChannelEndPoint$2.run(SelectChannelEndPoint.java:75)
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.produceAndRun(ExecuteProduceConsume.java:213)
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.run(ExecuteProduceConsume.java:147)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:654)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:572)
+	at java.lang.Thread.run(Unknown Source)
+2016-08-01 08:53:37 DEBUG [UploadService:49] File created: pgadmin/.log
+2016-08-01 08:59:23 DEBUG [ConferenceServer:49] External: spark.Service$StaticFiles@5577140b
+2016-08-01 08:59:23 DEBUG [PostRepository:36] Creating a repository for Posts
+2016-08-01 08:59:23 DEBUG [WebSocketController:33] Creating a controller for WebSocket Notifications
+2016-08-01 08:59:23 DEBUG [PostService:30] Creating a service for Posts
+2016-08-01 08:59:23 DEBUG [PostController:33] Creating a controller for Posts
+2016-08-01 08:59:23 DEBUG [UploadService:27] Creating a service for Uploads
+2016-08-01 08:59:23 DEBUG [UploadController:40] Creating a controller for Uploads
+2016-08-01 08:59:23 DEBUG [NotificationController:20] Creating a controller for Notifications
+2016-08-01 08:59:23 DEBUG [AISESServerRunner:26] Starting Server
+2016-08-01 08:59:24 DEBUG [WebSocketController:33] Creating a controller for WebSocket Notifications
+2016-08-01 08:59:50 DEBUG [ConferenceServer:51] External: java.lang.String@3cd1f1c8[
+  value={s,p,a,r,k,.,S,e,r,v,i,c,e,$,S,t,a,t,i,c,F,i,l,e,s,@,5,5,7,7,1,4,0,b}
+  hash=1233523468
+]
+2016-08-01 08:59:50 DEBUG [PostRepository:36] Creating a repository for Posts
+2016-08-01 08:59:50 DEBUG [WebSocketController:33] Creating a controller for WebSocket Notifications
+2016-08-01 08:59:50 DEBUG [PostService:30] Creating a service for Posts
+2016-08-01 08:59:50 DEBUG [PostController:33] Creating a controller for Posts
+2016-08-01 08:59:50 DEBUG [UploadService:27] Creating a service for Uploads
+2016-08-01 08:59:50 DEBUG [UploadController:40] Creating a controller for Uploads
+2016-08-01 08:59:50 DEBUG [NotificationController:20] Creating a controller for Notifications
+2016-08-01 08:59:50 DEBUG [AISESServerRunner:26] Starting Server
+2016-08-01 08:59:50 DEBUG [WebSocketController:33] Creating a controller for WebSocket Notifications
+2016-08-01 09:00:59 DEBUG [PostRepository:36] Creating a repository for Posts
+2016-08-01 09:00:59 DEBUG [WebSocketController:33] Creating a controller for WebSocket Notifications
+2016-08-01 09:00:59 DEBUG [PostService:30] Creating a service for Posts
+2016-08-01 09:00:59 DEBUG [PostController:33] Creating a controller for Posts
+2016-08-01 09:00:59 DEBUG [UploadService:27] Creating a service for Uploads
+2016-08-01 09:00:59 DEBUG [UploadController:40] Creating a controller for Uploads
+2016-08-01 09:00:59 DEBUG [NotificationController:20] Creating a controller for Notifications
+2016-08-01 09:00:59 DEBUG [AISESServerRunner:26] Starting Server
+2016-08-01 09:00:59 DEBUG [WebSocketController:33] Creating a controller for WebSocket Notifications
+2016-08-01 09:01:30 DEBUG [PostRepository:36] Creating a repository for Posts
+2016-08-01 09:01:30 DEBUG [WebSocketController:33] Creating a controller for WebSocket Notifications
+2016-08-01 09:01:30 DEBUG [PostService:30] Creating a service for Posts
+2016-08-01 09:01:30 DEBUG [PostController:33] Creating a controller for Posts
+2016-08-01 09:01:30 DEBUG [UploadService:27] Creating a service for Uploads
+2016-08-01 09:01:30 DEBUG [UploadController:40] Creating a controller for Uploads
+2016-08-01 09:01:30 DEBUG [NotificationController:20] Creating a controller for Notifications
+2016-08-01 09:01:30 DEBUG [AISESServerRunner:26] Starting Server
+2016-08-01 09:01:30 DEBUG [WebSocketController:33] Creating a controller for WebSocket Notifications
+2016-08-01 09:01:48 DEBUG [UploadController:47] Uploading new file
+2016-08-01 09:01:48 DEBUG [UploadService:38] File attempting to upload: pgadmin.log
+2016-08-01 09:01:48 DEBUG [UploadService:49] File created: pgadmin/.log
+2016-08-01 09:02:02 DEBUG [UploadController:47] Uploading new file
+2016-08-01 09:02:09 DEBUG [UploadController:47] Uploading new file
+2016-08-01 09:02:09 DEBUG [UploadService:38] File attempting to upload: pgadmin.log
+2016-08-01 09:02:09 DEBUG [UploadService:49] File created: pgadmin/.log
+2016-08-01 09:02:10 DEBUG [UploadController:47] Uploading new file
+2016-08-01 09:02:10 DEBUG [UploadService:38] File attempting to upload: pgadmin.log
+2016-08-01 09:02:10 DEBUG [UploadService:49] File created: pgadmin/.log
+2016-08-01 09:02:10 DEBUG [UploadController:47] Uploading new file
+2016-08-01 09:02:10 DEBUG [UploadService:38] File attempting to upload: pgadmin.log
+2016-08-01 09:02:10 DEBUG [UploadService:49] File created: pgadmin/.log
+2016-08-01 09:04:21 DEBUG [PostRepository:36] Creating a repository for Posts
+2016-08-01 09:04:21 DEBUG [WebSocketController:33] Creating a controller for WebSocket Notifications
+2016-08-01 09:04:21 DEBUG [PostService:30] Creating a service for Posts
+2016-08-01 09:04:21 DEBUG [PostController:33] Creating a controller for Posts
+2016-08-01 09:04:21 DEBUG [UploadService:27] Creating a service for Uploads
+2016-08-01 09:04:21 DEBUG [UploadController:40] Creating a controller for Uploads
+2016-08-01 09:04:21 DEBUG [NotificationController:20] Creating a controller for Notifications
+2016-08-01 09:04:21 DEBUG [AISESServerRunner:26] Starting Server
+2016-08-01 09:04:21 DEBUG [WebSocketController:33] Creating a controller for WebSocket Notifications
+2016-08-01 09:04:25 DEBUG [UploadController:47] Uploading new file
+2016-08-01 09:04:25 DEBUG [UploadController:57] MCE: C:\Projects\AISES\uploads
+2016-08-01 09:04:25 DEBUG [UploadService:38] File attempting to upload: pgadmin.log
+2016-08-01 09:04:25 DEBUG [UploadService:49] File created: pgadmin/.log
+2016-08-01 09:04:38 DEBUG [PostRepository:36] Creating a repository for Posts
+2016-08-01 09:04:38 DEBUG [WebSocketController:33] Creating a controller for WebSocket Notifications
+2016-08-01 09:04:38 DEBUG [PostService:30] Creating a service for Posts
+2016-08-01 09:04:38 DEBUG [PostController:33] Creating a controller for Posts
+2016-08-01 09:04:38 DEBUG [UploadService:27] Creating a service for Uploads
+2016-08-01 09:04:38 DEBUG [UploadController:40] Creating a controller for Uploads
+2016-08-01 09:04:38 DEBUG [NotificationController:20] Creating a controller for Notifications
+2016-08-01 09:04:38 DEBUG [AISESServerRunner:26] Starting Server
+2016-08-01 09:04:39 DEBUG [WebSocketController:33] Creating a controller for WebSocket Notifications
+2016-08-01 09:04:39 DEBUG [UploadController:47] Uploading new file
+2016-08-01 09:04:39 DEBUG [UploadController:57] MCE: javax.servlet.MultipartConfigElement@4a56bc27
+2016-08-01 09:04:39 DEBUG [UploadService:38] File attempting to upload: pgadmin.log
+2016-08-01 09:04:39 DEBUG [UploadService:49] File created: pgadmin/.log
+2016-08-01 09:05:02 DEBUG [PostRepository:36] Creating a repository for Posts
+2016-08-01 09:05:02 DEBUG [WebSocketController:33] Creating a controller for WebSocket Notifications
+2016-08-01 09:05:02 DEBUG [PostService:30] Creating a service for Posts
+2016-08-01 09:05:02 DEBUG [PostController:33] Creating a controller for Posts
+2016-08-01 09:05:02 DEBUG [UploadService:27] Creating a service for Uploads
+2016-08-01 09:05:02 DEBUG [UploadController:42] Creating a controller for Uploads
+2016-08-01 09:05:02 DEBUG [NotificationController:20] Creating a controller for Notifications
+2016-08-01 09:05:02 DEBUG [AISESServerRunner:26] Starting Server
+2016-08-01 09:05:02 DEBUG [WebSocketController:33] Creating a controller for WebSocket Notifications
+2016-08-01 09:05:03 DEBUG [UploadController:49] Uploading new file
+2016-08-01 09:05:03 DEBUG [UploadController:59] MCE: javax.servlet.MultipartConfigElement@5e6f4dc4[
+  location=C:\Projects\AISES\uploads
+  maxFileSize=52428800
+  maxRequestSize=52428800
+  fileSizeThreshold=1024
+]
+2016-08-01 09:05:03 DEBUG [UploadService:38] File attempting to upload: pgadmin.log
+2016-08-01 09:05:03 DEBUG [UploadService:49] File created: pgadmin/.log
+2016-08-01 09:05:19 DEBUG [PostRepository:36] Creating a repository for Posts
+2016-08-01 09:05:19 DEBUG [WebSocketController:33] Creating a controller for WebSocket Notifications
+2016-08-01 09:05:19 DEBUG [PostService:30] Creating a service for Posts
+2016-08-01 09:05:19 DEBUG [PostController:33] Creating a controller for Posts
+2016-08-01 09:05:19 DEBUG [UploadService:27] Creating a service for Uploads
+2016-08-01 09:05:19 DEBUG [UploadController:42] Creating a controller for Uploads
+2016-08-01 09:05:19 DEBUG [NotificationController:20] Creating a controller for Notifications
+2016-08-01 09:05:19 DEBUG [AISESServerRunner:26] Starting Server
+2016-08-01 09:05:19 DEBUG [WebSocketController:33] Creating a controller for WebSocket Notifications
+2016-08-01 09:05:21 DEBUG [UploadController:49] Uploading new file
+2016-08-01 09:05:21 DEBUG [UploadController:59] MCE: org.eclipse.jetty.util.MultiPartInputStreamParser$MultiPart@5e6f4dc4[
+  _name=upload-file
+  _filename=pgadmin.log
+  _file=C:\Projects\AISES\uploads\MultiPart8624478437899046159
+  _out=java.io.BufferedOutputStream@7e337466
+  _bout=<null>
+  _contentType=application/octet-stream
+  _headers={content-disposition=form-data; name="upload-file"; filename="pgadmin.log", content-type=application/octet-stream}
+  _size=1391
+  _temporary=true
+]
+2016-08-01 09:05:21 DEBUG [UploadService:38] File attempting to upload: pgadmin.log
+2016-08-01 09:05:21 DEBUG [UploadService:49] File created: pgadmin/.log
+2016-08-01 09:10:25 DEBUG [PostRepository:36] Creating a repository for Posts
+2016-08-01 09:10:25 DEBUG [WebSocketController:33] Creating a controller for WebSocket Notifications
+2016-08-01 09:10:25 DEBUG [PostService:30] Creating a service for Posts
+2016-08-01 09:10:25 DEBUG [PostController:33] Creating a controller for Posts
+2016-08-01 09:10:25 DEBUG [UploadService:27] Creating a service for Uploads
+2016-08-01 09:10:25 DEBUG [UploadController:42] Creating a controller for Uploads
+2016-08-01 09:10:25 DEBUG [NotificationController:20] Creating a controller for Notifications
+2016-08-01 09:10:25 DEBUG [AISESServerRunner:26] Starting Server
+2016-08-01 09:10:25 DEBUG [WebSocketController:33] Creating a controller for WebSocket Notifications
+2016-08-01 09:10:31 DEBUG [UploadController:49] Uploading new file
+2016-08-01 09:10:31 DEBUG [UploadController:59] MCE: org.eclipse.jetty.util.MultiPartInputStreamParser$MultiPart@2ae59d60[
+  _name=upload-file
+  _filename=pgadmin.log
+  _file=C:\Projects\AISES\uploads\MultiPart6243668509890253259
+  _out=java.io.BufferedOutputStream@729d51a1
+  _bout=<null>
+  _contentType=application/octet-stream
+  _headers={content-disposition=form-data; name="upload-file"; filename="pgadmin.log", content-type=application/octet-stream}
+  _size=1391
+  _temporary=true
+]
+2016-08-01 09:10:31 DEBUG [UploadService:38] File attempting to upload: pgadmin.log
+2016-08-01 09:10:31 DEBUG [UploadService:49] File created: pgadmin/.log
+2016-08-01 09:14:28 DEBUG [PostRepository:36] Creating a repository for Posts
+2016-08-01 09:14:28 DEBUG [WebSocketController:33] Creating a controller for WebSocket Notifications
+2016-08-01 09:14:28 DEBUG [PostService:30] Creating a service for Posts
+2016-08-01 09:14:28 DEBUG [PostController:33] Creating a controller for Posts
+2016-08-01 09:14:28 DEBUG [UploadService:27] Creating a service for Uploads
+2016-08-01 09:14:28 DEBUG [UploadController:42] Creating a controller for Uploads
+2016-08-01 09:14:28 DEBUG [NotificationController:20] Creating a controller for Notifications
+2016-08-01 09:14:28 DEBUG [AISESServerRunner:26] Starting Server
+2016-08-01 09:14:28 DEBUG [WebSocketController:33] Creating a controller for WebSocket Notifications
+2016-08-01 09:14:29 DEBUG [UploadController:49] Uploading new file
+2016-08-01 09:14:29 DEBUG [UploadController:59] MCE: org.eclipse.jetty.util.MultiPartInputStreamParser$MultiPart@3a55c909[
+  _name=upload-file
+  _filename=pgadmin.log
+  _file=C:\Projects\AISES\uploads\MultiPart7594077337925364813
+  _out=java.io.BufferedOutputStream@4c4bd250
+  _bout=<null>
+  _contentType=application/octet-stream
+  _headers={content-disposition=form-data; name="upload-file"; filename="pgadmin.log", content-type=application/octet-stream}
+  _size=1391
+  _temporary=true
+]
+2016-08-01 09:14:29 DEBUG [UploadService:38] File attempting to upload: pgadmin.log
+2016-08-01 09:14:29 ERROR [UploadService:78] Unable to write file to disk!
+java.nio.file.NoSuchFileException: C:\Projects\AISES\uploads\upload-file
+	at sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:79)
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:97)
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:102)
+	at sun.nio.fs.WindowsFileSystemProvider.implDelete(WindowsFileSystemProvider.java:269)
+	at sun.nio.fs.AbstractFileSystemProvider.delete(AbstractFileSystemProvider.java:103)
+	at java.nio.file.Files.delete(Files.java:1126)
+	at com.aises.service.UploadService.writeUploadToDisk(UploadService.java:76)
+	at com.aises.service.UploadService.createFileFromParts(UploadService.java:67)
+	at com.aises.service.UploadService.uploadFile(UploadService.java:48)
+	at com.aises.controller.UploadController.uploadMultiPartFile(UploadController.java:60)
+	at com.aises.controller.UploadController.lambda$new$0(UploadController.java:44)
+	at spark.ResponseTransformerRouteImpl$1.handle(ResponseTransformerRouteImpl.java:47)
+	at spark.http.matching.Routes.execute(Routes.java:61)
+	at spark.http.matching.MatcherFilter.doFilter(MatcherFilter.java:126)
+	at spark.embeddedserver.jetty.JettyHandler.doHandle(JettyHandler.java:50)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:189)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.HandlerList.handle(HandlerList.java:52)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:119)
+	at org.eclipse.jetty.server.Server.handle(Server.java:517)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:308)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:242)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:261)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:95)
+	at org.eclipse.jetty.io.SelectChannelEndPoint$2.run(SelectChannelEndPoint.java:75)
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.produceAndRun(ExecuteProduceConsume.java:213)
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.run(ExecuteProduceConsume.java:147)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:654)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:572)
+	at java.lang.Thread.run(Thread.java:745)
+2016-08-01 09:14:29 DEBUG [UploadService:49] File created: pgadmin/.log
+2016-08-01 09:15:05 DEBUG [PostRepository:36] Creating a repository for Posts
+2016-08-01 09:15:05 DEBUG [WebSocketController:33] Creating a controller for WebSocket Notifications
+2016-08-01 09:15:05 DEBUG [PostService:30] Creating a service for Posts
+2016-08-01 09:15:05 DEBUG [PostController:33] Creating a controller for Posts
+2016-08-01 09:15:05 DEBUG [UploadService:27] Creating a service for Uploads
+2016-08-01 09:15:05 DEBUG [UploadController:42] Creating a controller for Uploads
+2016-08-01 09:15:05 DEBUG [NotificationController:20] Creating a controller for Notifications
+2016-08-01 09:15:05 DEBUG [AISESServerRunner:26] Starting Server
+2016-08-01 09:15:05 DEBUG [WebSocketController:33] Creating a controller for WebSocket Notifications
+2016-08-01 09:15:06 DEBUG [UploadController:49] Uploading new file
+2016-08-01 09:15:06 DEBUG [UploadController:59] MCE: org.eclipse.jetty.util.MultiPartInputStreamParser$MultiPart@3a55c909[
+  _name=upload-file
+  _filename=pgadmin.log
+  _file=C:\Projects\AISES\uploads\MultiPart7064560233409081032
+  _out=java.io.BufferedOutputStream@4c4bd250
+  _bout=<null>
+  _contentType=application/octet-stream
+  _headers={content-disposition=form-data; name="upload-file"; filename="pgadmin.log", content-type=application/octet-stream}
+  _size=1391
+  _temporary=true
+]
+2016-08-01 09:15:06 DEBUG [UploadService:38] File attempting to upload: pgadmin.log
+2016-08-01 09:15:06 ERROR [UploadService:78] Unable to write file to disk!
+java.nio.file.NoSuchFileException: C:\Projects\AISES\uploads\org.eclipse.jetty.util.MultiPartInputStreamParser$MultiPart@3a55c909
+	at sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:79)
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:97)
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:102)
+	at sun.nio.fs.WindowsFileSystemProvider.implDelete(WindowsFileSystemProvider.java:269)
+	at sun.nio.fs.AbstractFileSystemProvider.delete(AbstractFileSystemProvider.java:103)
+	at java.nio.file.Files.delete(Files.java:1126)
+	at com.aises.service.UploadService.writeUploadToDisk(UploadService.java:76)
+	at com.aises.service.UploadService.createFileFromParts(UploadService.java:67)
+	at com.aises.service.UploadService.uploadFile(UploadService.java:48)
+	at com.aises.controller.UploadController.uploadMultiPartFile(UploadController.java:60)
+	at com.aises.controller.UploadController.lambda$new$0(UploadController.java:44)
+	at spark.ResponseTransformerRouteImpl$1.handle(ResponseTransformerRouteImpl.java:47)
+	at spark.http.matching.Routes.execute(Routes.java:61)
+	at spark.http.matching.MatcherFilter.doFilter(MatcherFilter.java:126)
+	at spark.embeddedserver.jetty.JettyHandler.doHandle(JettyHandler.java:50)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:189)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.HandlerList.handle(HandlerList.java:52)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:119)
+	at org.eclipse.jetty.server.Server.handle(Server.java:517)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:308)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:242)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:261)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:95)
+	at org.eclipse.jetty.io.SelectChannelEndPoint$2.run(SelectChannelEndPoint.java:75)
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.produceAndRun(ExecuteProduceConsume.java:213)
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.run(ExecuteProduceConsume.java:147)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:654)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:572)
+	at java.lang.Thread.run(Thread.java:745)
+2016-08-01 09:15:06 DEBUG [UploadService:49] File created: pgadmin/.log
+2016-08-01 09:15:44 DEBUG [PostRepository:36] Creating a repository for Posts
+2016-08-01 09:15:44 DEBUG [WebSocketController:33] Creating a controller for WebSocket Notifications
+2016-08-01 09:15:44 DEBUG [PostService:30] Creating a service for Posts
+2016-08-01 09:15:44 DEBUG [PostController:33] Creating a controller for Posts
+2016-08-01 09:15:44 DEBUG [UploadService:27] Creating a service for Uploads
+2016-08-01 09:15:44 DEBUG [UploadController:42] Creating a controller for Uploads
+2016-08-01 09:15:44 DEBUG [NotificationController:20] Creating a controller for Notifications
+2016-08-01 09:15:44 DEBUG [AISESServerRunner:26] Starting Server
+2016-08-01 09:15:44 DEBUG [WebSocketController:33] Creating a controller for WebSocket Notifications
+2016-08-01 09:15:46 DEBUG [UploadController:49] Uploading new file
+2016-08-01 09:15:46 DEBUG [UploadController:59] MCE: org.eclipse.jetty.util.MultiPartInputStreamParser$MultiPart@14740910[
+  _name=upload-file
+  _filename=pgadmin.log
+  _file=C:\Projects\AISES\uploads\MultiPart2260263646476326302
+  _out=java.io.BufferedOutputStream@2e55e63c
+  _bout=<null>
+  _contentType=application/octet-stream
+  _headers={content-disposition=form-data; name="upload-file"; filename="pgadmin.log", content-type=application/octet-stream}
+  _size=1391
+  _temporary=true
+]
+2016-08-01 09:15:46 DEBUG [UploadService:38] File attempting to upload: pgadmin.log
+2016-08-01 09:15:46 ERROR [UploadService:78] Unable to write file to disk!
+java.nio.file.NoSuchFileException: C:\Projects\AISES\uploads\java.io.BufferedInputStream@75c9286b
+	at sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:79)
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:97)
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:102)
+	at sun.nio.fs.WindowsFileSystemProvider.implDelete(WindowsFileSystemProvider.java:269)
+	at sun.nio.fs.AbstractFileSystemProvider.delete(AbstractFileSystemProvider.java:103)
+	at java.nio.file.Files.delete(Files.java:1126)
+	at com.aises.service.UploadService.writeUploadToDisk(UploadService.java:76)
+	at com.aises.service.UploadService.createFileFromParts(UploadService.java:67)
+	at com.aises.service.UploadService.uploadFile(UploadService.java:48)
+	at com.aises.controller.UploadController.uploadMultiPartFile(UploadController.java:60)
+	at com.aises.controller.UploadController.lambda$new$0(UploadController.java:44)
+	at spark.ResponseTransformerRouteImpl$1.handle(ResponseTransformerRouteImpl.java:47)
+	at spark.http.matching.Routes.execute(Routes.java:61)
+	at spark.http.matching.MatcherFilter.doFilter(MatcherFilter.java:126)
+	at spark.embeddedserver.jetty.JettyHandler.doHandle(JettyHandler.java:50)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:189)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.HandlerList.handle(HandlerList.java:52)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:119)
+	at org.eclipse.jetty.server.Server.handle(Server.java:517)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:308)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:242)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:261)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:95)
+	at org.eclipse.jetty.io.SelectChannelEndPoint$2.run(SelectChannelEndPoint.java:75)
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.produceAndRun(ExecuteProduceConsume.java:213)
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.run(ExecuteProduceConsume.java:147)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:654)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:572)
+	at java.lang.Thread.run(Thread.java:745)
+2016-08-01 09:15:46 DEBUG [UploadService:49] File created: pgadmin/.log
+2016-08-01 09:18:56 DEBUG [PostRepository:36] Creating a repository for Posts
+2016-08-01 09:18:56 DEBUG [WebSocketController:33] Creating a controller for WebSocket Notifications
+2016-08-01 09:18:56 DEBUG [PostService:30] Creating a service for Posts
+2016-08-01 09:18:56 DEBUG [PostController:33] Creating a controller for Posts
+2016-08-01 09:18:57 DEBUG [UploadService:27] Creating a service for Uploads
+2016-08-01 09:18:57 DEBUG [UploadController:42] Creating a controller for Uploads
+2016-08-01 09:18:57 DEBUG [NotificationController:20] Creating a controller for Notifications
+2016-08-01 09:18:57 DEBUG [AISESServerRunner:26] Starting Server
+2016-08-01 09:18:57 DEBUG [WebSocketController:33] Creating a controller for WebSocket Notifications
+2016-08-01 09:18:59 DEBUG [UploadController:49] Uploading new file
+2016-08-01 09:18:59 DEBUG [UploadController:59] MCE: org.eclipse.jetty.util.MultiPartInputStreamParser$MultiPart@3a55c909[
+  _name=upload-file
+  _filename=pgadmin.log
+  _file=C:\Projects\AISES\uploads\MultiPart2766234759927551933
+  _out=java.io.BufferedOutputStream@4c4bd250
+  _bout=<null>
+  _contentType=application/octet-stream
+  _headers={content-disposition=form-data; name="upload-file"; filename="pgadmin.log", content-type=application/octet-stream}
+  _size=1391
+  _temporary=true
+]
+2016-08-01 09:18:59 DEBUG [UploadService:38] File attempting to upload: pgadmin.log
+2016-08-01 09:18:59 ERROR [UploadService:78] Unable to write file to disk!
+java.nio.file.NoSuchFileException: C:\Projects\AISES\uploads\[content-disposition, content-type]
+	at sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:79)
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:97)
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:102)
+	at sun.nio.fs.WindowsFileSystemProvider.implDelete(WindowsFileSystemProvider.java:269)
+	at sun.nio.fs.AbstractFileSystemProvider.delete(AbstractFileSystemProvider.java:103)
+	at java.nio.file.Files.delete(Files.java:1126)
+	at com.aises.service.UploadService.writeUploadToDisk(UploadService.java:76)
+	at com.aises.service.UploadService.createFileFromParts(UploadService.java:67)
+	at com.aises.service.UploadService.uploadFile(UploadService.java:48)
+	at com.aises.controller.UploadController.uploadMultiPartFile(UploadController.java:60)
+	at com.aises.controller.UploadController.lambda$new$0(UploadController.java:44)
+	at spark.ResponseTransformerRouteImpl$1.handle(ResponseTransformerRouteImpl.java:47)
+	at spark.http.matching.Routes.execute(Routes.java:61)
+	at spark.http.matching.MatcherFilter.doFilter(MatcherFilter.java:126)
+	at spark.embeddedserver.jetty.JettyHandler.doHandle(JettyHandler.java:50)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:189)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.HandlerList.handle(HandlerList.java:52)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:119)
+	at org.eclipse.jetty.server.Server.handle(Server.java:517)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:308)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:242)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:261)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:95)
+	at org.eclipse.jetty.io.SelectChannelEndPoint$2.run(SelectChannelEndPoint.java:75)
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.produceAndRun(ExecuteProduceConsume.java:213)
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.run(ExecuteProduceConsume.java:147)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:654)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:572)
+	at java.lang.Thread.run(Thread.java:745)
+2016-08-01 09:18:59 DEBUG [UploadService:49] File created: pgadmin/.log
+2016-08-01 09:22:26 DEBUG [PostRepository:36] Creating a repository for Posts
+2016-08-01 09:22:26 DEBUG [WebSocketController:33] Creating a controller for WebSocket Notifications
+2016-08-01 09:22:26 DEBUG [PostService:30] Creating a service for Posts
+2016-08-01 09:22:26 DEBUG [PostController:33] Creating a controller for Posts
+2016-08-01 09:22:26 DEBUG [UploadService:27] Creating a service for Uploads
+2016-08-01 09:22:26 DEBUG [UploadController:42] Creating a controller for Uploads
+2016-08-01 09:22:26 DEBUG [NotificationController:20] Creating a controller for Notifications
+2016-08-01 09:22:26 DEBUG [AISESServerRunner:26] Starting Server
+2016-08-01 09:22:26 DEBUG [WebSocketController:33] Creating a controller for WebSocket Notifications
+2016-08-01 09:22:28 DEBUG [UploadController:49] Uploading new file
+2016-08-01 09:22:28 DEBUG [UploadController:59] MCE: org.eclipse.jetty.util.MultiPartInputStreamParser$MultiPart@5829e541[
+  _name=upload-file
+  _filename=pgadmin.log
+  _file=C:\Projects\AISES\uploads\MultiPart9078766738707821046
+  _out=java.io.BufferedOutputStream@699206f5
+  _bout=<null>
+  _contentType=application/octet-stream
+  _headers={content-disposition=form-data; name="upload-file"; filename="pgadmin.log", content-type=application/octet-stream}
+  _size=1391
+  _temporary=true
+]
+2016-08-01 09:22:28 DEBUG [UploadService:38] File attempting to upload: pgadmin.log
+2016-08-01 09:22:28 DEBUG [UploadService:49] File created: pgadmin/.log
+2016-08-01 09:22:37 DEBUG [UploadController:49] Uploading new file
+2016-08-01 09:22:37 DEBUG [UploadController:59] MCE: org.eclipse.jetty.util.MultiPartInputStreamParser$MultiPart@2ad56b3a[
+  _name=upload-file
+  _filename=pgadmin.log
+  _file=C:\Projects\AISES\uploads\MultiPart5450082415995972637
+  _out=java.io.BufferedOutputStream@24129010
+  _bout=<null>
+  _contentType=application/octet-stream
+  _headers={content-disposition=form-data; name="upload-file"; filename="pgadmin.log", content-type=application/octet-stream}
+  _size=1391
+  _temporary=true
+]
+2016-08-01 09:22:37 DEBUG [UploadService:38] File attempting to upload: pgadmin.log
+2016-08-01 09:22:37 DEBUG [UploadService:49] File created: pgadmin/.log
+2016-08-01 09:22:38 DEBUG [UploadController:49] Uploading new file
+2016-08-01 09:22:38 DEBUG [UploadController:59] MCE: org.eclipse.jetty.util.MultiPartInputStreamParser$MultiPart@9e7f6e4[
+  _name=upload-file
+  _filename=pgadmin.log
+  _file=C:\Projects\AISES\uploads\MultiPart1255806625514322
+  _out=java.io.BufferedOutputStream@4a7b1503
+  _bout=<null>
+  _contentType=application/octet-stream
+  _headers={content-disposition=form-data; name="upload-file"; filename="pgadmin.log", content-type=application/octet-stream}
+  _size=1391
+  _temporary=true
+]
+2016-08-01 09:22:38 DEBUG [UploadService:38] File attempting to upload: pgadmin.log
+2016-08-01 09:22:38 DEBUG [UploadService:49] File created: pgadmin/.log
+2016-08-01 09:22:39 DEBUG [UploadController:49] Uploading new file
+2016-08-01 09:22:39 DEBUG [UploadController:59] MCE: org.eclipse.jetty.util.MultiPartInputStreamParser$MultiPart@4c9d1712[
+  _name=upload-file
+  _filename=pgadmin.log
+  _file=C:\Projects\AISES\uploads\MultiPart2066755080891288265
+  _out=java.io.BufferedOutputStream@425af0f1
+  _bout=<null>
+  _contentType=application/octet-stream
+  _headers={content-disposition=form-data; name="upload-file"; filename="pgadmin.log", content-type=application/octet-stream}
+  _size=1391
+  _temporary=true
+]
+2016-08-01 09:22:39 DEBUG [UploadService:38] File attempting to upload: pgadmin.log
+2016-08-01 09:22:39 DEBUG [UploadService:49] File created: pgadmin/.log
+2016-08-01 09:22:42 DEBUG [UploadController:49] Uploading new file
+2016-08-01 09:22:42 DEBUG [UploadController:59] MCE: org.eclipse.jetty.util.MultiPartInputStreamParser$MultiPart@652f9a2b[
+  _name=upload-file
+  _filename=pgadmin.log
+  _file=C:\Projects\AISES\uploads\MultiPart3549720437802246008
+  _out=java.io.BufferedOutputStream@6422b10f
+  _bout=<null>
+  _contentType=application/octet-stream
+  _headers={content-disposition=form-data; name="upload-file"; filename="pgadmin.log", content-type=application/octet-stream}
+  _size=1391
+  _temporary=true
+]
+2016-08-01 09:22:42 DEBUG [UploadService:38] File attempting to upload: pgadmin.log
+2016-08-01 09:22:42 DEBUG [UploadService:49] File created: pgadmin/.log
+2016-08-01 09:22:44 DEBUG [UploadController:49] Uploading new file
+2016-08-01 09:22:44 DEBUG [UploadController:59] MCE: org.eclipse.jetty.util.MultiPartInputStreamParser$MultiPart@14080af2[
+  _name=upload-file
+  _filename=pgadmin.log
+  _file=C:\Projects\AISES\uploads\MultiPart729908604882717118
+  _out=java.io.BufferedOutputStream@1acfe603
+  _bout=<null>
+  _contentType=application/octet-stream
+  _headers={content-disposition=form-data; name="upload-file"; filename="pgadmin.log", content-type=application/octet-stream}
+  _size=1391
+  _temporary=true
+]
+2016-08-01 09:22:44 DEBUG [UploadService:38] File attempting to upload: pgadmin.log
+2016-08-01 09:22:44 DEBUG [UploadService:49] File created: pgadmin/.log
+2016-08-01 09:22:45 DEBUG [UploadController:49] Uploading new file
+2016-08-01 09:22:45 DEBUG [UploadController:59] MCE: org.eclipse.jetty.util.MultiPartInputStreamParser$MultiPart@46657c62[
+  _name=upload-file
+  _filename=pgadmin.log
+  _file=C:\Projects\AISES\uploads\MultiPart7810709794805620676
+  _out=java.io.BufferedOutputStream@367faca
+  _bout=<null>
+  _contentType=application/octet-stream
+  _headers={content-disposition=form-data; name="upload-file"; filename="pgadmin.log", content-type=application/octet-stream}
+  _size=1391
+  _temporary=true
+]
+2016-08-01 09:22:45 DEBUG [UploadService:38] File attempting to upload: pgadmin.log
+2016-08-01 09:22:45 DEBUG [UploadService:49] File created: pgadmin/.log
+2016-08-01 09:22:45 DEBUG [UploadController:49] Uploading new file
+2016-08-01 09:22:45 DEBUG [UploadController:59] MCE: org.eclipse.jetty.util.MultiPartInputStreamParser$MultiPart@1c674a01[
+  _name=upload-file
+  _filename=pgadmin.log
+  _file=C:\Projects\AISES\uploads\MultiPart7303132966274628005
+  _out=java.io.BufferedOutputStream@5006564
+  _bout=<null>
+  _contentType=application/octet-stream
+  _headers={content-disposition=form-data; name="upload-file"; filename="pgadmin.log", content-type=application/octet-stream}
+  _size=1391
+  _temporary=true
+]
+2016-08-01 09:22:45 DEBUG [UploadService:38] File attempting to upload: pgadmin.log
+2016-08-01 09:22:45 DEBUG [UploadService:49] File created: pgadmin/.log
+2016-08-01 09:22:46 DEBUG [UploadController:49] Uploading new file
+2016-08-01 09:22:46 DEBUG [UploadController:59] MCE: org.eclipse.jetty.util.MultiPartInputStreamParser$MultiPart@143e9cc[
+  _name=upload-file
+  _filename=pgadmin.log
+  _file=C:\Projects\AISES\uploads\MultiPart4936253059959588042
+  _out=java.io.BufferedOutputStream@f841794
+  _bout=<null>
+  _contentType=application/octet-stream
+  _headers={content-disposition=form-data; name="upload-file"; filename="pgadmin.log", content-type=application/octet-stream}
+  _size=1391
+  _temporary=true
+]
+2016-08-01 09:22:46 DEBUG [UploadService:38] File attempting to upload: pgadmin.log
+2016-08-01 09:22:46 DEBUG [UploadService:49] File created: pgadmin/.log
+2016-08-01 09:22:47 DEBUG [UploadController:49] Uploading new file
+2016-08-01 09:22:47 DEBUG [UploadController:59] MCE: org.eclipse.jetty.util.MultiPartInputStreamParser$MultiPart@27665833[
+  _name=upload-file
+  _filename=pgadmin.log
+  _file=C:\Projects\AISES\uploads\MultiPart6959174287975998945
+  _out=java.io.BufferedOutputStream@322ef956
+  _bout=<null>
+  _contentType=application/octet-stream
+  _headers={content-disposition=form-data; name="upload-file"; filename="pgadmin.log", content-type=application/octet-stream}
+  _size=1391
+  _temporary=true
+]
+2016-08-01 09:22:47 DEBUG [UploadService:38] File attempting to upload: pgadmin.log
+2016-08-01 09:22:47 DEBUG [UploadService:49] File created: pgadmin/.log
+2016-08-01 09:22:48 DEBUG [UploadController:49] Uploading new file
+2016-08-01 09:22:48 DEBUG [UploadController:59] MCE: org.eclipse.jetty.util.MultiPartInputStreamParser$MultiPart@74db0602[
+  _name=upload-file
+  _filename=pgadmin.log
+  _file=C:\Projects\AISES\uploads\MultiPart2835628631264906848
+  _out=java.io.BufferedOutputStream@21f21375
+  _bout=<null>
+  _contentType=application/octet-stream
+  _headers={content-disposition=form-data; name="upload-file"; filename="pgadmin.log", content-type=application/octet-stream}
+  _size=1391
+  _temporary=true
+]
+2016-08-01 09:22:48 DEBUG [UploadService:38] File attempting to upload: pgadmin.log
+2016-08-01 09:22:48 DEBUG [UploadService:49] File created: pgadmin/.log
+2016-08-01 09:22:48 DEBUG [UploadController:49] Uploading new file
+2016-08-01 09:22:48 DEBUG [UploadController:59] MCE: org.eclipse.jetty.util.MultiPartInputStreamParser$MultiPart@bbb82bc[
+  _name=upload-file
+  _filename=pgadmin.log
+  _file=C:\Projects\AISES\uploads\MultiPart6826693608634537848
+  _out=java.io.BufferedOutputStream@4eb91daf
+  _bout=<null>
+  _contentType=application/octet-stream
+  _headers={content-disposition=form-data; name="upload-file"; filename="pgadmin.log", content-type=application/octet-stream}
+  _size=1391
+  _temporary=true
+]
+2016-08-01 09:22:48 DEBUG [UploadService:38] File attempting to upload: pgadmin.log
+2016-08-01 09:22:48 DEBUG [UploadService:49] File created: pgadmin/.log
+2016-08-01 09:22:48 DEBUG [UploadController:49] Uploading new file
+2016-08-01 09:22:48 DEBUG [UploadController:59] MCE: org.eclipse.jetty.util.MultiPartInputStreamParser$MultiPart@5fc5051d[
+  _name=upload-file
+  _filename=pgadmin.log
+  _file=C:\Projects\AISES\uploads\MultiPart1487379632773630266
+  _out=java.io.BufferedOutputStream@63480585
+  _bout=<null>
+  _contentType=application/octet-stream
+  _headers={content-disposition=form-data; name="upload-file"; filename="pgadmin.log", content-type=application/octet-stream}
+  _size=1391
+  _temporary=true
+]
+2016-08-01 09:22:48 DEBUG [UploadService:38] File attempting to upload: pgadmin.log
+2016-08-01 09:22:48 DEBUG [UploadService:49] File created: pgadmin/.log
+2016-08-01 09:22:48 DEBUG [UploadController:49] Uploading new file
+2016-08-01 09:22:48 DEBUG [UploadController:59] MCE: org.eclipse.jetty.util.MultiPartInputStreamParser$MultiPart@7636208[
+  _name=upload-file
+  _filename=pgadmin.log
+  _file=C:\Projects\AISES\uploads\MultiPart6890363451910782981
+  _out=java.io.BufferedOutputStream@14e1cc5
+  _bout=<null>
+  _contentType=application/octet-stream
+  _headers={content-disposition=form-data; name="upload-file"; filename="pgadmin.log", content-type=application/octet-stream}
+  _size=1391
+  _temporary=true
+]
+2016-08-01 09:22:48 DEBUG [UploadService:38] File attempting to upload: pgadmin.log
+2016-08-01 09:22:48 DEBUG [UploadService:49] File created: pgadmin/.log
+2016-08-01 09:22:48 DEBUG [UploadController:49] Uploading new file
+2016-08-01 09:22:48 DEBUG [UploadController:59] MCE: org.eclipse.jetty.util.MultiPartInputStreamParser$MultiPart@50aa803d[
+  _name=upload-file
+  _filename=pgadmin.log
+  _file=C:\Projects\AISES\uploads\MultiPart4169939588426341217
+  _out=java.io.BufferedOutputStream@7f3d150b
+  _bout=<null>
+  _contentType=application/octet-stream
+  _headers={content-disposition=form-data; name="upload-file"; filename="pgadmin.log", content-type=application/octet-stream}
+  _size=1391
+  _temporary=true
+]
+2016-08-01 09:22:48 DEBUG [UploadService:38] File attempting to upload: pgadmin.log
+2016-08-01 09:22:48 DEBUG [UploadService:49] File created: pgadmin/.log
+2016-08-01 09:22:48 DEBUG [UploadController:49] Uploading new file
+2016-08-01 09:22:48 DEBUG [UploadController:59] MCE: org.eclipse.jetty.util.MultiPartInputStreamParser$MultiPart@76fa7e1f[
+  _name=upload-file
+  _filename=pgadmin.log
+  _file=C:\Projects\AISES\uploads\MultiPart7514010819544581620
+  _out=java.io.BufferedOutputStream@33dbcddf
+  _bout=<null>
+  _contentType=application/octet-stream
+  _headers={content-disposition=form-data; name="upload-file"; filename="pgadmin.log", content-type=application/octet-stream}
+  _size=1391
+  _temporary=true
+]
+2016-08-01 09:22:48 DEBUG [UploadService:38] File attempting to upload: pgadmin.log
+2016-08-01 09:22:48 DEBUG [UploadService:49] File created: pgadmin/.log
+2016-08-01 09:23:26 DEBUG [PostRepository:36] Creating a repository for Posts
+2016-08-01 09:23:26 DEBUG [WebSocketController:33] Creating a controller for WebSocket Notifications
+2016-08-01 09:23:26 DEBUG [PostService:30] Creating a service for Posts
+2016-08-01 09:23:26 DEBUG [PostController:33] Creating a controller for Posts
+2016-08-01 09:23:26 DEBUG [UploadService:27] Creating a service for Uploads
+2016-08-01 09:23:26 DEBUG [UploadController:42] Creating a controller for Uploads
+2016-08-01 09:23:26 DEBUG [NotificationController:20] Creating a controller for Notifications
+2016-08-01 09:23:26 DEBUG [AISESServerRunner:26] Starting Server
+2016-08-01 09:23:26 DEBUG [WebSocketController:33] Creating a controller for WebSocket Notifications
+2016-08-01 09:23:26 DEBUG [UploadController:49] Uploading new file
+2016-08-01 09:23:26 DEBUG [UploadController:59] MCE: org.eclipse.jetty.util.MultiPartInputStreamParser$MultiPart@2ae59d60[
+  _name=upload-file
+  _filename=pgadmin.log
+  _file=C:\Projects\AISES\uploads\MultiPart8220906023294515690
+  _out=java.io.BufferedOutputStream@729d51a1
+  _bout=<null>
+  _contentType=application/octet-stream
+  _headers={content-disposition=form-data; name="upload-file"; filename="pgadmin.log", content-type=application/octet-stream}
+  _size=1391
+  _temporary=true
+]
+2016-08-01 09:23:26 DEBUG [UploadService:38] File attempting to upload: pgadmin.log
+2016-08-01 09:23:26 DEBUG [UploadService:49] File created: pgadmin/.log
+2016-08-01 09:23:42 DEBUG [PostRepository:36] Creating a repository for Posts
+2016-08-01 09:23:42 DEBUG [WebSocketController:33] Creating a controller for WebSocket Notifications
+2016-08-01 09:23:42 DEBUG [PostService:30] Creating a service for Posts
+2016-08-01 09:23:42 DEBUG [PostController:33] Creating a controller for Posts
+2016-08-01 09:23:42 DEBUG [UploadService:27] Creating a service for Uploads
+2016-08-01 09:23:42 DEBUG [UploadController:42] Creating a controller for Uploads
+2016-08-01 09:23:42 DEBUG [NotificationController:20] Creating a controller for Notifications
+2016-08-01 09:23:42 DEBUG [AISESServerRunner:26] Starting Server
+2016-08-01 09:23:42 DEBUG [WebSocketController:33] Creating a controller for WebSocket Notifications
+2016-08-01 09:23:45 DEBUG [UploadController:49] Uploading new file
+2016-08-01 09:23:45 DEBUG [UploadController:59] MCE: org.eclipse.jetty.util.MultiPartInputStreamParser$MultiPart@4cb7264[
+  _name=upload-file
+  _filename=pgadmin.log
+  _file=C:\Projects\AISES\uploads\MultiPart5566989019748024828
+  _out=java.io.BufferedOutputStream@1573ca06
+  _bout=<null>
+  _contentType=application/octet-stream
+  _headers={content-disposition=form-data; name="upload-file"; filename="pgadmin.log", content-type=application/octet-stream}
+  _size=1391
+  _temporary=true
+]
+2016-08-01 09:23:45 DEBUG [UploadService:38] File attempting to upload: pgadmin.log
+2016-08-01 09:23:45 DEBUG [UploadService:49] File created: pgadmin/.log
+2016-08-01 09:23:48 DEBUG [UploadController:49] Uploading new file
+2016-08-01 09:23:48 DEBUG [UploadController:59] MCE: org.eclipse.jetty.util.MultiPartInputStreamParser$MultiPart@6eb68321[
+  _name=upload-file
+  _filename=pgadmin.log
+  _file=C:\Projects\AISES\uploads\MultiPart535567576566812067
+  _out=java.io.BufferedOutputStream@60716087
+  _bout=<null>
+  _contentType=application/octet-stream
+  _headers={content-disposition=form-data; name="upload-file"; filename="pgadmin.log", content-type=application/octet-stream}
+  _size=1391
+  _temporary=true
+]
+2016-08-01 09:23:48 DEBUG [UploadService:38] File attempting to upload: pgadmin.log
+2016-08-01 09:23:48 DEBUG [UploadService:49] File created: pgadmin/.log
+2016-08-01 09:23:51 DEBUG [UploadController:49] Uploading new file
+2016-08-01 09:23:51 DEBUG [UploadController:59] MCE: org.eclipse.jetty.util.MultiPartInputStreamParser$MultiPart@fb032e9[
+  _name=upload-file
+  _filename=pgadmin.log
+  _file=C:\Projects\AISES\uploads\MultiPart4187703133924464809
+  _out=java.io.BufferedOutputStream@175989e1
+  _bout=<null>
+  _contentType=application/octet-stream
+  _headers={content-disposition=form-data; name="upload-file"; filename="pgadmin.log", content-type=application/octet-stream}
+  _size=1391
+  _temporary=true
+]
+2016-08-01 09:23:51 DEBUG [UploadService:38] File attempting to upload: pgadmin.log
+2016-08-01 09:23:51 DEBUG [UploadService:49] File created: pgadmin/.log
+2016-08-01 09:23:53 DEBUG [UploadController:49] Uploading new file
+2016-08-01 09:23:53 DEBUG [UploadController:59] MCE: org.eclipse.jetty.util.MultiPartInputStreamParser$MultiPart@214c6abc[
+  _name=upload-file
+  _filename=pgadmin.log
+  _file=C:\Projects\AISES\uploads\MultiPart3654051748819982371
+  _out=java.io.BufferedOutputStream@7bb94a3f
+  _bout=<null>
+  _contentType=application/octet-stream
+  _headers={content-disposition=form-data; name="upload-file"; filename="pgadmin.log", content-type=application/octet-stream}
+  _size=1391
+  _temporary=true
+]
+2016-08-01 09:23:53 DEBUG [UploadService:38] File attempting to upload: pgadmin.log
+2016-08-01 09:23:53 DEBUG [UploadService:49] File created: pgadmin/.log
+2016-08-01 09:23:54 DEBUG [UploadController:49] Uploading new file
+2016-08-01 09:23:54 DEBUG [UploadController:59] MCE: org.eclipse.jetty.util.MultiPartInputStreamParser$MultiPart@2433d221[
+  _name=upload-file
+  _filename=pgadmin.log
+  _file=C:\Projects\AISES\uploads\MultiPart5510838102189158273
+  _out=java.io.BufferedOutputStream@2af428d7
+  _bout=<null>
+  _contentType=application/octet-stream
+  _headers={content-disposition=form-data; name="upload-file"; filename="pgadmin.log", content-type=application/octet-stream}
+  _size=1391
+  _temporary=true
+]
+2016-08-01 09:23:54 DEBUG [UploadService:38] File attempting to upload: pgadmin.log
+2016-08-01 09:23:54 DEBUG [UploadService:49] File created: pgadmin/.log
