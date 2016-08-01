@@ -419,3 +419,7 @@
 2016-07-31 19:14:06 DEBUG [PostController:83] Getting a range of posts
 2016-07-31 20:11:59 DEBUG [PostController:46] Checking user credentials before retrieving or sending posts
 2016-07-31 20:11:59 DEBUG [PostController:78] Getting all posts
+2016-07-31 20:48:02 DEBUG [PostController:46] Checking user credentials before retrieving or sending posts
+2016-07-31 20:48:02 DEBUG [PostController:78] Getting all posts
+2016-07-31 21:17:04 DEBUG [PostController:46] Checking user credentials before retrieving or sending posts
+2016-07-31 21:17:04 DEBUG [PostController:78] Getting all posts

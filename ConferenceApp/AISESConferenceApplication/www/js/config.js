@@ -6,6 +6,7 @@ var AISES = AISES || {};
 AISES.Config = { 
     dataProtocol: null,
     dataServer: null,
+    externalDataServer: null,
     dataPort: null,
     
     deviceType: null,
@@ -29,10 +30,11 @@ AISES.Config = {
     configureDataServer: function() {
         AISES.Config.dataProtocol = "http://";
         AISES.Config.dataServer = "localhost";
+        AISES.Config.externalDataServer = "172.16.102.166";
         AISES.Config.dataPort = 5570;
     },
     
     getDataServer: function() {
-        return this.dataProtocol + this.dataServer + ":" + this.dataPort;
+        return this.dataProtocol + this.externalDataServer + ":" + this.dataPort;
     }
 };
