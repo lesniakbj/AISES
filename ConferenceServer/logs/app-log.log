@@ -3496,3 +3496,46 @@ java.nio.file.NoSuchFileException: C:\Projects\AISES\uploads\[content-dispositio
 2016-08-01 12:19:42 DEBUG [PostController:87] Getting all posts
 2016-08-01 12:20:01 DEBUG [WebSocketController:44] Added new session: SESSION-172.16.102.224:51351
 2016-08-01 12:25:01 DEBUG [WebSocketController:49] Removing session: SESSION-172.16.102.224:51351
+2016-08-01 12:36:29 DEBUG [PostRepository:36] Creating a repository for Posts
+2016-08-01 12:36:29 DEBUG [WebSocketController:31] Creating a controller for WebSocket Notifications
+2016-08-01 12:36:29 DEBUG [PostService:30] Creating a service for Posts
+2016-08-01 12:36:29 DEBUG [PostController:35] Creating a controller for Posts
+2016-08-01 12:36:29 DEBUG [UploadService:27] Creating a service for Uploads
+2016-08-01 12:36:29 DEBUG [UploadController:42] Creating a controller for Uploads
+2016-08-01 12:36:29 DEBUG [NotificationController:25] Creating a controller for Notifications
+2016-08-01 12:36:29 DEBUG [AISESServerRunner:26] Starting Server
+2016-08-01 12:36:29 DEBUG [WebSocketController:31] Creating a controller for WebSocket Notifications
+2016-08-01 12:37:06 DEBUG [WebSocketController:38] Added new session: SESSION-172.16.102.224:51392
+2016-08-01 12:37:16 DEBUG [WebSocketController:51] Message from SESSION-172.16.102.224:51392: {"userId":"EAAPy5aWLBisBAPxZA2AJLRhaWkirvwMU1yqXdSLcLD5MP2cp5oC6ZAbYiiCM3S4APBZAe0gwKrfaGJvXUxkFWiwJj8Xy9fnyyjLwKPDo8xUZChQr7aIVhkyXfRR4zrLzOJEBpiff5F24JZBYtPXh4T7oEDPcRJLxE4RQnRs2hquzZB49BzPboBE7xJdKDmwZAnfBDX6u9q3gzWTYBnEZAWYAMZC1RzQjFhr4ZD","message":"Hello Message!"}
+2016-08-01 12:39:01 DEBUG [PostController:45] Checking user credentials before retrieving or sending posts
+2016-08-01 12:39:01 DEBUG [PostController:86] Getting all posts
+2016-08-01 12:39:27 DEBUG [WebSocketController:38] Added new session: SESSION-172.16.102.166:60090
+2016-08-01 12:42:16 DEBUG [WebSocketController:44] Removing session: SESSION-172.16.102.224:51392
+2016-08-01 12:44:27 DEBUG [WebSocketController:44] Removing session: SESSION-172.16.102.166:60090
+2016-08-01 12:45:02 DEBUG [WebSocketController:38] Added new session: SESSION-172.16.102.166:60620
+2016-08-01 12:46:21 DEBUG [PostController:45] Checking user credentials before retrieving or sending posts
+2016-08-01 12:46:21 DEBUG [PostController:86] Getting all posts
+2016-08-01 12:49:45 DEBUG [PostRepository:36] Creating a repository for Posts
+2016-08-01 12:49:45 DEBUG [WebSocketController:31] Creating a controller for WebSocket Notifications
+2016-08-01 12:49:45 DEBUG [LoginController:20] Creating a controller for Logins
+2016-08-01 12:49:45 DEBUG [UploadService:27] Creating a service for Uploads
+2016-08-01 12:49:45 DEBUG [UploadController:42] Creating a controller for Uploads
+2016-08-01 12:49:45 DEBUG [PostService:30] Creating a service for Posts
+2016-08-01 12:49:45 DEBUG [PostController:35] Creating a controller for Posts
+2016-08-01 12:49:45 DEBUG [NotificationController:25] Creating a controller for Notifications
+2016-08-01 12:49:45 DEBUG [AISESServerRunner:26] Starting Server
+2016-08-01 12:49:45 DEBUG [WebSocketController:31] Creating a controller for WebSocket Notifications
+2016-08-01 12:49:59 DEBUG [PostRepository:36] Creating a repository for Posts
+2016-08-01 12:49:59 DEBUG [WebSocketController:31] Creating a controller for WebSocket Notifications
+2016-08-01 12:49:59 DEBUG [LoginController:20] Creating a controller for Logins
+2016-08-01 12:49:59 DEBUG [UploadService:27] Creating a service for Uploads
+2016-08-01 12:49:59 DEBUG [UploadController:42] Creating a controller for Uploads
+2016-08-01 12:49:59 DEBUG [PostService:30] Creating a service for Posts
+2016-08-01 12:49:59 DEBUG [PostController:35] Creating a controller for Posts
+2016-08-01 12:49:59 DEBUG [NotificationController:25] Creating a controller for Notifications
+2016-08-01 12:49:59 DEBUG [AISESServerRunner:26] Starting Server
+2016-08-01 12:49:59 DEBUG [WebSocketController:31] Creating a controller for WebSocket Notifications
+2016-08-01 12:50:04 DEBUG [WebSocketController:38] Added new session: SESSION-172.16.102.166:61125
+2016-08-01 12:50:18 DEBUG [LoginController:26] Checking user credentials!
+2016-08-01 12:50:18 DEBUG [PostController:45] Checking user credentials before retrieving or sending posts
+2016-08-01 12:50:18 DEBUG [PostController:86] Getting all posts

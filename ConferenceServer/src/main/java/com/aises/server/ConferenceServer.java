@@ -1,10 +1,7 @@
 package com.aises.server;
 
-import com.aises.controller.NotificationController;
-import com.aises.controller.WebSocketController;
+import com.aises.controller.*;
 import com.aises.controller.interfaces.Controller;
-import com.aises.controller.PostController;
-import com.aises.controller.UploadController;
 import com.aises.repository.PostRepository;
 import com.aises.repository.interfaces.Repository;
 import com.aises.utils.JSONUtils;
@@ -68,8 +65,9 @@ public class ConferenceServer {
         controllers.add(new WebSocketController());
 
         // Then we can define all of the other normal controllers
-        controllers.add(new PostController());
+        controllers.add(new LoginController());
         controllers.add(new UploadController());
+        controllers.add(new PostController());
         controllers.add(new NotificationController());
     }
 
