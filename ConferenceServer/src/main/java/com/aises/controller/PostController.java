@@ -53,6 +53,7 @@ public class PostController implements Controller {
         // to get the JSON object that represents a new post.
         // Mainly, the text (and any attachments and metadata).
         Post post = (Post)JSONUtils.fromJSON(req.body(), Post.class);
+        logger.debug("Post created from request: {}", post);
         return postService.addNewPost(post);
     }
 
