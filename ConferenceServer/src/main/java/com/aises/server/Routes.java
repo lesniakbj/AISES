@@ -12,4 +12,7 @@ public class Routes {
     public static final String POST_NEW = "/post/new";
     public static final String POST_ALL = "/post/all";
     public static final String POST_FIND = "/post/find";
+
+    public static final String NOTIFICATIONS = "/notifications";
+    public static final String NOTIFICATIONS_NEW = "/notifications/new";
 }

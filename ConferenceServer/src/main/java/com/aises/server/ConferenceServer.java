@@ -1,5 +1,6 @@
 package com.aises.server;
 
+import com.aises.controller.NotificationController;
 import com.aises.controller.WebSocketController;
 import com.aises.controller.interfaces.Controller;
 import com.aises.controller.PostController;
@@ -45,6 +46,7 @@ public class ConferenceServer {
         Spark.port(LISTEN_PORT);
         Spark.threadPool(MAX_THREADS, MIN_THREADS, THREAD_TIMEOUT);
         Spark.staticFiles.externalLocation(UploadController.UPLOAD_DIRECTORY);
+        Spark.webSocket(Routes.NOTIFICATIONS, WebSocketController.class);
     }
 
     public static ConferenceServer getInstance() {
@@ -65,6 +67,7 @@ public class ConferenceServer {
         // Then we can define all of the other normal controllers
         controllers.add(new PostController());
         controllers.add(new UploadController());
+        controllers.add(new NotificationController());
     }
 
     public void run() {

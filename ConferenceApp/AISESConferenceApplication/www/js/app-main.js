@@ -16,6 +16,9 @@ AISES.App = {
         // currently only supporting WebSQL or LocalStorage.
         AISES.DataStore.initDataStore();
         
+        // Connect to the notifications WebSocket
+        AISES.Notifications.connect();
+        
         // Then we need to route to the login screen
         AISES.Routes.routeTo(AISES.Routes.LOGIN);
     },

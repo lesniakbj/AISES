@@ -1075,3 +1075,106 @@
 2016-08-01 00:52:47 DEBUG [PostService:45] Attempting to add new post: com.aises.domain.Post@1d7aeefa[id=53,userId=0,text=csccasc,length=7,dateCreated=2016-08-01T00:52:47.404]
 2016-08-01 00:52:47 DEBUG [PostRepository:59] Adding a new post: com.aises.domain.Post@1d7aeefa[id=53,userId=0,text=csccasc,length=7,dateCreated=2016-08-01T00:52:47.404]
 2016-08-01 00:52:47 DEBUG [PostRepository:68] New post return code: 1
+2016-08-01 00:57:40 DEBUG [PostRepository:36] Creating a repository for Posts
+2016-08-01 00:57:40 DEBUG [WebSocketController:17] Creating a controller for Posts
+2016-08-01 00:57:40 DEBUG [PostService:30] Creating a service for Posts
+2016-08-01 00:57:40 DEBUG [PostController:33] Creating a controller for Posts
+2016-08-01 00:57:40 DEBUG [UploadService:27] Creating a service for Uploads
+2016-08-01 00:57:40 DEBUG [UploadController:40] Creating a controller for Uploads
+2016-08-01 00:57:40 DEBUG [AISESServerRunner:26] Starting Server
+2016-08-01 00:57:54 DEBUG [PostController:46] Checking user credentials before retrieving or sending posts
+2016-08-01 00:57:54 DEBUG [PostController:79] Getting all posts
+2016-08-01 00:58:04 DEBUG [PostController:46] Checking user credentials before retrieving or sending posts
+2016-08-01 00:58:04 DEBUG [PostController:51] Creating new post
+2016-08-01 00:58:04 DEBUG [PostController:56] Post created from request: com.aises.domain.Post@1e17d18a[id=0,userId=0,text=Here is a new post,length=0,dateCreated=<null>]
+2016-08-01 00:58:04 DEBUG [PostService:45] Attempting to add new post: com.aises.domain.Post@1e17d18a[id=0,userId=0,text=Here is a new post,length=18,dateCreated=2016-08-01T00:58:04.338]
+2016-08-01 00:58:04 DEBUG [PostRepository:59] Adding a new post: com.aises.domain.Post@1e17d18a[id=0,userId=0,text=Here is a new post,length=18,dateCreated=2016-08-01T00:58:04.338]
+2016-08-01 00:58:04 DEBUG [PostRepository:68] New post return code: 1
+2016-08-01 00:58:16 DEBUG [PostController:46] Checking user credentials before retrieving or sending posts
+2016-08-01 00:58:16 DEBUG [PostController:51] Creating new post
+2016-08-01 00:58:16 DEBUG [PostController:56] Post created from request: com.aises.domain.Post@5688b9da[id=0,userId=0,text=Some other new post,length=0,dateCreated=<null>]
+2016-08-01 00:58:16 DEBUG [PostService:45] Attempting to add new post: com.aises.domain.Post@5688b9da[id=1,userId=0,text=Some other new post,length=19,dateCreated=2016-08-01T00:58:16.552]
+2016-08-01 00:58:16 DEBUG [PostRepository:59] Adding a new post: com.aises.domain.Post@5688b9da[id=1,userId=0,text=Some other new post,length=19,dateCreated=2016-08-01T00:58:16.552]
+2016-08-01 00:58:16 DEBUG [PostRepository:68] New post return code: 1
+2016-08-01 00:58:29 DEBUG [PostController:46] Checking user credentials before retrieving or sending posts
+2016-08-01 00:58:29 DEBUG [PostController:79] Getting all posts
+2016-08-01 00:58:34 DEBUG [PostController:46] Checking user credentials before retrieving or sending posts
+2016-08-01 00:58:34 DEBUG [PostController:51] Creating new post
+2016-08-01 00:58:34 DEBUG [PostController:56] Post created from request: com.aises.domain.Post@220bd473[id=0,userId=0,text=Hahahahaha nice!,length=0,dateCreated=<null>]
+2016-08-01 00:58:34 DEBUG [PostService:45] Attempting to add new post: com.aises.domain.Post@220bd473[id=2,userId=0,text=Hahahahaha nice!,length=16,dateCreated=2016-08-01T00:58:34.916]
+2016-08-01 00:58:34 DEBUG [PostRepository:59] Adding a new post: com.aises.domain.Post@220bd473[id=2,userId=0,text=Hahahahaha nice!,length=16,dateCreated=2016-08-01T00:58:34.916]
+2016-08-01 00:58:34 DEBUG [PostRepository:68] New post return code: 1
+2016-08-01 00:59:30 DEBUG [PostController:46] Checking user credentials before retrieving or sending posts
+2016-08-01 00:59:30 DEBUG [PostController:79] Getting all posts
+2016-08-01 01:00:01 DEBUG [PostController:46] Checking user credentials before retrieving or sending posts
+2016-08-01 01:00:01 DEBUG [PostController:51] Creating new post
+2016-08-01 01:00:01 DEBUG [PostController:56] Post created from request: com.aises.domain.Post@64bf8aff[id=0,userId=0,text=,length=0,dateCreated=<null>]
+2016-08-01 01:00:01 DEBUG [PostService:45] Attempting to add new post: com.aises.domain.Post@64bf8aff[id=3,userId=0,text=,length=0,dateCreated=2016-08-01T01:00:01.771]
+2016-08-01 01:00:01 DEBUG [PostRepository:59] Adding a new post: com.aises.domain.Post@64bf8aff[id=3,userId=0,text=,length=0,dateCreated=2016-08-01T01:00:01.771]
+2016-08-01 01:00:01 DEBUG [PostRepository:68] New post return code: 1
+2016-08-01 01:01:40 DEBUG [PostController:46] Checking user credentials before retrieving or sending posts
+2016-08-01 01:01:40 DEBUG [PostController:79] Getting all posts
+2016-08-01 01:01:52 DEBUG [PostController:46] Checking user credentials before retrieving or sending posts
+2016-08-01 01:01:52 DEBUG [PostController:51] Creating new post
+2016-08-01 01:01:52 DEBUG [PostController:56] Post created from request: com.aises.domain.Post@2437ffa3[id=0,userId=0,text=Look a new event is happening! ,length=0,dateCreated=<null>]
+2016-08-01 01:01:52 DEBUG [PostService:45] Attempting to add new post: com.aises.domain.Post@2437ffa3[id=4,userId=0,text=Look a new event is happening! ,length=31,dateCreated=2016-08-01T01:01:52.490]
+2016-08-01 01:01:52 DEBUG [PostRepository:59] Adding a new post: com.aises.domain.Post@2437ffa3[id=4,userId=0,text=Look a new event is happening! ,length=31,dateCreated=2016-08-01T01:01:52.490]
+2016-08-01 01:01:52 DEBUG [PostRepository:68] New post return code: 1
+2016-08-01 01:22:41 DEBUG [PostRepository:36] Creating a repository for Posts
+2016-08-01 01:22:41 DEBUG [WebSocketController:30] Creating a controller for WebSocket Notifications
+2016-08-01 01:22:41 DEBUG [PostService:30] Creating a service for Posts
+2016-08-01 01:22:41 DEBUG [PostController:33] Creating a controller for Posts
+2016-08-01 01:22:41 DEBUG [UploadService:27] Creating a service for Uploads
+2016-08-01 01:22:41 DEBUG [UploadController:40] Creating a controller for Uploads
+2016-08-01 01:22:41 DEBUG [AISESServerRunner:26] Starting Server
+2016-08-01 01:22:41 DEBUG [WebSocketController:30] Creating a controller for WebSocket Notifications
+2016-08-01 01:24:07 DEBUG [PostRepository:36] Creating a repository for Posts
+2016-08-01 01:24:07 DEBUG [WebSocketController:30] Creating a controller for WebSocket Notifications
+2016-08-01 01:24:07 DEBUG [PostService:30] Creating a service for Posts
+2016-08-01 01:24:07 DEBUG [PostController:33] Creating a controller for Posts
+2016-08-01 01:24:07 DEBUG [UploadService:27] Creating a service for Uploads
+2016-08-01 01:24:07 DEBUG [UploadController:40] Creating a controller for Uploads
+2016-08-01 01:24:07 DEBUG [AISESServerRunner:26] Starting Server
+2016-08-01 01:24:07 DEBUG [WebSocketController:30] Creating a controller for WebSocket Notifications
+2016-08-01 01:24:22 DEBUG [WebSocketController:36] Session created from: WebSocketSession[websocket=JettyAnnotatedEventDriver[com.aises.controller.WebSocketController@2cea2507],behavior=SERVER,connection=WebSocketServerConnection@4D1EBA8E{endp=SelectChannelEndPoint@61f83155{/172.16.102.166:55119<->5570,Open,in,out,-,-,3/300000,WebSocketServerConnection}{io=0/0,kio=0,kro=1},ios=IOState@322077fe[CONNECTED,!in,out],f=Flusher[queueSize=0,aggregateSize=0,failure=null],g=Generator[SERVER,validating,+rsv1],p=Parser@4f37cdf8[ExtensionStack,s=START,c=0,len=0,f=null]},remote=WebSocketRemoteEndpoint@5a85383f[batching=true],incoming=JettyAnnotatedEventDriver[com.aises.controller.WebSocketController@2cea2507],outgoing=ExtensionStack[queueSize=0,extensions=[permessage-deflate],incoming=org.eclipse.jetty.websocket.common.extensions.compress.PerMessageDeflateExtension,outgoing=org.eclipse.jetty.websocket.common.extensions.compress.PerMessageDeflateExtension]]
+2016-08-01 01:26:20 DEBUG [PostRepository:36] Creating a repository for Posts
+2016-08-01 01:26:20 DEBUG [WebSocketController:30] Creating a controller for WebSocket Notifications
+2016-08-01 01:26:20 DEBUG [PostService:30] Creating a service for Posts
+2016-08-01 01:26:20 DEBUG [PostController:33] Creating a controller for Posts
+2016-08-01 01:26:21 DEBUG [UploadService:27] Creating a service for Uploads
+2016-08-01 01:26:21 DEBUG [UploadController:40] Creating a controller for Uploads
+2016-08-01 01:26:21 DEBUG [AISESServerRunner:26] Starting Server
+2016-08-01 01:26:21 DEBUG [WebSocketController:30] Creating a controller for WebSocket Notifications
+2016-08-01 01:26:53 DEBUG [WebSocketController:36] Session created from: WebSocketSession[websocket=JettyAnnotatedEventDriver[com.aises.controller.WebSocketController@27872efe],behavior=SERVER,connection=WebSocketServerConnection@5530E20E{endp=SelectChannelEndPoint@2ca0d2a4{/172.16.102.166:55350<->5570,Open,in,out,-,-,2/300000,WebSocketServerConnection}{io=0/0,kio=0,kro=1},ios=IOState@683de11a[CONNECTED,!in,out],f=Flusher[queueSize=0,aggregateSize=0,failure=null],g=Generator[SERVER,validating,+rsv1],p=Parser@60563d8b[ExtensionStack,s=START,c=0,len=0,f=null]},remote=WebSocketRemoteEndpoint@71ee603c[batching=true],incoming=JettyAnnotatedEventDriver[com.aises.controller.WebSocketController@27872efe],outgoing=ExtensionStack[queueSize=0,extensions=[permessage-deflate],incoming=org.eclipse.jetty.websocket.common.extensions.compress.PerMessageDeflateExtension,outgoing=org.eclipse.jetty.websocket.common.extensions.compress.PerMessageDeflateExtension]]
+2016-08-01 01:26:58 DEBUG [WebSocketController:43] Session destroyed: WebSocketSession[websocket=JettyAnnotatedEventDriver[com.aises.controller.WebSocketController@27872efe],behavior=SERVER,connection=WebSocketServerConnection@5530E20E{endp=SelectChannelEndPoint@2ca0d2a4{/172.16.102.166:55350<->5570,CLOSED,ISHUT,OSHUT,-,-,2/300000,WebSocketServerConnection}{io=0/0,kio=-1,kro=-1},ios=IOState@683de11a[CLOSED,!in,!out,finalClose=CloseInfo[code=1001,reason=null],clean=false,closeSource=ABNORMAL],f=Flusher[queueSize=0,aggregateSize=0,failure=null],g=Generator[SERVER,validating,+rsv1],p=Parser@60563d8b[ExtensionStack,s=START,c=0,len=2,f=CLOSE[len=2,fin=true,rsv=...,masked=true]]},remote=WebSocketRemoteEndpoint@71ee603c[batching=true],incoming=JettyAnnotatedEventDriver[com.aises.controller.WebSocketController@27872efe],outgoing=ExtensionStack[queueSize=0,extensions=[permessage-deflate],incoming=org.eclipse.jetty.websocket.common.extensions.compress.PerMessageDeflateExtension,outgoing=org.eclipse.jetty.websocket.common.extensions.compress.PerMessageDeflateExtension]]
+2016-08-01 01:27:59 DEBUG [WebSocketController:36] Session created from: WebSocketSession[websocket=JettyAnnotatedEventDriver[com.aises.controller.WebSocketController@27872efe],behavior=SERVER,connection=WebSocketServerConnection@3FEA7797{endp=SelectChannelEndPoint@3bd5e435{/172.16.102.166:55472<->5570,Open,in,out,-,-,1/300000,WebSocketServerConnection}{io=0/0,kio=0,kro=1},ios=IOState@7ae8ee0e[CONNECTED,!in,out],f=Flusher[queueSize=0,aggregateSize=0,failure=null],g=Generator[SERVER,validating,+rsv1],p=Parser@5fb82090[ExtensionStack,s=START,c=0,len=0,f=null]},remote=WebSocketRemoteEndpoint@4b58931e[batching=true],incoming=JettyAnnotatedEventDriver[com.aises.controller.WebSocketController@27872efe],outgoing=ExtensionStack[queueSize=0,extensions=[permessage-deflate],incoming=org.eclipse.jetty.websocket.common.extensions.compress.PerMessageDeflateExtension,outgoing=org.eclipse.jetty.websocket.common.extensions.compress.PerMessageDeflateExtension]]
+2016-08-01 01:29:08 DEBUG [WebSocketController:43] Session destroyed: WebSocketSession[websocket=JettyAnnotatedEventDriver[com.aises.controller.WebSocketController@27872efe],behavior=SERVER,connection=WebSocketServerConnection@3FEA7797{endp=SelectChannelEndPoint@3bd5e435{/172.16.102.166:55472<->5570,CLOSED,ISHUT,OSHUT,-,-,1/300000,WebSocketServerConnection}{io=0/0,kio=-1,kro=-1},ios=IOState@7ae8ee0e[CLOSED,!in,!out,finalClose=CloseInfo[code=1001,reason=null],clean=false,closeSource=ABNORMAL],f=Flusher[queueSize=0,aggregateSize=0,failure=null],g=Generator[SERVER,validating,+rsv1],p=Parser@5fb82090[ExtensionStack,s=START,c=0,len=2,f=CLOSE[len=2,fin=true,rsv=...,masked=true]]},remote=WebSocketRemoteEndpoint@4b58931e[batching=true],incoming=JettyAnnotatedEventDriver[com.aises.controller.WebSocketController@27872efe],outgoing=ExtensionStack[queueSize=0,extensions=[permessage-deflate],incoming=org.eclipse.jetty.websocket.common.extensions.compress.PerMessageDeflateExtension,outgoing=org.eclipse.jetty.websocket.common.extensions.compress.PerMessageDeflateExtension]]
+2016-08-01 01:29:09 DEBUG [WebSocketController:36] Session created from: WebSocketSession[websocket=JettyAnnotatedEventDriver[com.aises.controller.WebSocketController@27872efe],behavior=SERVER,connection=WebSocketServerConnection@5BE64DEE{endp=SelectChannelEndPoint@12c0c79e{/172.16.102.166:55623<->5570,Open,in,out,-,-,0/300000,WebSocketServerConnection}{io=0/0,kio=0,kro=1},ios=IOState@5fd9d24a[CONNECTED,!in,out],f=Flusher[queueSize=0,aggregateSize=0,failure=null],g=Generator[SERVER,validating,+rsv1],p=Parser@1adb47d5[ExtensionStack,s=START,c=0,len=0,f=null]},remote=WebSocketRemoteEndpoint@426bd5dd[batching=true],incoming=JettyAnnotatedEventDriver[com.aises.controller.WebSocketController@27872efe],outgoing=ExtensionStack[queueSize=0,extensions=[permessage-deflate],incoming=org.eclipse.jetty.websocket.common.extensions.compress.PerMessageDeflateExtension,outgoing=org.eclipse.jetty.websocket.common.extensions.compress.PerMessageDeflateExtension]]
+2016-08-01 01:29:11 DEBUG [PostController:46] Checking user credentials before retrieving or sending posts
+2016-08-01 01:29:11 DEBUG [PostController:79] Getting all posts
+2016-08-01 01:29:13 DEBUG [PostController:46] Checking user credentials before retrieving or sending posts
+2016-08-01 01:29:13 DEBUG [PostController:51] Creating new post
+2016-08-01 01:29:13 DEBUG [PostController:56] Post created from request: com.aises.domain.Post@6988f212[id=0,userId=0,text=fasdf,length=0,dateCreated=<null>]
+2016-08-01 01:29:13 DEBUG [PostService:45] Attempting to add new post: com.aises.domain.Post@6988f212[id=0,userId=0,text=fasdf,length=5,dateCreated=2016-08-01T01:29:13.830]
+2016-08-01 01:29:13 DEBUG [PostRepository:59] Adding a new post: com.aises.domain.Post@6988f212[id=0,userId=0,text=fasdf,length=5,dateCreated=2016-08-01T01:29:13.830]
+2016-08-01 01:29:13 DEBUG [PostRepository:68] New post return code: 1
+2016-08-01 01:34:09 DEBUG [WebSocketController:43] Session destroyed: WebSocketSession[websocket=JettyAnnotatedEventDriver[com.aises.controller.WebSocketController@27872efe],behavior=SERVER,connection=WebSocketServerConnection@5BE64DEE{endp=SelectChannelEndPoint@12c0c79e{/172.16.102.166:55623<->5570,CLOSED,ISHUT,OSHUT,-,-,0/300000,WebSocketServerConnection}{io=1/1,kio=-1,kro=-1},ios=IOState@5fd9d24a[CLOSED,!in,!out,finalClose=CloseInfo[code=1001,reason=Idle Timeout],clean=false,closeSource=ABNORMAL],f=Flusher[queueSize=0,aggregateSize=0,failure=null],g=Generator[SERVER,validating,+rsv1],p=Parser@1adb47d5[ExtensionStack,s=START,c=0,len=0,f=null]},remote=WebSocketRemoteEndpoint@426bd5dd[batching=true],incoming=JettyAnnotatedEventDriver[com.aises.controller.WebSocketController@27872efe],outgoing=ExtensionStack[queueSize=0,extensions=[permessage-deflate],incoming=org.eclipse.jetty.websocket.common.extensions.compress.PerMessageDeflateExtension,outgoing=org.eclipse.jetty.websocket.common.extensions.compress.PerMessageDeflateExtension]]
+2016-08-01 01:35:50 DEBUG [PostRepository:36] Creating a repository for Posts
+2016-08-01 01:35:50 DEBUG [WebSocketController:31] Creating a controller for WebSocket Notifications
+2016-08-01 01:35:50 DEBUG [PostService:30] Creating a service for Posts
+2016-08-01 01:35:50 DEBUG [PostController:33] Creating a controller for Posts
+2016-08-01 01:35:50 DEBUG [UploadService:27] Creating a service for Uploads
+2016-08-01 01:35:50 DEBUG [UploadController:40] Creating a controller for Uploads
+2016-08-01 01:35:50 DEBUG [NotificationController:20] Creating a controller for Notifications
+2016-08-01 01:35:50 DEBUG [AISESServerRunner:26] Starting Server
+2016-08-01 01:35:50 DEBUG [WebSocketController:31] Creating a controller for WebSocket Notifications
+2016-08-01 01:38:09 DEBUG [PostRepository:36] Creating a repository for Posts
+2016-08-01 01:38:09 DEBUG [WebSocketController:31] Creating a controller for WebSocket Notifications
+2016-08-01 01:38:09 DEBUG [PostService:30] Creating a service for Posts
+2016-08-01 01:38:09 DEBUG [PostController:33] Creating a controller for Posts
+2016-08-01 01:38:09 DEBUG [UploadService:27] Creating a service for Uploads
+2016-08-01 01:38:09 DEBUG [UploadController:40] Creating a controller for Uploads
+2016-08-01 01:38:09 DEBUG [NotificationController:20] Creating a controller for Notifications
+2016-08-01 01:38:09 DEBUG [AISESServerRunner:26] Starting Server
+2016-08-01 01:38:09 DEBUG [WebSocketController:31] Creating a controller for WebSocket Notifications
+2016-08-01 01:38:13 DEBUG [WebSocketController:37] Session created from: WebSocketSession[websocket=JettyAnnotatedEventDriver[com.aises.controller.WebSocketController@6d5f63fb],behavior=SERVER,connection=WebSocketServerConnection@3A2CF5A8{endp=SelectChannelEndPoint@7a35dade{/172.16.102.166:56495<->5570,Open,in,out,-,-,0/300000,WebSocketServerConnection}{io=0/0,kio=0,kro=1},ios=IOState@2de4ce1c[CONNECTED,!in,out],f=Flusher[queueSize=0,aggregateSize=0,failure=null],g=Generator[SERVER,validating,+rsv1],p=Parser@7bc563bb[ExtensionStack,s=START,c=0,len=0,f=null]},remote=WebSocketRemoteEndpoint@1c32ca49[batching=true],incoming=JettyAnnotatedEventDriver[com.aises.controller.WebSocketController@6d5f63fb],outgoing=ExtensionStack[queueSize=0,extensions=[permessage-deflate],incoming=org.eclipse.jetty.websocket.common.extensions.compress.PerMessageDeflateExtension,outgoing=org.eclipse.jetty.websocket.common.extensions.compress.PerMessageDeflateExtension]]
