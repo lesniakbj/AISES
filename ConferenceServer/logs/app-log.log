@@ -3539,3 +3539,1951 @@ java.nio.file.NoSuchFileException: C:\Projects\AISES\uploads\[content-dispositio
 2016-08-01 12:50:18 DEBUG [LoginController:26] Checking user credentials!
 2016-08-01 12:50:18 DEBUG [PostController:45] Checking user credentials before retrieving or sending posts
 2016-08-01 12:50:18 DEBUG [PostController:86] Getting all posts
+2016-08-01 13:25:45 DEBUG [PostRepository:36] Creating a repository for Posts
+2016-08-01 13:25:45 DEBUG [WebSocketController:31] Creating a controller for WebSocket Notifications
+2016-08-01 13:25:45 DEBUG [LoginController:20] Creating a controller for Logins
+2016-08-01 13:25:45 DEBUG [UploadService:27] Creating a service for Uploads
+2016-08-01 13:25:45 DEBUG [UploadController:42] Creating a controller for Uploads
+2016-08-01 13:25:45 DEBUG [PostService:30] Creating a service for Posts
+2016-08-01 13:25:45 DEBUG [PostController:35] Creating a controller for Posts
+2016-08-01 13:25:45 DEBUG [NotificationController:25] Creating a controller for Notifications
+2016-08-01 13:25:45 DEBUG [AISESServerRunner:26] Starting Server
+2016-08-01 13:25:45 DEBUG [WebSocketController:31] Creating a controller for WebSocket Notifications
+2016-08-01 13:25:50 DEBUG [PostController:45] Checking user credentials before retrieving or sending posts
+2016-08-01 13:25:50 DEBUG [PostController:50] Creating new post
+2016-08-01 13:25:50 DEBUG [PostController:55] Post created from request: com.aises.domain.Post@61c9c4d7[
+  id=0
+  userId=0
+  text=ffdsf 
+  length=0
+  dateCreated=<null>
+]
+2016-08-01 13:25:50 DEBUG [PostService:45] Attempting to add new post: com.aises.domain.Post@61c9c4d7[
+  id=0
+  userId=0
+  text=ffdsf 
+  length=6
+  dateCreated=2016-08-01T13:25:50.512
+]
+2016-08-01 13:25:50 DEBUG [PostRepository:59] Adding a new post: com.aises.domain.Post@61c9c4d7[
+  id=0
+  userId=0
+  text=ffdsf 
+  length=6
+  dateCreated=2016-08-01T13:25:50.512
+]
+2016-08-01 13:25:50 DEBUG [PostRepository:68] New post return code: 1
+2016-08-01 13:25:50 DEBUG [NotificationController:53] Sending new notification! com.aises.domain.Notification@26709d2f
+2016-08-01 13:25:50 DEBUG [PostController:45] Checking user credentials before retrieving or sending posts
+2016-08-01 13:25:50 DEBUG [PostController:86] Getting all posts
+2016-08-01 13:25:58 DEBUG [PostController:45] Checking user credentials before retrieving or sending posts
+2016-08-01 13:25:58 DEBUG [PostController:50] Creating new post
+2016-08-01 13:25:58 DEBUG [PostController:55] Post created from request: com.aises.domain.Post@d81175b[
+  id=0
+  userId=0
+  text=ffdf 
+  length=0
+  dateCreated=<null>
+]
+2016-08-01 13:25:58 DEBUG [PostService:45] Attempting to add new post: com.aises.domain.Post@d81175b[
+  id=1
+  userId=0
+  text=ffdf 
+  length=5
+  dateCreated=2016-08-01T13:25:58.516
+]
+2016-08-01 13:25:58 DEBUG [PostRepository:59] Adding a new post: com.aises.domain.Post@d81175b[
+  id=1
+  userId=0
+  text=ffdf 
+  length=5
+  dateCreated=2016-08-01T13:25:58.516
+]
+2016-08-01 13:25:58 DEBUG [PostRepository:68] New post return code: 1
+2016-08-01 13:25:58 DEBUG [NotificationController:53] Sending new notification! com.aises.domain.Notification@781fe147
+2016-08-01 13:25:58 DEBUG [PostController:45] Checking user credentials before retrieving or sending posts
+2016-08-01 13:25:58 DEBUG [PostController:86] Getting all posts
+2016-08-01 13:27:16 DEBUG [NotificationController:32] Checking admin authorization before sending notification
+2016-08-01 13:27:16 DEBUG [NotificationController:37] Sending new notification! Check out the new section of our application we just updated, here!
+2016-08-01 13:27:23 DEBUG [PostController:45] Checking user credentials before retrieving or sending posts
+2016-08-01 13:27:23 DEBUG [PostController:50] Creating new post
+2016-08-01 13:27:23 DEBUG [PostController:55] Post created from request: com.aises.domain.Post@533f0f26[
+  id=-1
+  userId=0
+  text=mper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante
+  length=0
+  dateCreated=<null>
+]
+2016-08-01 13:27:23 DEBUG [PostService:45] Attempting to add new post: com.aises.domain.Post@533f0f26[
+  id=2
+  userId=0
+  text=mper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante
+  length=145
+  dateCreated=2016-08-01T13:27:23.888
+]
+2016-08-01 13:27:23 DEBUG [PostRepository:59] Adding a new post: com.aises.domain.Post@533f0f26[
+  id=2
+  userId=0
+  text=mper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante
+  length=145
+  dateCreated=2016-08-01T13:27:23.888
+]
+2016-08-01 13:27:23 DEBUG [PostRepository:68] New post return code: 1
+2016-08-01 13:27:23 DEBUG [NotificationController:53] Sending new notification! com.aises.domain.Notification@57009199
+2016-08-01 13:27:31 DEBUG [WebSocketController:38] Added new session: SESSION-172.16.102.166:64638
+2016-08-01 13:27:33 DEBUG [LoginController:26] Checking user credentials!
+2016-08-01 13:27:36 DEBUG [PostController:45] Checking user credentials before retrieving or sending posts
+2016-08-01 13:27:36 DEBUG [PostController:86] Getting all posts
+2016-08-01 13:27:49 DEBUG [PostController:45] Checking user credentials before retrieving or sending posts
+2016-08-01 13:27:49 DEBUG [PostController:50] Creating new post
+2016-08-01 13:27:49 DEBUG [PostController:55] Post created from request: com.aises.domain.Post@5822b7c9[
+  id=0
+  userId=0
+  text=fvf a
+  length=0
+  dateCreated=<null>
+]
+2016-08-01 13:27:49 DEBUG [PostService:45] Attempting to add new post: com.aises.domain.Post@5822b7c9[
+  id=3
+  userId=0
+  text=fvf a
+  length=5
+  dateCreated=2016-08-01T13:27:49.249
+]
+2016-08-01 13:27:49 DEBUG [PostRepository:59] Adding a new post: com.aises.domain.Post@5822b7c9[
+  id=3
+  userId=0
+  text=fvf a
+  length=5
+  dateCreated=2016-08-01T13:27:49.249
+]
+2016-08-01 13:27:49 DEBUG [PostRepository:68] New post return code: 1
+2016-08-01 13:27:49 DEBUG [NotificationController:53] Sending new notification! com.aises.domain.Notification@56e542bd
+2016-08-01 13:27:49 DEBUG [PostController:45] Checking user credentials before retrieving or sending posts
+2016-08-01 13:27:49 DEBUG [PostController:86] Getting all posts
+2016-08-01 13:32:14 DEBUG [PostRepository:36] Creating a repository for Posts
+2016-08-01 13:32:14 DEBUG [WebSocketController:31] Creating a controller for WebSocket Notifications
+2016-08-01 13:32:14 DEBUG [LoginController:20] Creating a controller for Logins
+2016-08-01 13:32:14 DEBUG [UploadService:27] Creating a service for Uploads
+2016-08-01 13:32:14 DEBUG [UploadController:42] Creating a controller for Uploads
+2016-08-01 13:32:14 DEBUG [PostService:30] Creating a service for Posts
+2016-08-01 13:32:14 DEBUG [PostController:35] Creating a controller for Posts
+2016-08-01 13:32:14 DEBUG [NotificationController:25] Creating a controller for Notifications
+2016-08-01 13:32:14 DEBUG [AISESServerRunner:26] Starting Server
+2016-08-01 13:32:14 DEBUG [WebSocketController:31] Creating a controller for WebSocket Notifications
+2016-08-01 13:32:26 DEBUG [WebSocketController:38] Added new session: SESSION-172.16.102.166:65129
+2016-08-01 13:32:27 DEBUG [LoginController:26] Checking user credentials!
+2016-08-01 13:32:27 DEBUG [PostController:45] Checking user credentials before retrieving or sending posts
+2016-08-01 13:32:27 DEBUG [PostController:86] Getting all posts
+2016-08-01 13:32:27 DEBUG [LoginController:28] Got user: com.aises.domain.User@53457dcd[
+  id=0
+  socialMediaId=634565435
+  firstName=<null>
+  lastName=<null>
+  dateCreated=<null>
+  lastUpdated=<null>
+]
+2016-08-01 13:37:26 DEBUG [WebSocketController:44] Removing session: SESSION-172.16.102.166:65129
+2016-08-01 13:40:20 DEBUG [WebSocketController:38] Added new session: SESSION-172.16.102.166:49494
+2016-08-01 13:40:25 DEBUG [LoginController:26] Checking user credentials!
+2016-08-01 13:40:25 DEBUG [LoginController:28] Got user: com.aises.domain.User@30cbaa4c[
+  id=-1
+  socialMediaId=634565435
+  firstName=<null>
+  lastName=<null>
+  dateCreated=<null>
+  lastUpdated=<null>
+]
+2016-08-01 13:40:40 DEBUG [PostController:45] Checking user credentials before retrieving or sending posts
+2016-08-01 13:40:40 DEBUG [PostController:86] Getting all posts
+2016-08-01 13:43:11 DEBUG [WebSocketController:44] Removing session: SESSION-172.16.102.166:49494
+2016-08-01 13:43:12 DEBUG [WebSocketController:38] Added new session: SESSION-172.16.102.166:49752
+2016-08-01 13:43:12 DEBUG [LoginController:26] Checking user credentials!
+2016-08-01 13:43:12 DEBUG [LoginController:28] Got user: com.aises.domain.User@317a2ec3[
+  id=-1
+  socialMediaId=634565435
+  firstName=<null>
+  lastName=<null>
+  dateCreated=<null>
+  lastUpdated=<null>
+]
+2016-08-01 13:43:12 DEBUG [PostController:45] Checking user credentials before retrieving or sending posts
+2016-08-01 13:43:12 DEBUG [PostController:86] Getting all posts
+2016-08-01 13:43:22 DEBUG [WebSocketController:44] Removing session: SESSION-172.16.102.166:49752
+2016-08-01 13:44:21 DEBUG [WebSocketController:38] Added new session: SESSION-172.16.102.166:49894
+2016-08-01 13:44:43 DEBUG [LoginController:26] Checking user credentials!
+2016-08-01 13:44:43 DEBUG [LoginController:28] Got user: com.aises.domain.User@4a124180[
+  id=-1
+  socialMediaId=634565435
+  firstName=<null>
+  lastName=<null>
+  dateCreated=<null>
+  lastUpdated=<null>
+]
+2016-08-01 13:44:43 DEBUG [PostController:45] Checking user credentials before retrieving or sending posts
+2016-08-01 13:44:43 DEBUG [PostController:86] Getting all posts
+2016-08-01 13:45:32 DEBUG [WebSocketController:44] Removing session: SESSION-172.16.102.166:49894
+2016-08-01 13:45:32 DEBUG [WebSocketController:38] Added new session: SESSION-172.16.102.166:50051
+2016-08-01 13:45:39 DEBUG [LoginController:26] Checking user credentials!
+2016-08-01 13:45:39 DEBUG [LoginController:28] Got user: com.aises.domain.User@2a7e6237[
+  id=-1
+  socialMediaId=634565435
+  firstName=<null>
+  lastName=<null>
+  dateCreated=<null>
+  lastUpdated=<null>
+]
+2016-08-01 13:45:39 DEBUG [PostController:45] Checking user credentials before retrieving or sending posts
+2016-08-01 13:45:39 DEBUG [PostController:86] Getting all posts
+2016-08-01 13:47:42 DEBUG [WebSocketController:44] Removing session: SESSION-172.16.102.166:50051
+2016-08-01 13:47:43 DEBUG [WebSocketController:38] Added new session: SESSION-172.16.102.166:50291
+2016-08-01 13:47:50 DEBUG [LoginController:26] Checking user credentials!
+2016-08-01 13:47:50 DEBUG [LoginController:28] Got user: com.aises.domain.User@618463aa[
+  id=-1
+  socialMediaId=634565435
+  firstName=<null>
+  lastName=<null>
+  dateCreated=<null>
+  lastUpdated=<null>
+]
+2016-08-01 13:47:50 DEBUG [PostController:45] Checking user credentials before retrieving or sending posts
+2016-08-01 13:47:50 DEBUG [PostController:86] Getting all posts
+2016-08-01 13:48:09 DEBUG [WebSocketController:44] Removing session: SESSION-172.16.102.166:50291
+2016-08-01 13:48:10 DEBUG [WebSocketController:38] Added new session: SESSION-172.16.102.166:50333
+2016-08-01 13:50:12 DEBUG [WebSocketController:38] Added new session: SESSION-172.16.102.224:51575
+2016-08-01 13:50:16 DEBUG [LoginController:26] Checking user credentials!
+2016-08-01 13:50:25 DEBUG [PostController:45] Checking user credentials before retrieving or sending posts
+2016-08-01 13:50:25 DEBUG [PostController:86] Getting all posts
+2016-08-01 13:50:43 DEBUG [LoginController:26] Checking user credentials!
+2016-08-01 13:50:43 DEBUG [PostController:45] Checking user credentials before retrieving or sending posts
+2016-08-01 13:50:43 DEBUG [PostController:86] Getting all posts
+2016-08-01 13:52:25 DEBUG [WebSocketController:44] Removing session: SESSION-172.16.102.166:50333
+2016-08-01 13:52:26 DEBUG [WebSocketController:38] Added new session: SESSION-172.16.102.166:50749
+2016-08-01 13:53:04 DEBUG [WebSocketController:38] Added new session: SESSION-172.16.102.224:51599
+2016-08-01 13:53:20 DEBUG [WebSocketController:44] Removing session: SESSION-172.16.102.224:51599
+2016-08-01 13:55:12 DEBUG [WebSocketController:44] Removing session: SESSION-172.16.102.224:51575
+2016-08-01 13:55:52 DEBUG [WebSocketController:38] Added new session: SESSION-172.16.102.224:51608
+2016-08-01 13:55:57 DEBUG [LoginController:26] Checking user credentials!
+2016-08-01 13:55:57 DEBUG [PostController:45] Checking user credentials before retrieving or sending posts
+2016-08-01 13:55:57 DEBUG [PostController:86] Getting all posts
+2016-08-01 13:56:13 DEBUG [PostRepository:36] Creating a repository for Posts
+2016-08-01 13:56:13 DEBUG [WebSocketController:31] Creating a controller for WebSocket Notifications
+2016-08-01 13:56:13 DEBUG [LoginController:20] Creating a controller for Logins
+2016-08-01 13:56:13 DEBUG [UploadService:27] Creating a service for Uploads
+2016-08-01 13:56:13 DEBUG [UploadController:42] Creating a controller for Uploads
+2016-08-01 13:56:13 DEBUG [PostService:30] Creating a service for Posts
+2016-08-01 13:56:13 DEBUG [PostController:35] Creating a controller for Posts
+2016-08-01 13:56:13 DEBUG [NotificationController:25] Creating a controller for Notifications
+2016-08-01 13:56:13 DEBUG [AISESServerRunner:26] Starting Server
+2016-08-01 13:56:13 DEBUG [WebSocketController:31] Creating a controller for WebSocket Notifications
+2016-08-01 13:56:18 DEBUG [LoginController:26] Checking user credentials!
+2016-08-01 13:56:18 DEBUG [PostController:45] Checking user credentials before retrieving or sending posts
+2016-08-01 13:56:18 DEBUG [PostController:86] Getting all posts
+2016-08-01 13:56:52 DEBUG [LoginController:26] Checking user credentials!
+2016-08-01 13:56:52 DEBUG [PostController:45] Checking user credentials before retrieving or sending posts
+2016-08-01 13:56:52 DEBUG [PostController:86] Getting all posts
+2016-08-01 13:57:04 DEBUG [WebSocketController:38] Added new session: SESSION-172.16.102.224:51617
+2016-08-01 13:57:16 DEBUG [NotificationController:32] Checking admin authorization before sending notification
+2016-08-01 13:57:16 DEBUG [NotificationController:37] Sending new notification! Check out the new section of our application we just updated, here!
+2016-08-01 13:57:26 DEBUG [LoginController:26] Checking user credentials!
+2016-08-01 13:57:27 DEBUG [PostController:45] Checking user credentials before retrieving or sending posts
+2016-08-01 13:57:27 DEBUG [PostController:86] Getting all posts
+2016-08-01 13:58:23 DEBUG [PostRepository:36] Creating a repository for Posts
+2016-08-01 13:58:23 DEBUG [WebSocketController:31] Creating a controller for WebSocket Notifications
+2016-08-01 13:58:23 DEBUG [LoginController:20] Creating a controller for Logins
+2016-08-01 13:58:23 DEBUG [UploadService:27] Creating a service for Uploads
+2016-08-01 13:58:23 DEBUG [UploadController:42] Creating a controller for Uploads
+2016-08-01 13:58:23 DEBUG [PostService:30] Creating a service for Posts
+2016-08-01 13:58:23 DEBUG [PostController:35] Creating a controller for Posts
+2016-08-01 13:58:23 DEBUG [NotificationController:25] Creating a controller for Notifications
+2016-08-01 13:58:23 DEBUG [AISESServerRunner:26] Starting Server
+2016-08-01 13:58:23 DEBUG [WebSocketController:31] Creating a controller for WebSocket Notifications
+2016-08-01 13:58:27 DEBUG [LoginController:26] Checking user credentials!
+2016-08-01 13:58:27 DEBUG [PostController:45] Checking user credentials before retrieving or sending posts
+2016-08-01 13:58:27 DEBUG [PostController:86] Getting all posts
+2016-08-01 13:58:27 DEBUG [LoginController:27] {"id":-1,"socialMediaId":"115819762194204"}
+2016-08-01 14:01:08 DEBUG [PostRepository:36] Creating a repository for Posts
+2016-08-01 14:01:08 DEBUG [WebSocketController:31] Creating a controller for WebSocket Notifications
+2016-08-01 14:01:08 DEBUG [LoginController:20] Creating a controller for Logins
+2016-08-01 14:01:08 DEBUG [UploadService:27] Creating a service for Uploads
+2016-08-01 14:01:08 DEBUG [UploadController:42] Creating a controller for Uploads
+2016-08-01 14:01:08 DEBUG [PostService:30] Creating a service for Posts
+2016-08-01 14:01:08 DEBUG [PostController:35] Creating a controller for Posts
+2016-08-01 14:01:08 DEBUG [NotificationController:25] Creating a controller for Notifications
+2016-08-01 14:01:08 DEBUG [AISESServerRunner:26] Starting Server
+2016-08-01 14:01:08 DEBUG [WebSocketController:31] Creating a controller for WebSocket Notifications
+2016-08-01 14:01:11 DEBUG [LoginController:26] Checking user credentials!
+2016-08-01 14:01:11 DEBUG [PostController:45] Checking user credentials before retrieving or sending posts
+2016-08-01 14:01:11 DEBUG [PostController:86] Getting all posts
+2016-08-01 14:01:11 DEBUG [LoginController:27] {"id":-1,"socialMediaId":"115819762194204"}
+2016-08-01 14:03:25 DEBUG [PostRepository:36] Creating a repository for Posts
+2016-08-01 14:03:25 DEBUG [WebSocketController:31] Creating a controller for WebSocket Notifications
+2016-08-01 14:03:25 DEBUG [LoginController:20] Creating a controller for Logins
+2016-08-01 14:03:25 DEBUG [UploadService:27] Creating a service for Uploads
+2016-08-01 14:03:25 DEBUG [UploadController:42] Creating a controller for Uploads
+2016-08-01 14:03:25 DEBUG [PostService:30] Creating a service for Posts
+2016-08-01 14:03:25 DEBUG [PostController:35] Creating a controller for Posts
+2016-08-01 14:03:25 DEBUG [NotificationController:25] Creating a controller for Notifications
+2016-08-01 14:03:25 DEBUG [AISESServerRunner:26] Starting Server
+2016-08-01 14:03:25 DEBUG [WebSocketController:31] Creating a controller for WebSocket Notifications
+2016-08-01 14:03:30 DEBUG [LoginController:27] Checking user credentials!
+2016-08-01 14:03:30 DEBUG [PostController:45] Checking user credentials before retrieving or sending posts
+2016-08-01 14:03:30 DEBUG [PostController:86] Getting all posts
+2016-08-01 14:03:30 DEBUG [LoginController:31] {"id":-1,"socialMediaId":"115819762194204"}
+2016-08-01 14:04:12 DEBUG [PostRepository:36] Creating a repository for Posts
+2016-08-01 14:04:12 DEBUG [WebSocketController:31] Creating a controller for WebSocket Notifications
+2016-08-01 14:04:12 DEBUG [LoginController:20] Creating a controller for Logins
+2016-08-01 14:04:12 DEBUG [UploadService:27] Creating a service for Uploads
+2016-08-01 14:04:12 DEBUG [UploadController:42] Creating a controller for Uploads
+2016-08-01 14:04:12 DEBUG [PostService:30] Creating a service for Posts
+2016-08-01 14:04:12 DEBUG [PostController:35] Creating a controller for Posts
+2016-08-01 14:04:12 DEBUG [NotificationController:25] Creating a controller for Notifications
+2016-08-01 14:04:12 DEBUG [AISESServerRunner:26] Starting Server
+2016-08-01 14:04:12 DEBUG [WebSocketController:31] Creating a controller for WebSocket Notifications
+2016-08-01 14:04:16 DEBUG [LoginController:27] Checking user credentials!
+2016-08-01 14:04:16 DEBUG [PostController:45] Checking user credentials before retrieving or sending posts
+2016-08-01 14:04:16 DEBUG [PostController:86] Getting all posts
+2016-08-01 14:04:16 DEBUG [LoginController:31] Logging in user
+2016-08-01 14:04:16 DEBUG [LoginController:32] {"id":-1,"socialMediaId":"115819762194204"}
+2016-08-01 14:04:42 DEBUG [LoginController:27] Checking user credentials!
+2016-08-01 14:04:57 DEBUG [LoginController:27] Checking user credentials!
+2016-08-01 14:04:57 DEBUG [LoginController:31] Logging in user
+2016-08-01 14:04:57 DEBUG [LoginController:32] 
+2016-08-01 14:04:57 DEBUG [LoginController:34] null
+2016-08-01 14:05:17 DEBUG [LoginController:27] Checking user credentials!
+2016-08-01 14:05:17 DEBUG [LoginController:31] Logging in user
+2016-08-01 14:05:17 DEBUG [LoginController:32] {"id":-1,"socialMediaId":"115819762194204"}
+2016-08-01 14:05:28 DEBUG [LoginController:27] Checking user credentials!
+2016-08-01 14:05:28 DEBUG [LoginController:31] Logging in user
+2016-08-01 14:05:28 DEBUG [LoginController:32] {
+    "id":-1,
+    "socialMediaId":115819762194204
+}
+2016-08-01 14:05:54 DEBUG [PostRepository:36] Creating a repository for Posts
+2016-08-01 14:05:54 DEBUG [WebSocketController:31] Creating a controller for WebSocket Notifications
+2016-08-01 14:05:54 DEBUG [LoginController:20] Creating a controller for Logins
+2016-08-01 14:05:54 DEBUG [UploadService:27] Creating a service for Uploads
+2016-08-01 14:05:54 DEBUG [UploadController:42] Creating a controller for Uploads
+2016-08-01 14:05:54 DEBUG [PostService:30] Creating a service for Posts
+2016-08-01 14:05:54 DEBUG [PostController:35] Creating a controller for Posts
+2016-08-01 14:05:54 DEBUG [NotificationController:25] Creating a controller for Notifications
+2016-08-01 14:05:54 DEBUG [AISESServerRunner:26] Starting Server
+2016-08-01 14:05:54 DEBUG [WebSocketController:31] Creating a controller for WebSocket Notifications
+2016-08-01 14:05:55 DEBUG [LoginController:27] Checking user credentials!
+2016-08-01 14:05:55 DEBUG [LoginController:31] Logging in user
+2016-08-01 14:05:55 DEBUG [LoginController:32] {
+    "id":-1,
+    "socialMediaId":"115819762194204"
+}
+2016-08-01 14:05:55 DEBUG [LoginController:34] com.aises.domain.User@66d6144b[
+  id=-1
+  socialMediaId=115819762194204
+  firstName=<null>
+  lastName=<null>
+  emailAddress=<null>
+  dateCreated=<null>
+  lastUpdated=<null>
+]
+2016-08-01 14:06:15 DEBUG [LoginController:27] Checking user credentials!
+2016-08-01 14:06:15 DEBUG [LoginController:31] Logging in user
+2016-08-01 14:06:15 DEBUG [LoginController:32] {"id":-1,"socialMediaId":"115819762194204"}
+2016-08-01 14:06:15 DEBUG [LoginController:34] com.aises.domain.User@5f76b1[
+  id=-1
+  socialMediaId=115819762194204
+  firstName=<null>
+  lastName=<null>
+  emailAddress=<null>
+  dateCreated=<null>
+  lastUpdated=<null>
+]
+2016-08-01 14:06:15 DEBUG [PostController:45] Checking user credentials before retrieving or sending posts
+2016-08-01 14:06:15 DEBUG [PostController:86] Getting all posts
+2016-08-01 14:11:37 DEBUG [PostRepository:36] Creating a repository for Posts
+2016-08-01 14:11:37 DEBUG [WebSocketController:31] Creating a controller for WebSocket Notifications
+2016-08-01 14:11:37 DEBUG [LoginService:17] Creating a service for Logins
+2016-08-01 14:11:37 DEBUG [LoginController:30] Creating a controller for Logins
+2016-08-01 14:11:37 DEBUG [UploadService:27] Creating a service for Uploads
+2016-08-01 14:11:37 DEBUG [UploadController:42] Creating a controller for Uploads
+2016-08-01 14:11:37 DEBUG [PostService:30] Creating a service for Posts
+2016-08-01 14:11:37 DEBUG [PostController:35] Creating a controller for Posts
+2016-08-01 14:11:37 DEBUG [NotificationController:25] Creating a controller for Notifications
+2016-08-01 14:11:37 DEBUG [AISESServerRunner:26] Starting Server
+2016-08-01 14:11:37 DEBUG [WebSocketController:31] Creating a controller for WebSocket Notifications
+2016-08-01 14:13:24 DEBUG [WebSocketController:38] Added new session: SESSION-172.16.102.224:51641
+2016-08-01 14:13:29 DEBUG [LoginController:37] Checking user credentials!
+2016-08-01 14:13:29 DEBUG [LoginController:41] Logging in user
+2016-08-01 14:13:29 DEBUG [PostController:45] Checking user credentials before retrieving or sending posts
+2016-08-01 14:13:29 DEBUG [PostController:86] Getting all posts
+2016-08-01 14:13:29 DEBUG [LoginController:49] null
+2016-08-01 14:18:24 DEBUG [WebSocketController:44] Removing session: SESSION-172.16.102.224:51641
+2016-08-01 14:23:18 DEBUG [PostRepository:36] Creating a repository for Posts
+2016-08-01 14:23:18 DEBUG [WebSocketController:31] Creating a controller for WebSocket Notifications
+2016-08-01 14:23:18 DEBUG [LoginService:23] Creating a service for Logins
+2016-08-01 14:23:18 DEBUG [LoginController:30] Creating a controller for Logins
+2016-08-01 14:23:18 DEBUG [UploadService:27] Creating a service for Uploads
+2016-08-01 14:23:18 DEBUG [UploadController:42] Creating a controller for Uploads
+2016-08-01 14:23:18 DEBUG [PostService:30] Creating a service for Posts
+2016-08-01 14:23:18 DEBUG [PostController:35] Creating a controller for Posts
+2016-08-01 14:23:18 DEBUG [NotificationController:25] Creating a controller for Notifications
+2016-08-01 14:23:18 DEBUG [AISESServerRunner:26] Starting Server
+2016-08-01 14:23:18 DEBUG [WebSocketController:31] Creating a controller for WebSocket Notifications
+2016-08-01 14:24:35 DEBUG [PostRepository:36] Creating a repository for Posts
+2016-08-01 14:24:35 DEBUG [WebSocketController:31] Creating a controller for WebSocket Notifications
+2016-08-01 14:24:35 DEBUG [LoginService:23] Creating a service for Logins
+2016-08-01 14:24:35 DEBUG [LoginController:30] Creating a controller for Logins
+2016-08-01 14:24:35 DEBUG [UploadService:27] Creating a service for Uploads
+2016-08-01 14:24:35 DEBUG [UploadController:42] Creating a controller for Uploads
+2016-08-01 14:24:35 DEBUG [PostService:30] Creating a service for Posts
+2016-08-01 14:24:35 DEBUG [PostController:35] Creating a controller for Posts
+2016-08-01 14:24:35 DEBUG [NotificationController:25] Creating a controller for Notifications
+2016-08-01 14:24:35 DEBUG [AISESServerRunner:26] Starting Server
+2016-08-01 14:24:35 DEBUG [WebSocketController:31] Creating a controller for WebSocket Notifications
+2016-08-01 14:25:09 DEBUG [PostRepository:36] Creating a repository for Posts
+2016-08-01 14:25:09 DEBUG [UserRepository:20] Creating a repository for Users
+2016-08-01 14:25:09 DEBUG [WebSocketController:31] Creating a controller for WebSocket Notifications
+2016-08-01 14:25:09 DEBUG [LoginService:23] Creating a service for Logins
+2016-08-01 14:25:09 DEBUG [LoginController:30] Creating a controller for Logins
+2016-08-01 14:25:09 DEBUG [UploadService:27] Creating a service for Uploads
+2016-08-01 14:25:09 DEBUG [UploadController:42] Creating a controller for Uploads
+2016-08-01 14:25:09 DEBUG [PostService:30] Creating a service for Posts
+2016-08-01 14:25:09 DEBUG [PostController:35] Creating a controller for Posts
+2016-08-01 14:25:09 DEBUG [NotificationController:25] Creating a controller for Notifications
+2016-08-01 14:25:09 DEBUG [AISESServerRunner:26] Starting Server
+2016-08-01 14:25:09 DEBUG [WebSocketController:31] Creating a controller for WebSocket Notifications
+2016-08-01 14:33:08 DEBUG [PostRepository:36] Creating a repository for Posts
+2016-08-01 14:33:08 DEBUG [UserRepository:27] Creating a repository for Users
+2016-08-01 14:33:08 DEBUG [WebSocketController:31] Creating a controller for WebSocket Notifications
+2016-08-01 14:33:08 DEBUG [LoginService:25] Creating a service for Logins
+2016-08-01 14:33:08 DEBUG [LoginController:30] Creating a controller for Logins
+2016-08-01 14:33:08 DEBUG [UploadService:27] Creating a service for Uploads
+2016-08-01 14:33:08 DEBUG [UploadController:42] Creating a controller for Uploads
+2016-08-01 14:33:08 DEBUG [PostService:30] Creating a service for Posts
+2016-08-01 14:33:08 DEBUG [PostController:35] Creating a controller for Posts
+2016-08-01 14:33:08 DEBUG [NotificationController:25] Creating a controller for Notifications
+2016-08-01 14:33:08 DEBUG [AISESServerRunner:26] Starting Server
+2016-08-01 14:33:08 DEBUG [WebSocketController:31] Creating a controller for WebSocket Notifications
+2016-08-01 14:33:12 DEBUG [LoginController:37] Checking user credentials!
+2016-08-01 14:33:12 DEBUG [PostController:45] Checking user credentials before retrieving or sending posts
+2016-08-01 14:33:12 DEBUG [PostController:86] Getting all posts
+2016-08-01 14:33:12 DEBUG [LoginController:41] Logging in user
+2016-08-01 14:33:12 ERROR [LoginService:40] Error trying to query Users!
+org.postgresql.util.PSQLException: ERROR: relation "usersocialaccount" does not exist
+  Position: 31
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2310)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2023)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:217)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:421)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:166)
+	at org.postgresql.jdbc.PgPreparedStatement.executeQuery(PgPreparedStatement.java:118)
+	at com.aises.repository.UserRepository.socialMediaIdExists(UserRepository.java:50)
+	at com.aises.service.LoginService.checkExistingSocialLogin(LoginService.java:38)
+	at com.aises.controller.LoginController.checkLogin(LoginController.java:44)
+	at com.aises.controller.LoginController.lambda$new$1(LoginController.java:32)
+	at spark.ResponseTransformerRouteImpl$1.handle(ResponseTransformerRouteImpl.java:47)
+	at spark.http.matching.Routes.execute(Routes.java:61)
+	at spark.http.matching.MatcherFilter.doFilter(MatcherFilter.java:126)
+	at spark.embeddedserver.jetty.JettyHandler.doHandle(JettyHandler.java:50)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:189)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.HandlerList.handle(HandlerList.java:52)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:119)
+	at org.eclipse.jetty.server.Server.handle(Server.java:517)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:308)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:242)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:261)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:95)
+	at org.eclipse.jetty.io.SelectChannelEndPoint$2.run(SelectChannelEndPoint.java:75)
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.produceAndRun(ExecuteProduceConsume.java:213)
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.run(ExecuteProduceConsume.java:147)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:654)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:572)
+	at java.lang.Thread.run(Thread.java:745)
+2016-08-01 14:47:00 DEBUG [PostRepository:36] Creating a repository for Posts
+2016-08-01 14:47:00 DEBUG [UserRepository:32] Creating a repository for Users
+2016-08-01 14:47:00 DEBUG [WebSocketController:31] Creating a controller for WebSocket Notifications
+2016-08-01 14:47:00 DEBUG [LoginService:25] Creating a service for Logins
+2016-08-01 14:47:00 DEBUG [LoginController:30] Creating a controller for Logins
+2016-08-01 14:47:00 DEBUG [UploadService:27] Creating a service for Uploads
+2016-08-01 14:47:00 DEBUG [UploadController:42] Creating a controller for Uploads
+2016-08-01 14:47:00 DEBUG [PostService:30] Creating a service for Posts
+2016-08-01 14:47:00 DEBUG [PostController:35] Creating a controller for Posts
+2016-08-01 14:47:00 DEBUG [NotificationController:25] Creating a controller for Notifications
+2016-08-01 14:47:00 DEBUG [AISESServerRunner:26] Starting Server
+2016-08-01 14:47:00 DEBUG [WebSocketController:31] Creating a controller for WebSocket Notifications
+2016-08-01 14:48:29 DEBUG [PostRepository:36] Creating a repository for Posts
+2016-08-01 14:48:29 DEBUG [UserRepository:32] Creating a repository for Users
+2016-08-01 14:48:29 DEBUG [WebSocketController:31] Creating a controller for WebSocket Notifications
+2016-08-01 14:48:29 DEBUG [LoginService:25] Creating a service for Logins
+2016-08-01 14:48:29 DEBUG [LoginController:30] Creating a controller for Logins
+2016-08-01 14:48:29 DEBUG [UploadService:27] Creating a service for Uploads
+2016-08-01 14:48:29 DEBUG [UploadController:42] Creating a controller for Uploads
+2016-08-01 14:48:29 DEBUG [PostService:30] Creating a service for Posts
+2016-08-01 14:48:29 DEBUG [PostController:35] Creating a controller for Posts
+2016-08-01 14:48:29 DEBUG [NotificationController:25] Creating a controller for Notifications
+2016-08-01 14:48:29 DEBUG [AISESServerRunner:26] Starting Server
+2016-08-01 14:48:30 DEBUG [WebSocketController:31] Creating a controller for WebSocket Notifications
+2016-08-01 14:48:54 DEBUG [PostRepository:36] Creating a repository for Posts
+2016-08-01 14:48:54 DEBUG [UserRepository:32] Creating a repository for Users
+2016-08-01 14:48:54 DEBUG [WebSocketController:31] Creating a controller for WebSocket Notifications
+2016-08-01 14:48:54 DEBUG [LoginService:25] Creating a service for Logins
+2016-08-01 14:48:54 DEBUG [LoginController:30] Creating a controller for Logins
+2016-08-01 14:48:54 DEBUG [UploadService:27] Creating a service for Uploads
+2016-08-01 14:48:54 DEBUG [UploadController:42] Creating a controller for Uploads
+2016-08-01 14:48:54 DEBUG [PostService:30] Creating a service for Posts
+2016-08-01 14:48:54 DEBUG [PostController:35] Creating a controller for Posts
+2016-08-01 14:48:54 DEBUG [NotificationController:25] Creating a controller for Notifications
+2016-08-01 14:48:54 DEBUG [AISESServerRunner:26] Starting Server
+2016-08-01 14:48:54 DEBUG [WebSocketController:31] Creating a controller for WebSocket Notifications
+2016-08-01 14:49:58 DEBUG [PostRepository:36] Creating a repository for Posts
+2016-08-01 14:49:58 DEBUG [UserRepository:34] Creating a repository for Users
+2016-08-01 14:49:58 DEBUG [WebSocketController:31] Creating a controller for WebSocket Notifications
+2016-08-01 14:49:58 DEBUG [LoginService:25] Creating a service for Logins
+2016-08-01 14:49:58 DEBUG [LoginController:30] Creating a controller for Logins
+2016-08-01 14:49:58 DEBUG [UploadService:27] Creating a service for Uploads
+2016-08-01 14:49:58 DEBUG [UploadController:42] Creating a controller for Uploads
+2016-08-01 14:49:58 DEBUG [PostService:30] Creating a service for Posts
+2016-08-01 14:49:58 DEBUG [PostController:35] Creating a controller for Posts
+2016-08-01 14:49:58 DEBUG [NotificationController:25] Creating a controller for Notifications
+2016-08-01 14:49:58 DEBUG [AISESServerRunner:26] Starting Server
+2016-08-01 14:49:58 DEBUG [WebSocketController:31] Creating a controller for WebSocket Notifications
+2016-08-01 14:50:19 DEBUG [PostRepository:36] Creating a repository for Posts
+2016-08-01 14:50:19 DEBUG [UserRepository:34] Creating a repository for Users
+2016-08-01 14:50:19 DEBUG [WebSocketController:31] Creating a controller for WebSocket Notifications
+2016-08-01 14:50:19 DEBUG [LoginService:25] Creating a service for Logins
+2016-08-01 14:50:19 DEBUG [LoginController:30] Creating a controller for Logins
+2016-08-01 14:50:19 DEBUG [UploadService:27] Creating a service for Uploads
+2016-08-01 14:50:19 DEBUG [UploadController:42] Creating a controller for Uploads
+2016-08-01 14:50:19 DEBUG [PostService:30] Creating a service for Posts
+2016-08-01 14:50:19 DEBUG [PostController:35] Creating a controller for Posts
+2016-08-01 14:50:19 DEBUG [NotificationController:25] Creating a controller for Notifications
+2016-08-01 14:50:19 DEBUG [AISESServerRunner:26] Starting Server
+2016-08-01 14:50:19 DEBUG [WebSocketController:31] Creating a controller for WebSocket Notifications
+2016-08-01 14:50:44 DEBUG [PostRepository:36] Creating a repository for Posts
+2016-08-01 14:50:44 DEBUG [UserRepository:34] Creating a repository for Users
+2016-08-01 14:50:44 DEBUG [WebSocketController:31] Creating a controller for WebSocket Notifications
+2016-08-01 14:50:44 DEBUG [LoginService:25] Creating a service for Logins
+2016-08-01 14:50:44 DEBUG [LoginController:30] Creating a controller for Logins
+2016-08-01 14:50:44 DEBUG [UploadService:27] Creating a service for Uploads
+2016-08-01 14:50:44 DEBUG [UploadController:42] Creating a controller for Uploads
+2016-08-01 14:50:44 DEBUG [PostService:30] Creating a service for Posts
+2016-08-01 14:50:44 DEBUG [PostController:35] Creating a controller for Posts
+2016-08-01 14:50:44 DEBUG [NotificationController:25] Creating a controller for Notifications
+2016-08-01 14:50:44 DEBUG [AISESServerRunner:26] Starting Server
+2016-08-01 14:50:44 DEBUG [WebSocketController:31] Creating a controller for WebSocket Notifications
+2016-08-01 14:52:58 DEBUG [PostRepository:36] Creating a repository for Posts
+2016-08-01 14:52:58 DEBUG [UserRepository:39] Creating a repository for Users
+2016-08-01 14:52:58 DEBUG [WebSocketController:31] Creating a controller for WebSocket Notifications
+2016-08-01 14:52:58 DEBUG [LoginService:25] Creating a service for Logins
+2016-08-01 14:52:58 DEBUG [LoginController:30] Creating a controller for Logins
+2016-08-01 14:52:58 DEBUG [UploadService:27] Creating a service for Uploads
+2016-08-01 14:52:58 DEBUG [UploadController:42] Creating a controller for Uploads
+2016-08-01 14:52:58 DEBUG [PostService:30] Creating a service for Posts
+2016-08-01 14:52:58 DEBUG [PostController:35] Creating a controller for Posts
+2016-08-01 14:52:58 DEBUG [NotificationController:25] Creating a controller for Notifications
+2016-08-01 14:52:58 DEBUG [AISESServerRunner:26] Starting Server
+2016-08-01 14:52:58 DEBUG [WebSocketController:31] Creating a controller for WebSocket Notifications
+2016-08-01 14:53:18 DEBUG [PostRepository:36] Creating a repository for Posts
+2016-08-01 14:53:18 DEBUG [UserRepository:39] Creating a repository for Users
+2016-08-01 14:53:18 DEBUG [WebSocketController:31] Creating a controller for WebSocket Notifications
+2016-08-01 14:53:18 DEBUG [LoginService:25] Creating a service for Logins
+2016-08-01 14:53:18 DEBUG [LoginController:30] Creating a controller for Logins
+2016-08-01 14:53:18 DEBUG [UploadService:27] Creating a service for Uploads
+2016-08-01 14:53:18 DEBUG [UploadController:42] Creating a controller for Uploads
+2016-08-01 14:53:18 DEBUG [PostService:30] Creating a service for Posts
+2016-08-01 14:53:18 DEBUG [PostController:35] Creating a controller for Posts
+2016-08-01 14:53:18 DEBUG [NotificationController:25] Creating a controller for Notifications
+2016-08-01 14:53:18 DEBUG [AISESServerRunner:26] Starting Server
+2016-08-01 14:53:18 DEBUG [WebSocketController:31] Creating a controller for WebSocket Notifications
+2016-08-01 14:53:30 DEBUG [PostRepository:36] Creating a repository for Posts
+2016-08-01 14:53:30 DEBUG [UserRepository:39] Creating a repository for Users
+2016-08-01 14:53:30 DEBUG [WebSocketController:31] Creating a controller for WebSocket Notifications
+2016-08-01 14:53:30 DEBUG [LoginService:25] Creating a service for Logins
+2016-08-01 14:53:30 DEBUG [LoginController:30] Creating a controller for Logins
+2016-08-01 14:53:30 DEBUG [UploadService:27] Creating a service for Uploads
+2016-08-01 14:53:30 DEBUG [UploadController:42] Creating a controller for Uploads
+2016-08-01 14:53:30 DEBUG [PostService:30] Creating a service for Posts
+2016-08-01 14:53:30 DEBUG [PostController:35] Creating a controller for Posts
+2016-08-01 14:53:30 DEBUG [NotificationController:25] Creating a controller for Notifications
+2016-08-01 14:53:30 DEBUG [AISESServerRunner:26] Starting Server
+2016-08-01 14:53:30 DEBUG [WebSocketController:31] Creating a controller for WebSocket Notifications
+2016-08-01 14:54:34 DEBUG [PostRepository:36] Creating a repository for Posts
+2016-08-01 14:54:34 DEBUG [UserRepository:38] Creating a repository for Users
+2016-08-01 14:54:34 DEBUG [WebSocketController:31] Creating a controller for WebSocket Notifications
+2016-08-01 14:54:34 DEBUG [LoginService:25] Creating a service for Logins
+2016-08-01 14:54:34 DEBUG [LoginController:30] Creating a controller for Logins
+2016-08-01 14:54:34 DEBUG [UploadService:27] Creating a service for Uploads
+2016-08-01 14:54:34 DEBUG [UploadController:42] Creating a controller for Uploads
+2016-08-01 14:54:34 DEBUG [PostService:30] Creating a service for Posts
+2016-08-01 14:54:34 DEBUG [PostController:35] Creating a controller for Posts
+2016-08-01 14:54:34 DEBUG [NotificationController:25] Creating a controller for Notifications
+2016-08-01 14:54:34 DEBUG [AISESServerRunner:26] Starting Server
+2016-08-01 14:54:34 DEBUG [WebSocketController:31] Creating a controller for WebSocket Notifications
+2016-08-01 14:57:05 DEBUG [PostRepository:36] Creating a repository for Posts
+2016-08-01 14:57:05 DEBUG [UserRepository:38] Creating a repository for Users
+2016-08-01 14:57:05 DEBUG [UserRepository:48] Statement: DROP TABLE IF EXISTS User
+2016-08-01 14:57:05 DEBUG [WebSocketController:31] Creating a controller for WebSocket Notifications
+2016-08-01 14:57:05 DEBUG [LoginService:25] Creating a service for Logins
+2016-08-01 14:57:05 DEBUG [LoginController:30] Creating a controller for Logins
+2016-08-01 14:57:05 DEBUG [UploadService:27] Creating a service for Uploads
+2016-08-01 14:57:05 DEBUG [UploadController:42] Creating a controller for Uploads
+2016-08-01 14:57:05 DEBUG [PostService:30] Creating a service for Posts
+2016-08-01 14:57:05 DEBUG [PostController:35] Creating a controller for Posts
+2016-08-01 14:57:05 DEBUG [NotificationController:25] Creating a controller for Notifications
+2016-08-01 14:57:05 DEBUG [AISESServerRunner:26] Starting Server
+2016-08-01 14:57:05 DEBUG [WebSocketController:31] Creating a controller for WebSocket Notifications
+2016-08-01 14:58:07 DEBUG [PostRepository:36] Creating a repository for Posts
+2016-08-01 14:58:07 DEBUG [UserRepository:38] Creating a repository for Users
+2016-08-01 14:58:07 DEBUG [UserRepository:48] Statement: DROP TABLE IF EXISTS User
+2016-08-01 14:58:07 DEBUG [WebSocketController:31] Creating a controller for WebSocket Notifications
+2016-08-01 14:58:07 DEBUG [LoginService:25] Creating a service for Logins
+2016-08-01 14:58:07 DEBUG [LoginController:30] Creating a controller for Logins
+2016-08-01 14:58:07 DEBUG [UploadService:27] Creating a service for Uploads
+2016-08-01 14:58:07 DEBUG [UploadController:42] Creating a controller for Uploads
+2016-08-01 14:58:07 DEBUG [PostService:30] Creating a service for Posts
+2016-08-01 14:58:07 DEBUG [PostController:35] Creating a controller for Posts
+2016-08-01 14:58:07 DEBUG [NotificationController:25] Creating a controller for Notifications
+2016-08-01 14:58:07 DEBUG [AISESServerRunner:26] Starting Server
+2016-08-01 14:58:07 DEBUG [WebSocketController:31] Creating a controller for WebSocket Notifications
+2016-08-01 14:58:37 DEBUG [PostRepository:36] Creating a repository for Posts
+2016-08-01 14:58:37 DEBUG [UserRepository:38] Creating a repository for Users
+2016-08-01 14:58:37 DEBUG [UserRepository:48] Statement: DROP TABLE IF EXISTS User
+2016-08-01 14:58:37 DEBUG [WebSocketController:31] Creating a controller for WebSocket Notifications
+2016-08-01 14:58:37 DEBUG [LoginService:25] Creating a service for Logins
+2016-08-01 14:58:37 DEBUG [LoginController:30] Creating a controller for Logins
+2016-08-01 14:58:37 DEBUG [UploadService:27] Creating a service for Uploads
+2016-08-01 14:58:37 DEBUG [UploadController:42] Creating a controller for Uploads
+2016-08-01 14:58:37 DEBUG [PostService:30] Creating a service for Posts
+2016-08-01 14:58:37 DEBUG [PostController:35] Creating a controller for Posts
+2016-08-01 14:58:37 DEBUG [NotificationController:25] Creating a controller for Notifications
+2016-08-01 14:58:37 DEBUG [AISESServerRunner:26] Starting Server
+2016-08-01 14:58:37 DEBUG [WebSocketController:31] Creating a controller for WebSocket Notifications
+2016-08-01 14:59:08 DEBUG [PostRepository:36] Creating a repository for Posts
+2016-08-01 14:59:08 DEBUG [UserRepository:38] Creating a repository for Users
+2016-08-01 14:59:08 DEBUG [UserRepository:48] Statement: DROP TABLE IF EXISTS User
+2016-08-01 14:59:08 ERROR [UserRepository:51] Error creating required tables for Users!
+org.postgresql.util.PSQLException: ERROR: syntax error at or near "User"
+  Position: 22
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2310)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2023)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:217)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:421)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:166)
+	at org.postgresql.jdbc.PgPreparedStatement.execute(PgPreparedStatement.java:159)
+	at com.aises.repository.UserRepository.<init>(UserRepository.java:49)
+	at com.aises.repository.UserRepository.getInstance(UserRepository.java:64)
+	at com.aises.server.ConferenceServer.configureRepositories(ConferenceServer.java:63)
+	at com.aises.AISESServerRunner.main(AISESServerRunner.java:23)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:147)
+2016-08-01 14:59:08 DEBUG [WebSocketController:31] Creating a controller for WebSocket Notifications
+2016-08-01 14:59:08 DEBUG [LoginService:25] Creating a service for Logins
+2016-08-01 14:59:08 DEBUG [LoginController:30] Creating a controller for Logins
+2016-08-01 14:59:08 DEBUG [UploadService:27] Creating a service for Uploads
+2016-08-01 14:59:08 DEBUG [UploadController:42] Creating a controller for Uploads
+2016-08-01 14:59:08 DEBUG [PostService:30] Creating a service for Posts
+2016-08-01 14:59:08 DEBUG [PostController:35] Creating a controller for Posts
+2016-08-01 14:59:08 DEBUG [NotificationController:25] Creating a controller for Notifications
+2016-08-01 14:59:08 DEBUG [AISESServerRunner:26] Starting Server
+2016-08-01 14:59:08 DEBUG [WebSocketController:31] Creating a controller for WebSocket Notifications
+2016-08-01 15:01:01 DEBUG [PostRepository:36] Creating a repository for Posts
+2016-08-01 15:01:01 DEBUG [UserRepository:38] Creating a repository for Users
+2016-08-01 15:01:01 DEBUG [UserRepository:48] Statement: DROP TABLE User
+2016-08-01 15:01:01 ERROR [UserRepository:51] Error creating required tables for Users!
+org.postgresql.util.PSQLException: ERROR: syntax error at or near "User"
+  Position: 12
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2310)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2023)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:217)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:421)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:166)
+	at org.postgresql.jdbc.PgPreparedStatement.execute(PgPreparedStatement.java:159)
+	at com.aises.repository.UserRepository.<init>(UserRepository.java:49)
+	at com.aises.repository.UserRepository.getInstance(UserRepository.java:64)
+	at com.aises.server.ConferenceServer.configureRepositories(ConferenceServer.java:63)
+	at com.aises.AISESServerRunner.main(AISESServerRunner.java:23)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:147)
+2016-08-01 15:01:01 DEBUG [WebSocketController:31] Creating a controller for WebSocket Notifications
+2016-08-01 15:01:01 DEBUG [LoginService:25] Creating a service for Logins
+2016-08-01 15:01:01 DEBUG [LoginController:30] Creating a controller for Logins
+2016-08-01 15:01:01 DEBUG [UploadService:27] Creating a service for Uploads
+2016-08-01 15:01:01 DEBUG [UploadController:42] Creating a controller for Uploads
+2016-08-01 15:01:01 DEBUG [PostService:30] Creating a service for Posts
+2016-08-01 15:01:01 DEBUG [PostController:35] Creating a controller for Posts
+2016-08-01 15:01:01 DEBUG [NotificationController:25] Creating a controller for Notifications
+2016-08-01 15:01:01 DEBUG [AISESServerRunner:26] Starting Server
+2016-08-01 15:01:01 DEBUG [WebSocketController:31] Creating a controller for WebSocket Notifications
+2016-08-01 15:01:34 DEBUG [Database:30] Getting connection to database
+2016-08-01 15:01:35 DEBUG [PostRepository:36] Creating a repository for Posts
+2016-08-01 15:01:35 DEBUG [UserRepository:38] Creating a repository for Users
+2016-08-01 15:01:35 DEBUG [UserRepository:48] Statement: DROP TABLE User
+2016-08-01 15:01:35 ERROR [UserRepository:51] Error creating required tables for Users!
+org.postgresql.util.PSQLException: ERROR: syntax error at or near "User"
+  Position: 12
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2310)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2023)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:217)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:421)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:166)
+	at org.postgresql.jdbc.PgPreparedStatement.execute(PgPreparedStatement.java:159)
+	at com.aises.repository.UserRepository.<init>(UserRepository.java:49)
+	at com.aises.repository.UserRepository.getInstance(UserRepository.java:64)
+	at com.aises.server.ConferenceServer.configureRepositories(ConferenceServer.java:63)
+	at com.aises.AISESServerRunner.main(AISESServerRunner.java:23)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:147)
+2016-08-01 15:01:35 DEBUG [WebSocketController:31] Creating a controller for WebSocket Notifications
+2016-08-01 15:01:35 DEBUG [LoginService:25] Creating a service for Logins
+2016-08-01 15:01:35 DEBUG [LoginController:30] Creating a controller for Logins
+2016-08-01 15:01:35 DEBUG [UploadService:27] Creating a service for Uploads
+2016-08-01 15:01:35 DEBUG [UploadController:42] Creating a controller for Uploads
+2016-08-01 15:01:35 DEBUG [PostService:30] Creating a service for Posts
+2016-08-01 15:01:35 DEBUG [PostController:35] Creating a controller for Posts
+2016-08-01 15:01:35 DEBUG [NotificationController:25] Creating a controller for Notifications
+2016-08-01 15:01:35 DEBUG [AISESServerRunner:26] Starting Server
+2016-08-01 15:01:35 DEBUG [WebSocketController:31] Creating a controller for WebSocket Notifications
+2016-08-01 15:05:17 DEBUG [Database:30] Getting connection to database
+2016-08-01 15:05:17 DEBUG [PostRepository:36] Creating a repository for Posts
+2016-08-01 15:05:18 DEBUG [UserRepository:38] Creating a repository for Users
+2016-08-01 15:05:18 ERROR [UserRepository:53] Error creating required tables for Users!
+org.postgresql.util.PSQLException: This connection has been closed.
+	at org.postgresql.jdbc.PgConnection.checkClosed(PgConnection.java:796)
+	at org.postgresql.jdbc.PgConnection.prepareStatement(PgConnection.java:1633)
+	at org.postgresql.jdbc.PgConnection.prepareStatement(PgConnection.java:420)
+	at com.aises.repository.UserRepository.<init>(UserRepository.java:42)
+	at com.aises.repository.UserRepository.getInstance(UserRepository.java:66)
+	at com.aises.server.ConferenceServer.configureRepositories(ConferenceServer.java:63)
+	at com.aises.AISESServerRunner.main(AISESServerRunner.java:23)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:147)
+2016-08-01 15:05:18 DEBUG [WebSocketController:31] Creating a controller for WebSocket Notifications
+2016-08-01 15:05:18 DEBUG [LoginService:25] Creating a service for Logins
+2016-08-01 15:05:18 DEBUG [LoginController:30] Creating a controller for Logins
+2016-08-01 15:05:18 DEBUG [UploadService:27] Creating a service for Uploads
+2016-08-01 15:05:18 DEBUG [UploadController:42] Creating a controller for Uploads
+2016-08-01 15:05:18 DEBUG [PostService:30] Creating a service for Posts
+2016-08-01 15:05:18 DEBUG [PostController:35] Creating a controller for Posts
+2016-08-01 15:05:18 DEBUG [NotificationController:25] Creating a controller for Notifications
+2016-08-01 15:05:18 DEBUG [AISESServerRunner:26] Starting Server
+2016-08-01 15:05:18 DEBUG [WebSocketController:31] Creating a controller for WebSocket Notifications
+2016-08-01 15:05:56 DEBUG [Database:30] Getting connection to database
+2016-08-01 15:05:56 DEBUG [PostRepository:36] Creating a repository for Posts
+2016-08-01 15:05:56 DEBUG [UserRepository:38] Creating a repository for Users
+2016-08-01 15:05:56 DEBUG [UserRepository:43] Statement: DROP TABLE User
+2016-08-01 15:05:56 ERROR [UserRepository:46] Error creating required tables for Users!
+org.postgresql.util.PSQLException: ERROR: syntax error at or near "User"
+  Position: 12
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2310)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2023)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:217)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:421)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:166)
+	at org.postgresql.jdbc.PgPreparedStatement.execute(PgPreparedStatement.java:159)
+	at com.aises.repository.UserRepository.<init>(UserRepository.java:44)
+	at com.aises.repository.UserRepository.getInstance(UserRepository.java:59)
+	at com.aises.server.ConferenceServer.configureRepositories(ConferenceServer.java:63)
+	at com.aises.AISESServerRunner.main(AISESServerRunner.java:23)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:147)
+2016-08-01 15:05:56 DEBUG [WebSocketController:31] Creating a controller for WebSocket Notifications
+2016-08-01 15:05:56 DEBUG [LoginService:25] Creating a service for Logins
+2016-08-01 15:05:56 DEBUG [LoginController:30] Creating a controller for Logins
+2016-08-01 15:05:56 DEBUG [UploadService:27] Creating a service for Uploads
+2016-08-01 15:05:56 DEBUG [UploadController:42] Creating a controller for Uploads
+2016-08-01 15:05:56 DEBUG [PostService:30] Creating a service for Posts
+2016-08-01 15:05:56 DEBUG [PostController:35] Creating a controller for Posts
+2016-08-01 15:05:56 DEBUG [NotificationController:25] Creating a controller for Notifications
+2016-08-01 15:05:56 DEBUG [AISESServerRunner:26] Starting Server
+2016-08-01 15:05:56 DEBUG [WebSocketController:31] Creating a controller for WebSocket Notifications
+2016-08-01 15:08:12 DEBUG [Database:30] Getting connection to database
+2016-08-01 15:08:12 DEBUG [PostRepository:36] Creating a repository for Posts
+2016-08-01 15:08:12 DEBUG [UserRepository:38] Creating a repository for Users
+2016-08-01 15:08:12 DEBUG [UserRepository:43] Statement: DROP TABLE IF EXISTS User
+2016-08-01 15:08:12 ERROR [UserRepository:46] Error creating required tables for Users!
+org.postgresql.util.PSQLException: ERROR: syntax error at or near "User"
+  Position: 22
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2310)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2023)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:217)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:421)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:166)
+	at org.postgresql.jdbc.PgPreparedStatement.execute(PgPreparedStatement.java:159)
+	at com.aises.repository.UserRepository.<init>(UserRepository.java:44)
+	at com.aises.repository.UserRepository.getInstance(UserRepository.java:59)
+	at com.aises.server.ConferenceServer.configureRepositories(ConferenceServer.java:63)
+	at com.aises.AISESServerRunner.main(AISESServerRunner.java:23)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:147)
+2016-08-01 15:08:12 DEBUG [WebSocketController:31] Creating a controller for WebSocket Notifications
+2016-08-01 15:08:12 DEBUG [LoginService:25] Creating a service for Logins
+2016-08-01 15:08:12 DEBUG [LoginController:30] Creating a controller for Logins
+2016-08-01 15:08:12 DEBUG [UploadService:27] Creating a service for Uploads
+2016-08-01 15:08:12 DEBUG [UploadController:42] Creating a controller for Uploads
+2016-08-01 15:08:12 DEBUG [PostService:30] Creating a service for Posts
+2016-08-01 15:08:12 DEBUG [PostController:35] Creating a controller for Posts
+2016-08-01 15:08:12 DEBUG [NotificationController:25] Creating a controller for Notifications
+2016-08-01 15:08:12 DEBUG [AISESServerRunner:26] Starting Server
+2016-08-01 15:08:12 DEBUG [WebSocketController:31] Creating a controller for WebSocket Notifications
+2016-08-01 15:08:40 DEBUG [Database:30] Getting connection to database
+2016-08-01 15:08:40 DEBUG [PostRepository:36] Creating a repository for Posts
+2016-08-01 15:08:40 DEBUG [UserRepository:38] Creating a repository for Users
+2016-08-01 15:08:40 DEBUG [UserRepository:43] Statement: DROP TABLE IF EXISTS AISESUser
+2016-08-01 15:08:40 DEBUG [WebSocketController:31] Creating a controller for WebSocket Notifications
+2016-08-01 15:08:40 DEBUG [LoginService:25] Creating a service for Logins
+2016-08-01 15:08:40 DEBUG [LoginController:30] Creating a controller for Logins
+2016-08-01 15:08:40 DEBUG [UploadService:27] Creating a service for Uploads
+2016-08-01 15:08:40 DEBUG [UploadController:42] Creating a controller for Uploads
+2016-08-01 15:08:40 DEBUG [PostService:30] Creating a service for Posts
+2016-08-01 15:08:40 DEBUG [PostController:35] Creating a controller for Posts
+2016-08-01 15:08:40 DEBUG [NotificationController:25] Creating a controller for Notifications
+2016-08-01 15:08:40 DEBUG [AISESServerRunner:26] Starting Server
+2016-08-01 15:08:40 DEBUG [WebSocketController:31] Creating a controller for WebSocket Notifications
+2016-08-01 15:11:21 DEBUG [Database:30] Getting connection to database
+2016-08-01 15:11:21 DEBUG [PostRepository:36] Creating a repository for Posts
+2016-08-01 15:11:21 DEBUG [UserRepository:41] Creating a repository for Users
+2016-08-01 15:11:21 ERROR [UserRepository:57] Error creating required tables for Users!
+org.postgresql.util.PSQLException: ERROR: syntax error at or near "REFERENCES"
+  Position: 43
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2310)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2023)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:217)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:421)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:166)
+	at org.postgresql.jdbc.PgPreparedStatement.execute(PgPreparedStatement.java:159)
+	at com.aises.repository.UserRepository.<init>(UserRepository.java:54)
+	at com.aises.repository.UserRepository.getInstance(UserRepository.java:70)
+	at com.aises.server.ConferenceServer.configureRepositories(ConferenceServer.java:63)
+	at com.aises.AISESServerRunner.main(AISESServerRunner.java:23)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:147)
+2016-08-01 15:11:21 DEBUG [WebSocketController:31] Creating a controller for WebSocket Notifications
+2016-08-01 15:11:21 DEBUG [LoginService:25] Creating a service for Logins
+2016-08-01 15:11:21 DEBUG [LoginController:30] Creating a controller for Logins
+2016-08-01 15:11:21 DEBUG [UploadService:27] Creating a service for Uploads
+2016-08-01 15:11:21 DEBUG [UploadController:42] Creating a controller for Uploads
+2016-08-01 15:11:21 DEBUG [PostService:30] Creating a service for Posts
+2016-08-01 15:11:21 DEBUG [PostController:35] Creating a controller for Posts
+2016-08-01 15:11:21 DEBUG [NotificationController:25] Creating a controller for Notifications
+2016-08-01 15:11:21 DEBUG [AISESServerRunner:26] Starting Server
+2016-08-01 15:11:22 DEBUG [WebSocketController:31] Creating a controller for WebSocket Notifications
+2016-08-01 15:12:16 DEBUG [Database:30] Getting connection to database
+2016-08-01 15:12:17 DEBUG [PostRepository:36] Creating a repository for Posts
+2016-08-01 15:12:17 DEBUG [UserRepository:43] Creating a repository for Users
+2016-08-01 15:12:17 DEBUG [WebSocketController:31] Creating a controller for WebSocket Notifications
+2016-08-01 15:12:17 DEBUG [LoginService:25] Creating a service for Logins
+2016-08-01 15:12:17 DEBUG [LoginController:30] Creating a controller for Logins
+2016-08-01 15:12:17 DEBUG [UploadService:27] Creating a service for Uploads
+2016-08-01 15:12:17 DEBUG [UploadController:42] Creating a controller for Uploads
+2016-08-01 15:12:17 DEBUG [PostService:30] Creating a service for Posts
+2016-08-01 15:12:17 DEBUG [PostController:35] Creating a controller for Posts
+2016-08-01 15:12:17 DEBUG [NotificationController:25] Creating a controller for Notifications
+2016-08-01 15:12:17 DEBUG [AISESServerRunner:26] Starting Server
+2016-08-01 15:12:17 DEBUG [WebSocketController:31] Creating a controller for WebSocket Notifications
+2016-08-01 15:14:01 DEBUG [Database:30] Getting connection to database
+2016-08-01 15:14:02 DEBUG [PostRepository:36] Creating a repository for Posts
+2016-08-01 15:14:02 DEBUG [UserRepository:44] Creating a repository for Users
+2016-08-01 15:14:02 ERROR [UserRepository:70] Error creating required tables for Users!
+org.postgresql.util.PSQLException: ERROR: syntax error at or near "REFERENCES"
+  Position: 43
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2310)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2023)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:217)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:421)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:166)
+	at org.postgresql.jdbc.PgPreparedStatement.execute(PgPreparedStatement.java:159)
+	at com.aises.repository.UserRepository.<init>(UserRepository.java:62)
+	at com.aises.repository.UserRepository.getInstance(UserRepository.java:83)
+	at com.aises.server.ConferenceServer.configureRepositories(ConferenceServer.java:63)
+	at com.aises.AISESServerRunner.main(AISESServerRunner.java:23)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:147)
+2016-08-01 15:14:02 DEBUG [WebSocketController:31] Creating a controller for WebSocket Notifications
+2016-08-01 15:14:02 DEBUG [LoginService:25] Creating a service for Logins
+2016-08-01 15:14:02 DEBUG [LoginController:30] Creating a controller for Logins
+2016-08-01 15:14:02 DEBUG [UploadService:27] Creating a service for Uploads
+2016-08-01 15:14:02 DEBUG [UploadController:42] Creating a controller for Uploads
+2016-08-01 15:14:02 DEBUG [PostService:30] Creating a service for Posts
+2016-08-01 15:14:02 DEBUG [PostController:35] Creating a controller for Posts
+2016-08-01 15:14:02 DEBUG [NotificationController:25] Creating a controller for Notifications
+2016-08-01 15:14:02 DEBUG [AISESServerRunner:26] Starting Server
+2016-08-01 15:14:02 DEBUG [WebSocketController:31] Creating a controller for WebSocket Notifications
+2016-08-01 15:17:29 DEBUG [Database:30] Getting connection to database
+2016-08-01 15:17:29 DEBUG [PostRepository:36] Creating a repository for Posts
+2016-08-01 15:17:29 DEBUG [UserRepository:44] Creating a repository for Users
+2016-08-01 15:17:29 ERROR [UserRepository:67] Error creating required tables for Users!
+org.postgresql.util.PSQLException: ERROR: syntax error at or near "REFERENCES"
+  Position: 43
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2310)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2023)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:217)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:421)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:166)
+	at org.postgresql.jdbc.PgPreparedStatement.execute(PgPreparedStatement.java:159)
+	at com.aises.repository.UserRepository.<init>(UserRepository.java:63)
+	at com.aises.repository.UserRepository.getInstance(UserRepository.java:80)
+	at com.aises.server.ConferenceServer.configureRepositories(ConferenceServer.java:63)
+	at com.aises.AISESServerRunner.main(AISESServerRunner.java:23)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:147)
+2016-08-01 15:17:29 DEBUG [WebSocketController:31] Creating a controller for WebSocket Notifications
+2016-08-01 15:17:29 DEBUG [LoginService:25] Creating a service for Logins
+2016-08-01 15:17:29 DEBUG [LoginController:30] Creating a controller for Logins
+2016-08-01 15:17:29 DEBUG [UploadService:27] Creating a service for Uploads
+2016-08-01 15:17:29 DEBUG [UploadController:42] Creating a controller for Uploads
+2016-08-01 15:17:29 DEBUG [PostService:30] Creating a service for Posts
+2016-08-01 15:17:29 DEBUG [PostController:35] Creating a controller for Posts
+2016-08-01 15:17:29 DEBUG [NotificationController:25] Creating a controller for Notifications
+2016-08-01 15:17:29 DEBUG [AISESServerRunner:26] Starting Server
+2016-08-01 15:17:29 DEBUG [WebSocketController:31] Creating a controller for WebSocket Notifications
+2016-08-01 15:18:46 DEBUG [Database:30] Getting connection to database
+2016-08-01 15:18:46 DEBUG [PostRepository:36] Creating a repository for Posts
+2016-08-01 15:18:46 DEBUG [UserRepository:44] Creating a repository for Users
+2016-08-01 15:18:46 DEBUG [UserRepository:49] Attempting to drop tables
+2016-08-01 15:18:46 DEBUG [UserRepository:58] Dropped tables
+2016-08-01 15:18:46 DEBUG [UserRepository:60] Attempting to create tables
+2016-08-01 15:18:46 ERROR [UserRepository:72] Error creating required tables for Users!
+org.postgresql.util.PSQLException: ERROR: syntax error at or near "REFERENCES"
+  Position: 43
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2310)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2023)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:217)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:421)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:166)
+	at org.postgresql.jdbc.PgPreparedStatement.execute(PgPreparedStatement.java:159)
+	at com.aises.repository.UserRepository.<init>(UserRepository.java:67)
+	at com.aises.repository.UserRepository.getInstance(UserRepository.java:85)
+	at com.aises.server.ConferenceServer.configureRepositories(ConferenceServer.java:63)
+	at com.aises.AISESServerRunner.main(AISESServerRunner.java:23)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:147)
+2016-08-01 15:18:46 DEBUG [WebSocketController:31] Creating a controller for WebSocket Notifications
+2016-08-01 15:18:46 DEBUG [LoginService:25] Creating a service for Logins
+2016-08-01 15:18:46 DEBUG [LoginController:30] Creating a controller for Logins
+2016-08-01 15:18:46 DEBUG [UploadService:27] Creating a service for Uploads
+2016-08-01 15:18:46 DEBUG [UploadController:42] Creating a controller for Uploads
+2016-08-01 15:18:46 DEBUG [PostService:30] Creating a service for Posts
+2016-08-01 15:18:46 DEBUG [PostController:35] Creating a controller for Posts
+2016-08-01 15:18:46 DEBUG [NotificationController:25] Creating a controller for Notifications
+2016-08-01 15:18:46 DEBUG [AISESServerRunner:26] Starting Server
+2016-08-01 15:18:46 DEBUG [WebSocketController:31] Creating a controller for WebSocket Notifications
+2016-08-01 15:19:27 DEBUG [Database:30] Getting connection to database
+2016-08-01 15:19:28 DEBUG [PostRepository:36] Creating a repository for Posts
+2016-08-01 15:19:28 DEBUG [UserRepository:44] Creating a repository for Users
+2016-08-01 15:19:28 DEBUG [UserRepository:49] Attempting to drop tables
+2016-08-01 15:19:28 DEBUG [UserRepository:58] Dropped tables
+2016-08-01 15:19:28 DEBUG [UserRepository:60] Attempting to create tables
+2016-08-01 15:19:28 DEBUG [UserRepository:69] Created tables
+2016-08-01 15:19:28 DEBUG [WebSocketController:31] Creating a controller for WebSocket Notifications
+2016-08-01 15:19:28 DEBUG [LoginService:25] Creating a service for Logins
+2016-08-01 15:19:28 DEBUG [LoginController:30] Creating a controller for Logins
+2016-08-01 15:19:28 DEBUG [UploadService:27] Creating a service for Uploads
+2016-08-01 15:19:28 DEBUG [UploadController:42] Creating a controller for Uploads
+2016-08-01 15:19:28 DEBUG [PostService:30] Creating a service for Posts
+2016-08-01 15:19:28 DEBUG [PostController:35] Creating a controller for Posts
+2016-08-01 15:19:28 DEBUG [NotificationController:25] Creating a controller for Notifications
+2016-08-01 15:19:28 DEBUG [AISESServerRunner:26] Starting Server
+2016-08-01 15:19:28 DEBUG [WebSocketController:31] Creating a controller for WebSocket Notifications
+2016-08-01 15:19:32 DEBUG [Database:30] Getting connection to database
+2016-08-01 15:19:32 DEBUG [PostRepository:36] Creating a repository for Posts
+2016-08-01 15:19:32 DEBUG [UserRepository:44] Creating a repository for Users
+2016-08-01 15:19:32 DEBUG [UserRepository:49] Attempting to drop tables
+2016-08-01 15:19:32 DEBUG [UserRepository:58] Dropped tables
+2016-08-01 15:19:32 DEBUG [UserRepository:60] Attempting to create tables
+2016-08-01 15:19:32 DEBUG [UserRepository:69] Created tables
+2016-08-01 15:19:32 DEBUG [WebSocketController:31] Creating a controller for WebSocket Notifications
+2016-08-01 15:19:32 DEBUG [LoginService:25] Creating a service for Logins
+2016-08-01 15:19:32 DEBUG [LoginController:30] Creating a controller for Logins
+2016-08-01 15:19:32 DEBUG [UploadService:27] Creating a service for Uploads
+2016-08-01 15:19:32 DEBUG [UploadController:42] Creating a controller for Uploads
+2016-08-01 15:19:32 DEBUG [PostService:30] Creating a service for Posts
+2016-08-01 15:19:32 DEBUG [PostController:35] Creating a controller for Posts
+2016-08-01 15:19:32 DEBUG [NotificationController:25] Creating a controller for Notifications
+2016-08-01 15:19:32 DEBUG [AISESServerRunner:26] Starting Server
+2016-08-01 15:19:32 DEBUG [WebSocketController:31] Creating a controller for WebSocket Notifications
+2016-08-01 15:19:39 DEBUG [Database:30] Getting connection to database
+2016-08-01 15:19:39 DEBUG [PostRepository:36] Creating a repository for Posts
+2016-08-01 15:19:39 DEBUG [UserRepository:44] Creating a repository for Users
+2016-08-01 15:19:39 DEBUG [UserRepository:49] Attempting to drop tables
+2016-08-01 15:19:39 DEBUG [UserRepository:58] Dropped tables
+2016-08-01 15:19:39 DEBUG [UserRepository:60] Attempting to create tables
+2016-08-01 15:19:39 DEBUG [UserRepository:69] Created tables
+2016-08-01 15:19:39 DEBUG [WebSocketController:31] Creating a controller for WebSocket Notifications
+2016-08-01 15:19:39 DEBUG [LoginService:25] Creating a service for Logins
+2016-08-01 15:19:39 DEBUG [LoginController:30] Creating a controller for Logins
+2016-08-01 15:19:39 DEBUG [UploadService:27] Creating a service for Uploads
+2016-08-01 15:19:39 DEBUG [UploadController:42] Creating a controller for Uploads
+2016-08-01 15:19:39 DEBUG [PostService:30] Creating a service for Posts
+2016-08-01 15:19:39 DEBUG [PostController:35] Creating a controller for Posts
+2016-08-01 15:19:39 DEBUG [NotificationController:25] Creating a controller for Notifications
+2016-08-01 15:19:39 DEBUG [AISESServerRunner:26] Starting Server
+2016-08-01 15:19:39 DEBUG [WebSocketController:31] Creating a controller for WebSocket Notifications
+2016-08-01 15:19:56 DEBUG [Database:30] Getting connection to database
+2016-08-01 15:19:56 DEBUG [PostRepository:36] Creating a repository for Posts
+2016-08-01 15:19:56 DEBUG [UserRepository:44] Creating a repository for Users
+2016-08-01 15:19:56 DEBUG [UserRepository:49] Attempting to drop tables
+2016-08-01 15:19:56 DEBUG [UserRepository:58] Dropped tables
+2016-08-01 15:19:56 DEBUG [UserRepository:60] Attempting to create tables
+2016-08-01 15:19:56 ERROR [UserRepository:72] Error creating required tables for Users!
+org.postgresql.util.PSQLException: ERROR: syntax error at or near "REFERENCES"
+  Position: 43
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2310)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2023)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:217)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:421)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:166)
+	at org.postgresql.jdbc.PgPreparedStatement.execute(PgPreparedStatement.java:159)
+	at com.aises.repository.UserRepository.<init>(UserRepository.java:67)
+	at com.aises.repository.UserRepository.getInstance(UserRepository.java:85)
+	at com.aises.server.ConferenceServer.configureRepositories(ConferenceServer.java:63)
+	at com.aises.AISESServerRunner.main(AISESServerRunner.java:23)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:147)
+2016-08-01 15:19:56 DEBUG [WebSocketController:31] Creating a controller for WebSocket Notifications
+2016-08-01 15:19:56 DEBUG [LoginService:25] Creating a service for Logins
+2016-08-01 15:19:56 DEBUG [LoginController:30] Creating a controller for Logins
+2016-08-01 15:19:56 DEBUG [UploadService:27] Creating a service for Uploads
+2016-08-01 15:19:56 DEBUG [UploadController:42] Creating a controller for Uploads
+2016-08-01 15:19:56 DEBUG [PostService:30] Creating a service for Posts
+2016-08-01 15:19:56 DEBUG [PostController:35] Creating a controller for Posts
+2016-08-01 15:19:56 DEBUG [NotificationController:25] Creating a controller for Notifications
+2016-08-01 15:19:56 DEBUG [AISESServerRunner:26] Starting Server
+2016-08-01 15:19:56 DEBUG [WebSocketController:31] Creating a controller for WebSocket Notifications
+2016-08-01 15:22:12 DEBUG [Database:30] Getting connection to database
+2016-08-01 15:22:12 DEBUG [PostRepository:36] Creating a repository for Posts
+2016-08-01 15:22:12 DEBUG [UserRepository:44] Creating a repository for Users
+2016-08-01 15:22:12 DEBUG [UserRepository:49] Attempting to drop tables
+2016-08-01 15:22:12 DEBUG [UserRepository:58] Dropped tables
+2016-08-01 15:22:12 DEBUG [UserRepository:60] Attempting to create tables
+2016-08-01 15:22:12 DEBUG [WebSocketController:31] Creating a controller for WebSocket Notifications
+2016-08-01 15:22:12 ERROR [UserRepository:72] Error creating required tables for Users!
+org.postgresql.util.PSQLException: ERROR: there is no unique constraint matching given keys for referenced table "social"
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2310)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2023)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:217)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:421)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:166)
+	at org.postgresql.jdbc.PgPreparedStatement.execute(PgPreparedStatement.java:159)
+	at com.aises.repository.UserRepository.<init>(UserRepository.java:68)
+	at com.aises.repository.UserRepository.getInstance(UserRepository.java:85)
+	at com.aises.server.ConferenceServer.configureRepositories(ConferenceServer.java:63)
+	at com.aises.AISESServerRunner.main(AISESServerRunner.java:23)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:147)
+2016-08-01 15:22:12 DEBUG [WebSocketController:31] Creating a controller for WebSocket Notifications
+2016-08-01 15:22:12 DEBUG [LoginService:25] Creating a service for Logins
+2016-08-01 15:22:12 DEBUG [LoginController:30] Creating a controller for Logins
+2016-08-01 15:22:12 DEBUG [UploadService:27] Creating a service for Uploads
+2016-08-01 15:22:12 DEBUG [UploadController:42] Creating a controller for Uploads
+2016-08-01 15:22:12 DEBUG [PostService:30] Creating a service for Posts
+2016-08-01 15:22:12 DEBUG [PostController:35] Creating a controller for Posts
+2016-08-01 15:22:12 DEBUG [NotificationController:25] Creating a controller for Notifications
+2016-08-01 15:22:12 DEBUG [AISESServerRunner:26] Starting Server
+2016-08-01 15:22:37 DEBUG [Database:30] Getting connection to database
+2016-08-01 15:22:37 DEBUG [PostRepository:36] Creating a repository for Posts
+2016-08-01 15:22:38 DEBUG [UserRepository:44] Creating a repository for Users
+2016-08-01 15:22:38 DEBUG [UserRepository:49] Attempting to drop tables
+2016-08-01 15:22:38 DEBUG [UserRepository:58] Dropped tables
+2016-08-01 15:22:38 DEBUG [UserRepository:60] Attempting to create tables
+2016-08-01 15:22:38 DEBUG [WebSocketController:31] Creating a controller for WebSocket Notifications
+2016-08-01 15:22:38 DEBUG [UserRepository:69] Created tables
+2016-08-01 15:22:38 DEBUG [WebSocketController:31] Creating a controller for WebSocket Notifications
+2016-08-01 15:22:38 DEBUG [LoginService:25] Creating a service for Logins
+2016-08-01 15:22:38 DEBUG [LoginController:30] Creating a controller for Logins
+2016-08-01 15:22:38 DEBUG [UploadService:27] Creating a service for Uploads
+2016-08-01 15:22:38 DEBUG [UploadController:42] Creating a controller for Uploads
+2016-08-01 15:22:38 DEBUG [PostService:30] Creating a service for Posts
+2016-08-01 15:22:38 DEBUG [PostController:35] Creating a controller for Posts
+2016-08-01 15:22:38 DEBUG [NotificationController:25] Creating a controller for Notifications
+2016-08-01 15:22:38 DEBUG [AISESServerRunner:26] Starting Server
+2016-08-01 15:23:16 DEBUG [Database:30] Getting connection to database
+2016-08-01 15:23:17 DEBUG [PostRepository:36] Creating a repository for Posts
+2016-08-01 15:23:17 DEBUG [UserRepository:44] Creating a repository for Users
+2016-08-01 15:23:17 DEBUG [UserRepository:49] Attempting to drop tables
+2016-08-01 15:23:17 DEBUG [UserRepository:58] Dropped tables
+2016-08-01 15:23:17 DEBUG [UserRepository:60] Attempting to create tables
+2016-08-01 15:23:17 DEBUG [UserRepository:69] Created tables
+2016-08-01 15:23:17 DEBUG [WebSocketController:31] Creating a controller for WebSocket Notifications
+2016-08-01 15:23:17 DEBUG [LoginService:25] Creating a service for Logins
+2016-08-01 15:23:17 DEBUG [LoginController:30] Creating a controller for Logins
+2016-08-01 15:23:17 DEBUG [UploadService:27] Creating a service for Uploads
+2016-08-01 15:23:17 DEBUG [UploadController:42] Creating a controller for Uploads
+2016-08-01 15:23:17 DEBUG [PostService:30] Creating a service for Posts
+2016-08-01 15:23:17 DEBUG [PostController:35] Creating a controller for Posts
+2016-08-01 15:23:17 DEBUG [NotificationController:25] Creating a controller for Notifications
+2016-08-01 15:23:17 DEBUG [AISESServerRunner:26] Starting Server
+2016-08-01 15:23:17 DEBUG [WebSocketController:31] Creating a controller for WebSocket Notifications
+2016-08-01 15:23:31 DEBUG [LoginController:37] Checking user credentials!
+2016-08-01 15:23:31 DEBUG [PostController:45] Checking user credentials before retrieving or sending posts
+2016-08-01 15:23:31 DEBUG [LoginController:41] Logging in user
+2016-08-01 15:23:31 DEBUG [PostController:86] Getting all posts
+2016-08-01 15:23:31 ERROR [LoginService:40] Error trying to query Users!
+org.postgresql.util.PSQLException: ERROR: relation "usersocialaccount" does not exist
+  Position: 31
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2310)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2023)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:217)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:421)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:166)
+	at org.postgresql.jdbc.PgPreparedStatement.executeQuery(PgPreparedStatement.java:118)
+	at com.aises.repository.UserRepository.socialMediaIdExists(UserRepository.java:95)
+	at com.aises.service.LoginService.checkExistingSocialLogin(LoginService.java:38)
+	at com.aises.controller.LoginController.checkLogin(LoginController.java:44)
+	at com.aises.controller.LoginController.lambda$new$1(LoginController.java:32)
+	at spark.ResponseTransformerRouteImpl$1.handle(ResponseTransformerRouteImpl.java:47)
+	at spark.http.matching.Routes.execute(Routes.java:61)
+	at spark.http.matching.MatcherFilter.doFilter(MatcherFilter.java:126)
+	at spark.embeddedserver.jetty.JettyHandler.doHandle(JettyHandler.java:50)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:189)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.HandlerList.handle(HandlerList.java:52)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:119)
+	at org.eclipse.jetty.server.Server.handle(Server.java:517)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:308)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:242)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:261)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:95)
+	at org.eclipse.jetty.io.SelectChannelEndPoint$2.run(SelectChannelEndPoint.java:75)
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.produceAndRun(ExecuteProduceConsume.java:213)
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.run(ExecuteProduceConsume.java:147)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:654)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:572)
+	at java.lang.Thread.run(Thread.java:745)
+2016-08-01 15:23:54 DEBUG [Database:30] Getting connection to database
+2016-08-01 15:23:54 DEBUG [PostRepository:36] Creating a repository for Posts
+2016-08-01 15:23:54 DEBUG [UserRepository:44] Creating a repository for Users
+2016-08-01 15:23:54 DEBUG [UserRepository:49] Attempting to drop tables
+2016-08-01 15:23:54 DEBUG [UserRepository:58] Dropped tables
+2016-08-01 15:23:54 DEBUG [UserRepository:60] Attempting to create tables
+2016-08-01 15:23:54 DEBUG [UserRepository:69] Created tables
+2016-08-01 15:23:54 DEBUG [WebSocketController:31] Creating a controller for WebSocket Notifications
+2016-08-01 15:23:54 DEBUG [LoginService:25] Creating a service for Logins
+2016-08-01 15:23:54 DEBUG [LoginController:30] Creating a controller for Logins
+2016-08-01 15:23:54 DEBUG [UploadService:27] Creating a service for Uploads
+2016-08-01 15:23:54 DEBUG [UploadController:42] Creating a controller for Uploads
+2016-08-01 15:23:54 DEBUG [PostService:30] Creating a service for Posts
+2016-08-01 15:23:54 DEBUG [PostController:35] Creating a controller for Posts
+2016-08-01 15:23:54 DEBUG [NotificationController:25] Creating a controller for Notifications
+2016-08-01 15:23:54 DEBUG [AISESServerRunner:26] Starting Server
+2016-08-01 15:23:54 DEBUG [WebSocketController:31] Creating a controller for WebSocket Notifications
+2016-08-01 15:24:00 DEBUG [LoginController:37] Checking user credentials!
+2016-08-01 15:24:00 DEBUG [PostController:45] Checking user credentials before retrieving or sending posts
+2016-08-01 15:24:00 DEBUG [LoginController:41] Logging in user
+2016-08-01 15:24:00 DEBUG [PostController:86] Getting all posts
+2016-08-01 15:24:00 DEBUG [UserRepository:97] Count of social accounts by id: 115819762194204/0
+2016-08-01 15:34:48 DEBUG [Database:30] Getting connection to database
+2016-08-01 15:34:48 DEBUG [PostRepository:36] Creating a repository for Posts
+2016-08-01 15:34:48 DEBUG [UserRepository:44] Creating a repository for Users
+2016-08-01 15:34:48 DEBUG [UserRepository:49] Attempting to drop tables
+2016-08-01 15:34:48 DEBUG [UserRepository:58] Dropped tables
+2016-08-01 15:34:48 DEBUG [UserRepository:60] Attempting to create tables
+2016-08-01 15:34:48 DEBUG [UserRepository:69] Created tables
+2016-08-01 15:34:48 DEBUG [WebSocketController:31] Creating a controller for WebSocket Notifications
+2016-08-01 15:34:48 DEBUG [LoginService:25] Creating a service for Logins
+2016-08-01 15:34:48 DEBUG [LoginController:30] Creating a controller for Logins
+2016-08-01 15:34:48 DEBUG [UploadService:27] Creating a service for Uploads
+2016-08-01 15:34:48 DEBUG [UploadController:42] Creating a controller for Uploads
+2016-08-01 15:34:48 DEBUG [PostService:30] Creating a service for Posts
+2016-08-01 15:34:48 DEBUG [PostController:35] Creating a controller for Posts
+2016-08-01 15:34:48 DEBUG [NotificationController:25] Creating a controller for Notifications
+2016-08-01 15:34:48 DEBUG [AISESServerRunner:26] Starting Server
+2016-08-01 15:34:48 DEBUG [WebSocketController:31] Creating a controller for WebSocket Notifications
+2016-08-01 15:36:17 DEBUG [WebSocketController:38] Added new session: SESSION-172.16.102.224:51665
+2016-08-01 15:36:21 DEBUG [LoginController:37] Checking user credentials!
+2016-08-01 15:36:21 DEBUG [LoginController:41] Logging in user
+2016-08-01 15:36:21 DEBUG [PostController:45] Checking user credentials before retrieving or sending posts
+2016-08-01 15:36:21 DEBUG [PostController:86] Getting all posts
+2016-08-01 15:36:21 DEBUG [LoginController:45] Type requested: facebook
+2016-08-01 15:36:21 ERROR [LoginService:40] Error trying to query Users!
+org.postgresql.util.PSQLException: ERROR: column st.social_id does not exist
+  Hint: Perhaps you meant to reference the column "us.social_id".
+  Position: 88
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2310)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2023)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:217)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:421)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:166)
+	at org.postgresql.jdbc.PgPreparedStatement.executeQuery(PgPreparedStatement.java:118)
+	at com.aises.repository.UserRepository.socialMediaIdExists(UserRepository.java:96)
+	at com.aises.service.LoginService.checkExistingSocialLogin(LoginService.java:38)
+	at com.aises.controller.LoginController.checkLogin(LoginController.java:46)
+	at com.aises.controller.LoginController.lambda$new$1(LoginController.java:32)
+	at spark.ResponseTransformerRouteImpl$1.handle(ResponseTransformerRouteImpl.java:47)
+	at spark.http.matching.Routes.execute(Routes.java:61)
+	at spark.http.matching.MatcherFilter.doFilter(MatcherFilter.java:126)
+	at spark.embeddedserver.jetty.JettyHandler.doHandle(JettyHandler.java:50)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:189)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.HandlerList.handle(HandlerList.java:52)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:119)
+	at org.eclipse.jetty.server.Server.handle(Server.java:517)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:308)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:242)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:261)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:95)
+	at org.eclipse.jetty.io.SelectChannelEndPoint$2.run(SelectChannelEndPoint.java:75)
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.produceAndRun(ExecuteProduceConsume.java:213)
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.run(ExecuteProduceConsume.java:147)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:654)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:572)
+	at java.lang.Thread.run(Thread.java:745)
+2016-08-01 15:37:05 DEBUG [Database:30] Getting connection to database
+2016-08-01 15:37:05 DEBUG [PostRepository:36] Creating a repository for Posts
+2016-08-01 15:37:05 DEBUG [UserRepository:44] Creating a repository for Users
+2016-08-01 15:37:05 DEBUG [UserRepository:49] Attempting to drop tables
+2016-08-01 15:37:05 DEBUG [UserRepository:58] Dropped tables
+2016-08-01 15:37:05 DEBUG [UserRepository:60] Attempting to create tables
+2016-08-01 15:37:05 DEBUG [UserRepository:69] Created tables
+2016-08-01 15:37:05 DEBUG [WebSocketController:31] Creating a controller for WebSocket Notifications
+2016-08-01 15:37:05 DEBUG [LoginService:25] Creating a service for Logins
+2016-08-01 15:37:05 DEBUG [LoginController:30] Creating a controller for Logins
+2016-08-01 15:37:05 DEBUG [UploadService:27] Creating a service for Uploads
+2016-08-01 15:37:05 DEBUG [UploadController:42] Creating a controller for Uploads
+2016-08-01 15:37:05 DEBUG [PostService:30] Creating a service for Posts
+2016-08-01 15:37:05 DEBUG [PostController:35] Creating a controller for Posts
+2016-08-01 15:37:05 DEBUG [NotificationController:25] Creating a controller for Notifications
+2016-08-01 15:37:05 DEBUG [AISESServerRunner:26] Starting Server
+2016-08-01 15:37:05 DEBUG [WebSocketController:31] Creating a controller for WebSocket Notifications
+2016-08-01 15:37:09 DEBUG [LoginController:37] Checking user credentials!
+2016-08-01 15:37:09 DEBUG [PostController:45] Checking user credentials before retrieving or sending posts
+2016-08-01 15:37:09 DEBUG [LoginController:41] Logging in user
+2016-08-01 15:37:09 DEBUG [PostController:86] Getting all posts
+2016-08-01 15:37:09 DEBUG [LoginController:45] Type requested: facebook
+2016-08-01 15:37:09 ERROR [LoginService:40] Error trying to query Users!
+org.postgresql.util.PSQLException: ERROR: column st.social_id does not exist
+  Hint: Perhaps you meant to reference the column "us.social_id".
+  Position: 88
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2310)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2023)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:217)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:421)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:166)
+	at org.postgresql.jdbc.PgPreparedStatement.executeQuery(PgPreparedStatement.java:118)
+	at com.aises.repository.UserRepository.socialMediaIdExists(UserRepository.java:96)
+	at com.aises.service.LoginService.checkExistingSocialLogin(LoginService.java:38)
+	at com.aises.controller.LoginController.checkLogin(LoginController.java:46)
+	at com.aises.controller.LoginController.lambda$new$1(LoginController.java:32)
+	at spark.ResponseTransformerRouteImpl$1.handle(ResponseTransformerRouteImpl.java:47)
+	at spark.http.matching.Routes.execute(Routes.java:61)
+	at spark.http.matching.MatcherFilter.doFilter(MatcherFilter.java:126)
+	at spark.embeddedserver.jetty.JettyHandler.doHandle(JettyHandler.java:50)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:189)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.HandlerList.handle(HandlerList.java:52)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:119)
+	at org.eclipse.jetty.server.Server.handle(Server.java:517)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:308)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:242)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:261)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:95)
+	at org.eclipse.jetty.io.SelectChannelEndPoint$2.run(SelectChannelEndPoint.java:75)
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.produceAndRun(ExecuteProduceConsume.java:213)
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.run(ExecuteProduceConsume.java:147)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:654)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:572)
+	at java.lang.Thread.run(Thread.java:745)
+2016-08-01 15:38:50 DEBUG [Database:30] Getting connection to database
+2016-08-01 15:38:50 DEBUG [PostRepository:36] Creating a repository for Posts
+2016-08-01 15:38:50 DEBUG [UserRepository:49] Creating a repository for Users
+2016-08-01 15:38:50 DEBUG [UserRepository:54] Attempting to drop tables
+2016-08-01 15:38:50 DEBUG [UserRepository:63] Dropped tables
+2016-08-01 15:38:50 DEBUG [UserRepository:65] Attempting to create tables
+2016-08-01 15:38:50 DEBUG [UserRepository:74] Created tables
+2016-08-01 15:38:50 DEBUG [WebSocketController:31] Creating a controller for WebSocket Notifications
+2016-08-01 15:38:50 DEBUG [LoginService:25] Creating a service for Logins
+2016-08-01 15:38:50 DEBUG [LoginController:30] Creating a controller for Logins
+2016-08-01 15:38:50 DEBUG [UploadService:27] Creating a service for Uploads
+2016-08-01 15:38:50 DEBUG [UploadController:42] Creating a controller for Uploads
+2016-08-01 15:38:50 DEBUG [PostService:30] Creating a service for Posts
+2016-08-01 15:38:50 DEBUG [PostController:35] Creating a controller for Posts
+2016-08-01 15:38:50 DEBUG [NotificationController:25] Creating a controller for Notifications
+2016-08-01 15:38:50 DEBUG [AISESServerRunner:26] Starting Server
+2016-08-01 15:38:50 DEBUG [WebSocketController:31] Creating a controller for WebSocket Notifications
+2016-08-01 15:38:54 DEBUG [LoginController:37] Checking user credentials!
+2016-08-01 15:38:54 DEBUG [PostController:45] Checking user credentials before retrieving or sending posts
+2016-08-01 15:38:54 DEBUG [LoginController:41] Logging in user
+2016-08-01 15:38:54 DEBUG [PostController:86] Getting all posts
+2016-08-01 15:38:54 DEBUG [LoginController:45] Type requested: facebook
+2016-08-01 15:38:54 ERROR [LoginService:40] Error trying to query Users!
+org.postgresql.util.PSQLException: ERROR: column st.social_id does not exist
+  Hint: Perhaps you meant to reference the column "s.social_id".
+  Position: 122
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2310)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2023)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:217)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:421)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:166)
+	at org.postgresql.jdbc.PgPreparedStatement.executeQuery(PgPreparedStatement.java:118)
+	at com.aises.repository.UserRepository.socialMediaIdExists(UserRepository.java:101)
+	at com.aises.service.LoginService.checkExistingSocialLogin(LoginService.java:38)
+	at com.aises.controller.LoginController.checkLogin(LoginController.java:46)
+	at com.aises.controller.LoginController.lambda$new$1(LoginController.java:32)
+	at spark.ResponseTransformerRouteImpl$1.handle(ResponseTransformerRouteImpl.java:47)
+	at spark.http.matching.Routes.execute(Routes.java:61)
+	at spark.http.matching.MatcherFilter.doFilter(MatcherFilter.java:126)
+	at spark.embeddedserver.jetty.JettyHandler.doHandle(JettyHandler.java:50)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:189)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.HandlerList.handle(HandlerList.java:52)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:119)
+	at org.eclipse.jetty.server.Server.handle(Server.java:517)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:308)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:242)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:261)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:95)
+	at org.eclipse.jetty.io.SelectChannelEndPoint$2.run(SelectChannelEndPoint.java:75)
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.produceAndRun(ExecuteProduceConsume.java:213)
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.run(ExecuteProduceConsume.java:147)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:654)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:572)
+	at java.lang.Thread.run(Thread.java:745)
+2016-08-01 15:39:43 DEBUG [Database:30] Getting connection to database
+2016-08-01 15:39:43 DEBUG [PostRepository:36] Creating a repository for Posts
+2016-08-01 15:39:43 DEBUG [UserRepository:49] Creating a repository for Users
+2016-08-01 15:39:44 DEBUG [UserRepository:54] Attempting to drop tables
+2016-08-01 15:39:44 DEBUG [UserRepository:63] Dropped tables
+2016-08-01 15:39:44 DEBUG [UserRepository:65] Attempting to create tables
+2016-08-01 15:39:44 DEBUG [UserRepository:74] Created tables
+2016-08-01 15:39:44 DEBUG [WebSocketController:31] Creating a controller for WebSocket Notifications
+2016-08-01 15:39:44 DEBUG [LoginService:25] Creating a service for Logins
+2016-08-01 15:39:44 DEBUG [LoginController:30] Creating a controller for Logins
+2016-08-01 15:39:44 DEBUG [UploadService:27] Creating a service for Uploads
+2016-08-01 15:39:44 DEBUG [UploadController:42] Creating a controller for Uploads
+2016-08-01 15:39:44 DEBUG [PostService:30] Creating a service for Posts
+2016-08-01 15:39:44 DEBUG [PostController:35] Creating a controller for Posts
+2016-08-01 15:39:44 DEBUG [NotificationController:25] Creating a controller for Notifications
+2016-08-01 15:39:44 DEBUG [AISESServerRunner:26] Starting Server
+2016-08-01 15:39:44 DEBUG [WebSocketController:31] Creating a controller for WebSocket Notifications
+2016-08-01 15:39:53 DEBUG [Database:30] Getting connection to database
+2016-08-01 15:39:53 DEBUG [PostRepository:36] Creating a repository for Posts
+2016-08-01 15:39:53 DEBUG [UserRepository:49] Creating a repository for Users
+2016-08-01 15:39:53 DEBUG [UserRepository:54] Attempting to drop tables
+2016-08-01 15:39:53 DEBUG [UserRepository:63] Dropped tables
+2016-08-01 15:39:53 DEBUG [UserRepository:65] Attempting to create tables
+2016-08-01 15:39:53 DEBUG [UserRepository:74] Created tables
+2016-08-01 15:39:53 DEBUG [WebSocketController:31] Creating a controller for WebSocket Notifications
+2016-08-01 15:39:53 DEBUG [LoginService:25] Creating a service for Logins
+2016-08-01 15:39:53 DEBUG [LoginController:30] Creating a controller for Logins
+2016-08-01 15:39:53 DEBUG [UploadService:27] Creating a service for Uploads
+2016-08-01 15:39:53 DEBUG [UploadController:42] Creating a controller for Uploads
+2016-08-01 15:39:53 DEBUG [PostService:30] Creating a service for Posts
+2016-08-01 15:39:53 DEBUG [PostController:35] Creating a controller for Posts
+2016-08-01 15:39:53 DEBUG [NotificationController:25] Creating a controller for Notifications
+2016-08-01 15:39:53 DEBUG [AISESServerRunner:26] Starting Server
+2016-08-01 15:39:53 DEBUG [WebSocketController:31] Creating a controller for WebSocket Notifications
+2016-08-01 15:39:56 DEBUG [LoginController:37] Checking user credentials!
+2016-08-01 15:39:56 DEBUG [PostController:45] Checking user credentials before retrieving or sending posts
+2016-08-01 15:39:56 DEBUG [LoginController:41] Logging in user
+2016-08-01 15:39:56 DEBUG [PostController:86] Getting all posts
+2016-08-01 15:39:56 DEBUG [LoginController:45] Type requested: facebook
+2016-08-01 16:29:13 DEBUG [Database:30] Getting connection to database
+2016-08-01 16:29:13 DEBUG [PostRepository:36] Creating a repository for Posts
+2016-08-01 16:29:13 DEBUG [UserRepository:28] Creating a repository for Users
+2016-08-01 16:29:13 DEBUG [UserRepository:33] Attempting to drop tables
+2016-08-01 16:29:13 DEBUG [UserRepository:35] BEGIN TRANSACTION;
+  DROP TABLE IF EXISTS AISESUserSocialLogin;
+  DROP TABLE IF EXISTS SocialLogin;
+  DROP TABLE IF EXISTS SocialLoginType;
+  DROP TABLE IF EXISTS AISESUser;
+  COMMIT;
+END TRANSACTION
+
+2016-08-01 16:29:13 DEBUG [WebSocketController:31] Creating a controller for WebSocket Notifications
+2016-08-01 16:29:13 DEBUG [LoginService:25] Creating a service for Logins
+2016-08-01 16:29:13 DEBUG [LoginController:30] Creating a controller for Logins
+2016-08-01 16:29:13 DEBUG [UploadService:27] Creating a service for Uploads
+2016-08-01 16:29:13 DEBUG [UploadController:42] Creating a controller for Uploads
+2016-08-01 16:29:13 DEBUG [PostService:30] Creating a service for Posts
+2016-08-01 16:29:13 DEBUG [PostController:35] Creating a controller for Posts
+2016-08-01 16:29:13 DEBUG [NotificationController:25] Creating a controller for Notifications
+2016-08-01 16:29:13 DEBUG [AISESServerRunner:26] Starting Server
+2016-08-01 16:29:13 DEBUG [WebSocketController:31] Creating a controller for WebSocket Notifications
+2016-08-01 16:30:17 DEBUG [Database:30] Getting connection to database
+2016-08-01 16:30:17 DEBUG [PostRepository:36] Creating a repository for Posts
+2016-08-01 16:30:18 DEBUG [UserRepository:29] Creating a repository for Users
+2016-08-01 16:30:18 DEBUG [UserRepository:34] Attempting to drop tables
+2016-08-01 16:30:18 DEBUG [UserRepository:38] Attemtpting to created tables
+2016-08-01 16:30:18 DEBUG [WebSocketController:31] Creating a controller for WebSocket Notifications
+2016-08-01 16:30:18 DEBUG [LoginService:25] Creating a service for Logins
+2016-08-01 16:30:18 DEBUG [LoginController:30] Creating a controller for Logins
+2016-08-01 16:30:18 DEBUG [UploadService:27] Creating a service for Uploads
+2016-08-01 16:30:18 DEBUG [UploadController:42] Creating a controller for Uploads
+2016-08-01 16:30:18 DEBUG [PostService:30] Creating a service for Posts
+2016-08-01 16:30:18 DEBUG [PostController:35] Creating a controller for Posts
+2016-08-01 16:30:18 DEBUG [NotificationController:25] Creating a controller for Notifications
+2016-08-01 16:30:18 DEBUG [AISESServerRunner:26] Starting Server
+2016-08-01 16:30:18 DEBUG [WebSocketController:31] Creating a controller for WebSocket Notifications
+2016-08-01 16:34:58 DEBUG [Database:30] Getting connection to database
+2016-08-01 16:34:58 DEBUG [PostRepository:36] Creating a repository for Posts
+2016-08-01 16:34:58 DEBUG [UserRepository:31] Creating a repository for Users
+2016-08-01 16:34:58 DEBUG [UserRepository:36] Attempting to drop tables
+2016-08-01 16:34:58 DEBUG [UserRepository:40] Attempting to create tables
+2016-08-01 16:34:58 DEBUG [WebSocketController:31] Creating a controller for WebSocket Notifications
+2016-08-01 16:34:58 DEBUG [LoginService:25] Creating a service for Logins
+2016-08-01 16:34:58 DEBUG [LoginController:30] Creating a controller for Logins
+2016-08-01 16:34:58 DEBUG [UploadService:27] Creating a service for Uploads
+2016-08-01 16:34:58 DEBUG [UploadController:42] Creating a controller for Uploads
+2016-08-01 16:34:58 DEBUG [PostService:30] Creating a service for Posts
+2016-08-01 16:34:58 DEBUG [PostController:35] Creating a controller for Posts
+2016-08-01 16:34:58 DEBUG [NotificationController:25] Creating a controller for Notifications
+2016-08-01 16:34:58 DEBUG [AISESServerRunner:26] Starting Server
+2016-08-01 16:34:59 DEBUG [WebSocketController:31] Creating a controller for WebSocket Notifications
+2016-08-01 16:38:25 DEBUG [Database:31] Getting connection to database
+2016-08-01 16:38:25 DEBUG [PostRepository:36] Creating a repository for Posts
+2016-08-01 16:38:25 DEBUG [UserRepository:31] Creating a repository for Users
+2016-08-01 16:38:25 DEBUG [UserRepository:36] Attempting to drop tables
+2016-08-01 16:38:25 DEBUG [UserRepository:40] Attempting to create tables
+2016-08-01 16:38:25 DEBUG [WebSocketController:31] Creating a controller for WebSocket Notifications
+2016-08-01 16:38:25 DEBUG [LoginService:25] Creating a service for Logins
+2016-08-01 16:38:25 DEBUG [LoginController:30] Creating a controller for Logins
+2016-08-01 16:38:25 DEBUG [UploadService:27] Creating a service for Uploads
+2016-08-01 16:38:25 DEBUG [UploadController:42] Creating a controller for Uploads
+2016-08-01 16:38:25 DEBUG [PostService:30] Creating a service for Posts
+2016-08-01 16:38:25 DEBUG [PostController:35] Creating a controller for Posts
+2016-08-01 16:38:25 DEBUG [NotificationController:25] Creating a controller for Notifications
+2016-08-01 16:38:25 DEBUG [AISESServerRunner:26] Starting Server
+2016-08-01 16:38:25 DEBUG [WebSocketController:31] Creating a controller for WebSocket Notifications
+2016-08-01 16:43:43 DEBUG [Database:31] Getting connection to database
+2016-08-01 16:43:43 DEBUG [PostRepository:37] Creating a repository for Posts
+2016-08-01 16:43:43 DEBUG [UserRepository:31] Creating a repository for Users
+2016-08-01 16:43:43 DEBUG [UserRepository:36] Attempting to drop tables
+2016-08-01 16:43:43 ERROR [UserRepository:46] Error creating required tables for Users!
+org.postgresql.util.PSQLException: ERROR: cannot drop table aisesuser because other objects depend on it
+  Detail: constraint aisesuserpost_user_id_fkey on table aisesuserpost depends on table aisesuser
+  Hint: Use DROP ... CASCADE to drop the dependent objects too.
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2310)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2023)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:217)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:421)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:166)
+	at org.postgresql.jdbc.PgPreparedStatement.execute(PgPreparedStatement.java:159)
+	at com.aises.repository.UserRepository.<init>(UserRepository.java:38)
+	at com.aises.repository.UserRepository.getInstance(UserRepository.java:59)
+	at com.aises.server.ConferenceServer.configureRepositories(ConferenceServer.java:63)
+	at com.aises.AISESServerRunner.main(AISESServerRunner.java:23)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:147)
+2016-08-01 16:43:43 DEBUG [WebSocketController:31] Creating a controller for WebSocket Notifications
+2016-08-01 16:43:43 DEBUG [LoginService:25] Creating a service for Logins
+2016-08-01 16:43:43 DEBUG [LoginController:30] Creating a controller for Logins
+2016-08-01 16:43:43 DEBUG [UploadService:27] Creating a service for Uploads
+2016-08-01 16:43:43 DEBUG [UploadController:42] Creating a controller for Uploads
+2016-08-01 16:43:43 DEBUG [PostService:30] Creating a service for Posts
+2016-08-01 16:43:43 DEBUG [PostController:35] Creating a controller for Posts
+2016-08-01 16:43:43 DEBUG [NotificationController:25] Creating a controller for Notifications
+2016-08-01 16:43:43 DEBUG [AISESServerRunner:26] Starting Server
+2016-08-01 16:43:43 DEBUG [WebSocketController:31] Creating a controller for WebSocket Notifications
+2016-08-01 16:44:47 DEBUG [Database:31] Getting connection to database
+2016-08-01 16:44:47 DEBUG [UserRepository:31] Creating a repository for Users
+2016-08-01 16:44:47 DEBUG [UserRepository:36] Attempting to drop tables
+2016-08-01 16:44:47 ERROR [UserRepository:46] Error creating required tables for Users!
+org.postgresql.util.PSQLException: ERROR: cannot drop table aisesuser because other objects depend on it
+  Detail: constraint aisesuserpost_user_id_fkey on table aisesuserpost depends on table aisesuser
+  Hint: Use DROP ... CASCADE to drop the dependent objects too.
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2310)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2023)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:217)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:421)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:166)
+	at org.postgresql.jdbc.PgPreparedStatement.execute(PgPreparedStatement.java:159)
+	at com.aises.repository.UserRepository.<init>(UserRepository.java:38)
+	at com.aises.repository.UserRepository.getInstance(UserRepository.java:59)
+	at com.aises.server.ConferenceServer.configureRepositories(ConferenceServer.java:62)
+	at com.aises.AISESServerRunner.main(AISESServerRunner.java:23)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:147)
+2016-08-01 16:44:47 DEBUG [PostRepository:37] Creating a repository for Posts
+2016-08-01 16:44:47 DEBUG [WebSocketController:31] Creating a controller for WebSocket Notifications
+2016-08-01 16:44:47 DEBUG [LoginService:25] Creating a service for Logins
+2016-08-01 16:44:47 DEBUG [LoginController:30] Creating a controller for Logins
+2016-08-01 16:44:47 DEBUG [UploadService:27] Creating a service for Uploads
+2016-08-01 16:44:47 DEBUG [UploadController:42] Creating a controller for Uploads
+2016-08-01 16:44:47 DEBUG [PostService:30] Creating a service for Posts
+2016-08-01 16:44:47 DEBUG [PostController:35] Creating a controller for Posts
+2016-08-01 16:44:47 DEBUG [NotificationController:25] Creating a controller for Notifications
+2016-08-01 16:44:47 DEBUG [AISESServerRunner:26] Starting Server
+2016-08-01 16:44:47 DEBUG [WebSocketController:31] Creating a controller for WebSocket Notifications
+2016-08-01 16:45:09 DEBUG [Database:31] Getting connection to database
+2016-08-01 16:45:10 DEBUG [PostRepository:37] Creating a repository for Posts
+2016-08-01 16:45:10 DEBUG [UserRepository:31] Creating a repository for Users
+2016-08-01 16:45:10 DEBUG [UserRepository:36] Attempting to drop tables
+2016-08-01 16:45:10 ERROR [UserRepository:46] Error creating required tables for Users!
+org.postgresql.util.PSQLException: ERROR: cannot drop table aisesuser because other objects depend on it
+  Detail: constraint aisesuserpost_user_id_fkey on table aisesuserpost depends on table aisesuser
+  Hint: Use DROP ... CASCADE to drop the dependent objects too.
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2310)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2023)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:217)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:421)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:166)
+	at org.postgresql.jdbc.PgPreparedStatement.execute(PgPreparedStatement.java:159)
+	at com.aises.repository.UserRepository.<init>(UserRepository.java:38)
+	at com.aises.repository.UserRepository.getInstance(UserRepository.java:59)
+	at com.aises.server.ConferenceServer.configureRepositories(ConferenceServer.java:63)
+	at com.aises.AISESServerRunner.main(AISESServerRunner.java:23)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:147)
+2016-08-01 16:45:10 DEBUG [WebSocketController:31] Creating a controller for WebSocket Notifications
+2016-08-01 16:45:10 DEBUG [LoginService:25] Creating a service for Logins
+2016-08-01 16:45:10 DEBUG [LoginController:30] Creating a controller for Logins
+2016-08-01 16:45:10 DEBUG [UploadService:27] Creating a service for Uploads
+2016-08-01 16:45:10 DEBUG [UploadController:42] Creating a controller for Uploads
+2016-08-01 16:45:10 DEBUG [PostService:30] Creating a service for Posts
+2016-08-01 16:45:10 DEBUG [PostController:35] Creating a controller for Posts
+2016-08-01 16:45:10 DEBUG [NotificationController:25] Creating a controller for Notifications
+2016-08-01 16:45:10 DEBUG [AISESServerRunner:26] Starting Server
+2016-08-01 16:45:10 DEBUG [WebSocketController:31] Creating a controller for WebSocket Notifications
+2016-08-01 16:48:17 DEBUG [Database:31] Getting connection to database
+2016-08-01 16:48:17 DEBUG [PostRepository:37] Creating a repository for Posts
+2016-08-01 16:48:17 DEBUG [UserRepository:31] Creating a repository for Users
+2016-08-01 16:48:17 DEBUG [UserRepository:36] Attempting to create tables
+2016-08-01 16:48:17 DEBUG [WebSocketController:31] Creating a controller for WebSocket Notifications
+2016-08-01 16:48:17 DEBUG [LoginService:25] Creating a service for Logins
+2016-08-01 16:48:17 DEBUG [LoginController:30] Creating a controller for Logins
+2016-08-01 16:48:17 DEBUG [UploadService:27] Creating a service for Uploads
+2016-08-01 16:48:17 DEBUG [UploadController:42] Creating a controller for Uploads
+2016-08-01 16:48:17 DEBUG [PostService:30] Creating a service for Posts
+2016-08-01 16:48:17 DEBUG [PostController:35] Creating a controller for Posts
+2016-08-01 16:48:17 DEBUG [NotificationController:25] Creating a controller for Notifications
+2016-08-01 16:48:17 DEBUG [AISESServerRunner:26] Starting Server
+2016-08-01 16:48:17 DEBUG [WebSocketController:31] Creating a controller for WebSocket Notifications
+2016-08-01 16:48:32 DEBUG [Database:31] Getting connection to database
+2016-08-01 16:48:32 DEBUG [PostRepository:37] Creating a repository for Posts
+2016-08-01 16:48:32 ERROR [PostRepository:45] Error with post repository: {}
+org.postgresql.util.PSQLException: ERROR: relation "aisesuser" does not exist
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2310)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2023)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:217)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:421)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:166)
+	at org.postgresql.jdbc.PgPreparedStatement.execute(PgPreparedStatement.java:159)
+	at com.aises.repository.PostRepository.<init>(PostRepository.java:43)
+	at com.aises.repository.PostRepository.getInstance(PostRepository.java:112)
+	at com.aises.server.ConferenceServer.configureRepositories(ConferenceServer.java:62)
+	at com.aises.AISESServerRunner.main(AISESServerRunner.java:23)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:147)
+2016-08-01 16:48:32 DEBUG [UserRepository:31] Creating a repository for Users
+2016-08-01 16:48:32 DEBUG [UserRepository:36] Attempting to create tables
+2016-08-01 16:48:32 ERROR [UserRepository:40] Error creating required tables for Users!
+org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2310)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2023)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:217)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:421)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:166)
+	at org.postgresql.jdbc.PgPreparedStatement.execute(PgPreparedStatement.java:159)
+	at com.aises.repository.UserRepository.<init>(UserRepository.java:38)
+	at com.aises.repository.UserRepository.getInstance(UserRepository.java:53)
+	at com.aises.server.ConferenceServer.configureRepositories(ConferenceServer.java:63)
+	at com.aises.AISESServerRunner.main(AISESServerRunner.java:23)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:147)
+2016-08-01 16:48:32 DEBUG [WebSocketController:31] Creating a controller for WebSocket Notifications
+2016-08-01 16:48:32 DEBUG [LoginService:25] Creating a service for Logins
+2016-08-01 16:48:32 DEBUG [LoginController:30] Creating a controller for Logins
+2016-08-01 16:48:32 DEBUG [UploadService:27] Creating a service for Uploads
+2016-08-01 16:48:32 DEBUG [UploadController:42] Creating a controller for Uploads
+2016-08-01 16:48:32 DEBUG [PostService:30] Creating a service for Posts
+2016-08-01 16:48:32 DEBUG [PostController:35] Creating a controller for Posts
+2016-08-01 16:48:32 DEBUG [NotificationController:25] Creating a controller for Notifications
+2016-08-01 16:48:32 DEBUG [AISESServerRunner:26] Starting Server
+2016-08-01 16:48:32 DEBUG [WebSocketController:31] Creating a controller for WebSocket Notifications
+2016-08-01 16:49:06 DEBUG [Database:31] Getting connection to database
+2016-08-01 16:49:06 DEBUG [UserRepository:31] Creating a repository for Users
+2016-08-01 16:49:06 DEBUG [UserRepository:36] Attempting to create tables
+2016-08-01 16:49:06 DEBUG [PostRepository:37] Creating a repository for Posts
+2016-08-01 16:49:06 DEBUG [WebSocketController:31] Creating a controller for WebSocket Notifications
+2016-08-01 16:49:06 DEBUG [LoginService:25] Creating a service for Logins
+2016-08-01 16:49:06 DEBUG [LoginController:30] Creating a controller for Logins
+2016-08-01 16:49:06 DEBUG [UploadService:27] Creating a service for Uploads
+2016-08-01 16:49:06 DEBUG [UploadController:42] Creating a controller for Uploads
+2016-08-01 16:49:06 DEBUG [PostService:30] Creating a service for Posts
+2016-08-01 16:49:06 DEBUG [PostController:35] Creating a controller for Posts
+2016-08-01 16:49:06 DEBUG [NotificationController:25] Creating a controller for Notifications
+2016-08-01 16:49:06 DEBUG [AISESServerRunner:26] Starting Server
+2016-08-01 16:49:06 DEBUG [WebSocketController:31] Creating a controller for WebSocket Notifications
+2016-08-01 16:52:35 DEBUG [Database:31] Getting connection to database
+2016-08-01 16:52:35 DEBUG [UserRepository:31] Creating a repository for Users
+2016-08-01 16:52:35 DEBUG [UserRepository:36] Attempting to create tables
+2016-08-01 16:52:35 DEBUG [PostRepository:37] Creating a repository for Posts
+2016-08-01 16:52:35 DEBUG [PostRepository:42] Creating post tables
+2016-08-01 16:52:35 DEBUG [WebSocketController:31] Creating a controller for WebSocket Notifications
+2016-08-01 16:52:35 DEBUG [LoginService:25] Creating a service for Logins
+2016-08-01 16:52:35 DEBUG [LoginController:30] Creating a controller for Logins
+2016-08-01 16:52:35 DEBUG [UploadService:27] Creating a service for Uploads
+2016-08-01 16:52:35 DEBUG [UploadController:42] Creating a controller for Uploads
+2016-08-01 16:52:35 DEBUG [PostService:30] Creating a service for Posts
+2016-08-01 16:52:35 DEBUG [PostController:35] Creating a controller for Posts
+2016-08-01 16:52:35 DEBUG [NotificationController:25] Creating a controller for Notifications
+2016-08-01 16:52:35 DEBUG [AISESServerRunner:26] Starting Server
+2016-08-01 16:52:36 DEBUG [WebSocketController:31] Creating a controller for WebSocket Notifications
+2016-08-01 16:52:52 DEBUG [LoginController:37] Checking user credentials!
+2016-08-01 16:52:52 DEBUG [PostController:45] Checking user credentials before retrieving or sending posts
+2016-08-01 16:52:52 DEBUG [LoginController:41] Logging in user
+2016-08-01 16:52:52 DEBUG [PostController:86] Getting all posts
+2016-08-01 16:52:52 DEBUG [LoginController:45] Type requested: facebook
+2016-08-01 16:52:52 ERROR [LoginService:40] Error trying to query Users!
+org.postgresql.util.PSQLException: The column name total was not found in this ResultSet.
+	at org.postgresql.jdbc.PgResultSet.findColumn(PgResultSet.java:2601)
+	at org.postgresql.jdbc.PgResultSet.getInt(PgResultSet.java:2495)
+	at com.aises.repository.UserRepository.socialMediaIdExists(UserRepository.java:66)
+	at com.aises.service.LoginService.checkExistingSocialLogin(LoginService.java:38)
+	at com.aises.controller.LoginController.checkLogin(LoginController.java:46)
+	at com.aises.controller.LoginController.lambda$new$1(LoginController.java:32)
+	at spark.ResponseTransformerRouteImpl$1.handle(ResponseTransformerRouteImpl.java:47)
+	at spark.http.matching.Routes.execute(Routes.java:61)
+	at spark.http.matching.MatcherFilter.doFilter(MatcherFilter.java:126)
+	at spark.embeddedserver.jetty.JettyHandler.doHandle(JettyHandler.java:50)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:189)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.HandlerList.handle(HandlerList.java:52)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:119)
+	at org.eclipse.jetty.server.Server.handle(Server.java:517)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:308)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:242)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:261)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:95)
+	at org.eclipse.jetty.io.SelectChannelEndPoint$2.run(SelectChannelEndPoint.java:75)
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.produceAndRun(ExecuteProduceConsume.java:213)
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.run(ExecuteProduceConsume.java:147)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:654)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:572)
+	at java.lang.Thread.run(Thread.java:745)
+2016-08-01 16:53:44 DEBUG [Database:31] Getting connection to database
+2016-08-01 16:53:44 DEBUG [UserRepository:31] Creating a repository for Users
+2016-08-01 16:53:44 DEBUG [UserRepository:36] Attempting to create tables
+2016-08-01 16:53:44 DEBUG [PostRepository:37] Creating a repository for Posts
+2016-08-01 16:53:44 DEBUG [PostRepository:42] Creating post tables
+2016-08-01 16:53:44 DEBUG [WebSocketController:31] Creating a controller for WebSocket Notifications
+2016-08-01 16:53:44 DEBUG [LoginService:25] Creating a service for Logins
+2016-08-01 16:53:44 DEBUG [LoginController:30] Creating a controller for Logins
+2016-08-01 16:53:44 DEBUG [UploadService:27] Creating a service for Uploads
+2016-08-01 16:53:44 DEBUG [UploadController:42] Creating a controller for Uploads
+2016-08-01 16:53:44 DEBUG [PostService:30] Creating a service for Posts
+2016-08-01 16:53:44 DEBUG [PostController:35] Creating a controller for Posts
+2016-08-01 16:53:44 DEBUG [NotificationController:25] Creating a controller for Notifications
+2016-08-01 16:53:44 DEBUG [AISESServerRunner:26] Starting Server
+2016-08-01 16:53:44 DEBUG [WebSocketController:31] Creating a controller for WebSocket Notifications
+2016-08-01 16:53:48 DEBUG [PostController:45] Checking user credentials before retrieving or sending posts
+2016-08-01 16:53:48 DEBUG [LoginController:37] Checking user credentials!
+2016-08-01 16:53:48 DEBUG [LoginController:41] Logging in user
+2016-08-01 16:53:48 DEBUG [PostController:86] Getting all posts
+2016-08-01 16:53:48 DEBUG [LoginController:45] Type requested: facebook
+2016-08-01 16:53:53 DEBUG [PostController:45] Checking user credentials before retrieving or sending posts
+2016-08-01 16:53:53 DEBUG [PostController:50] Creating new post
+2016-08-01 16:53:53 DEBUG [PostController:55] Post created from request: com.aises.domain.Post@1725a577[
+  id=0
+  userId=0
+  text=Hdueie
+  length=0
+  dateCreated=<null>
+]
+2016-08-01 16:53:53 DEBUG [PostService:45] Attempting to add new post: com.aises.domain.Post@1725a577[
+  id=0
+  userId=0
+  text=Hdueie
+  length=6
+  dateCreated=2016-08-01T16:53:53.380
+]
+2016-08-01 16:53:53 DEBUG [PostRepository:59] Adding a new post: com.aises.domain.Post@1725a577[
+  id=0
+  userId=0
+  text=Hdueie
+  length=6
+  dateCreated=2016-08-01T16:53:53.380
+]
+2016-08-01 16:53:53 DEBUG [PostRepository:68] New post return code: 1
+2016-08-01 16:53:53 DEBUG [NotificationController:53] Sending new notification! com.aises.domain.Notification@5b9eda98
+2016-08-01 16:53:53 DEBUG [PostController:45] Checking user credentials before retrieving or sending posts
+2016-08-01 16:53:53 DEBUG [PostController:86] Getting all posts
+2016-08-01 19:03:49 DEBUG [Database:31] Getting connection to database
+2016-08-01 19:03:49 DEBUG [UserRepository:31] Creating a repository for Users
+2016-08-01 19:03:49 DEBUG [UserRepository:36] Attempting to create tables
+2016-08-01 19:03:49 DEBUG [PostRepository:37] Creating a repository for Posts
+2016-08-01 19:03:49 DEBUG [PostRepository:42] Creating post tables
+2016-08-01 19:03:49 DEBUG [WebSocketController:31] Creating a controller for WebSocket Notifications
+2016-08-01 19:03:49 DEBUG [LoginService:25] Creating a service for Logins
+2016-08-01 19:03:49 DEBUG [LoginController:30] Creating a controller for Logins
+2016-08-01 19:03:49 DEBUG [UploadService:27] Creating a service for Uploads
+2016-08-01 19:03:49 DEBUG [UploadController:42] Creating a controller for Uploads
+2016-08-01 19:03:49 DEBUG [PostService:30] Creating a service for Posts
+2016-08-01 19:03:49 DEBUG [PostController:35] Creating a controller for Posts
+2016-08-01 19:03:49 DEBUG [NotificationController:25] Creating a controller for Notifications
+2016-08-01 19:03:49 DEBUG [AISESServerRunner:26] Starting Server
+2016-08-01 19:03:49 DEBUG [WebSocketController:31] Creating a controller for WebSocket Notifications
+2016-08-01 19:38:30 DEBUG [Database:31] Getting connection to database
+2016-08-01 19:38:30 DEBUG [UserRepository:31] Creating a repository for Users
+2016-08-01 19:38:30 DEBUG [UserRepository:36] Attempting to create tables
+2016-08-01 19:38:30 DEBUG [PostRepository:37] Creating a repository for Posts
+2016-08-01 19:38:30 DEBUG [PostRepository:42] Creating post tables
+2016-08-01 19:38:30 DEBUG [WebSocketController:31] Creating a controller for WebSocket Notifications
+2016-08-01 19:38:30 DEBUG [LoginService:25] Creating a service for Logins
+2016-08-01 19:38:30 DEBUG [LoginController:30] Creating a controller for Logins
+2016-08-01 19:38:30 DEBUG [UploadService:27] Creating a service for Uploads
+2016-08-01 19:38:30 DEBUG [UploadController:42] Creating a controller for Uploads
+2016-08-01 19:38:30 DEBUG [PostService:30] Creating a service for Posts
+2016-08-01 19:38:30 DEBUG [PostController:35] Creating a controller for Posts
+2016-08-01 19:38:30 DEBUG [NotificationController:25] Creating a controller for Notifications
+2016-08-01 19:38:30 DEBUG [AISESServerRunner:26] Starting Server
+2016-08-01 19:38:30 DEBUG [WebSocketController:31] Creating a controller for WebSocket Notifications
+2016-08-01 19:38:50 DEBUG [Database:31] Getting connection to database
+2016-08-01 19:38:50 DEBUG [UserRepository:31] Creating a repository for Users
+2016-08-01 19:38:50 DEBUG [UserRepository:36] Attempting to create tables
+2016-08-01 19:38:50 DEBUG [PostRepository:37] Creating a repository for Posts
+2016-08-01 19:38:50 DEBUG [PostRepository:42] Creating post tables
+2016-08-01 19:38:50 DEBUG [WebSocketController:31] Creating a controller for WebSocket Notifications
+2016-08-01 19:38:50 DEBUG [LoginService:25] Creating a service for Logins
+2016-08-01 19:38:50 DEBUG [LoginController:30] Creating a controller for Logins
+2016-08-01 19:38:50 DEBUG [UploadService:27] Creating a service for Uploads
+2016-08-01 19:38:50 DEBUG [UploadController:42] Creating a controller for Uploads
+2016-08-01 19:38:50 DEBUG [PostService:30] Creating a service for Posts
+2016-08-01 19:38:50 DEBUG [PostController:35] Creating a controller for Posts
+2016-08-01 19:38:50 DEBUG [NotificationController:25] Creating a controller for Notifications
+2016-08-01 19:38:50 DEBUG [AISESServerRunner:26] Starting Server
+2016-08-01 19:38:50 DEBUG [WebSocketController:31] Creating a controller for WebSocket Notifications
+2016-08-01 19:39:36 DEBUG [Database:31] Getting connection to database
+2016-08-01 19:39:36 DEBUG [UserRepository:31] Creating a repository for Users
+2016-08-01 19:39:36 DEBUG [UserRepository:36] Attempting to create tables
+2016-08-01 19:39:36 DEBUG [PostRepository:37] Creating a repository for Posts
+2016-08-01 19:39:36 DEBUG [PostRepository:42] Creating post tables
+2016-08-01 19:39:36 DEBUG [WebSocketController:31] Creating a controller for WebSocket Notifications
+2016-08-01 19:39:36 DEBUG [LoginService:25] Creating a service for Logins
+2016-08-01 19:39:36 DEBUG [LoginController:30] Creating a controller for Logins
+2016-08-01 19:39:36 DEBUG [UploadService:27] Creating a service for Uploads
+2016-08-01 19:39:36 DEBUG [UploadController:42] Creating a controller for Uploads
+2016-08-01 19:39:36 DEBUG [PostService:30] Creating a service for Posts
+2016-08-01 19:39:36 DEBUG [PostController:35] Creating a controller for Posts
+2016-08-01 19:39:36 DEBUG [NotificationController:25] Creating a controller for Notifications
+2016-08-01 19:39:36 DEBUG [AISESServerRunner:26] Starting Server
+2016-08-01 19:39:36 DEBUG [WebSocketController:31] Creating a controller for WebSocket Notifications
+2016-08-01 19:40:16 DEBUG [Database:31] Getting connection to database
+2016-08-01 19:40:16 DEBUG [UserRepository:31] Creating a repository for Users
+2016-08-01 19:40:16 DEBUG [UserRepository:36] Attempting to create tables
+2016-08-01 19:40:16 DEBUG [PostRepository:37] Creating a repository for Posts
+2016-08-01 19:40:16 DEBUG [PostRepository:42] Creating post tables
+2016-08-01 19:40:16 DEBUG [WebSocketController:31] Creating a controller for WebSocket Notifications
+2016-08-01 19:40:16 DEBUG [LoginService:25] Creating a service for Logins
+2016-08-01 19:40:16 DEBUG [LoginController:30] Creating a controller for Logins
+2016-08-01 19:40:16 DEBUG [UploadService:27] Creating a service for Uploads
+2016-08-01 19:40:16 DEBUG [UploadController:42] Creating a controller for Uploads
+2016-08-01 19:40:16 DEBUG [PostService:30] Creating a service for Posts
+2016-08-01 19:40:16 DEBUG [PostController:35] Creating a controller for Posts
+2016-08-01 19:40:16 DEBUG [NotificationController:25] Creating a controller for Notifications
+2016-08-01 19:40:16 DEBUG [AISESServerRunner:26] Starting Server
+2016-08-01 19:40:16 DEBUG [WebSocketController:31] Creating a controller for WebSocket Notifications
+2016-08-01 19:42:14 DEBUG [Database:31] Getting connection to database
+2016-08-01 19:42:14 DEBUG [UserRepository:31] Creating a repository for Users
+2016-08-01 19:42:14 DEBUG [UserRepository:36] Attempting to create tables
+2016-08-01 19:42:14 DEBUG [PostRepository:37] Creating a repository for Posts
+2016-08-01 19:42:14 DEBUG [PostRepository:42] Creating post tables
+2016-08-01 19:42:14 DEBUG [WebSocketController:31] Creating a controller for WebSocket Notifications
+2016-08-01 19:42:14 DEBUG [LoginService:25] Creating a service for Logins
+2016-08-01 19:42:14 DEBUG [LoginController:30] Creating a controller for Logins
+2016-08-01 19:42:14 DEBUG [UploadService:27] Creating a service for Uploads
+2016-08-01 19:42:14 DEBUG [UploadController:42] Creating a controller for Uploads
+2016-08-01 19:42:14 DEBUG [PostService:30] Creating a service for Posts
+2016-08-01 19:42:14 DEBUG [PostController:35] Creating a controller for Posts
+2016-08-01 19:42:14 DEBUG [NotificationController:25] Creating a controller for Notifications
+2016-08-01 19:42:14 DEBUG [AISESServerRunner:26] Starting Server
+2016-08-01 19:42:14 DEBUG [WebSocketController:31] Creating a controller for WebSocket Notifications
+2016-08-01 19:45:14 DEBUG [Database:31] Getting connection to database
+2016-08-01 19:45:14 DEBUG [UserRepository:31] Creating a repository for Users
+2016-08-01 19:45:14 DEBUG [UserRepository:36] Attempting to create tables
+2016-08-01 19:45:14 DEBUG [PostRepository:37] Creating a repository for Posts
+2016-08-01 19:45:14 DEBUG [PostRepository:42] Creating post tables
+2016-08-01 19:45:14 DEBUG [WebSocketController:31] Creating a controller for WebSocket Notifications
+2016-08-01 19:45:14 DEBUG [LoginService:25] Creating a service for Logins
+2016-08-01 19:45:14 DEBUG [LoginController:30] Creating a controller for Logins
+2016-08-01 19:45:14 DEBUG [UploadService:27] Creating a service for Uploads
+2016-08-01 19:45:14 DEBUG [UploadController:42] Creating a controller for Uploads
+2016-08-01 19:45:14 DEBUG [PostService:30] Creating a service for Posts
+2016-08-01 19:45:14 DEBUG [PostController:35] Creating a controller for Posts
+2016-08-01 19:45:14 DEBUG [NotificationController:25] Creating a controller for Notifications
+2016-08-01 19:45:14 DEBUG [AISESServerRunner:26] Starting Server
+2016-08-01 19:45:14 DEBUG [WebSocketController:31] Creating a controller for WebSocket Notifications
+2016-08-01 19:45:24 DEBUG [Database:31] Getting connection to database
+2016-08-01 19:45:24 DEBUG [UserRepository:31] Creating a repository for Users
+2016-08-01 19:45:24 DEBUG [UserRepository:36] Attempting to create tables
+2016-08-01 19:45:24 DEBUG [PostRepository:37] Creating a repository for Posts
+2016-08-01 19:45:24 DEBUG [PostRepository:42] Creating post tables
+2016-08-01 19:45:24 DEBUG [WebSocketController:31] Creating a controller for WebSocket Notifications
+2016-08-01 19:45:24 DEBUG [LoginService:25] Creating a service for Logins
+2016-08-01 19:45:24 DEBUG [LoginController:30] Creating a controller for Logins
+2016-08-01 19:45:24 DEBUG [UploadService:27] Creating a service for Uploads
+2016-08-01 19:45:24 DEBUG [UploadController:42] Creating a controller for Uploads
+2016-08-01 19:45:24 DEBUG [PostService:30] Creating a service for Posts
+2016-08-01 19:45:24 DEBUG [PostController:35] Creating a controller for Posts
+2016-08-01 19:45:24 DEBUG [NotificationController:25] Creating a controller for Notifications
+2016-08-01 19:45:24 DEBUG [AISESServerRunner:26] Starting Server
+2016-08-01 19:45:24 DEBUG [WebSocketController:31] Creating a controller for WebSocket Notifications
+2016-08-01 19:46:46 DEBUG [Database:31] Getting connection to database
+2016-08-01 19:46:46 DEBUG [UserRepository:31] Creating a repository for Users
+2016-08-01 19:46:46 DEBUG [UserRepository:36] Attempting to create tables
+2016-08-01 19:46:46 DEBUG [PostRepository:37] Creating a repository for Posts
+2016-08-01 19:46:46 DEBUG [PostRepository:42] Creating post tables
+2016-08-01 19:46:46 DEBUG [WebSocketController:31] Creating a controller for WebSocket Notifications
+2016-08-01 19:46:46 DEBUG [LoginService:25] Creating a service for Logins
+2016-08-01 19:46:46 DEBUG [LoginController:30] Creating a controller for Logins
+2016-08-01 19:46:46 DEBUG [UploadService:27] Creating a service for Uploads
+2016-08-01 19:46:46 DEBUG [UploadController:42] Creating a controller for Uploads
+2016-08-01 19:46:46 DEBUG [PostService:30] Creating a service for Posts
+2016-08-01 19:46:46 DEBUG [PostController:35] Creating a controller for Posts
+2016-08-01 19:46:46 DEBUG [NotificationController:25] Creating a controller for Notifications
+2016-08-01 19:46:46 DEBUG [AISESServerRunner:26] Starting Server
+2016-08-01 19:46:46 DEBUG [WebSocketController:31] Creating a controller for WebSocket Notifications
+2016-08-01 19:49:48 DEBUG [LoginController:37] Checking user credentials!
+2016-08-01 19:49:48 DEBUG [LoginController:41] Logging in user
+2016-08-01 19:49:48 DEBUG [LoginController:45] Type requested: null
+2016-08-01 19:49:52 DEBUG [PostController:45] Checking user credentials before retrieving or sending posts
+2016-08-01 19:49:52 DEBUG [PostController:86] Getting all posts
+2016-08-01 19:49:57 DEBUG [PostController:45] Checking user credentials before retrieving or sending posts
+2016-08-01 19:49:57 DEBUG [PostController:69] Interpreting post query: id=1
+2016-08-01 19:49:57 DEBUG [PostController:81] Getting a single post
+2016-08-01 19:50:00 DEBUG [PostController:45] Checking user credentials before retrieving or sending posts
+2016-08-01 19:50:00 DEBUG [PostController:69] Interpreting post query: low=2&high=17
+2016-08-01 19:50:00 DEBUG [PostController:91] Getting a range of posts
+2016-08-01 19:50:02 DEBUG [PostController:45] Checking user credentials before retrieving or sending posts
+2016-08-01 19:50:02 DEBUG [PostController:50] Creating new post
+2016-08-01 19:50:02 DEBUG [PostController:55] Post created from request: com.aises.domain.Post@3d523831[
+  id=-1
+  userId=0
+  text=mper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante
+  length=0
+  dateCreated=<null>
+]
+2016-08-01 19:50:02 DEBUG [PostService:45] Attempting to add new post: com.aises.domain.Post@3d523831[
+  id=1
+  userId=0
+  text=mper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante
+  length=145
+  dateCreated=2016-08-01T19:50:02.585
+]
+2016-08-01 19:50:02 DEBUG [PostRepository:59] Adding a new post: com.aises.domain.Post@3d523831[
+  id=1
+  userId=0
+  text=mper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante
+  length=145
+  dateCreated=2016-08-01T19:50:02.585
+]
+2016-08-01 19:50:02 DEBUG [PostRepository:68] New post return code: 1
+2016-08-01 19:50:02 DEBUG [NotificationController:53] Sending new notification! com.aises.domain.Notification@2de3a1d3
+2016-08-01 19:50:03 DEBUG [PostController:45] Checking user credentials before retrieving or sending posts
+2016-08-01 19:50:03 DEBUG [PostController:50] Creating new post
+2016-08-01 19:50:03 DEBUG [PostController:55] Post created from request: com.aises.domain.Post@460aa6e8[
+  id=-1
+  userId=0
+  text=mper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante
+  length=0
+  dateCreated=<null>
+]
+2016-08-01 19:50:03 DEBUG [PostService:45] Attempting to add new post: com.aises.domain.Post@460aa6e8[
+  id=2
+  userId=0
+  text=mper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante
+  length=145
+  dateCreated=2016-08-01T19:50:03.289
+]
+2016-08-01 19:50:03 DEBUG [PostRepository:59] Adding a new post: com.aises.domain.Post@460aa6e8[
+  id=2
+  userId=0
+  text=mper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante
+  length=145
+  dateCreated=2016-08-01T19:50:03.289
+]
+2016-08-01 19:50:03 DEBUG [PostRepository:68] New post return code: 1
+2016-08-01 19:50:03 DEBUG [NotificationController:53] Sending new notification! com.aises.domain.Notification@1fb08081
+2016-08-01 19:50:03 DEBUG [PostController:45] Checking user credentials before retrieving or sending posts
+2016-08-01 19:50:03 DEBUG [PostController:50] Creating new post
+2016-08-01 19:50:03 DEBUG [PostController:55] Post created from request: com.aises.domain.Post@1bd4198a[
+  id=-1
+  userId=0
+  text=mper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante
+  length=0
+  dateCreated=<null>
+]
+2016-08-01 19:50:03 DEBUG [PostService:45] Attempting to add new post: com.aises.domain.Post@1bd4198a[
+  id=3
+  userId=0
+  text=mper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante
+  length=145
+  dateCreated=2016-08-01T19:50:03.684
+]
+2016-08-01 19:50:03 DEBUG [PostRepository:59] Adding a new post: com.aises.domain.Post@1bd4198a[
+  id=3
+  userId=0
+  text=mper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante
+  length=145
+  dateCreated=2016-08-01T19:50:03.684
+]
+2016-08-01 19:50:03 DEBUG [PostRepository:68] New post return code: 1
+2016-08-01 19:50:03 DEBUG [NotificationController:53] Sending new notification! com.aises.domain.Notification@1513e480
+2016-08-01 19:50:05 DEBUG [PostController:45] Checking user credentials before retrieving or sending posts
+2016-08-01 19:50:05 DEBUG [PostController:86] Getting all posts
+2016-08-01 19:50:08 DEBUG [Database:31] Getting connection to database
+2016-08-01 19:50:08 DEBUG [UserRepository:31] Creating a repository for Users
+2016-08-01 19:50:08 DEBUG [UserRepository:36] Attempting to create tables
+2016-08-01 19:50:08 DEBUG [PostRepository:37] Creating a repository for Posts
+2016-08-01 19:50:08 DEBUG [PostRepository:42] Creating post tables
+2016-08-01 19:50:08 DEBUG [WebSocketController:31] Creating a controller for WebSocket Notifications
+2016-08-01 19:50:08 DEBUG [LoginService:25] Creating a service for Logins
+2016-08-01 19:50:08 DEBUG [LoginController:30] Creating a controller for Logins
+2016-08-01 19:50:08 DEBUG [UploadService:27] Creating a service for Uploads
+2016-08-01 19:50:08 DEBUG [UploadController:42] Creating a controller for Uploads
+2016-08-01 19:50:08 DEBUG [PostService:30] Creating a service for Posts
+2016-08-01 19:50:08 DEBUG [PostController:35] Creating a controller for Posts
+2016-08-01 19:50:08 DEBUG [NotificationController:25] Creating a controller for Notifications
+2016-08-01 19:50:08 DEBUG [AISESServerRunner:26] Starting Server
+2016-08-01 19:50:08 DEBUG [WebSocketController:31] Creating a controller for WebSocket Notifications
+2016-08-01 19:50:10 DEBUG [PostController:45] Checking user credentials before retrieving or sending posts
+2016-08-01 19:50:10 DEBUG [PostController:86] Getting all posts

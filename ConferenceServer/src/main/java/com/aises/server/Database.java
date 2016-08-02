@@ -1,5 +1,6 @@
 package com.aises.server;
 
+import com.aises.utils.ResourceLoader;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -18,7 +19,7 @@ import java.util.Properties;
  */
 public class Database {
     private static final Logger logger = LoggerFactory.getLogger(Database.class);
-    private static final Properties properties = new Properties();
+    private static Properties properties;
 
     private static final String DB_DRIVER_NAME = "org.postgresql.Driver";
     private static final String CONNECTION_TYPE = "jdbc:postgresql";
@@ -27,9 +28,11 @@ public class Database {
     private Connection connection;
 
     private Database() {
+        logger.debug("Getting connection to database");
+
         try {
-            InputStream input = Database.class.getClassLoader().getResourceAsStream("db.properties");
-            properties.load(input);
+            properties = ResourceLoader.loadProperties("db.properties");
+
             String host = properties.getProperty("host");
             int port = Integer.parseInt(properties.getProperty("port"));
             String dbName = properties.getProperty("db_name");
@@ -37,7 +40,7 @@ public class Database {
 
             Class.forName(DB_DRIVER_NAME);
             connection = DriverManager.getConnection(CONNECTION_TYPE + "://" + host + ":" + port + "/" + dbName, "postgres", dbPass);
-        } catch (IOException | ClassNotFoundException | SQLException e) {
+        } catch (ClassNotFoundException | SQLException e) {
             logger.error("Unable to load properties or connect to the database!", e);
         }
     }

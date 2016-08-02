@@ -32,7 +32,7 @@ public class PostService implements Service {
 
     public Post addNewPost(Post newPost) {
         try {
-            int nextId = postRepository.getNextId();
+            int nextId = postRepository.getNextPostId();
 
             // Recreate the post here to ensure it is set the
             // the correct values before saving.

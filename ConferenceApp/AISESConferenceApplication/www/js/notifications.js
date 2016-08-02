@@ -49,6 +49,9 @@ AISES.Notifications = {
     
     parsePostMessage: function(msg) {
         console.log("POST EVENT RECIEVED! " + msg);
+        if(msg.event == "NEW") {
+            $('#new-posts-available').show();
+        }
     },
     
     parseCalendarMessage: function(msg) {

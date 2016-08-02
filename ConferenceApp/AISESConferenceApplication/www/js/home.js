@@ -15,6 +15,7 @@ AISES.HomeController = {
         $('#main-content').html(template);
         
         $('#new-post-button').on('click', AISES.HomeController.addNewPost);
+        $('#load-all-posts').on('click', AISES.HomeController.loadPosts);
         
         AISES.HomeController.loadPosts();
     },

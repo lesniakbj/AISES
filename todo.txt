@@ -2,3 +2,4 @@ Calendar integration
 Local Notificaitons
 Camera Integration
 Facebook / Social Media logout
+iOS Developer Setup

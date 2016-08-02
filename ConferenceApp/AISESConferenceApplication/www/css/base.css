@@ -157,3 +157,7 @@ li.post-template {
 #post-button-container button {
     margin-bottom: .5em;
 }
+
+#new-posts-available {
+    display: none;
+}

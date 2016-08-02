@@ -3,6 +3,7 @@ package com.aises.server;
 import com.aises.controller.*;
 import com.aises.controller.interfaces.Controller;
 import com.aises.repository.PostRepository;
+import com.aises.repository.UserRepository;
 import com.aises.repository.interfaces.Repository;
 import com.aises.utils.JSONUtils;
 import org.slf4j.Logger;
@@ -58,6 +59,7 @@ public class ConferenceServer {
     }
 
     public void configureRepositories() {
+        repositories.add(UserRepository.getInstance(database));
         repositories.add(PostRepository.getInstance(database));
     }
     public void configureControllers() {

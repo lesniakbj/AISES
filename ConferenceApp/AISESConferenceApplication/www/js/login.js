@@ -28,7 +28,6 @@ AISES.LoginController = {
     
     loginSuccess: function(loginResponse) {
         if(loginResponse.status == "connected") {
-            alert(loginResponse.authResponse.userID + " logged in!");
             AISES.LoginController.notifyLogin(loginResponse.authResponse.userID);
         }        
         // Save any user data before we leave
@@ -44,17 +43,30 @@ AISES.LoginController = {
     
     notifyLogin: function(userId) {
         var user = {
+            'id': -1,
             'socialMediaId': userId
         };
         
         $.post({
-            url: AISES.Config.getDataServer() + '/login',
+            url: AISES.Config.getDataServer() + '/login?social-type=facebook',
             data: JSON.stringify(user),
             dataType: 'json',
             beforeSend: function() { $('#dim-wrapper').show(); },
-            success: function(data) { alert("YAY"); },
+            success: function(response) { AISES.LoginController.checkIfLoginExists(user, response) },
             complete: function(){ $('#dim-wrapper').hide(); },
             error: function(errorObj) { alert('Unable to verify login! ' + errorObj.status + ' - ' + errorObj.statusText); }            
         });
+    },
+    
+    checkIfLoginExists: function(user, resp) {
+        if(resp == false){
+            facebookConnectPlugin.api(user.socialMediaId + "/?fields=email,first_name,last_name", ["public_profile", "email"], AISES.LoginController.facebookUserData);
+        } else {
+            // Load user data through db
+        }
+    },
+    
+    facebookUserData: function(data) {
+        alert(JSON.stringify(data, null, 4));
     }
 };

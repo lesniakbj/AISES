@@ -3,6 +3,7 @@ package com.aises.repository;
 import com.aises.domain.Post;
 import com.aises.repository.interfaces.Repository;
 import com.aises.server.Database;
+import com.aises.utils.ResourceLoader;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -22,34 +23,33 @@ public class PostRepository implements Repository {
     private static PostRepository instance;
     private final Database database;
 
-    private static final String DROP_POST_TABLE = "DROP TABLE Post";
-    private static final String CREATE_POST_TABLE = "CREATE TABLE IF NOT EXISTS Post(post_id SERIAL NOT NULL PRIMARY KEY, text varchar(1024) NULL, length int NULL, date_created TIMESTAMP WITHOUT TIME ZONE);";
-    private static final String GET_MAX_ID = "SELECT MAX(post_id) AS max_id FROM Post";
+    //private static final String DROP_POST_TABLES = ResourceLoader.loadFile("sql/post/admin/clean-post-tables.sql");
+    private static final String CREATE_IF_NEEDED = ResourceLoader.loadFile("sql/post/admin/create-post-tables.sql");
 
-    private static final String INSERT_NEW_POST = "INSERT INTO Post (text, length, date_created) VALUES(?, ?, ?)";
+    private static final String INSERT_NEW_POST = ResourceLoader.loadFile("sql/post/query/insert-new-post.sql");
 
-    private static final String FIND_POST_BY_ID = "SELECT * FROM Post WHERE post_id = ?";
-    private static final String FIND_ALL_POSTS = "SELECT * FROM Post";
-    private static final String FIND_POST_RANGE = "SELECT * FROM Post WHERE post_id >= ? AND post_id <= ?";
+    private static final String GET_MAX_POST_ID = ResourceLoader.loadFile("sql/post/query/get-max-post-id.sql");
+    private static final String FIND_POST_BY_ID = ResourceLoader.loadFile("sql/post/query/get-post-by-id.sql");
+    private static final String FIND_ALL_POSTS = ResourceLoader.loadFile("sql/post/query/get-all-posts.sql");
+    private static final String FIND_POST_RANGE = ResourceLoader.loadFile("sql/post/query/get-posts-by-range.sql");
 
     private PostRepository(Database database) {
         logger.debug("Creating a repository for Posts");
         this.database = database;
 
-        Connection con = this.database .getConnection();
         try {
-            PreparedStatement ps = con.prepareStatement(DROP_POST_TABLE);
-            PreparedStatement ps2 = con.prepareStatement(CREATE_POST_TABLE);
-            ps.execute();
-            ps2.execute();
+            Connection con = this.database.getConnection();
+            logger.debug("Creating post tables");
+            PreparedStatement createTables = con.prepareStatement(CREATE_IF_NEEDED);
+            createTables.execute();
         } catch (SQLException e) {
-            e.printStackTrace();
+            logger.error("Error with post repository: {}", e);
         }
     }
 
-    public int getNextId() throws SQLException {
+    public int getNextPostId() throws SQLException {
         Connection conn = database.getConnection();
-        PreparedStatement ps = conn.prepareStatement(GET_MAX_ID);
+        PreparedStatement ps = conn.prepareStatement(GET_MAX_POST_ID);
         ResultSet rs = ps.executeQuery();
         rs.next();
         return rs.getInt("max_id");
@@ -101,6 +101,15 @@ public class PostRepository implements Repository {
         return posts;
     }
 
+    private static Post parseToPost(ResultSet result) throws SQLException {
+        Post post = new Post();
+        post.setId(result.getInt("post_id"));
+        post.setText(result.getString("text"));
+        post.setLength(result.getInt("length"));
+        post.setDateCreated(result.getTimestamp("date_created").toLocalDateTime());
+        return post;
+    }
+
     public static PostRepository getInstance() {
         if(instance == null) {
             instance = new PostRepository(null);
@@ -114,14 +123,5 @@ public class PostRepository implements Repository {
         }
 
         return instance;
-    }
-
-    private static Post parseToPost(ResultSet result) throws SQLException {
-        Post post = new Post();
-        post.setId(result.getInt("post_id"));
-        post.setText(result.getString("text"));
-        post.setLength(result.getInt("length"));
-        post.setDateCreated(result.getTimestamp("date_created").toLocalDateTime());
-        return post;
     }
 }
