@@ -1,6 +1,8 @@
 package com.aises.service;
 
+import com.aises.domain.SocialLogin;
 import com.aises.domain.User;
+import com.aises.domain.enums.SocialLoginType;
 import com.aises.repository.UserRepository;
 import com.aises.service.interfaces.Service;
 import org.slf4j.Logger;
@@ -32,10 +34,10 @@ public class LoginService implements Service {
         return instance;
     }
 
-    public boolean checkExistingSocialLogin(User user, String type) {
-        String socialId = user.getSocialMediaId();
+    public boolean checkExistingSocialLogin(SocialLogin user) {
+        logger.debug("Checking using id: {}", user);
         try {
-            return userRepository.socialMediaIdExists(socialId, type);
+            return userRepository.socialMediaIdExists(user);
         } catch (SQLException e) {
             logger.error("Error trying to query Users!", e);
             return false;
@@ -43,6 +45,12 @@ public class LoginService implements Service {
     }
 
     public User createNewUser(User user) {
-        return null;
+        logger.debug("Attempting to create new user");
+        try {
+            return userRepository.createNewUser(user);
+        }  catch (SQLException e) {
+            logger.error("Error trying to query Users!", e);
+            return null;
+        }
     }
 }

@@ -3,3 +3,4 @@ Local Notificaitons
 Camera Integration
 Facebook / Social Media logout
 iOS Developer Setup
+Extract User.socialMeidaId to a SocialAccount type

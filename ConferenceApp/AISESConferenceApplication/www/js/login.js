@@ -18,7 +18,7 @@ AISES.LoginController = {
     
     handleLoginFacebook: function() {
         facebookConnectPlugin.login(["public_profile", "email"],
-                                    AISES.LoginController.loginSuccess, 
+                                    AISES.LoginController.loginFacebookSuccess, 
                                     AISES.LoginController.loginFailure);
     },
     
@@ -26,9 +26,9 @@ AISES.LoginController = {
         alert("Unsupported at this time!");
     },
     
-    loginSuccess: function(loginResponse) {
+    loginFacebookSuccess: function(loginResponse) {
         if(loginResponse.status == "connected") {
-            AISES.LoginController.notifyLogin(loginResponse.authResponse.userID);
+            AISES.LoginController.notifyFacebookLogin(loginResponse.authResponse.userID);
         }        
         // Save any user data before we leave
         AISES.History.pushRoute(AISES.Routes.LOGIN);
@@ -41,32 +41,32 @@ AISES.LoginController = {
         return;
     },
     
-    notifyLogin: function(userId) {
-        var user = {
-            'id': -1,
+    notifyFacebookLogin: function(userId) {
+        var socialLogin = {
             'socialMediaId': userId
         };
         
         $.post({
-            url: AISES.Config.getDataServer() + '/login?social-type=facebook',
-            data: JSON.stringify(user),
+            url: AISES.Config.getDataServer() + '/login?provider=facebook',
+            data: JSON.stringify(socialLogin),
             dataType: 'json',
             beforeSend: function() { $('#dim-wrapper').show(); },
-            success: function(response) { AISES.LoginController.checkIfLoginExists(user, response) },
+            success: function(response) { AISES.LoginController.checkIfLoginExists(response, socialLogin.socialMediaId) },
             complete: function(){ $('#dim-wrapper').hide(); },
             error: function(errorObj) { alert('Unable to verify login! ' + errorObj.status + ' - ' + errorObj.statusText); }            
         });
     },
     
-    checkIfLoginExists: function(user, resp) {
-        if(resp == false){
+    checkIfLoginExists: function(resp, loginId) {
+        console.log(JSON.stringify(resp));
+        if(resp.socialMediaId == "-1"){
             facebookConnectPlugin.api(user.socialMediaId + "/?fields=email,first_name,last_name", ["public_profile", "email"], AISES.LoginController.facebookUserData);
         } else {
             // Load user data through db
         }
     },
     
-    facebookUserData: function(data) {
+    facebookUserData: function() {
         alert(JSON.stringify(data, null, 4));
     }
 };

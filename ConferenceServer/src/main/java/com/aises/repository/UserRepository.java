@@ -1,5 +1,8 @@
 package com.aises.repository;
 
+import com.aises.domain.SocialLogin;
+import com.aises.domain.User;
+import com.aises.domain.enums.SocialLoginType;
 import com.aises.repository.interfaces.Repository;
 import com.aises.server.Database;
 import com.aises.utils.ResourceLoader;
@@ -24,6 +27,7 @@ public class UserRepository implements Repository {
 
     //private static final String DROP_USER_TABLES = ResourceLoader.loadFile("sql/user/admin/clean-user-tables.sql");
     private static final String CREATE_IF_NEEDED = ResourceLoader.loadFile("sql/user/admin/create-user-tables.sql");
+    private static final String POPULATE_IF_NEEDED = ResourceLoader.loadFile("sql/user/admin/populate-user-tables.sql");
     private static final String SOCIAL_MEDIA_ID_EXISTS = ResourceLoader.loadFile("sql/user/query/social-login-id-exists.sql");
 
 
@@ -36,6 +40,9 @@ public class UserRepository implements Repository {
             logger.debug("Attempting to create tables");
             PreparedStatement createTables = con.prepareStatement(CREATE_IF_NEEDED);
             createTables.execute();
+
+            PreparedStatement populateTables = con.prepareStatement(POPULATE_IF_NEEDED);
+            populateTables.execute();
         } catch (SQLException e) {
             logger.error("Error creating required tables for Users!", e);
         }
@@ -56,22 +63,18 @@ public class UserRepository implements Repository {
         return instance;
     }
 
-    public boolean socialMediaIdExists(String socialId, String type) throws SQLException {
+    public boolean socialMediaIdExists(SocialLogin user) throws SQLException {
         Connection conn = database.getConnection();
         PreparedStatement ps = conn.prepareStatement(SOCIAL_MEDIA_ID_EXISTS);
-        ps.setString(1, socialId);
-        ps.setString(2, type);
+        ps.setString(1, user.getSocialMediaId());
+        ps.setString(2, user.getProvider().toString());
         ResultSet rs = ps.executeQuery();
         rs.next();
         return rs.getInt("total") > 0;
     }
 
-    public boolean createNewUser(String socialId) throws SQLException {
-        Connection conn = database.getConnection();
-        PreparedStatement ps = conn.prepareStatement(SOCIAL_MEDIA_ID_EXISTS);
-        ps.setString(1, socialId);
-        ResultSet rs = ps.executeQuery();
-        rs.next();
-        return rs.getInt("total") > 0;
+    public User createNewUser(User user) throws SQLException {
+        logger.debug("Flushing new user to database");
+        return null;
     }
 }

@@ -10,7 +10,7 @@ import java.time.LocalDateTime;
  */
 public class User {
     private int id;
-    private String socialMediaId;
+    private SocialLogin socialMediaLogin;
     private String firstName;
     private String lastName;
     private String emailAddress;
@@ -20,8 +20,8 @@ public class User {
     public int getId() {
         return id;
     }
-    public String getSocialMediaId() {
-        return socialMediaId;
+    public SocialLogin getSocialMediaLogin() {
+        return socialMediaLogin;
     }
     public String getFirstName() {
         return firstName;
@@ -42,8 +42,8 @@ public class User {
     public void setId(int id) {
         this.id = id;
     }
-    public void setSocialMediaId(String socialMediaId) {
-        this.socialMediaId = socialMediaId;
+    public void setSocialMediaLogin(SocialLogin socialMediaId) {
+        this.socialMediaLogin = socialMediaId;
     }
     public void setFirstName(String firstName) {
         this.firstName = firstName;

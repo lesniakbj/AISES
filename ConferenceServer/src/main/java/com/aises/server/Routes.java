@@ -6,7 +6,9 @@ package com.aises.server;
  * All the routes that are used within the system.
  */
 public class Routes {
+    public static final String LOGIN_MASK = "/login/*";
     public static final String LOGIN = "/login";
+    public static final String LOGIN_NEW = "/login/new";
 
     public static final String UPLOAD = "/upload";
 
